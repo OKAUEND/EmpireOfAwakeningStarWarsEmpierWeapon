@@ -1,0 +1,25 @@
+objectTypes = {
+
+	########################################################################
+	########														########
+	########				Star Wars Fallen Republic				########
+	########														########
+	########################################################################
+
+	#######  Turrets  #######	
+
+	pdxmesh = {
+		name = "FR_Single_Turret_mesh"
+		file = "gfx/models/combat_items/FR_Single_Turret/FR_Single_Turret.mesh"
+		scale = 0.1
+
+		meshsettings = {
+			name = "Long_Range_MTLShape"
+			index = 0
+			texture_diffuse = "FR_Single_Turret_diffuse.dds"
+			texture_normal = "FR_Single_Turret_normal.dds"
+			texture_specular = "FR_Single_Turret_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

@@ -1,0 +1,1482 @@
+# ############################################
+#  Turbo Laser
+# ############################################
+#  - Tier 2
+#   - ターボレーザー I(SML)
+#   - ターボレーザー II(SML)
+#  - Tier 3
+#   - ターボレーザー III(SML)
+#   - ターボレーザー IV(SML)
+#  - Tier 4
+#   - ターボレーザー V(SML)
+#  - Tier 5
+#   - ターボレーザー VI(SML)
+#  - Tier 6
+#   - ターボレーザー VII(SML)
+#############################################
+#  - Tier 2
+#   - ターボレーザー I(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_STAR_FORTRESS_SMALL_TURBO_LASER_1"
+	size = small
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_01"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+	}
+	
+	prerequisites = { "tech_eoa_turbo_lasers_1" }
+
+	damage = { min = 5.0 max = 12.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 15
+	
+	range = 40.0
+	accuracy = 0.90
+	tracking = 0.60
+	
+	shield_damage = 1.15
+	armor_damage = 1.15
+	shield_penetration = 0.05
+	armor_penetration = 0.05
+	
+	power = -7
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t2_cost
+			exotic_gases = 0.10
+		}		
+		upkeep = {
+			energy = @s_t2_upkeep_energy
+			alloys = @s_t2_upkeep_alloys
+			exotic_gases = 0.01
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "TURBO_LASER_STAR_FORTRESS_1"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "EOA_STAR_FORTRESS_SMALL_TURBO_LASER_2"	
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "EOA_STAR_FORTRESS_MEDIUM_TURBO_LASER_1"
+	size = medium
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_01"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_1" }
+
+	damage = { min = 12.0 max = 29.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 15
+
+	range = 65.0
+	accuracy = 0.90
+	tracking = 0.30
+	
+	shield_damage = 1.5
+	armor_damage = 1.5
+	shield_penetration = 0.175
+	armor_penetration = 0.175
+	
+	power = -15.00
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t2_cost
+			exotic_gases = 0.125
+		}		
+		upkeep = {
+			energy = @m_t2_upkeep_energy
+			alloys = @m_t2_upkeep_alloys
+			exotic_gases = 0.02
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_1"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_STAR_FORTRESS_MEDIUM_TURBO_LASER_2"
+}
+
+weapon_component_template = {
+	
+	key = "EOA_STAR_FORTRESS_LARGE_TURBO_LASER_1"
+	size = large
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_01"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_1" }
+
+	damage = { min = 50.0 max = 127.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 35
+
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 1.75
+	armor_damage = 1.75
+	shield_penetration = 0.25
+	armor_penetration = 0.25
+	
+	power = -30.0
+	cost = 55.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t2_cost
+			exotic_gases = 0.15
+		}		
+		upkeep = {
+			energy = @l_t2_upkeep_energy
+			alloys = @l_t2_upkeep_alloys
+			exotic_gases = 0.03
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_1"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_STAR_FORTRESS_LARGE_TURBO_LASER_2"
+}
+#############################################
+#   - ターボレーザー II(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_STAR_FORTRESS_SMALL_TURBO_LASER_2"
+	size = small
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_02"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+	
+	prerequisites = { "tech_eoa_turbo_lasers_2" }
+
+	damage = { min = 6.0 max = 15.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 15
+
+	range = 40.0
+	accuracy = 0.90
+	tracking = 0.60
+	
+	shield_damage = 1.15
+	armor_damage = 1.15
+	shield_penetration = 0.05
+	armor_penetration = 0.05
+	
+	power = -10.00
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t3_cost
+			exotic_gases = 0.12
+		}		
+		upkeep = {
+			energy = @s_t3_upkeep_energy
+			alloys = @s_t3_upkeep_alloys
+			exotic_gases = 0.022
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "TURBO_LASER_STAR_FORTRESS_2"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "EOA_STAR_FORTRESS_SMALL_TURBO_LASER_3"	
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "EOA_STAR_FORTRESS_MEDIUM_TURBO_LASER_2"
+	size = medium
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_02"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_2" }
+
+	damage = { min = 17 max = 37.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 15
+
+	range = 65.0
+	accuracy = 0.90
+	tracking = 0.30
+	
+	shield_damage = 1.5
+	armor_damage = 1.5
+	shield_penetration = 0.175
+	armor_penetration = 0.175
+	
+	power = -20.00
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t3_cost
+			exotic_gases = 0.14
+		}		
+		upkeep = {
+			energy = @m_t3_upkeep_energy
+			alloys = @m_t3_upkeep_alloys
+			exotic_gases = 0.035
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_2"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_STAR_FORTRESS_MEDIUM_TURBO_LASER_3"
+}
+
+weapon_component_template = {
+	
+	key = "EOA_STAR_FORTRESS_LARGE_TURBO_LASER_2"
+	size = large
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_02"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_2" }
+
+	damage = { min = 65.0 max = 165.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 35
+
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 1.75
+	armor_damage = 1.75
+	shield_penetration = 0.25
+	armor_penetration = 0.25
+	
+	power = -35.0
+	cost = 70.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t2_cost
+			exotic_gases = 0.17
+		}		
+		upkeep = {
+			energy = @l_t2_upkeep_energy
+			alloys = @l_t2_upkeep_alloys
+			exotic_gases = 0.05
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_2"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_STAR_FORTRESS_LARGE_TURBO_LASER_3"
+}
+#############################################
+#  - Tier 3
+#   - ターボレーザー III(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_STAR_FORTRESS_SMALL_TURBO_LASER_3"
+	size = small
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_03"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+	
+	prerequisites = { "tech_eoa_turbo_lasers_3" }
+
+	damage = { min = 8.0 max = 19.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 15
+
+	range = 40.0
+	accuracy = 0.90
+	tracking = 0.60
+	
+	shield_damage = 1.15
+	armor_damage = 1.15
+	shield_penetration = 0.05
+	armor_penetration = 0.05
+	
+	power = -15
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t4_cost
+			exotic_gases = 0.14
+
+		}		
+		upkeep = {
+			energy = @s_t4_upkeep_energy
+			alloys = @s_t4_upkeep_alloys
+			exotic_gases = 0.025
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "TURBO_LASER_STAR_FORTRESS_3"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "EOA_STAR_FORTRESS_SMALL_TURBO_LASER_4"	
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "EOA_STAR_FORTRESS_MEDIUM_TURBO_LASER_3"
+	size = medium
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_03"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_3" }
+
+	damage = { min = 17.0 max = 47.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 15
+
+	range = 65.0
+	accuracy = 0.90
+	tracking = 0.30
+	
+	shield_damage = 1.5
+	armor_damage = 1.5
+	shield_penetration = 0.175
+	armor_penetration = 0.175
+	
+	power = -25.00
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t4_cost
+			exotic_gases = 0.18
+		}		
+		upkeep = {
+			energy = @m_t4_upkeep_energy
+			alloys = @m_t4_upkeep_alloys
+			exotic_gases = 0.04
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_3"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_STAR_FORTRESS_MEDIUM_TURBO_LASER_4"
+}
+
+weapon_component_template = {
+	
+	key = "EOA_STAR_FORTRESS_LARGE_TURBO_LASER_3"
+	size = large
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_03"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_3" }
+
+	damage = { min = 85.0 max = 220.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 35
+
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 1.75
+	armor_damage = 1.75
+	shield_penetration = 0.25
+	armor_penetration = 0.25
+	
+	power = -45.0
+	cost = 90.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+			exotic_gases = 0.2
+		}		
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+			exotic_gases = 0.07
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_3"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_STAR_FORTRESS_LARGE_TURBO_LASER_4"
+}
+#############################################
+#   - ターボレーザー IV(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_STAR_FORTRESS_SMALL_TURBO_LASER_4"
+	size = small
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_04"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+	
+	prerequisites = { "tech_eoa_turbo_lasers_4" }
+
+	damage = { min = 10.0 max = 26.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 15
+
+	range = 40.0
+	accuracy = 0.90
+	tracking = 0.60
+	
+	shield_damage = 1.15
+	armor_damage = 1.15
+	shield_penetration = 0.05
+	armor_penetration = 0.05
+	
+	power = -20
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t5_cost
+			eoa_tibanna_gas = @eoa_weapon_s_t5_cost_special
+		}		
+		upkeep = {
+			energy = @s_t5_upkeep_energy
+			alloys = @s_t5_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s5_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "TURBO_LASER_STAR_FORTRESS_4"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "EOA_STAR_FORTRESS_SMALL_TURBO_LASER_5"	
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "EOA_STAR_FORTRESS_MEDIUM_TURBO_LASER_4"
+	size = medium
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_04"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_4" }
+
+	damage = { min = 24.0 max = 62.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 15
+
+	range = 65.0
+	accuracy = 0.90
+	tracking = 0.30
+	
+	shield_damage = 1.5
+	armor_damage = 1.5
+	shield_penetration = 0.175
+	armor_penetration = 0.175
+	
+	power = -30.00
+	cost = 60.00
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t5_cost
+			eoa_tibanna_gas = @eoa_weapon_m_t5_cost_special
+		}		
+		upkeep = {
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_m5_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_4"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_STAR_FORTRESS_MEDIUM_TURBO_LASER_5"
+}
+
+weapon_component_template = {
+	
+	key = "EOA_STAR_FORTRESS_LARGE_TURBO_LASER_4"
+	size = large
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_04"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_4" }
+
+	damage = { min = 110.0 max = 290.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 35
+	
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 1.75
+	armor_damage = 1.75
+	shield_penetration = 0.25
+	armor_penetration = 0.25
+	
+	power = -60.0
+	cost = 112.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t5_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t5_cost_special
+		}		
+		upkeep = {
+			energy = @l_t5_upkeep_energy
+			alloys = @l_t5_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_t5_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_4"
+	projectile_gfx = "QUAD_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_STAR_FORTRESS_LARGE_TURBO_LASER_5"
+}
+#############################################
+#  - Tier 4
+#   - ターボレーザー V(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_STAR_FORTRESS_SMALL_TURBO_LASER_5"
+	size = small
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_05"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+	
+	prerequisites = { "tech_eoa_turbo_lasers_5" }
+
+	damage = { min = 13.0 max = 35.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 15
+
+	range = 40.0
+	accuracy = 0.90
+	tracking = 0.60
+	
+	shield_damage = 1.15
+	armor_damage = 1.15
+	shield_penetration = 0.05
+	armor_penetration = 0.05
+	
+	power = -20
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_s_t6_cost
+			eoa_tibanna_gas = @eoa_weapon_s_t6_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_s_t6_upkeep_energy
+			alloys = @eoa_weapon_s_t6_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s6_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "TURBO_LASER_STAR_FORTRESS_5"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "EOA_STAR_FORTRESS_SMALL_TURBO_LASER_6"	
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "EOA_STAR_FORTRESS_MEDIUM_TURBO_LASER_5"
+	size = medium
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_05"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_5" }
+
+	damage = { min = 30.0 max = 75.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 15
+
+	range = 65.0
+	accuracy = 0.90
+	tracking = 0.30
+	
+	shield_damage = 1.5
+	armor_damage = 1.5
+	shield_penetration = 0.175
+	armor_penetration = 0.175
+	
+	power = -40.00
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_m_t6_cost
+			eoa_tibanna_gas = @eoa_weapon_m_t6_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_m_t6_upkeep_energy
+			alloys = @eoa_weapon_m_t6_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_m6_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_5"
+	projectile_gfx = "QUAD_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_STAR_FORTRESS_MEDIUM_TURBO_LASER_6"
+}
+
+weapon_component_template = {
+	
+	key = "EOA_STAR_FORTRESS_LARGE_TURBO_LASER_5"
+	size = large
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_05"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_5" }
+
+	damage = { min = 145 max = 330 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 35
+
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 1.75
+	armor_damage = 1.75
+	shield_penetration = 0.25
+	armor_penetration = 0.25
+	
+	power = -64
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_l_t6_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t6_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_l_t6_upkeep_energy
+			alloys = @eoa_weapon_l_t6_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_t6_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_5"
+	projectile_gfx = "QUAD_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_STAR_FORTRESS_LARGE_TURBO_LASER_6"
+}
+#############################################
+#  - Tier 5
+#   - ターボレーザー VI(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_STAR_FORTRESS_SMALL_TURBO_LASER_6"
+	size = small
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_06"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+	
+	prerequisites = { "tech_eoa_turbo_lasers_6" }
+
+	damage = { min = 15.0 max = 40.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 15
+
+	range = 40.0
+	accuracy = 0.90
+	tracking = 0.60
+	
+	shield_damage = 1.15
+	armor_damage = 1.15
+	shield_penetration = 0.05
+	armor_penetration = 0.05
+	
+	power = -26
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_s_t7_cost
+			eoa_tibanna_gas = @eoa_weapon_s_t7_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_s_t7_upkeep_energy
+			alloys = @eoa_weapon_s_t7_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s7_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "TURBO_LASER_STAR_FORTRESS_6"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "EOA_STAR_FORTRESS_SMALL_TURBO_LASER_7"	
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "EOA_STAR_FORTRESS_MEDIUM_TURBO_LASER_6"
+	size = medium
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_06"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_6" }
+
+	damage = { min = 35.0 max = 120.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 15
+
+	range = 65.0
+	accuracy = 0.90
+	tracking = 0.30
+	
+	shield_damage = 1.5
+	armor_damage = 1.5
+	shield_penetration = 0.175
+	armor_penetration = 0.175
+	
+	power = -50.00
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_m_t7_cost
+			eoa_tibanna_gas = @eoa_weapon_m_t7_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_m_t7_upkeep_energy
+			alloys = @eoa_weapon_m_t7_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_m7_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_6"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_STAR_FORTRESS_MEDIUM_TURBO_LASER_7"
+}
+
+weapon_component_template = {
+	
+	key = "EOA_STAR_FORTRESS_LARGE_TURBO_LASER_6"
+	size = large
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_06"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_6" }
+
+	damage = { min = 200.0 max = 440.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 35
+
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 1.75
+	armor_damage = 1.75
+	shield_penetration = 0.25
+	armor_penetration = 0.25
+	
+	power = -90.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_s_t7_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t7_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_l_t7_upkeep_energy
+			alloys = @eoa_weapon_l_t7_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_t7_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_6"
+	projectile_gfx = "QUAD_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_STAR_FORTRESS_LARGE_TURBO_LASER_7"
+}
+#############################################
+#  - Tier 6
+#   - ターボレーザー VII(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_STAR_FORTRESS_SMALL_TURBO_LASER_7"
+	size = small
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_07"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+	
+	prerequisites = { "tech_eoa_turbo_lasers_7" }
+
+	damage = { min = 17.0 max = 45.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 15
+
+	range = 40.0
+	accuracy = 0.90
+	tracking = 0.60
+	
+	shield_damage = 1.15
+	armor_damage = 1.15
+	shield_penetration = 0.05
+	armor_penetration = 0.05
+	
+	power = -25
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_s_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_s_t8_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_s_t8_upkeep_energy
+			alloys = @eoa_weapon_s_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "TURBO_LASER_STAR_FORTRESS_7"
+	projectile_gfx = "DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_short_range }
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "EOA_STAR_FORTRESS_MEDIUM_TURBO_LASER_7"
+	size = medium
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_07"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_7" }
+
+	damage = { min = 40.0 max = 140.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 15
+
+	range = 65.0
+	accuracy = 0.90
+	tracking = 0.30
+	
+	shield_damage = 1.5
+	armor_damage = 1.5
+	shield_penetration = 0.175
+	armor_penetration = 0.175
+	
+	power = -55
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_m_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_m_t8_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_m_t8_upkeep_energy
+			alloys = @eoa_weapon_m_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_m8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_7"
+	projectile_gfx = "QUAD_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+weapon_component_template = {
+	
+	key = "EOA_STAR_FORTRESS_LARGE_TURBO_LASER_7"
+	size = large
+	type = instant
+	entity = "FR_Single_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_07"
+	icon_frame = 1
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+
+	}
+
+	prerequisites = { "tech_eoa_turbo_lasers_7" }
+
+	damage = { min = 210.0 max = 450 }
+	windup = { min = 2 max = 20 }
+	total_fire_time = 35
+
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 1.75
+	armor_damage = 1.75
+	shield_penetration = 0.25
+	armor_penetration = 0.25
+	
+	power = -100
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_m_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t8_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_m_t8_upkeep_energy
+			alloys = @eoa_weapon_m_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_t8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_STAR_FORTRESS_7"
+	projectile_gfx = "QUAD_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+}

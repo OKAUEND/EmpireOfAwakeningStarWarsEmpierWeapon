@@ -1,0 +1,165 @@
+particle={
+	name="large_concussion_fallenrepublic_idle_file"
+	subsystem={
+		name="smoke"
+		max_amount=350
+		slave_particles=0
+		sort="depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=no
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/glow.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			x=50
+			y=120
+			z=255
+			alpha=255,alpha_fade
+		}
+		position={
+			x=-0.2
+			y=0
+			z=0
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 1 }
+		velocity_yaw={ 0 1 }
+		velocity={ 0 0 }
+		life={ 0.5 0.2 }
+		emission=600
+		size={ 6,smoke 4 }
+		particle_yaw=90
+		particle_pitch=90
+		rotation={ 0 180 }
+	}
+	subsystem={
+		name="smoke_2"
+		max_amount=125
+		slave_particles=0
+		sort="depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=no
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/cloud_low_alpha.dds"
+			x=1
+			y=1
+			shader="ParticleAlphaBlend"
+		}
+		color={
+			x=100
+			y=150
+			z=255
+			alpha=160,smoke_fade
+		}
+		position={
+			x=-0.2
+			y=0
+			z=0
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 90 }
+		velocity_yaw={ 0 90 }
+		velocity={ 4 0 }
+		life={ 2.5 1.0 }
+		emission=100
+		size={ 20,smoke_2 0.5 }
+		rotation={ 0 180 }
+		force=chaos
+	}
+	animation={
+		name="alpha_fade"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 0 0.115 0.539 0.344 0.305 0.626 0.047 1 0 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="smoke"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 0 0.085 0.383 0.479 0.523 1 1 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="smoke_fade"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 0 0.071 0.773 0.488 0.508 0.759 0.141 1 0 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="smoke_2"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=3
+		curve={
+			0 0 0.162 0.203 0.429 0.328 0.771 0.633 1 1 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="increase_emission"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 0 1 1 
+		}
+		op="MUL"
+		time="life_abs"
+	}
+	force={
+		type="turbulence"
+		name="chaos"
+		position={
+			0 0 0 
+		}
+		direction={
+			0 0 0 
+		}
+		local_force=yes
+		yaw=0
+		division=16
+		amount=20
+	}
+}

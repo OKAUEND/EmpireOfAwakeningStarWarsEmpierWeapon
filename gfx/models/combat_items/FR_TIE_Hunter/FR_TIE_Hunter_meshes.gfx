@@ -1,0 +1,18 @@
+objectTypes = {
+	### Imperial Strikecraft
+	#TIE Hunter
+	pdxmesh = {
+		name = "FR_TIE_Hunter_mesh"
+		file = "gfx/models/combat_items/FR_TIE_Hunter/FR_TIE_Hunter.mesh"
+		scale = 0.2
+
+		meshsettings = {
+			name = "TIE_HunterShape"
+			index = 0
+			texture_diffuse = "FR_TIE_Hunter_diffuse.dds"
+			texture_normal = "FR_TIE_Hunter_normal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

@@ -1,0 +1,43 @@
+spriteTypes = {
+	# ターボレーザー
+	spriteType = {
+			name = "GFX_ship_part_EOA_test_turbolaser"
+			texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser1.dds"
+		}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_anti_aire_turbolaser_01"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_anti_air_TurboLaser1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_anti_aire_turbolaser_02"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_anti_air_TurboLaser2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_anti_aire_turbolaser_03"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_anti_air_TurboLaser3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_anti_aire_turbolaser_04"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_anti_air_TurboLaser4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_anti_aire_turbolaser_05"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_anti_air_TurboLaser5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_anti_aire_turbolaser_06"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_anti_air_TurboLaser6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_anti_aire_turbolaser_07"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_anti_air_TurboLaser7.dds"
+	}
+}
+

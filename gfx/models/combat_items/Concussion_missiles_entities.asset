@@ -1,0 +1,195 @@
+###################################################################################
+###																				###
+###							Star Wars 				    			###
+###																				###
+###################################################################################
+
+#################
+# Concussion Missiles
+#################
+
+###########
+#Concussion Missile
+###########
+
+# MUZZLE FLASHES
+entity = {
+	name = "Concussion_muzzle_flash_entity"
+	cull_radius = 0.01
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "concussion_fallenrepublic_small_muzzle_flash_particle" keep_particle = yes sound = { soundeffect = Concussion_Missile } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Concussion_Missile" } }
+	}
+}
+
+# PROJECTILES
+entity = {
+	name = "CONCUSSION_entity"
+	pdxmesh = "st4_concussion_missile_mesh"
+	
+	default_state = idle
+	state = { name = "idle"
+		start_event = { time = 0 node = exhaust particle = "small_concussion_fallenrepublic_idle_particle" keep_particle = yes }
+		start_event = { time = 0 node = exhaust particle = "concussion_fallenrepublic_glow_particle" keep_particle = yes }
+#		start_event = { time = 0 node = exhaust particle = "swp_concussion_trail_particle" keep_particle = yes }
+#		start_event = { trigger_once = yes time = 0 node = exhaust particle = "swp_concussion_idle_flame_particle" keep_particle = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = "Conc_Missile_idle" } }
+	}
+	state = { name = "stop" looping = no
+		event = { time = 0.0 particle = "swp_missile_stop_hit_effect" }	
+	}
+	scale = 1.8
+
+}
+
+# IMPACT EFFECT
+entity = {
+	name = "Concussion_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 0.8 looping = no
+		event = { time = 0.0 particle = "missile_fallenrepublic_small_hit_effect" sound = { soundeffect = Conc_Missile_impact } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Conc_Missile_impact" } }
+	}
+	default_state = "explode_med_hp"
+}
+
+# SHIELD HIT
+entity = {
+	name = "Concussion_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 0.8 looping = no
+		event = { time = 0.0 particle = "missile_fallenrepublic_small_hit_effect" sound = { soundeffect = Conc_Missile_impact } }
+		event = { time = 0.0 particle = "missile_fallenrepublic_small_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Conc_Missile_impact" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+###########
+#Heavy Concussion Missile
+###########
+
+# MUZZLE FLASHES
+entity = {
+	name = "Heavy_Concussion_muzzle_flash_entity"
+	cull_radius = 0.01
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "concussion_fallenrepublic_large_muzzle_flash_particle" keep_particle = yes sound = { soundeffect = Concussion_Missile } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Concussion_Missile" } }
+	}
+}
+
+# PROJECTILES
+entity = {
+	name = "Heavy_CONCUSSION_entity"
+	pdxmesh = "starwars_assault_concussion_missile_mesh"
+	
+	default_state = idle
+	state = { name = "idle"
+		start_event = { time = 0 node = exhaust particle = "large_concussion_fallenrepublic_idle_particle" keep_particle = yes }
+		start_event = { time = 0 node = exhaust particle = "concussion_fallenrepublic_glow_particle" keep_particle = yes }
+#		start_event = { time = 0 node = exhaust particle = "swp_concussion_trail_particle" keep_particle = yes }
+#		start_event = { trigger_once = yes time = 0 node = exhaust particle = "swp_concussion_idle_flame_particle" keep_particle = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = "Conc_Missile_idle" } }
+	}
+	state = { name = "stop" looping = no
+		event = { time = 0.0 particle = "missile_fallenrepublic_stop_large_hit_effect" }	
+	}
+	scale = 1.8
+
+}
+
+# IMPACT EFFECT
+entity = {
+	name = "Heavy_Concussion_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 0.8 looping = no
+		event = { time = 0.0 particle = "missile_fallenrepublic_large_hit_effect" sound = { soundeffect = Heavy_Conc_Missile_impact } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Heavy_Conc_Missile_impact" } }
+	}
+	default_state = "explode_med_hp"
+}
+
+# SHIELD HIT
+entity = {
+	name = "Heavy_Concussion_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 0.8 looping = no
+		event = { time = 0.0 particle = "missile_fallenrepublic_large_hit_effect" sound = { soundeffect = Heavy_Conc_Missile_impact } }
+		event = { time = 0.0 particle = "missile_fallenrepublic_large_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Heavy_Conc_Missile_impact" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+##########
+#Proton Torpedos
+#########
+
+# MUZZLE FLASH
+entity = {
+	name = "Proton_Torpedo_starwars_muzzle_flash_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "proton_torpedo_fallenrepublic_muzzle_particle" keep_particle = yes sound = { soundeffect = Proton_Torpedo } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Proton_Torpedo" } }
+	}
+}
+
+# PROJECTILE
+entity = {
+	name = "Proton_Torpedo_Starwars_entity"
+	cull_radius = 1.0
+	
+	default_state = idle
+	state = { name = "idle"
+		event = { time = 0 particle = "proton_torpedo_fallenrepublic_idle_particle" keep_particle = yes }
+		event = { time = 0 particle = "proton_torpedo_fallenrepublic_idle_drops_particle" keep_particle = yes }
+	}
+	state = { name = "stop" looping = no
+		event = { time = 0.0 particle = "proton_torpedo_fallenrepublic_stop_hit_particle" }	
+	}
+}
+
+# IMPACT EFFECT
+entity = {
+	name = "Proton_Torpedo_starwars_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 0.8 looping = no
+		event = { time = 0.0 particle = "proton_torpedo_fallenrepublic_hit_effect" sound = { soundeffect = Proton_Torpedo_impact } }
+	}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 particle = "large_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+
+# SHIELD HIT
+entity = {
+	name = "Proton_Torpedo_starwars_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 particle = "proton_torpedo_fallenrepublic_hit_effect"  }
+		event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = Proton_Torpedo_impact } }
+	}
+	default_state = "explode_med_hp"
+}
+
+
+
+
+
+
+

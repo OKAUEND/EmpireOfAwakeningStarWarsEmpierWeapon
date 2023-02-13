@@ -1,0 +1,144 @@
+spriteTypes = {
+	# イオン・ミサイル
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_missile_01"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_ion_pulse_missile_01.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_missile_02"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_ion_pulse_missile_02.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_missile_03"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_ion_pulse_missile_03.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_missile_04"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_ion_pulse_missile_04.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_missile_05"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_ion_pulse_missile_05.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_missile_06"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_ion_pulse_missile_06.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_missile_07"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_ion_pulse_missile_07.dds"
+	}
+	# プロトン魚雷
+	spriteType = {
+		name = "GFX_ship_part_EOA_torpedo_missile_01"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_Torpedo_01.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_torpedo_missile_02"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_Torpedo_02.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_torpedo_missile_03"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_Torpedo_03.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_torpedo_missile_04"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_Torpedo_04.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_torpedo_missile_05"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_Torpedo_05.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_torpedo_missile_06"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_Torpedo_06.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_torpedo_missile_07"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_Torpedo_07.dds"
+	}
+
+	# 
+	spriteType = {
+		name = "GFX_ship_part_EOA_concussion_missile_01"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_low_concussion_01.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_concussion_missile_02"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_low_concussion_002.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_concussion_missile_03"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_low_concussion_03.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_concussion_missile_04"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_low_concussion_04.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_concussion_missile_05"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_low_concussion_05.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_concussion_missile_06"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_low_concussion_06.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_concussion_missile_07"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_low_concussion_07.dds"
+	}
+	# 
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_concussion_missile_01"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_concussion_01.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_concussion_missile_02"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_concussion_02.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_concussion_missile_03"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_concussion_03.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_concussion_missile_04"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_concussion_04.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_concussion_missile_05"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_concussion_05.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_concussion_missile_06"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_concussion_06.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_concussion_missile_07"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Missile_concussion_07.dds"
+	}
+}
+

@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "Octuple_Turret_mesh"
+		file = "gfx/models/combat_items/Octuple_Turret/Octuple_Turret.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "TurretShape"
+			index = 0
+			texture_diffuse = "Octuple_diffuse.dds"
+			texture_normal = "Octuple_normal.dds"
+			texture_specular = "Octuple_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

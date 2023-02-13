@@ -1,0 +1,65 @@
+###################################################################################
+###																				###
+###							Star Wars 				    			###
+###																				###
+###################################################################################
+
+############
+#Strikecraft Laser Cannons
+############
+
+#####
+#Green
+#####
+
+#  Muzzle Flash
+entity = {
+	name = "tie_fighter_laser_muzzle_entity"
+	cull_radius = 0.25
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "turbolaser_fighter_muzzle_particle" keep_particle = yes sound = { soundeffect = Fighter_Green_LC } }
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "tie_fighter_laser_small_entity"
+	pdxmesh = "fighterlaser_fallenrepublic_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	scale = 1.0
+}
+
+# HIT EFFECT
+
+
+entity = {
+	name = "tie_fighter_laser_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "turbolaser_fighter_hit_effect" sound = { soundeffect = Fighter_Green_LC } }
+	}
+	#state = { name = "explode_med_hp" state_time = 5 looping = no
+	#	event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	#}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "tie_fighter_laser_shield_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "turbolaser_fighter_hit_effect" sound = { soundeffect = Fighter_Green_LC } }
+		event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	}
+	default_state = "explode_med_hp"
+}

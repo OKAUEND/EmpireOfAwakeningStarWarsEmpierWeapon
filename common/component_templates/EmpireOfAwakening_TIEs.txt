@@ -1,0 +1,909 @@
+###################################################
+#
+#    !! TIE 戦闘機シリーズ !!
+#
+#  - Tier 2
+#   - TIE Fighter
+#   - TIE Bomber
+#
+#  - Tier 3
+#   - TIE Interceptor
+#   - TIE Striker(地上用)
+#
+#  - Tier 4
+#   - TIE Hunter
+#   - TIE Fighter - Adv
+#   - TIE Interceptor  - Adv
+#   - TIE Toperd
+#
+#  - Tier 5
+#   - TIE Defender (Fighter/bomber)
+#
+#  - Tier 6
+#   - TIE Predetor 
+#   - TIE -------
+###################################################
+############################################################
+###                    Strikecraft Vars                  ###
+############################################################
+
+@eoa_strikecraft_count = 8
+@eoa_strikecraft_regen = 1
+@eoa_strikecraft_launch_time = 1.5
+@eoa_strikecraft_speed_2 = 650
+@eoa_strikecraft_speed_3 = 700
+@eoa_strikecraft_speed_4 = 750
+@eoa_strikecraft_speed_5 = 770
+@eoa_strikecraft_speed_6 = 820
+
+@eoa_bomber_speed_2 = 500
+@eoa_bomber_speed_3 = 520
+
+@eoa_bomber_acceleration = 1
+@eoa_bomber_rotation_speed = 0.75
+@eoa_fighter_acceleration = 1.1
+@eoa_fighter_rotation_speed = 0.8
+@eoa_creature_acceleration = 0.9
+@eoa_creature_rotation_speed = 0.75
+
+@eoa_bomber_shield_penetration = 1
+@eoa_bomber_armor_damage = 1.75
+@eoa_bomber_hull_damage = 1.15
+@eoa_fighter_shield_penetration = 1.1
+@eoa_fighter_armor_damage = 1.25
+@eoa_fighter_shield_damage = 1.50
+@eoa_fighter_hull_damage = 1.20
+
+@eoa_fighter_attack_range_low_tier = 10
+@eoa_fighter_attack_range_high_tier = 15
+@eoa_bomber_attack_range_low_tier = 8
+@eoa_bomber_attack_range_high_tier = 12
+@eoa_strikecraft_engagement_range = 100
+
+@eoa_strikecraft_accuracy = 1.0
+@eoa_fighter_tracking = 0.85
+@eoa_hunter_tracking = 1.0
+@eoa_bomber_tracking = 0.65
+
+@eoa_tie_fighter_evasion = 0.70
+@eoa_tie_interceptor_evasion = 0.82
+@eoa_tie_hunter_evasion = 0.85
+@eoa_tie_high_tier_evasion = 0.87
+@eoa_tie_bomber_evasion = 0.60
+###################################################
+#  - Tier 2
+#   - TIE Fighter
+#   - TIE Bomber
+###################################################
+strike_craft_component_template = {
+	key = "EOA_TIE_FIGHTER_1"
+	size = LARGE
+	entity = "FR_TIE_Fighter_entity"
+	icon = "GFX_ship_part_EOA_tie_fighter"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 4 max = 10 }
+	cooldown = 2.15
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_low_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_fighter_tracking
+
+	health = 75.0
+	armor = 0
+	shield = 0
+
+	speed = @eoa_strikecraft_speed_2
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_fighter_evasion
+
+	hull_damage = @eoa_fighter_hull_damage
+	armor_damage = @eoa_fighter_armor_damage
+	shield_damage = @eoa_fighter_shield_damage
+	shield_penetration = @eoa_fighter_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t2_cost
+			exotic_gases = @eoa_weapon_l_t4_cost_special
+		}
+		upkeep = {
+			energy = @l_t2_upkeep_energy
+			alloys = @l_t2_upkeep_alloys
+			exotic_gases = @eoa_weapon_l_s4_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "TIE_FIGHTER_LASERCANON"
+	component_set = "EOA_TIE_FIGHTER_1"
+	prerequisites = { "tech_eoa_tie_fighter" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EOA_TIE_FIGHTER_2"
+}
+
+strike_craft_component_template = {
+	key = "EOA_TIE_BOMBER_1"
+	size = LARGE
+	entity = "FR_TIE_Bomber_entity"
+	icon = "GFX_ship_part_EOA_tie_bomber"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 6 max = 12 }
+	cooldown = 2.15
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "bombers_behavior"
+
+	range = @eoa_fighter_attack_range_low_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_bomber_tracking
+
+	health = 65
+	armor = 0
+	shield = 0
+
+	speed = @eoa_bomber_speed_2
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_bomber_evasion
+
+	hull_damage = @eoa_bomber_hull_damage
+	armor_damage = @eoa_bomber_armor_damage
+	shield_damage = @eoa_bomber_shield_penetration
+	shield_penetration = @eoa_bomber_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t2_cost
+			exotic_gases = @eoa_weapon_l_t4_cost_special
+		}
+		upkeep = {
+			energy = @l_t2_upkeep_energy
+			alloys = @l_t2_upkeep_alloys
+			exotic_gases = @eoa_weapon_l_s4_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "FIGHTER_PROTON_TORPEDO"
+	component_set = "EOA_TIE_BOMBER_1"
+	prerequisites = { "tech_eoa_tie_bomber" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EOA_TIE_BOMBER_2"
+}
+
+###################################################
+#  - Tier 3
+#   - TIE Interceptor
+###################################################
+strike_craft_component_template = {
+	key = "EOA_TIE_FIGHTER_2"
+	size = LARGE
+	entity = "FR_TIE_Interceptor_entity"
+	icon = "GFX_ship_part_EOA_tie_interceptor"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 5 max = 14 }
+	cooldown = 2.15
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_low_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_fighter_tracking
+
+	health = 85.0
+	armor = 0
+	shield = 0
+
+	speed = @eoa_strikecraft_speed_3
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_fighter_evasion
+
+	hull_damage = @eoa_fighter_hull_damage
+	armor_damage = @eoa_fighter_armor_damage
+	shield_damage = @eoa_fighter_shield_damage
+	shield_penetration = @eoa_fighter_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+			exotic_gases = @eoa_weapon_l_t4_cost_special
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+			exotic_gases = @eoa_weapon_l_s4_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "TIE_FIGHTER_LASERCANON"
+	component_set = "EOA_TIE_FIGHTER_2"
+	prerequisites = { "tech_eoa_tie_interceptor" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EOA_TIE_FIGHTER_3"
+}
+
+
+###################################################
+#  - Tier 4
+#   - TIE Hunter
+#   	- TIE Fighter - Adv
+#   	- TIE Interceptor  - Adv
+#   - TIE Toperd
+###################################################
+strike_craft_component_template = {
+	key = "EOA_TIE_FIGHTER_3"
+	size = LARGE
+	entity = "FR_TIE_Hunter_entity"
+	icon = "GFX_ship_part_EOA_tie_hunter"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 6 max = 18 }
+	cooldown = 2.15
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_high_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_hunter_tracking
+
+	health = 100.0
+	armor = 40
+	shield = 65
+
+	speed = @eoa_strikecraft_speed_4
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_fighter_evasion
+
+	hull_damage = @eoa_fighter_hull_damage
+	armor_damage = @eoa_fighter_armor_damage
+	shield_damage = @eoa_fighter_shield_damage
+	shield_penetration = @eoa_fighter_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t5_cost_special
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s5_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "TIE_FIGHTER_LASERCANON"
+	component_set = "EOA_TIE_FIGHTER_3"
+	prerequisites = { "tech_eoa_tie_hunter" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EOA_TIE_FIGHTER_4"
+}
+
+strike_craft_component_template = {
+	key = "EOA_TIE_FIGHTER_ADV_1"
+	size = LARGE
+	entity = "FR_TIE_Fighter_entity"
+	icon = "GFX_ship_part_EOA_tie_fighter_adv"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 5 max = 17 }
+	cooldown = 2.15
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_low_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_fighter_tracking
+
+	health = 95.0
+	armor = 30
+	shield = 55
+
+	speed = @eoa_strikecraft_speed_3
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_fighter_evasion
+
+	hull_damage = @eoa_fighter_hull_damage
+	armor_damage = @eoa_fighter_armor_damage
+	shield_damage = @eoa_fighter_shield_damage
+	shield_penetration = @eoa_fighter_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t4_cost_special 
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s4_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "TIE_FIGHTER_LASERCANON"
+	component_set = "EOA_TIE_FIGHTER_ADV_1"
+	prerequisites = { "tech_eoa_tie_fighter_adv" }
+	tags = { weapon_type_strike_craft }
+	# upgrades_to = "EOA_TIE_FIGHTER_4"
+}
+
+strike_craft_component_template = {
+	key = "EOA_TIE_FIGHTER_ADV_2"
+	size = LARGE
+	entity = "FR_TIE_Interceptor_entity"
+	icon = "GFX_ship_part_EOA_tie_interceptor_adv"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 5.5 max = 17.5 }
+	cooldown = 2.15
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_low_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_fighter_tracking
+
+	health = 95.0
+	armor = 35
+	shield = 60
+
+	speed = @eoa_strikecraft_speed_3
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_fighter_evasion
+
+	hull_damage = @eoa_fighter_hull_damage
+	armor_damage = @eoa_fighter_armor_damage
+	shield_damage = @eoa_fighter_shield_damage
+	shield_penetration = @eoa_fighter_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t4_cost_special 
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s4_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "TIE_FIGHTER_LASERCANON"
+	component_set = "EOA_TIE_FIGHTER_ADV_2"
+	prerequisites = { "tech_eoa_tie_interceptor_adv" }
+	tags = { weapon_type_strike_craft }
+	# upgrades_to = "EOA_TIE_FIGHTER_4"
+}
+
+strike_craft_component_template = {
+	key = "EOA_TIE_BOMBER_2"
+	size = LARGE
+	entity = "FR_TIE_Torpedo_entity"
+	icon = "GFX_ship_part_EOA_tie_torpedo"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 7 max = 20 }
+	cooldown = 2.15
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "bombers_behavior"
+
+	range = @eoa_fighter_attack_range_low_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_bomber_tracking
+
+	health = 85
+	armor = 40
+	shield = 65
+
+	speed = @eoa_bomber_speed_3
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_bomber_evasion
+
+	hull_damage = @eoa_bomber_hull_damage
+	armor_damage = @eoa_bomber_armor_damage
+	shield_damage = @eoa_bomber_shield_penetration
+	shield_penetration = @eoa_bomber_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t5_cost_special
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s5_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "FIGHTER_PROTON_TORPEDO"
+	component_set = "EOA_TIE_BOMBER_2"
+	prerequisites = { "tech_eoa_tie_torpedo" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EOA_TIE_BOMBER_3"
+}
+
+###################################################
+#  - Tier 5
+#   - TIE Defender (Fighter/bomber)
+###################################################
+strike_craft_component_template = {
+	key = "EOA_TIE_FIGHTER_4"
+	size = LARGE
+	entity = "FR_TIE_Defender_entity"
+	icon = "GFX_ship_part_EOA_tie_defender"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 11 max = 20 }
+	cooldown = 2.0
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_high_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_hunter_tracking
+
+	health = 120
+	armor = 50
+	shield = 75
+
+	speed = @eoa_strikecraft_speed_5
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_fighter_evasion
+
+	hull_damage = @eoa_fighter_hull_damage
+	armor_damage = @eoa_fighter_armor_damage
+	shield_damage = @eoa_fighter_shield_damage
+	shield_penetration = @eoa_fighter_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_l_t6_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t6_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_l_t6_upkeep_energy
+			alloys = @eoa_weapon_l_t6_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s6_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "TIE_FIGHTER_LASERCANON"
+	component_set = "EOA_TIE_FIGHTER_4"
+	prerequisites = { "tech_eoa_tie_defender" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EOA_TIE_FIGHTER_5"
+}
+
+strike_craft_component_template = {
+	key = "EOA_TIE_BOMBER_3"
+	size = LARGE
+	entity = "FR_TIE_Defender_entity"
+	icon = "GFX_ship_part_EOA_tie_defender_bomber"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 15 max = 25 }
+	cooldown = 2.0
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_high_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_bomber_tracking
+
+	health = 120
+	armor = 50
+	shield = 75
+
+	speed = @eoa_strikecraft_speed_5
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_fighter_evasion
+
+	hull_damage = @eoa_bomber_hull_damage
+	armor_damage = @eoa_bomber_armor_damage
+	shield_damage = @eoa_bomber_shield_penetration
+	shield_penetration = @eoa_bomber_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_l_t6_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t6_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_l_t6_upkeep_energy
+			alloys = @eoa_weapon_l_t6_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s6_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "FIGHTER_PROTON_TORPEDO"
+	component_set = "EOA_TIE_BOMBER_3"
+	prerequisites = { "tech_eoa_tie_defender" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EOA_TIE_BOMBER_4"
+}
+
+###################################################
+#  - Tier 6
+#   - TIE Predetor 
+#   - TIE -------
+###################################################
+strike_craft_component_template = {
+	key = "EOA_TIE_FIGHTER_5"
+	size = LARGE
+	entity = "Fel_TIE_Predator_entity"
+	icon = "GFX_ship_part_EOA_tie_predetor"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 15 max = 25 }
+	cooldown = 2.0
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_high_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_hunter_tracking
+
+	health = 150
+	armor = 70
+	shield = 90
+
+	speed = @eoa_strikecraft_speed_6
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_fighter_evasion
+
+	hull_damage = @eoa_fighter_hull_damage
+	armor_damage = @eoa_fighter_armor_damage
+	shield_damage = @eoa_fighter_shield_damage
+	shield_penetration = @eoa_fighter_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_l_t7_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t7_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_l_t7_upkeep_energy
+			alloys = @eoa_weapon_l_t7_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s7_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "TIE_FIGHTER_LASERCANON"
+	component_set = "EOA_TIE_FIGHTER_5"
+	prerequisites = { "tech_eoa_tie_predator" }
+	tags = { weapon_type_strike_craft }
+}
+
+strike_craft_component_template = {
+	key = "EOA_TIE_BOMBER_4"
+	size = LARGE
+	entity = "Fel_TIE_Neutralizer_entity"
+	icon = "GFX_ship_part_EOA_tie_neutralizer"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 17 max = 27.5 }
+	cooldown = 2.0
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_high_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_fighter_tracking
+
+	health = 150
+	armor = 70
+	shield = 90
+
+	speed = @eoa_strikecraft_speed_5
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_bomber_tracking
+
+	hull_damage = @eoa_bomber_hull_damage
+	armor_damage = @eoa_bomber_armor_damage
+	shield_damage = @eoa_bomber_shield_penetration
+	shield_penetration = @eoa_bomber_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_l_t7_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t6_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_l_t7_upkeep_energy
+			alloys = @eoa_weapon_l_t7_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s7_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "FIGHTER_PROTON_TORPEDO"
+	component_set = "EOA_TIE_BOMBER_4"
+	prerequisites = { "tech_eoa_tie_neutralizer" }
+	tags = { weapon_type_strike_craft }
+}

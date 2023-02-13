@@ -1,0 +1,41 @@
+###################################################################################
+###																				###
+###							Star Wars 				    			###
+###																				###
+###################################################################################
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "starwars_assault_concussion_missile_mesh"
+		file = "gfx/models/combat_items/Mesh_Missile/starwars_assault_concussion_missile.mesh"
+		scale = 0.25
+
+		meshsettings = {
+			name = "assault_missile"
+			index = 0
+			texture_diffuse = "starwars_assault_concussion_diffuse.dds"
+			texture_normal = "starwars_assault_concussion_normal.dds"
+			texture_specular = "starwars_assault_concussion_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st4_concussion_missile_mesh"
+		file = "gfx/models/combat_items/Mesh_Missile/st4_concussion_missile.mesh"
+		scale = 0.3
+
+		meshsettings = {
+			name = "st4_missile"
+			index = 0
+			texture_diffuse = "st4_concusission_diffuse.dds"
+			texture_normal = "st4_concusission_normal.dds"
+			texture_specular = "st4_concusission_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+

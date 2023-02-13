@@ -1,0 +1,86 @@
+###################################################################################
+###																				###
+###							Star Wars 				    			###
+###																				###
+###################################################################################
+
+
+# SINGLE DISRUPTOR
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "SINGLE_DISRUPTOR"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "Single_Disruptor_hit_entity"
+	shield_hit_entity = "Single_Disruptor_shield_hit_entity"
+	muzzle_flash_entity = "Single_Disruptor_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "Single_Disruptor_entity"
+	speed = 250.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# DUAL DISRUPTOR
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "DUAL_DISRUPTOR"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "Dual_Disruptor_hit_entity"
+	shield_hit_entity = "Dual_Disruptor_shield_hit_entity"
+	muzzle_flash_entity = "Dual_Disruptor_muzzle_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "Dual_Disruptor_entity"
+	speed = 250.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# QUAD DISRUPTOR
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "QUAD_DISRUPTOR"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "Quad_Disruptor_hit_entity"
+	shield_hit_entity = "Quad_Disruptor_shield_hit_entity"
+	muzzle_flash_entity = "Quad_Disruptor_muzzle_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "Quad_Disruptor_entity"
+	speed = 250.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# HEAVY QUAD DISRUPTOR
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "HEAVYQUAD_DISRUPTOR"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "Heavyquad_Disruptor_hit_entity"
+	shield_hit_entity = "Heavyquad_Disruptor_shield_hit_entity"
+	muzzle_flash_entity = "Heavyquad_Disruptor_muzzle_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "Heavyquad_Disruptor_entity"
+	speed = 250.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}

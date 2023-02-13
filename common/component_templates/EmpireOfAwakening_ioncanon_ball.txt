@@ -1,0 +1,294 @@
+# ############################################
+#  Ion Canon
+###################################################
+#
+#  - Tier 3
+#   - イオン・カノン I
+#
+#  - Tier 4
+#   - イオン・カノン II
+#
+#  - Tier 5
+#   - イオン・カノン III
+#
+#  - Tier 6
+#   - イオン・カノン IV
+#############################################
+#   - イオン・カノン I
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_LARGE_ION_CANON_BALL_1"
+	size = large
+	type = instant
+	entity = "FR_Ball_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_ion_canon_single_ball_01"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_ball_1" }
+
+	size_restriction = { 
+		allegiance_stardreadnought 
+		titan_stardreadnought
+		# advance_superstardestroyer
+	}
+
+	damage = { min = 40.0 max = 150.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 30
+	
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 4.0
+	armor_damage = 0.5
+	hull_damage = 0.5
+	
+	power = -60.0
+	cost = 112.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t2_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t4_cost_special
+		}		
+		upkeep = {
+			energy = @l_t2_upkeep_energy
+			alloys = @l_t2_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_t4_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "ION_CANON_BALL_1"
+	projectile_gfx = "HEAVY_SINGLE_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_LARGE_ION_CANON_BALL_2"
+}
+#############################################
+#  - Tier 4
+#   - イオン・カノン II
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_LARGE_ION_CANON_BALL_2"
+	size = large
+	type = instant
+	entity = "FR_Ball_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_ion_canon_single_ball_02"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_ball_2" }
+
+	size_restriction = { 
+		allegiance_stardreadnought 
+		titan_stardreadnought
+		# advance_superstardestroyer
+	}
+
+	damage = { min = 58.0 max = 190 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 35
+
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 4.0
+	armor_damage = 0.5
+	hull_damage = 0.5
+	
+	power = -64
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t5_cost_special
+		}		
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_t5_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "ION_CANON_BALL_2"
+	projectile_gfx = "HEAVY_SINGLE_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_LARGE_ION_CANON_BALL_3"
+}
+#############################################
+#  - Tier 5
+#   - イオン・カノン III
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_LARGE_ION_CANON_BALL_3"
+	size = large
+	type = instant
+	entity = "FR_Ball_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_ion_canon_single_ball_03"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_ball_3" }
+
+	size_restriction = { 
+		allegiance_stardreadnought 
+		titan_stardreadnought
+		# advance_superstardestroyer
+	}
+
+	damage = { min = 75.0 max = 265.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 35
+
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 4.0
+	armor_damage = 0.5
+	hull_damage = 0.5
+	
+	power = -90.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t6_cost_special
+		}		
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_t6_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "ION_CANON_BALL_3"
+	projectile_gfx = "HEAVY_SINGLE_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_LARGE_ION_CANON_BALL_4"
+}
+#############################################
+#  - Tier 6
+#   - イオン・カノン IV
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_LARGE_ION_CANON_BALL_4"
+	size = large
+	type = instant
+	entity = "FR_Ball_Turret_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_g_1"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_ball_4" }
+
+	size_restriction = { 
+		allegiance_stardreadnought 
+		titan_stardreadnought
+		# advance_superstardestroyer
+	}
+
+	damage = { min = 140.0 max = 360.0 }
+	windup = { min = 2 max = 20 }
+	total_fire_time = 35
+
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 4.0
+	armor_damage = 0.5
+	hull_damage = 0.5
+	
+	power = -100
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_m_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t8_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_m_t8_upkeep_energy
+			alloys = @eoa_weapon_m_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_t8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "ION_CANON_BALL_4"
+	projectile_gfx = "HEAVY_SINGLE_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_long_range }
+}

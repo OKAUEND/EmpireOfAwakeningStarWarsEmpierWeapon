@@ -1,0 +1,19 @@
+objectTypes = {
+	pdxmesh = {
+		name = "Annihilator_Base_Turret_mesh"
+		file = "gfx/models/combat_items/Annihilator_Base_Turret/Annihilator_Base_Turret.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "TurretShape"
+			index = 0
+			texture_diffuse = "Annihilator_Base_Turret_diffuse.dds"
+			texture_normal = "Annihilator_Base_Turret_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+
+

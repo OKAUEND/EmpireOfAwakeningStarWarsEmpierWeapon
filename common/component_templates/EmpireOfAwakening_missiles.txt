@@ -1,0 +1,1245 @@
+# ############################################
+#  Ion Missile
+###################################################
+#
+#  - Tier 3
+#   - イオン・ミサイル I
+#
+#  - Tier 4
+#   - イオン・ミサイル II
+#
+#  - Tier 5
+#   - イオン・ミサイル III
+#
+#  - Tier 6
+#   - イオン・ミサイル IV
+#############################################
+#  - Tier 2
+#   - イオン・ミサイル I
+#############################################
+weapon_component_template = {
+	key = "ION_MISSILE_1"
+	size = torpedo
+	
+	entity = "invisible_turret_entity"
+	icon = "GFX_ship_part_EOA_ion_missile_01"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_ion_missile_1" }
+
+	damage = { min = 20.0 max = 48.0 }
+	windup = { min = 1.0 max = 15.0 }
+	total_fire_time = 55
+
+	range = 95.0
+	accuracy = 1.00
+	
+	shield_damage = 4.0
+	armor_damage = 0.25
+	hull_damage = 0.25
+
+	missile_speed = 17 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.45
+	missile_health = 7
+	missile_retarget_range = 120
+	
+	power = -15.00
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t2_cost
+			eoa_tibanna_gas = @eoa_weapon_m_t4_cost_special
+		}		
+		upkeep = {
+			energy = @m_t2_upkeep_energy
+			alloys = @m_t2_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_m4_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "ION_MISSILE_1"
+	projectile_gfx = "CONCUSSION_MISSILE"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	upgrades_to = "ION_MISSILE_2"
+}
+
+#############################################
+#  - Tier 3
+#   - イオン・ミサイル II
+#############################################
+weapon_component_template = {
+	key = "ION_MISSILE_2"
+	size = torpedo
+	
+	entity = "invisible_turret_entity"
+	icon = "GFX_ship_part_EOA_ion_missile_02"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_ion_missile_2" }
+
+	damage = { min = 30.0 max = 60.0 }
+	windup = { min = 1.0 max = 15.0 }
+	total_fire_time = 55
+
+	range = 95.0
+	accuracy = 1.00
+	
+	shield_damage = 4.0
+	armor_damage = 0.25
+	hull_damage = 0.25
+
+	missile_speed = 17 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.45
+	missile_health = 8
+	missile_retarget_range = 120
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t3_cost
+			eoa_tibanna_gas = @eoa_weapon_m_t4_cost_special
+			volatile_motes = @m_t4_rare
+		}		
+		upkeep = {
+			energy = @m_t3_upkeep_energy
+			alloys = @m_t3_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_m4_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "ION_MISSILE_2"
+	projectile_gfx = "CONCUSSION_MISSILE"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	upgrades_to = "ION_MISSILE_3"
+}
+
+#############################################
+#  - Tier 4
+#   - イオン・ミサイル III
+#############################################
+weapon_component_template = {
+	key = "ION_MISSILE_3"
+	size = torpedo
+	
+	entity = "invisible_turret_entity"
+	icon = "GFX_ship_part_EOA_ion_missile_03"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_ion_missile_3" }
+
+	damage = { min = 45.0 max = 80.0 }
+	windup = { min = 1.0 max = 15.0 }
+	total_fire_time = 55
+
+	range = 95.0
+	accuracy = 1.00
+	
+	shield_damage = 4.0
+	armor_damage = 0.25
+	hull_damage = 0.25
+
+	missile_speed = 17 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.45
+	missile_health = 9
+	missile_retarget_range = 120
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t4_cost
+			eoa_tibanna_gas = @eoa_weapon_m_t4_cost_special
+			volatile_motes = @m_t4_rare
+		}		
+		upkeep = {
+			energy = @m_t4_upkeep_energy
+			alloys = @m_t4_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_m4_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "ION_MISSILE_3"
+	projectile_gfx = "CONCUSSION_MISSILE"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	upgrades_to = "ION_MISSILE_4"
+}
+
+#############################################
+#  - Tier 5
+#   - イオン・ミサイル IV
+#############################################
+weapon_component_template = {
+	key = "ION_MISSILE_4"
+	size = torpedo
+	
+	entity = "invisible_turret_entity"
+	icon = "GFX_ship_part_EOA_ion_missile_04"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_ion_missile_4" }
+
+	damage = { min = 60.0 max = 105.0 }
+	windup = { min = 1.0 max = 15.0 }
+	total_fire_time = 55
+
+	range = 95.0
+	accuracy = 1.00
+	
+	shield_damage = 4.0
+	armor_damage = 0.25
+	hull_damage = 0.25
+
+	missile_speed = 17 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.45
+	missile_health = 10
+	missile_retarget_range = 120
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t5_cost
+			volatile_motes = @m_t5_rare
+			eoa_tibanna_gas = @eoa_weapon_m_t5_cost_special
+		}
+		upkeep = {
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_m5_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "ION_MISSILE_4"
+	projectile_gfx = "CONCUSSION_MISSILE"
+	upgrades_to = "ION_MISSILE_5"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = volatile_motes }
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+}
+
+#############################################
+#  - Tier 6
+#   - イオン・ミサイル V
+#############################################
+weapon_component_template = {
+	key = "ION_MISSILE_5"
+	size = torpedo
+	
+	entity = "invisible_turret_entity"
+	icon = "GFX_ship_part_EOA_ion_missile_05"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_ion_missile_5" }
+
+	damage = { min = 75.0 max = 165.0 }
+	windup = { min = 1.0 max = 15.0 }
+	total_fire_time = 45
+
+	range = 95.0
+	accuracy = 1.00
+	
+	shield_damage = 4.0
+	armor_damage = 0.25
+	hull_damage = 0.25
+
+	missile_speed = 17 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.45
+	missile_health = 11
+	missile_retarget_range = 120
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_m_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_m_t8_cost_special
+			volatile_motes = @weapon_m_t6_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_m_t8_upkeep_energy
+			alloys = @eoa_weapon_m_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_m8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "ION_MISSILE_5"
+	projectile_gfx = "CONCUSSION_MISSILE"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = volatile_motes }
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+}
+
+###################################################
+#
+#    !! ミサイル系 !!
+#
+#   →ターボレーザー I/ 重武装理論艦船建造技術
+#  - Tier 2
+#   - プロトン魚雷 I
+#
+#  - Tier 3
+#   - プロトン魚雷 II
+#
+#  - Tier 4
+#   - プロトン魚雷 III
+#
+#  - Tier 5
+#   - プロトン魚雷 IV
+#
+#  - Tier 6
+#   - プロトン魚雷 V
+###################################################
+#  - Tier 2
+#   - プロトン魚雷 I
+###################################################
+weapon_component_template = {
+	key = "EOA_SW_TORPEDO_MISSILE_1"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_torpedo_missile_01"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_proton_torpedo_1" }
+
+	damage = { min = 175.0 max = 270.0 }
+	windup = { min = 1.0 max = 15.0 }
+	total_fire_time = 200
+
+	range = 95.0
+	accuracy = 1.00
+
+	shield_damage = 0.50
+	armor_damage = 2.0
+	armor_penetration = 0.25
+	hull_damage = 1.15
+
+	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.25
+	missile_health = 10
+	missile_retarget_range = 50
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t3_cost
+		}		
+		upkeep = {
+			energy = @m_t3_upkeep_energy
+			alloys = @m_t3_upkeep_alloys
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_SW_TORPEDO_MISSILE_1"
+	projectile_gfx = "EoA_photon_torpedo_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_SW_TORPEDO_MISSILE_2"
+}
+
+###################################################
+#  - Tier 3
+#   - プロトン魚雷 II
+###################################################
+weapon_component_template = {
+	key = "EOA_SW_TORPEDO_MISSILE_2"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_torpedo_missile_02"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_proton_torpedo_2" }
+
+	damage = { min = 220.0 max = 360.0 }
+	windup = { min = 1.0 max = 15.0 }
+	total_fire_time = 200
+
+	range = 95.0
+	accuracy = 1.00
+
+	shield_damage = 0.50
+	armor_damage = 1.0
+	armor_penetration = 0.25
+	hull_damage = 1.0
+
+	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.25
+	missile_health = 12
+	missile_retarget_range = 50
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t4_cost
+			volatile_motes = @m_t4_rare
+		}		
+		upkeep = {
+			energy = @m_t4_upkeep_energy
+			alloys = @m_t4_upkeep_alloys
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_SW_TORPEDO_MISSILE_2"
+	projectile_gfx = "EoA_photon_torpedo_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_SW_TORPEDO_MISSILE_3"
+}
+
+###################################################
+#  - Tier 4
+#   - プロトン魚雷 III
+###################################################
+weapon_component_template = {
+	key = "EOA_SW_TORPEDO_MISSILE_3"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_torpedo_missile_03"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_proton_torpedo_3" }
+
+	damage = { min = 280.0 max = 460.0 }
+	windup = { min = 1.0 max = 15.0 }
+	total_fire_time = 200
+
+	range = 95.0
+	accuracy = 1.00
+
+	shield_damage = 0.50
+	armor_damage = 1.0
+	armor_penetration = 0.25
+	hull_damage = 1.0
+
+	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.25
+	missile_health = 14
+	missile_retarget_range = 50
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t5_cost
+			volatile_motes = @m_t5_rare
+		}		
+		upkeep = {
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_SW_TORPEDO_MISSILE_3"
+	projectile_gfx = "EoA_photon_torpedo_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_SW_TORPEDO_MISSILE_4"
+}
+
+###################################################
+#  - Tier 5
+#   - プロトン魚雷 IV
+###################################################
+weapon_component_template = {
+	key = "EOA_SW_TORPEDO_MISSILE_4"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_torpedo_missile_04"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_proton_torpedo_4" }
+
+	damage = { min = 350.0 max = 575.0 }
+	windup = { min = 2 max = 20 }
+	total_fire_time = 160
+
+	range = 95.0
+	accuracy = 1.00
+
+	shield_damage = 0.50
+	armor_damage = 1.0
+	armor_penetration = 0.25
+	hull_damage = 1.0
+
+	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.25
+	missile_health = 14
+	missile_retarget_range = 50
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t5_cost
+			volatile_motes = @m_t5_rare
+		}		
+		upkeep = {
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_SW_TORPEDO_MISSILE_4"
+	projectile_gfx = "EoA_photon_torpedo_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_SW_TORPEDO_MISSILE_5"
+}
+
+###################################################
+#  - Tier 6
+#   - プロトン魚雷 V
+###################################################
+weapon_component_template = {
+	key = "EOA_SW_TORPEDO_MISSILE_5"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_torpedo_missile_05"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_proton_torpedo_5" }
+
+	damage = { min = 435.0 max = 725.0 }
+	windup = { min = 2 max = 20 }
+	total_fire_time = 160
+
+	range = 95.0
+	accuracy = 1.00
+
+	shield_damage = 0.50
+	armor_damage = 1.0
+	armor_penetration = 0.25
+	hull_damage = 1.0
+
+	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.25
+	missile_health = 14
+	missile_retarget_range = 50
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t5_cost
+			volatile_motes = @m_t5_rare
+		}		
+		upkeep = {
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_SW_TORPEDO_MISSILE_5"
+	projectile_gfx = "EoA_photon_torpedo_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+###################################################
+#
+#    !! ミサイル系 !!
+#  - Tier 3
+#   - 震盪ミサイル I
+#
+#  - Tier 4
+#   - 震盪ミサイル II
+#
+#  - Tier 5
+#   - 震盪ミサイル III
+#
+#  - Tier 6
+#   - 震盪ミサイル IV
+###################################################
+###################################################
+#  - Tier 3
+#   - 震盪ミサイル I
+###################################################
+weapon_component_template = {
+	key = "EOA_CONCUSSION_MISSILE_1"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_concussion_missile_01"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_concussion_missile_1" }
+
+	damage = { min = 60.0 max = 75.0 }
+	windup = { min = 1.0 max = 15.0 }
+	total_fire_time = 55
+
+	range = 95.0
+	accuracy = 1.00
+
+	shield_damage = 0.50
+	armor_damage = 1.15
+	armor_penetration = 0.35
+	hull_damage = 1.0
+
+	missile_speed = 20 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.25
+	missile_health = 15
+	missile_armor = 2
+	missile_retarget_range = 100
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t5_cost
+			volatile_motes = @m_t5_rare
+		}		
+		upkeep = {
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_CONCUSSION_MISSILE_1"
+	projectile_gfx = "CONCUSSION_MISSILE"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_SW_TORPEDO_MISSILE_3"
+}
+
+###################################################
+#  - Tier 4
+#   - 震盪ミサイル II
+###################################################
+weapon_component_template = {
+	key = "EOA_CONCUSSION_MISSILE_2"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_concussion_missile_02"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_concussion_missile_2" }
+
+	damage = { min = 70.0 max = 95.0 }
+	windup = { min = 1.0 max = 15.0 }
+	total_fire_time = 55
+
+	range = 95.0
+	accuracy = 1.00
+
+	shield_damage = 0.50
+	armor_damage = 1.15
+	armor_penetration = 0.35
+	hull_damage = 1.0
+
+	missile_speed = 20 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.25
+	missile_health = 17
+	missile_armor = 2
+	missile_retarget_range = 100
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t5_cost
+			volatile_motes = @m_t5_rare
+		}		
+		upkeep = {
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_CONCUSSION_MISSILE_2"
+	projectile_gfx = "CONCUSSION_MISSILE"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_CONCUSSION_MISSILE_3"
+}
+
+###################################################
+#  - Tier 5
+#   - 震盪ミサイル III
+###################################################
+weapon_component_template = {
+	key = "EOA_CONCUSSION_MISSILE_3"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_concussion_missile_03"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_concussion_missile_3" }
+
+	damage = { min = 90.0 max = 120.0 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 55
+
+	range = 95.0
+	accuracy = 1.00
+
+	shield_damage = 0.50
+	armor_damage = 1.15
+	armor_penetration = 0.35
+	hull_damage = 1.0
+
+	missile_speed = 20 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.25
+	missile_health = 19
+	missile_armor = 2
+	missile_retarget_range = 100
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_m_t6_cost
+			eoa_tibanna_gas = @eoa_weapon_m_t6_cost_special
+			volatile_motes = @weapon_m_t6_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_m_t6_upkeep_energy
+			alloys = @eoa_weapon_m_t6_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_m6_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_CONCUSSION_MISSILE_3"
+	projectile_gfx = "CONCUSSION_MISSILE"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_CONCUSSION_MISSILE_4"
+}
+
+###################################################
+#  - Tier 6
+#   - 震盪ミサイル IV
+###################################################
+weapon_component_template = {
+	key = "EOA_CONCUSSION_MISSILE_4"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_concussion_missile_04"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_concussion_missile_4" }
+
+	damage = { min = 120.0 max = 140.0 }
+	windup = { min = 2 max = 20 }
+	total_fire_time = 42
+
+	range = 95.0
+	accuracy = 1.00
+
+	shield_damage = 0.50
+	armor_damage = 1.0
+	armor_penetration = 0.25
+	hull_damage = 1.0
+
+	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.25
+	missile_health = 14
+	missile_retarget_range = 50
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t7_cost
+			volatile_motes = @weapon_m_t7_cost_special
+		}
+		upkeep = {
+			energy = @weapon_m_t7_upkeep_energy
+			alloys = @weapon_m_t7_upkeep_alloys
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_CONCUSSION_MISSILE_4"
+	projectile_gfx = "CONCUSSION_MISSILE"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+###################################################
+#
+#    !! ミサイル系 !!
+#  - Tier 4
+#   - 重震盪ミサイル I
+#
+#  - Tier 5
+#   - 重震盪ミサイル II
+#
+#  - Tier 6
+#   - 重震盪ミサイル III
+###################################################
+###################################################
+#  - Tier 4
+#   - 重震盪ミサイル I
+###################################################
+weapon_component_template = {
+	key = "EOA_HEAVY_CONCUSSION_MISSILE_1"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_heavy_concussion_missile_01"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_heavy_concussion_missile_1" }
+
+	damage = { min = 160.0 max = 250.0 }
+	windup = { min = 1.0 max = 15.0 }
+	total_fire_time = 75
+
+	range = 95.0
+	accuracy = 1.00
+
+	shield_damage = 0.50
+	armor_damage = 1.5
+	armor_penetration = 0.25
+	hull_damage = 1.0
+
+	missile_speed = 20 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.25
+	missile_health = 17
+	missile_armor = 2
+	missile_retarget_range = 100
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t5_cost
+			volatile_motes = @m_t5_rare
+		}		
+		upkeep = {
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_HEAVY_CONCUSSION_MISSILE_1"
+	projectile_gfx = "HEAVY_CONCUSSION_MISSILE"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_HEAVY_CONCUSSION_MISSILE_2"
+}
+
+###################################################
+#  - Tier 5
+#   - 重震盪ミサイル III
+###################################################
+weapon_component_template = {
+	key = "EOA_HEAVY_CONCUSSION_MISSILE_2"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_heavy_concussion_missile_02"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_heavy_concussion_missile_2" }
+
+	damage = { min = 210.0 max = 300.0 }
+	windup = { min = 1.0 max = 15.0 }
+	total_fire_time = 75
+
+	range = 95.0
+	accuracy = 1.00
+
+	shield_damage = 0.50
+	armor_damage = 1.5
+	armor_penetration = 0.25
+	hull_damage = 1.0
+
+	missile_speed = 20 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.25
+	missile_health = 19
+	missile_armor = 3
+	missile_retarget_range = 100
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_m_t6_cost
+			volatile_motes = @weapon_m_t6_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_m_t6_upkeep_energy
+			alloys = @eoa_weapon_m_t6_upkeep_alloys
+			volatile_motes = @eoa_weapon_l_m6_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_HEAVY_CONCUSSION_MISSILE_2"
+	projectile_gfx = "HEAVY_CONCUSSION_MISSILE"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_HEAVY_CONCUSSION_MISSILE_3"
+}
+
+###################################################
+#  - Tier 6
+#   - 重震盪ミサイル IV
+###################################################
+weapon_component_template = {
+	key = "EOA_HEAVY_CONCUSSION_MISSILE_3"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_heavy_concussion_missile_03"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_heavy_concussion_missile_3" }
+
+	damage = { min = 280.0 max = 400.0 }
+	windup = { min = 1.0 max = 15.0 }
+	total_fire_time = 75
+
+	range = 95.0
+	accuracy = 1.00
+
+	shield_damage = 0.50
+	armor_damage = 1.5
+	armor_penetration = 0.25
+	hull_damage = 1.0
+
+	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
+	missile_evasion = 0.25
+	missile_health = 14
+	missile_armor = 5
+	missile_retarget_range = 50
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t7_cost
+			volatile_motes = @weapon_m_t7_cost_special
+		}
+		upkeep = {
+			energy = @weapon_m_t7_upkeep_energy
+			alloys = @weapon_m_t7_upkeep_alloys
+			volatile_motes = @eoa_weapon_l_m7_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_HEAVY_CONCUSSION_MISSILE_3"
+	projectile_gfx = "HEAVY_CONCUSSION_MISSILE"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+}

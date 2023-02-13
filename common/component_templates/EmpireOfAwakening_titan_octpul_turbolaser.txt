@@ -1,0 +1,274 @@
+# ############################################
+#  Octuple Turbo Laser - Titan
+# ############################################
+#  - Tier 3
+#   - 重ターボレーザー I(XL)
+#  - Tier 4
+#   - 重ターボレーザー II(XL)
+#  - Tier 5
+#   - 重ターボレーザー III(XL)
+#  - Tier 6
+#   - 重ターボレーザー IV(XL)
+#############################################
+#  - Tier 3
+#   - ターボレーザー III(SML)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_TITAN_OCTUPLE_TURBO_LASER_1"
+	size = titanic
+	type = instant
+	entity = "FR_Octuple_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_01"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_octpule_turbo_lasers_1" }
+
+	damage = { min = 120.0 max = 370.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 35
+
+	range = 175.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	hull_damage = 1.25
+	shield_damage = 2.00
+	armor_damage = 2.00
+	shield_penetration = 0.50
+	armor_penetration = 0.25
+	
+	power = -95.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_xl_t5_cost
+			eoa_tibanna_gas = @eoa_weapon_xl_t5_cost_special
+		}		
+		upkeep = {
+			energy = @eoa_xl_t5_upkeep_energy
+			alloys = @eoa_xl_t5_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_xl_t5_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TITAN_OCTUPLE_TURBO_LASER_1"
+	projectile_gfx = "OCTUPLE_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_TITAN_OCTUPLE_TURBO_LASER_2"
+}
+#############################################
+#  - Tier 4
+#   - ターボレーザー V(SML)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_TITAN_OCTUPLE_TURBO_LASER_2"
+	size = titanic
+	type = instant
+	entity = "FR_Octuple_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_02"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_octpule_turbo_lasers_2" }
+
+	damage = { min = 180.0 max = 440.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 35
+
+	range = 175.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	hull_damage = 1.25
+	shield_damage = 2.00
+	armor_damage = 2.00
+	shield_penetration = 0.50
+	armor_penetration = 0.25
+	
+	power = -110.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_xl_t6_cost
+			eoa_tibanna_gas = @eoa_weapon_xl_t6_cost_special
+		}		
+		upkeep = {
+			energy = @eoa_xl_t6_upkeep_energy
+			alloys = @eoa_xl_t6_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_xl_t6_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TITAN_OCTUPLE_TURBO_LASER_2"
+	projectile_gfx = "OCTUPLE_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_TITAN_OCTUPLE_TURBO_LASER_3"
+}
+#############################################
+#  - Tier 5
+#   - ターボレーザー VI(SML)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_TITAN_OCTUPLE_TURBO_LASER_3"
+	size = titanic
+	type = instant
+	entity = "FR_Octuple_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_03"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_octpule_turbo_lasers_3" }
+
+	damage = { min = 240.0 max = 490.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 35
+
+	range = 175.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	hull_damage = 1.25
+	shield_damage = 2.00
+	armor_damage = 2.00
+	shield_penetration = 0.50
+	armor_penetration = 0.25
+	
+	power = -150.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t7_cost
+			eoa_tibanna_gas = @eoa_weapon_xl_t7_cost_special
+		}		
+		upkeep = {
+			energy = @xl_t7_upkeep_energy
+			alloys = @xl_t7_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_xl_t7_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TITAN_OCTUPLE_TURBO_LASER_3"
+	projectile_gfx = "OCTUPLE_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_TITAN_OCTUPLE_TURBO_LASER_4"
+}
+#############################################
+#  - Tier 6
+#   - ターボレーザー VII(SML)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_TITAN_OCTUPLE_TURBO_LASER_4"
+	size = titanic
+	type = instant
+	entity = "FR_Octuple_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_04"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_octpule_turbo_lasers_4" }
+
+	damage = { min = 300.0 max = 560.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = 35
+
+	range = 175.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	hull_damage = 1.25
+	shield_damage = 2.00
+	armor_damage = 2.00
+	shield_penetration = 0.50
+	armor_penetration = 0.25
+	
+	power = -200.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_xl_t8_cost_special
+		}		
+		upkeep = {
+			energy = @xl_t8_upkeep_energy
+			alloys = @xl_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_xl_t8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TITAN_OCTUPLE_TURBO_LASER_4"
+	projectile_gfx = "OCTUPLE_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+}

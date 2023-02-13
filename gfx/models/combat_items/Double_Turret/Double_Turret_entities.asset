@@ -1,0 +1,9 @@
+
+entity = {
+	name = "double_turret_entity"
+	pdxmesh = "Double_Turret_mesh"
+	
+	
+	scale = 1.0
+}
+

@@ -1,0 +1,8 @@
+#Eclipse Laser
+spriteTypes = {
+spriteType = {
+		name = "GFX_ship_part_axial_superlaser"
+		texturefile = "gfx/interface/icons/ship_parts/axial_superlaser.dds"
+	}
+}
+

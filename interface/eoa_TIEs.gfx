@@ -1,0 +1,58 @@
+spriteTypes = {
+	# TIE Fighter
+	spriteType = {
+		name = "GFX_ship_part_EOA_tie_fighter"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_fighter.dds"
+	}
+	# TIE Bomber
+	spriteType = {
+		name = "GFX_ship_part_EOA_tie_bomber"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_bomber.dds"
+	}
+	# TIE Interceptor
+	spriteType = {
+		name = "GFX_ship_part_EOA_tie_interceptor"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_interceptor.dds"
+	}
+	# TIE Hunter
+	spriteType = {
+		name = "GFX_ship_part_EOA_tie_hunter"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_hunter.dds"
+	}
+	# TIE Torpedo
+	spriteType = {
+		name = "GFX_ship_part_EOA_tie_torpedo"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_Ship_part_tie_torpedo.dds"
+	}
+	# TIE Fighter Adv
+	spriteType = {
+		name = "GFX_ship_part_EOA_tie_fighter_adv"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_fighter_adv.dds"
+	}
+	# TIE Interceptor Adv
+	spriteType = {
+		name = "GFX_ship_part_EOA_tie_interceptor_adv"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_interceptor_adv.dds"
+	}
+	# TIE Defender
+	spriteType = {
+		name = "GFX_ship_part_EOA_tie_defender"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_defender.dds"
+	}
+	# TIE Defender - bomber
+	spriteType = {
+		name = "GFX_ship_part_EOA_tie_defender_bomber"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_defender_bomber.dds"
+	}
+	# TIE Predetor
+	spriteType = {
+		name = "GFX_ship_part_EOA_tie_predetor"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_predetor.dds"
+	}
+	# TIE Neutralizer
+	spriteType = {
+		name = "GFX_ship_part_EOA_tie_neutralizer"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_predetor.dds"
+	}
+}
+

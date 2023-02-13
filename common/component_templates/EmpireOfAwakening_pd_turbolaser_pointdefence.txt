@@ -1,0 +1,337 @@
+# ############################################
+#  Turbo Laser
+###################################################
+#    !! ターボレーザー !!
+#
+#  - Tier 2
+#   - ターボレーザーPD I(PD)
+#
+#  - Tier 3
+#   - ターボレーザーPD II(PD)
+#
+#  - Tier 4
+#   - ターボレーザーPD III(PD)
+#
+#  - Tier 5
+#   - ターボレーザーPD IV(PD)
+#
+#  - Tier 6
+#   - ターボレーザーPD V(PD)
+#
+###################################################
+#  - Tier 2
+#   - ターボレーザー I(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_ANTI_AIR_TURBO_LASER_1"
+	size = point_defence
+	type = point_defence
+	entity = "FR_Double_Turret_Model1_entity"
+	
+	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_01"
+	icon_frame = 1
+	
+	prerequisites = { "tech_eoa_turbo_lasers_pd_0" }
+
+	damage = { min = 2.0 max = 4.0 }
+	windup = { min = 0.0 max = 0.0 }
+	total_fire_time = 5
+	
+	range = 30.0
+	accuracy = 0.80
+	tracking = 0.65
+	
+	shield_damage = 1.10
+	armor_damage = 1.1
+	
+	power = -7
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t2_cost
+		}		
+		upkeep = {
+			energy = @eoa_s_t1_upkeep_energy
+			alloys = @eoa_s_t1_upkeep_alloys
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "EOA_ANTI_AIR_TURBO_LASER_1_SET"
+	projectile_gfx = "TURBOLASER_LC_PD"
+	tags = { weapon_type_point_defense weapon_type_turbolaser }
+	ai_tags = { weapon_role_point_defense }
+	upgrades_to = "EOA_ANTI_AIR_TURBO_LASER_2"	
+}
+
+#############################################
+#  - Tier 3
+#   - ターボレーザー III(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_ANTI_AIR_TURBO_LASER_2"
+	size = point_defence
+	type = point_defence
+	entity = "FR_Double_Turret_Model1_entity"
+	
+	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_02"
+	icon_frame = 1
+	
+	prerequisites = { "tech_eoa_turbo_lasers_pd_1" }
+
+	damage = { min = 2.2 max = 5.5 }
+	windup = { min = 0.0 max = 0.0 }
+	total_fire_time = 5
+	
+	range = 30.0
+	accuracy = 0.80
+	tracking = 0.675
+	
+	shield_damage = 1.10
+	armor_damage = 1.1
+	
+	power = -10
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t4_cost
+			# eoa_tibanna_gas = 0.1
+
+		}		
+		upkeep = {
+			energy = @eoa_s_t2_upkeep_energy
+			alloys = @eoa_s_t2_upkeep_alloys
+			# eoa_tibanna_gas = @eoa_weapon_s_t4_cost_special
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "EOA_ANTI_AIR_TURBO_LASER_2_SET"
+	projectile_gfx = "TURBOLASER_LC_PD"
+	tags = { weapon_type_point_defense weapon_type_turbolaser }
+	ai_tags = { weapon_role_point_defense }
+	upgrades_to = "EOA_ANTI_AIR_TURBO_LASER_3"	
+}
+
+#############################################
+#  - Tier 4
+#   - ターボレーザー V(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_ANTI_AIR_TURBO_LASER_3"
+	size = point_defence
+	type = point_defence
+	entity = "FR_Double_Turret_Model1_entity"
+	
+	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_03"
+	icon_frame = 1
+	
+	prerequisites = { "tech_eoa_turbo_lasers_pd_2" }
+
+	damage = { min = 2.2 max = 7.5 }
+	windup = { min = 0.0 max = 0.0 }
+	total_fire_time = 5
+	
+	range = 30.0
+	accuracy = 0.80
+	tracking = 0.675
+	
+	shield_damage = 1.10
+	armor_damage = 1.1
+	
+	power = -14
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_s_t6_cost
+			eoa_tibanna_gas = @eoa_weapon_s_t6_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_s_t6_upkeep_energy
+			alloys = @eoa_weapon_s_t6_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s6_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "EOA_ANTI_AIR_TURBO_LASER_3_SET"
+	projectile_gfx = "TURBOLASER_LC_PD"
+	tags = { weapon_type_point_defense weapon_type_turbolaser }
+	ai_tags = { weapon_role_point_defense }
+	upgrades_to = "EOA_ANTI_AIR_TURBO_LASER_4"	
+}
+
+#############################################
+#  - Tier 5
+#   - ターボレーザー VI(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_ANTI_AIR_TURBO_LASER_4"
+	size = point_defence
+	type = point_defence
+	entity = "FR_Double_Turret_Model1_entity"
+	
+	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_04"
+	icon_frame = 1
+	
+	prerequisites = { "tech_eoa_turbo_lasers_pd_3" }
+
+	damage = { min = 3.5 max = 10.5 }
+	windup = { min = 0.0 max = 0.0 }
+	total_fire_time = 5
+	
+	range = 30.0
+	accuracy = 0.80
+	tracking = 0.675
+	
+	shield_damage = 1.10
+	armor_damage = 1.1
+	
+	power = -26
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_s_t7_cost
+			eoa_tibanna_gas = @eoa_weapon_s_t7_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_s_t7_upkeep_energy
+			alloys = @eoa_weapon_s_t7_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s7_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "EOA_ANTI_AIR_TURBO_LASER_4_SET"
+	projectile_gfx = "TURBOLASER_LC_PD"
+	tags = { weapon_type_point_defense weapon_type_turbolaser }
+	ai_tags = { weapon_role_point_defense }
+	upgrades_to = "EOA_ANTI_AIR_TURBO_LASER_5"	
+}
+
+#############################################
+#  - Tier 6
+#   - ターボレーザー VII(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_ANTI_AIR_TURBO_LASER_5"
+	size = point_defence
+	type = point_defence
+	entity = "FR_Double_Turret_Model1_entity"
+	
+	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_05"
+	icon_frame = 1
+	
+	prerequisites = { "tech_eoa_turbo_lasers_pd_4" }
+
+	damage = { min = 4.0 max = 12.5 }
+	windup = { min = 0.0 max = 0.0 }
+	total_fire_time = 5
+	
+	range = 30.0
+	accuracy = 0.80
+	tracking = 0.75
+	
+	shield_damage = 1.10
+	armor_damage = 1.1
+	
+	power = -25
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_s_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_s_t8_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_s_t8_upkeep_energy
+			alloys = @eoa_weapon_s_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "EOA_ANTI_AIR_TURBO_LASER_5_SET"
+	projectile_gfx = "TURBOLASER_LC_PD"
+	tags = { weapon_type_point_defense weapon_type_turbolaser }
+	ai_tags = { weapon_role_point_defense }
+}

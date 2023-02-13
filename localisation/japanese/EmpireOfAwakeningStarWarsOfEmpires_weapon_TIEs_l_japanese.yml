@@ -1,0 +1,32 @@
+﻿l_japanese:
+  ####################################
+  # EmpireOfAwakening Weapon - TIE
+  ####################################
+EOA_TIE_FIGHTER_1: "TIE Fighter"
+EOA_TIE_FIGHTER_2: "TIE Interceptor"
+EOA_TIE_FIGHTER_3: "TIE Hunter"
+EOA_TIE_FIGHTER_4: "TIE Defender"
+EOA_TIE_FIGHTER_5: "TIE Predetor"
+EOA_TIE_FIGHTER_6: "NO - TIE"
+EOA_TIE_FIGHTER_7: "NO - TIE"
+EOA_TIE_FIGHTER_1_DESC: "特徴的なH型の船体を持つ単座戦闘機。その軽快な高機動に似合わず、操作性は素直でありドッグファイトでは無類の強さを誇る。"
+EOA_TIE_FIGHTER_2_DESC: "$EOA_TIE_FIGHTER_1$の欠点であった、左右の大きな太陽光パネルにより視認性の悪さを改善するために、両翼の先端を分けその先にレーザー砲を装備する形式を取った。速度で$EOA_TIE_FIGHTER_1$に勝り、戦場での迅速な展開が可能である。"
+EOA_TIE_FIGHTER_3_DESC: "可変翼を搭載し戦闘時に展開することで、既存の戦闘機より優れた高機動を実現した。またTIEシリーズでは初めてシールドを装備することで、耐久性に優れ非常に強力な戦闘機である。"
+EOA_TIE_FIGHTER_4_DESC: "特徴的な3枚のソーラー・コレクター翼を搭載し、強力な偏向シールド発生装置を搭載しており、撃墜される事は困難と言っていい強力な戦闘機である。搭載しているレーザー砲も強力であり、敵戦闘機をシールドの上から破壊することができる。"
+EOA_TIE_FIGHTER_5_DESC: "大きな二枚のソーラー・コレクター翼を搭載し、小型で強力なシールド発生機を搭載している。他の戦闘機よりも強力な本機は艦隊の制宙権獲得に大いに貢献するであろう。"
+EOA_TIE_FIGHTER_6_DESC: "NO - TIE"
+EOA_TIE_FIGHTER_7_DESC: "NO - TIE"
+
+EOA_TIE_FIGHTER_ADV_1: "TIE Fighter Adv"
+EOA_TIE_FIGHTER_ADV_2: "TIE Interceptor Adv"
+EOA_TIE_FIGHTER_ADV_1_DESC: "TIE-FighterをTIE-Hunterで用いられた技術を元に改良した。シールド発生装置を搭載しレーザー砲も強化されており、ドッグファイトでは大いに活躍する。"
+EOA_TIE_FIGHTER_ADV_2_DESC: "TIE-InterceptorをTIE-Hunterで用いられた技術を元に改良した。シールド発生装置を搭載しレーザー砲も強化されており、ドッグファイトでは大いに活躍する。"
+
+EOA_TIE_BOMBER_1: "TIE Bomber"
+EOA_TIE_BOMBER_2: "TIE Torpedo"
+EOA_TIE_BOMBER_3: "TIE Defender"
+EOA_TIE_BOMBER_4: "TIE Neutralizer"
+EOA_TIE_BOMBER_1_DESC: "二つの船体を持つ本気は、様々な爆弾を搭載した艦載爆撃機である。その火力をもって、敵艦の急所へ一撃を加えることで敵艦を撃沈破する。"
+EOA_TIE_BOMBER_2_DESC: "高速に敵艦へ接敵し、プロトン魚雷を至近距離から浴びせることで回避不能な一撃を加えることができる。"
+EOA_TIE_BOMBER_3_DESC: "特徴的な3枚のソーラー・コレクター翼を搭載し、強力な偏向シールド発生装置を搭載しており、撃墜される事は困難と言っていい強力な戦闘機である。搭載している強力なレーザー砲とミサイルにより、敵艦への攻撃を行う。"
+EOA_TIE_BOMBER_4_DESC: "大きな二枚のソーラー・コレクター翼を搭載し、小型で強力なシールド発生機を搭載している。搭載された兵装により、敵艦の撃沈破が可能である。"

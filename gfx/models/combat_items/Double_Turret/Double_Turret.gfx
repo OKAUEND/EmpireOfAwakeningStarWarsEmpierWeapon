@@ -1,0 +1,17 @@
+#small
+objectTypes = {
+	pdxmesh = {
+		name = "Double_Turret_mesh"
+		file = "gfx/models/combat_items/Double_Turret/Double_Turret.mesh"
+		scale = 0.13
+
+		meshsettings = {
+			name = "Turret_smallShape"
+			index = 0
+			texture_diffuse = "Double_Turret_diffuse.dds"
+			texture_normal = "Double_Turret_normal.dds"
+			texture_specular = "Double_Turret_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

@@ -1,0 +1,725 @@
+###################################################################################
+###																				###
+###							Star Wars 	Fallen Republic			    			###
+###																				###
+###################################################################################
+
+
+########## WEAPONS FIRE ############
+
+##### Distant Disruptor
+
+sound =
+{
+	name = "fallenrepublic_distance_disruptor_01"
+	file = "fallenrepublic/swp_weapon_fire_distance_disruptor1.wav"
+}
+sound =
+{
+	name = "fallenrepublic_distance_disruptor_02"
+	file = "fallenrepublic/swp_weapon_fire_distance_disruptor2.wav"
+}
+sound =
+{
+	name = "fallenrepublic_distance_disruptor_03"
+	file = "fallenrepublic/swp_weapon_fire_distance_disruptor3.wav"
+}
+
+##### Distant Melting Beam
+
+sound =
+{
+	name = "fallenrepublic_distance_melting_beam_01"
+	file = "guardians/distance_dragon_breath_fire_01.wav"
+}
+
+###### Close Green
+
+#####
+#PD
+
+sound =
+{
+	name = "fallenrepublic_pd_green_01"
+	file = "fallenrepublic/swp_weapon_fire_green_pd1.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_pd_green_02"
+	file = "fallenrepublic/swp_weapon_fire_green_pd2.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_pd_green_03"
+	file = "fallenrepublic/swp_weapon_fire_green_pd3.wav"
+	volume = 0.6
+}
+
+#####
+#Rapid Fire
+
+sound =
+{
+	name = "fallenrepublic_rf_green_01"
+	file = "fallenrepublic/swp_weapon_fire_green_RF1.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_rf_green_02"
+	file = "fallenrepublic/swp_weapon_fire_green_RF1.wav"
+	volume = 0.6
+}
+
+#######
+#Single TL
+
+sound =
+{
+	name = "fallenrepublic_single_tl_green_01"
+	file = "fallenrepublic/swp_weapon_fire_green_single_tl1.wav"
+	volume = 0.45
+}
+sound =
+{
+	name = "fallenrepublic_single_tl_green_02"
+	file = "fallenrepublic/swp_weapon_fire_green_single_tl2.wav"
+	volume = 0.45
+}
+sound =
+{
+	name = "fallenrepublic_single_tl_green_03"
+	file = "fallenrepublic/swp_weapon_fire_green_single_tl3.wav"
+	volume = 0.45
+}
+
+#########
+#Dual TL
+
+sound =
+{
+	name = "fallenrepublic_dual_tl_green_01"
+	file = "fallenrepublic/swp_weapon_fire_green_dual_tl1.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_dual_tl_green_02"
+	file = "fallenrepublic/swp_weapon_fire_green_dual_tl2.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_dual_tl_green_03"
+	file = "fallenrepublic/swp_weapon_fire_green_dual_tl3.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_dual_tl_green_04"
+	file = "fallenrepublic/swp_weapon_fire_green_dual_tl4.wav"
+	volume = 0.6
+}
+
+##########
+#Quad TL
+
+sound =
+{
+	name = "fallenrepublic_quad_tl_green_01"
+	file = "fallenrepublic/swp_weapon_fire_green_quad_tl1.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_quad_tl_green_02"
+	file = "fallenrepublic/swp_weapon_fire_green_quad_tl2.wav"
+	volume = 0.6
+}
+
+##########
+#Heavy Quad
+
+sound =
+{
+	name = "fallenrepublic_heavyquad_tl_green_01"
+	file = "fallenrepublic/swp_weapon_fire_green_heavyquad_tl1.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_heavyquad_tl_green_02"
+	file = "fallenrepublic/swp_weapon_fire_green_heavyquad_tl2.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_heavyquad_tl_green_03"
+	file = "fallenrepublic/swp_weapon_fire_green_heavyquad_tl3.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_heavyquad_tl_green_04"
+	file = "fallenrepublic/swp_weapon_fire_green_heavyquad_tl4.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_heavyquad_tl_green_05"
+	file = "fallenrepublic/swp_weapon_fire_green_heavyquad_tl5.wav"
+	volume = 0.6
+}
+
+##########
+#Octuple
+
+sound =
+{
+	name = "fallenrepublic_octuple_tl_green_01"
+	file = "fallenrepublic/swp_weapon_fire_green_octo_tl1.wav"
+	volume = 0.65
+}
+
+
+###### Close Ion Cannon
+
+#########
+#Single
+
+sound =
+{
+	name = "fallenrepublic_single_ic_01"
+	file = "fallenrepublic/swp_weapon_fire_single_ic1.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_single_ic_02"
+	file = "fallenrepublic/swp_weapon_fire_single_ic2.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_single_ic_03"
+	file = "fallenrepublic/swp_weapon_fire_single_ic3.wav"
+	volume = 0.6
+}
+
+########
+#Dual
+
+sound =
+{
+	name = "fallenrepublic_dual_ic_01"
+	file = "fallenrepublic/swp_weapon_fire_dual_ic1.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_dual_ic_02"
+	file = "fallenrepublic/swp_weapon_fire_dual_ic2.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_dual_ic_03"
+	file = "fallenrepublic/swp_weapon_fire_dual_ic3.wav"
+	volume = 0.6
+}
+
+###### Close Disruptor
+
+sound =
+{
+	name = "fallenrepublic_disruptor_01"
+	file = "fallenrepublic/swp_weapon_fire_disruptor1.wav"
+	volume = 0.65
+}
+sound =
+{
+	name = "fallenrepublic_disruptor_02"
+	file = "fallenrepublic/swp_weapon_fire_disruptor2.wav"
+	volume = 0.65
+}
+sound =
+{
+	name = "fallenrepublic_disruptor_03"
+	file = "fallenrepublic/swp_weapon_fire_disruptor3.wav"
+	volume = 0.65
+}
+
+###### Close Concussion Missile
+
+sound =
+{
+	name = "fallenrepublic_concussion_01"
+	file = "fallenrepublic/swp_weapon_fire_concussion1.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_concussion_02"
+	file = "fallenrepublic/swp_weapon_fire_concussion2.wav"
+	volume = 0.6
+}
+
+###### Close Proton torpedo
+
+sound =
+{
+	name = "fallenrepublic_proton_torpedo_01"
+	file = "fallenrepublic/swp_weapon_fire_proton_torpedo1.wav"
+	volume = 1.0
+}
+sound =
+{
+	name = "fallenrepublic_proton_torpedo_02"
+	file = "fallenrepublic/swp_weapon_fire_proton_torpedo2.wav"
+	volume = 1.0
+}
+sound =
+{
+	name = "fallenrepublic_proton_torpedo_03"
+	file = "fallenrepublic/swp_weapon_fire_proton_torpedo3.wav"
+	volume = 1.0
+}
+
+###### Close Fighter LC Fire
+
+#Green
+sound =
+{
+	name = "fallenrepublic_figher_green_lc_01"
+	file = "fallenrepublic/swp_weapon_fire_green_lc1.wav"
+	volume = 0.8
+}
+sound =
+{
+	name = "fallenrepublic_figher_green_lc_02"
+	file = "fallenrepublic/swp_weapon_fire_green_lc2.wav"
+	volume = 0.8
+}
+
+###### Close Massdriver Fire
+sound =
+{
+	name = "fallenrepublic_massdriver_dual_01"
+	file = "fallenrepublic/swp_weapon_fire_dual_massdriver1.wav"
+	volume = 0.75
+}
+
+##### Close Mando Ion Blast
+sound =
+{
+	name = "fallenrepublic_ion_blast_01"
+	file = "apocalypse/ion_cannon_fire_01.wav"
+	volume = 0.8
+}
+
+####### WEAPON IMPACT ########
+
+### Distance ###
+
+#######
+#Concussion Missile
+
+sound =
+{
+	name = "fallenrepublic_impact_distance_concusssion_01"
+	file = "fallenrepublic/swp_weapon_impact_distance_concussion1.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_distance_concusssion_02"
+	file = "fallenrepublic/swp_weapon_impact_distance_concussion2.wav"
+	volume = 0.5
+}
+
+
+### Close ####
+
+###########
+#Rapid Fire
+
+sound =
+{
+	name = "fallenrepublic_impact_rapidfire_01"
+	file = "fallenrepublic/swp_weapon_impact_rapidfire1.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_rapidfire_02"
+	file = "fallenrepublic/swp_weapon_impact_rapidfire2.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_rapidfire_03"
+	file = "fallenrepublic/swp_weapon_impact_rapidfire3.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_rapidfire_04"
+	file = "fallenrepublic/swp_weapon_impact_rapidfire4.wav"
+	volume = 0.5
+}
+
+#######
+#Single TL
+
+sound =
+{
+	name = "fallenrepublic_impact_single_tl_01"
+	file = "fallenrepublic/swp_weapon_impact_single_tl1.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_single_tl_02"
+	file = "fallenrepublic/swp_weapon_impact_single_tl2.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_single_tl_03"
+	file = "fallenrepublic/swp_weapon_impact_single_tl3.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_single_tl_04"
+	file = "fallenrepublic/swp_weapon_impact_single_tl4.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_single_tl_05"
+	file = "fallenrepublic/swp_weapon_impact_single_tl5.wav"
+	volume = 0.5
+}
+
+########
+#Dual TL
+
+sound =
+{
+	name = "fallenrepublic_impact_dual_tl_01"
+	file = "fallenrepublic/swp_weapon_impact_dual_tl1.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_dual_tl_02"
+	file = "fallenrepublic/swp_weapon_impact_dual_tl2.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_dual_tl_03"
+	file = "fallenrepublic/swp_weapon_impact_dual_tl3.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_dual_tl_04"
+	file = "fallenrepublic/swp_weapon_impact_dual_tl4.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_dual_tl_05"
+	file = "fallenrepublic/swp_weapon_impact_dual_tl5.wav"
+	volume = 0.5
+}
+
+#######
+#Heavy Quad TL
+
+sound =
+{
+	name = "fallenrepublic_impact_heavyquad_tl_01"
+	file = "fallenrepublic/swp_weapon_impact_heavyquad_tl1.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_heavyquad_tl_02"
+	file = "fallenrepublic/swp_weapon_impact_heavyquad_tl2.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_heavyquad_tl_03"
+	file = "fallenrepublic/swp_weapon_impact_heavyquad_tl3.wav"
+	volume = 0.5
+}
+
+#######
+#Single Ion Cannon
+
+sound =
+{
+	name = "fallenrepublic_impact_single_ic_01"
+	file = "fallenrepublic/swp_weapon_impact_single_ic1.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_single_ic_02"
+	file = "fallenrepublic/swp_weapon_impact_single_ic2.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_single_ic_03"
+	file = "fallenrepublic/swp_weapon_impact_single_ic3.wav"
+	volume = 0.5
+}
+
+#######
+#Dual Ion Cannon
+
+sound =
+{
+	name = "fallenrepublic_impact_dual_ic_01"
+	file = "fallenrepublic/swp_weapon_impact_dual_ic1.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "fallenrepublic_impact_dual_ic_02"
+	file = "fallenrepublic/swp_weapon_impact_dual_ic2.wav"
+	volume = 0.5
+}
+
+#######
+#Concussion Missile
+
+sound =
+{
+	name = "fallenrepublic_impact_concusssion_01"
+	file = "fallenrepublic/swp_weapon_impact_concussion1.wav"
+	volume = 0.75
+}
+sound =
+{
+	name = "fallenrepublic_impact_concusssion_02"
+	file = "fallenrepublic/swp_weapon_impact_concussion2.wav"
+	volume = 0.75
+}
+
+#######
+#Heavy Concussion Missile
+
+sound =
+{
+	name = "fallenrepublic_impact_heavy_concusssion_01"
+	file = "fallenrepublic/swp_weapon_impact_heavy_concussion1.wav"
+	volume = 0.75
+}
+sound =
+{
+	name = "fallenrepublic_impact_heavy_concusssion_02"
+	file = "fallenrepublic/swp_weapon_impact_heavy_concussion2.wav"
+	volume = 0.75
+}
+
+#######
+#Proton Torpedo
+
+sound =
+{
+	name = "fallenrepublic_impact_proton_torpedo_01"
+	file = "fallenrepublic/swp_weapon_impact_proton_torpedo1.wav"
+	volume = 0.75
+}
+sound =
+{
+	name = "fallenrepublic_impact_proton_torpedo_02"
+	file = "fallenrepublic/swp_weapon_impact_proton_torpedo2.wav"
+	volume = 0.85
+}
+
+#######
+#Massdriver
+
+sound =
+{
+	name = "fallenrepublic_impact_mass_driver_01"
+	file = "fallenrepublic/swp_weapon_impact_massdriver1.wav"
+	volume = 0.70
+}
+sound =
+{
+	name = "fallenrepublic_impact_mass_driver_02"
+	file = "fallenrepublic/swp_weapon_impact_massdriver2.wav"
+	volume = 0.70
+}
+
+
+#######
+#Grutchin
+
+sound =
+{
+	name = "fallenrepublic_impact_grutchin_01"
+	file = "other_entities/swarm_generic_idle_01.wav"
+	volume = 1.0
+}
+sound =
+{
+	name = "fallenrepublic_impact_grutchin_02"
+	file = "other_entities/swarm_generic_idle_02.wav"
+	volume = 1.0
+}
+sound =
+{
+	name = "fallenrepublic_impact_grutchin_03"
+	file = "other_entities/swarm_generic_idle_03.wav"
+	volume = 1.0
+}
+sound =
+{
+	name = "fallenrepublic_impact_grutchin_04"
+	file = "other_entities/swarm_generic_idle_04.wav"
+	volume = 1.0
+}
+sound =
+{
+	name = "fallenrepublic_impact_grutchin_05"
+	file = "other_entities/swarm_generic_idle_05.wav"
+	volume = 1.0
+}
+sound =
+{
+	name = "fallenrepublic_impact_grutchin_06"
+	file = "other_entities/swarm_generic_idle_06.wav"
+	volume = 1.0
+}
+sound =
+{
+	name = "fallenrepublic_impact_grutchin_07"
+	file = "other_entities/swarm_generic_idle_07.wav"
+	volume = 1.0
+}
+
+#######
+#Spore Launcher
+
+sound =
+{
+	name = "fallenrepublic_impact_spore_launcher_01"
+	file = "other_entities/swarm_civilian_death_01.wav"
+	volume = 1.0
+}
+
+#######
+#Ion Blast
+
+sound =
+{
+	name = "fallenrepublic_impact_ion_blast_01"
+	file = "apocalypse/ion_cannon_hit_01.wav"
+	volume = 0.8
+}
+
+######## Shield Impact ########
+
+sound =
+{
+	name = "fallenrepublic_shield_hit_01"
+	file = "fallenrepublic/swp_shield_hit_01.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_shield_hit_02"
+	file = "fallenrepublic/swp_shield_hit_02.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_shield_hit_03"
+	file = "fallenrepublic/swp_shield_hit_03.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_shield_hit_04"
+	file = "fallenrepublic/swp_shield_hit_04.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_shield_hit_05"
+	file = "fallenrepublic/swp_shield_hit_05.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_shield_hit_06"
+	file = "fallenrepublic/swp_shield_hit_06.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_shield_hit_07"
+	file = "fallenrepublic/swp_shield_hit_07.wav"
+	volume = 0.6
+}
+sound =
+{
+	name = "fallenrepublic_shield_hit_08"
+	file = "fallenrepublic/swp_shield_hit_08.wav"
+	volume = 0.6
+}
+
+########## Loop ###########
+
+########
+#Missile
+sound =
+{
+	name = "fallenrepublic_missile_idle_01"
+	file = "fallenrepublic/swp_missile_exhaust_loop_01.wav"
+	volume = 0.6
+}
+
+########
+#Grutchin idle
+sound =
+{
+	name = "fallenrepublic_grutchin_idle_01"
+	file = "other_entities/swarm_queen_idle_01_01.wav"
+	volume = 1.0
+}
+sound =
+{
+	name = "fallenrepublic_grutchin_idle_02"
+	file = "other_entities/swarm_queen_idle_02_01.wav"
+	volume = 1.0
+}
+
+########
+#Ion Blast Windup
+sound =
+{
+	name = "fallenrepublic_ion_blast_windup_01"
+	file = "ancient_relics/sfx_world_machine_amb_loop.wav"
+	volume = 0.6
+}
+
+########
+#Plasma Cannon Windup
+sound =
+{
+	name = "fallenrepublic_plasma_cannon_windup_01"
+	file = "apocalypse/molluscoid_colossus_wind_up_01.wav"
+	volume = 0.6
+}

@@ -1,0 +1,82 @@
+
+################## Weapon #############################
+category = {
+ name = "Weapon"
+ soundeffects = {
+		####### WEAPONS
+	
+	####### CLOSE
+	Rapidfire_impact
+	Single_TL_impact
+	Dual_TL_impact
+	Quad_TL_impact
+	Heavyquad_TL_impact
+	Shield_impact
+	PD_green
+	RF_green
+	Single_TL_green
+	Dual_TL_green
+	Quad_TL_green
+	Heavyquad_TL_green
+	Octuple_TL_green
+	Single_IC
+	Single_IC_impact
+	Dual_IC
+	Dual_IC_impact
+	Disruptor
+	Concussion_Missile
+	Heavy_Conc_Missile_impact
+	Conc_Missile_impact
+	Conc_Missile_idle
+	Proton_Torpedo
+	Proton_Torpedo_impact
+	Fighter_Green_LC
+	Ion_Blast
+	Ion_Blast_impact
+	Ion_Blast_Windup
+	Plasma_Cannon
+	Plasma_Cannon_impact
+	Plasma_Cannon_Windup
+
+	
+	
+	####### FAR
+	distance_Rapidfire_impact
+	distance_Single_TL_impact
+	distance_Dual_TL_impact
+	distance_Quad_TL_impact
+	distance_Heavyquad_TL_impact
+	distance_Shield_impact
+	distance_PD_green
+	distance_RF_green
+	distance_Single_TL_green
+	distance_Dual_TL_green
+	distance_Quad_TL_green
+	distance_Heavyquad_TL_green
+	distance_Octuple_TL_green
+	distance_Single_IC
+	distance_Single_IC_impact
+	distance_Dual_IC
+	distance_Dual_IC_impact
+	distance_Disruptor
+	distance_Concussion_Missile
+	distance_Conc_Missile_impact
+	distance_Heavy_Conc_Missile_impact
+	distance_Proton_Torpedo
+	
+	
+	######## BOMBARDMENT
+	
+ }
+  
+ compressor = 
+ {
+ enabled = yes
+ pregain = 8.0
+ postgain = -10.5
+ ratio = 10.0
+ threshold = -20.0
+ attacktime = 0.500
+ releasetime = 0.02
+ }
+}

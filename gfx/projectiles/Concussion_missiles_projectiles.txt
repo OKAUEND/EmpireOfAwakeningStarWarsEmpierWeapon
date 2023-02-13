@@ -1,0 +1,59 @@
+###################################################################################
+###																				###
+###							Star Wars 				    						###
+###																				###
+###################################################################################
+
+# CONCUSSION MISSILES
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "CONCUSSION_MISSILE"
+	color = { 1.0 	1.0 	1.0 	1.0 }
+	hit_entity = "Concussion_hit_entity"
+	shield_hit_entity = "Concussion_shield_hit_entity"
+	muzzle_flash_entity = "Concussion_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "CONCUSSION_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+}
+
+# HEAVY CONCUSSION MISSILES
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "HEAVY_CONCUSSION_MISSILE"
+	color = { 1.0 	1.0 	1.0 	1.0 }
+	hit_entity = "Heavy_Concussion_hit_entity"
+	shield_hit_entity = "Heavy_Concussion_shield_hit_entity"
+	muzzle_flash_entity = "Heavy_Concussion_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "Heavy_CONCUSSION_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+}
+
+# PROTON TORPEDO
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "PROTON_TORPEDO"
+	color = { 1.0 	1.0 	1.0 	1.0 }
+	hit_entity = "Proton_Torpedo_starwars_hit_entity"
+	shield_hit_entity = "Proton_Torpedo_starwars_shield_hit_entity"
+	muzzle_flash_entity = "Proton_Torpedo_starwars_muzzle_flash_entity"
+	
+	#torpedo specific data
+	entity = "Proton_Torpedo_Starwars_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+}

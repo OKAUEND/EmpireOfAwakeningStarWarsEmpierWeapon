@@ -1,0 +1,54 @@
+component_set = {
+	key = "TEST_DUAL_TURBO_LASER"
+	icon = "GFX_ship_part_EOA_turbolaser_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TEST_TRIPLE_TURBO_LASER"
+	icon = "GFX_ship_part_EOA_turbolaser_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TEST_QUAD_TURBO_LASER"
+	icon = "GFX_ship_part_EOA_turbolaser_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TEST_HEAVY_QUAD_TURBO_LASER"
+	icon = "GFX_ship_part_EOA_turbolaser_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TEST_PD_TURBO_LASER"
+	icon = "GFX_ship_part_EOA_turbolaser_05"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TEST_IONCANON_TURBO_LASER"
+	icon = "GFX_ship_part_EOA_turbolaser_06"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TEST_TIEFIGHTER"
+	icon = "GFX_ship_part_EOA_turbolaser_07"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TEST_TIEBOMBER"
+	icon = "GFX_ship_part_EOA_turbolaser_07"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TEST_CON_MISSILE"
+	icon = "GFX_ship_part_EOA_turbolaser_07"
+	icon_frame = 1
+}
+

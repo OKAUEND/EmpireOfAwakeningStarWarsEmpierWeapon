@@ -1,0 +1,157 @@
+objectTypes = {
+
+
+####################
+#	MUZZLE FLASHES
+####################
+
+	pdxparticle = {
+		name = "concussion_fallenrepublic_large_muzzle_flash_particle"
+		type = "concussion_fallenrepublic_fire_muzzle_file"
+		
+		scale = 0.75
+	}
+	
+	pdxparticle = {
+		name = "concussion_fallenrepublic_small_muzzle_flash_particle"
+		type = "concussion_fallenrepublic_fire_muzzle_file"
+		
+		scale = 0.5
+	}
+	
+		pdxparticle = {
+		name = "proton_torpedo_fallenrepublic_muzzle_particle"
+		type = "proton_torpedo_fallenrepublic_file"
+		
+		scale = 0.5
+	}
+	
+#####
+# FLYING EFFECTS
+#####
+	
+	pdxparticle = {
+		name = "concussion_fallenrepublic_trail_particle"
+		type = "concussion_fallenrepublic_trail_file"
+		
+		scale = 0.2
+	}
+	
+	pdxparticle = {
+		name = "concussion_fallenrepublic_glow_particle"
+		type = "concussion_fallenrepublic_glow_exhaust_file"
+		
+		scale = 0.2
+	}
+	
+	pdxparticle = {
+		name = "large_concussion_fallenrepublic_idle_particle"
+		type = "large_concussion_fallenrepublic_idle_file"
+		
+		scale = 0.4
+	}
+	
+	pdxparticle = {
+		name = "small_concussion_fallenrepublic_idle_particle"
+		type = "small_concussion_fallenrepublic_idle_file"
+		
+		scale = 0.3
+	}
+	
+	pdxparticle = {
+		name = "concussion_fallenrepublic_idle_flame_particle"
+		type = "concussion_fallenrepublic_idle_flame_file"
+		
+		scale = 0.3
+	}
+	
+	pdxparticle = {
+		name = "proton_torpedo_fallenrepublic_idle_particle"
+		type = "proton_torpedo_fallenrepublic_idle_file"
+		
+		scale = 0.35
+	}
+	
+	pdxparticle = {
+		name = "proton_torpedo_fallenrepublic_idle_drops_particle"
+		type = "proton_torpedo_fallenrepublic_idle_drops_file"
+		
+		scale = 0.3
+	}
+	
+#########
+# HIT EFFECTS
+#########
+
+	pdxparticle = {
+		name = "missile_fallenrepublic_small_hit_effect"
+		type = "hit_effect"
+		
+		scale = 0.15
+	}
+	
+	pdxparticle = {
+		name = "missile_fallenrepublic_stop_hit_effect"
+		type = "missile_fallenrepublic_stop_hit_file"
+		
+		scale = 0.15
+	}
+	
+	
+	pdxparticle = {
+		name = "missile_fallenrepublic_large_hit_effect"
+		type = "hit_effect"
+		
+		scale = 0.25
+	}
+	
+	pdxparticle = {
+		name = "missile_fallenrepublic_stop_large_hit_effect"
+		type = "missile_fallenrepublic_stop_hit_file"
+		
+		scale = 0.25
+	}
+	
+	pdxparticle = {
+		name = "proton_torpedo_fallenrepublic_hit_effect"
+		type = "protontorpedo_fallenrepublic_hit_effect"
+		
+		scale = 0.25
+	}
+	
+	pdxparticle = {
+		name = "proton_torpedo_fallenrepublic_stop_hit_particle"
+		type = "protontorpedo_fallenrepublic_stop_hit_file"
+		
+		scale = 0.25
+	}
+	
+	
+
+	
+##################
+# SHIELD HITS
+##################
+
+	pdxparticle = {
+		name = "missile_fallenrepublic_small_shield_hit_effect"
+		type = "missile_shield_hit_effect"
+		
+		scale = 0.2
+	}
+	
+	pdxparticle = {
+		name = "missile_fallenrepublic_large_shield_hit_effect"
+		type = "missile_shield_hit_effect"
+		
+		scale = 0.4
+	}
+	
+	pdxparticle = {
+		name = "large_hit_effect_shield"
+		type = "projectile_shield_hit_effect"
+		
+		scale = 0.4
+	}
+	
+}

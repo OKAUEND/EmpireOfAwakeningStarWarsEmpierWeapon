@@ -1,0 +1,147 @@
+spriteTypes = {
+	# イオンカノン - シングルボール
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_single_ball_01"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Single_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_single_ball_02"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Single_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_single_ball_03"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Single_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_single_ball_04"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Single_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_single_ball_05"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Single_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_single_ball_06"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Single_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_single_ball_07"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Single_7.dds"
+	}
+
+	# イオンカノン - クアッドボール
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_quad_ball_01"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Quad_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_quad_ball_02"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Quad_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_quad_ball_03"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Quad_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_quad_ball_04"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Quad_4.dds"
+	}
+
+	# spriteType = {
+	# 	name = "GFX_ship_part_EOA_ion_canon_quad_ball_05"
+	# 	texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Quad_5.dds"
+	# }
+
+	# spriteType = {
+	# 	name = "GFX_ship_part_EOA_ion_canon_quad_ball_06"
+	# 	texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Quad_6.dds"
+	# }
+
+	# spriteType = {
+	# 	name = "GFX_ship_part_EOA_ion_canon_quad_ball_07"
+	# 	texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_Unique_Ball_Quad_7.dds"
+	# }
+
+	# イオンカノン
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_01"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_canon_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_02"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_ion_canon_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_03"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_ion_canon_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_04"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_ion_canon_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_05"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_ion_canon_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_06"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_ion_canon_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_07"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_ion_canon_7.dds"
+	}
+
+	# 重イオンカノン
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_ion_canon_01"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_Ion_Canon_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_ion_canon_02"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_Ion_Canon_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_ion_canon_03"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_Ion_Canon_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_ion_canon_04"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_Ion_Canon_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_ion_canon_05"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_Ion_Canon_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_ion_canon_06"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_Ion_Canon_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_ion_canon_07"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_Ion_Canon_1.dds"
+	}
+
+}
+

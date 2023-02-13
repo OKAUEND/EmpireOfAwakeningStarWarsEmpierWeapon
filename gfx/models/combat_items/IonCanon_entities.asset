@@ -1,0 +1,258 @@
+###################################################################################
+###																				###
+###							Star Wars 				    			###
+###																				###
+###################################################################################
+
+####
+#Ion Cannon
+####
+
+##########
+# Single Ion Cannon
+
+# MUZZLE FLASH
+entity = {
+	name = "Single_IonCanon_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "ioncanon_small_muzzle_particle" keep_particle = yes sound = { soundeffect = Single_IC } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Single_IC_impact" } } 
+	}
+}
+
+# PROJECTILE
+entity = {
+	name = "Single_IonCanon_entity"
+	pdxmesh = "turbolaser_ion_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" 
+		#event = { time = 0 particle = "swp_ion_spark_idle_particle" keep_particle = yes }
+	}
+	state = { name = "stop" looping = no
+		event = { time = 0.0 particle = "ioncanon_small_hit_effect" }
+	}
+	scale = 0.8
+}
+
+# IMPACT EFFECT
+entity = {
+	name = "Single_IonCanon_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "ioncanon_small_hit_effect" sound = { soundeffect = Single_IC_impact } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Single_TL_impact" } } 
+	}
+	#state = { name = "explode_med_hp" state_time = 5 looping = no
+	#	event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	#}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+
+# SHIELD HIT
+entity = {
+	name = "Single_IonCanon_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "ioncanon_small_hit_effect" sound = { soundeffect = Shield_impact } }
+		event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Shield_impact" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+######
+# Dual Ion Cannon
+
+# MUZZLE FLASH
+entity = {
+	name = "Dual_IonCanon_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "ioncanon_medium_muzzle_particle" keep_particle = yes sound = { soundeffect = Dual_IC } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Dual_IC" } }
+	}
+}
+
+# PROJECTILE
+entity = {
+	name = "Dual_IonCanon_entity"
+	pdxmesh = "turbolaser_ion_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" 
+		#event = { time = 0 particle = "swp_ion_spark_idle_particle" keep_particle = yes }
+	}
+	
+	state = { name = "stop" looping = no
+		event = { time = 0.0 particle = "ioncanon_medium_hit_effect" }
+	}
+	scale = 0.8
+}
+
+# IMPACT EFFECT
+entity = {
+	name = "Dual_IonCanon_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "ioncanon_medium_hit_effect" sound = { soundeffect = Dual_IC_impact } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Dual_IC_impact" } }
+	}
+	#state = { name = "explode_med_hp" state_time = 5 looping = no
+	#	event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	#}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+
+# SHIELD HIT
+entity = {
+	name = "Dual_IonCanon_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "ioncanon_medium_hit_effect" sound = { soundeffect = Shield_impact } }
+		event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Shield_impact" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+##########
+# Heavy Single Ion Cannon
+
+# MUZZLE FLASH
+entity = {
+	name = "Heavy_Single_IonCanon_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "ioncanon_large_muzzle_particle" keep_particle = yes sound = { soundeffect = Single_IC } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Single_IC_impact" } } 
+	}
+}
+
+# PROJECTILE
+entity = {
+	name = "Heavy_Single_IonCanon_entity"
+	pdxmesh = "turbolaser_ion_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" 
+		#event = { time = 0 particle = "swp_ion_spark_idle_particle" keep_particle = yes }
+	}
+	
+	state = { name = "stop" looping = no
+		event = { time = 0.0 particle = "ioncanon_large_hit_effect" }
+	}
+	scale = 1.2
+}
+
+# IMPACT EFFECT
+entity = {
+	name = "Heavy_Single_IonCanon_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "ioncanon_large_hit_effect" sound = { soundeffect = Single_IC_impact } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Single_TL_impact" } } 
+	}
+	#state = { name = "explode_med_hp" state_time = 5 looping = no
+	#	event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	#}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+
+# SHIELD HIT
+entity = {
+	name = "Heavy_Single_IonCanon_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "ioncanon_large_hit_effect" sound = { soundeffect = Shield_impact } }
+		event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Shield_impact" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+######
+# Heavy Dual Ion Cannon
+
+# MUZZLE FLASH
+entity = {
+	name = "Heavy_Dual_IonCanon_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "ioncanon_large_muzzle_particle" keep_particle = yes sound = { soundeffect = Dual_IC } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Dual_IC" } }
+	}
+}
+
+# PROJECTILE
+entity = {
+	name = "Heavy_Dual_IonCanon_entity"
+	pdxmesh = "turbolaser_ion_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" 
+		event = { time = 0 particle = "swp_ion_spark_idle_particle" keep_particle = yes }
+	}
+	
+	state = { name = "stop" looping = no
+		event = { time = 0.0 particle = "ioncanon_large_hit_effect" }
+	}
+	scale = 1.2
+}
+
+# IMPACT EFFECT
+entity = {
+	name = "Heavy_Dual_IonCanon_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "ioncanon_large_hit_effect" sound = { soundeffect = Dual_IC_impact } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Dual_IC_impact" } }
+	}
+	#state = { name = "explode_med_hp" state_time = 5 looping = no
+	#	event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	#}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+
+# SHIELD HIT
+entity = {
+	name = "Heavy_Dual_IonCanon_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "ioncanon_large_hit_effect" sound = { soundeffect = Shield_impact } }
+		event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Shield_impact" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+

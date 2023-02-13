@@ -1,0 +1,81 @@
+###################################################################################
+###																				###
+###									SWFR										###
+###																				###
+###################################################################################
+
+########
+# green
+########
+
+objectTypes = {
+	pdxmesh = {
+		name = "turbolaser_mesh"
+		file = "gfx/models/combat_items/Mesh_TurboLaser/turbo_green.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "Green Bolt"
+			index = 0
+			texture_diffuse = "turbobolts.dds"
+			shader = "PdxMeshAlphaAdditiveAnimateUVNoDissolve"
+		}
+	}
+}
+
+######
+# ion
+######
+
+objectTypes = {
+	pdxmesh = {
+		name = "turbolaser_ion_mesh"
+		file = "gfx/models/combat_items/Mesh_TurboLaser/turbo_ion.mesh"
+		scale = 0.6
+
+		meshsettings = {
+			name = "Ion Bolt"
+			index = 0
+			texture_diffuse = "turbobolts.dds"
+			shader = "PdxMeshAlphaAdditiveAnimateUVNoDissolve"
+		}
+	}
+}
+
+########
+# disruptor
+########
+
+objectTypes = {
+	pdxmesh = {
+		name = "turbolaser_disruptor_mesh"
+		file = "gfx/models/combat_items/Mesh_TurboLaser/turbo_purple.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "Purple Bolt"
+			index = 0
+			texture_diffuse = "turbobolts.dds"
+			shader = "PdxMeshAlphaAdditiveAnimateUVNoDissolve"
+		}
+	}
+}
+
+#######
+# megamaser
+#######
+
+objectTypes = {
+	pdxmesh = {
+		name = "megamaser_mesh"
+		file = "gfx/models/combat_items/Mesh_TurboLaser/turbo_maser.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "Maser Bolt"
+			index = 0
+			texture_diffuse = "turbobolts.dds"
+			shader = "PdxMeshAlphaAdditiveAnimateUVNoDissolve"
+		}
+	}
+}

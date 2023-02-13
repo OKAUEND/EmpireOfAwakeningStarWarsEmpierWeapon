@@ -1,0 +1,17 @@
+#medium
+objectTypes = {
+	pdxmesh = {
+		name = "Triple_Turret_mesh"
+		file = "gfx/models/combat_items/Triple_Turret/Triple_Turret.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "BarrelShape"
+			index = 0
+			texture_diffuse = "Empire_Star_Destroyer_diffuse.dds"
+			texture_normal = "Empire_Star_Destroyer_normal.dds"
+			texture_specular = "Empire_Star_Destroyer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

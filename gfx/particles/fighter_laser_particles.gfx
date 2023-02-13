@@ -1,0 +1,25 @@
+objectTypes = {
+
+####################
+#	MUZZLE FLASHES
+####################
+
+	pdxparticle = {
+		name = "turbolaser_fighter_muzzle_particle"
+		type = "turbolaser_muzzle"
+		
+		scale = 0.075
+	}
+	
+#############
+# HIT EFFECTS
+#############
+	
+	pdxparticle = {
+		name = "turbolaser_fighter_hit_effect"
+		type = "turbolaser_hit_file"
+		
+		scale = 0.1
+	}
+	
+}

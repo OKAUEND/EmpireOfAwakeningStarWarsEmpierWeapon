@@ -1,0 +1,18 @@
+objectTypes = {
+	### Imperial Strikecraft
+	#TIE Defender
+	pdxmesh = {
+		name = "FR_TIE_Defender_mesh"
+		file = "gfx/models/combat_items/FR_TIE_Defender/FR_TIE_Defender.mesh"
+		scale = 0.2
+
+		meshsettings = {
+			name = "TIE_DefenderShape"
+			index = 0
+			texture_diffuse = "FR_TIE_Defender_diffuse.dds"
+			texture_normal = "FR_TIE_Defender_normal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

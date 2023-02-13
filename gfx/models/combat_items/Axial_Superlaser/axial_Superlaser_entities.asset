@@ -1,0 +1,157 @@
+entity = {
+	name = "axial_superlaser_windup_entity"
+	default_state = "attack"
+	get_state_from_parent = no
+	state = { 
+		name = "attack" state_time = 10 looping = no next_state = "attack_2"
+		event = { trigger_once = yes sound = { soundeffect = "axial_superlaser_windup" } }
+		event = { time = 0.0 use_parent_nodes = yes node = titanic }
+		event = { time = 0 use_parent_nodes = yes keep_particle = yes node = "TITANIC_01" entity = "eclipse_wind_up_effect_1_entity" 
+					erosion_in = 1		life = 999	erosion_out = 999 
+				}
+		event = { time = 0 use_parent_nodes = yes keep_particle = yes node = "TITANIC_01" entity = "eclipse_wind_up_effect_2_entity"
+					erosion_in = 1		life = 999	erosion_out = 999 
+				}
+		event = { time = 0 use_parent_nodes = yes keep_particle = yes node = "TITANIC_01" entity = "eclipse_wind_up_effect_3_entity" 
+					erosion_in = 1		life = 999 	erosion_out = 999 
+				}
+		event = { time = 0 use_parent_nodes = yes keep_particle = yes node = "TITANIC_01" entity = "eclipse_wind_up_effect_4_entity" 
+					erosion_in = 1		life = 999 	erosion_out = 999 
+				}
+	}
+
+	state = { 
+		name = "attack2" state_time = 10 looping = yes
+		event = { time = 0.0 use_parent_nodes = yes node = titanic }
+		event = { time = 0  keep_particle = yes node = "TITANIC_01" entity = "eclipse_wind_up_effect_1_entity" 
+					erosion_in = 1		life = 999	erosion_out = 999 
+				}
+		event = { time = 0  keep_particle = yes node = "TITANIC_01" entity = "eclipse_wind_up_effect_2_entity"
+					erosion_in = 1		life = 999	erosion_out = 999 
+				}
+		event = { time = 0  keep_particle = yes node = "TITANIC_01" entity = "eclipse_wind_up_effect_3_entity" 
+					erosion_in = 1		life = 999 	erosion_out = 999 
+				}
+		event = { time = 0  keep_particle = yes node = "TITANIC_01" entity = "eclipse_wind_up_effect_4_entity" 
+					erosion_in = 1		life = 999 	erosion_out = 999 
+				}
+	}
+}
+
+entity = {
+	name = "eclipse_wind_up_effect_1_entity"
+	pdxmesh = "eclipse_wind_up_effect_1_mesh"
+	game_data = {
+		bloom_factor			= 2
+		uv_animation_speed 			= 0.25
+		uv_animation_direction 	= { -0.5 0.0 }
+	}
+}
+
+entity = {
+	name = "eclipse_wind_up_effect_2_entity"
+	pdxmesh = "eclipse_wind_up_effect_2_mesh"
+	game_data = {
+		bloom_factor			= 2
+		uv_animation_speed 			= 0.25
+		uv_animation_direction 	= { -0.5 0.0 }
+	}
+}
+
+entity = {
+	name = "eclipse_wind_up_effect_3_entity"
+	pdxmesh = "eclipse_wind_up_effect_3_mesh"
+	game_data = {
+		bloom_factor			= 2
+		uv_animation_speed 			= 0.25
+		uv_animation_direction 	= { -0.5 0.0 }
+	}
+}
+
+entity = {
+	name = "eclipse_wind_up_effect_4_entity"
+	pdxmesh = "eclipse_wind_up_effect_4_mesh"
+	game_data = {
+		bloom_factor			= 2
+		uv_animation_speed 			= 0.25
+		uv_animation_direction 	= { -0.5 0.0 }
+	}
+}
+#######
+# Superlaser
+#######
+# MUZZLE FLASHES
+entity = {
+	name = "axial_superlaser_muzzle_entity"
+	cull_radius = 1
+	default_state = "idle"
+	state = {
+		name = "idle"
+		state_time = 0.8
+		looping = no
+		event = {
+			time = 0
+			particle = "tachyon_lance_muzzle_particle"
+			keep_particle = yes
+		}
+		# event = {
+		# 	trigger_once = yes
+		# 	sound = {
+		# 		soundeffect = "axial_superlaser_muzzle"
+		# 	}
+		# }
+	}
+}
+
+# HIT ENTITIES
+entity = {
+	name = "axial_superlaser_hit_entity"
+	cull_radius = 1
+	scale = 3
+	default_state = "idle"
+	state = {
+		name = "idle"
+		state_time = 2
+		looping = no
+		start_event = {
+			particle = "tachyon_lance_hit_effect"
+			keep_particle = yes
+		}
+		sound = {
+				soundeffect = "axial_superlaser_muzzle_01"
+			}
+	}
+	state = {
+		name = "stop"
+		state_time = 0.5
+		looping = no
+	}
+}
+
+# SHIELD HIT ENTITIES
+entity = {
+	name = "axial_superlaser_shield_hit_entity"
+	cull_radius = 1
+	scale = 3
+	default_state = "idle"
+	state = {
+		name = "idle"
+		start_event = {
+			particle = "tachyon_lance_hit_effect"
+		}
+		start_event = {
+			particle = "projectile_large_shield_hit_effect"
+		}
+		start_event = {
+			trigger_once = yes
+		}
+		sound = {
+				soundeffect = "axial_superlaser_muzzle_01"
+			}
+	}
+	state = {
+		name = "stop"
+		state_time = 0.5
+		looping = no
+	}
+}

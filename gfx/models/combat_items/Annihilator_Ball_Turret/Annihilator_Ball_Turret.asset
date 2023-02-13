@@ -1,0 +1,5 @@
+entity = {
+	name = "Annihilator_Ball_Turret_entity"
+	pdxmesh = "Annihilator_Ball_Turret_mesh"
+}
+

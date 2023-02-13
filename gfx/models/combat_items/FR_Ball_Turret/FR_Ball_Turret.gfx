@@ -1,0 +1,47 @@
+objectTypes = {
+
+	########################################################################
+	########														########
+	########				Star Wars Fallen Republic				########
+	########														########
+	########################################################################
+
+	#######  Turrets  #######	
+	pdxmesh = {
+		name = "FR_Ball_Turret_mesh"
+		file = "gfx/models/combat_items/FR_Ball_Turret/FR_Ball_Turret.mesh"
+		scale = 0.1
+
+		meshsettings = {
+			name = "Ion_CannonShape"
+			index = 0
+			texture_diffuse = "FR_Ball_Turret_diffuse.dds"
+			texture_normal = "FR_Ball_Turret_normal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

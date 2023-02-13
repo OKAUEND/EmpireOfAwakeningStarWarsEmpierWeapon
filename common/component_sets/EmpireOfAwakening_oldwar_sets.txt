@@ -1,0 +1,46 @@
+#########################################################
+component_set = {
+	key = "OLDWAR_TURBO_LASER"
+	icon = "GFX_ship_part_EOA_turbolaser_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "UNIQUE_OLDWAR_TURBO_LASER"
+	icon = "GFX_ship_part_EOA_turbolaser_01"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_OLDWAR_SW_TORPEDO_MISSILE"
+	icon = "GFX_ship_part_EOA_torpedo_missile_01"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_OLDWAR_CONCUSSION_MISSILE"
+	icon = "GFX_ship_part_EOA_concussion_missile_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_OLDWAR_HEAVY_TURBO_LASER"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_OLDWAR_ANTI_AIR_TURBO_LASER"
+	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_OLDWAR_TIE_FIGHTER"
+	icon = "GFX_ship_part_EOA_tie_fighter"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_OLDWAR_TIE_BOMBER"
+	icon = "GFX_ship_part_EOA_tie_bomber"
+	icon_frame = 1
+}

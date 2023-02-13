@@ -1,0 +1,43 @@
+component_set = {
+	key = "EOA_ANTI_AIR_TURBO_LASER_1_SET"
+	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_ANTI_AIR_TURBO_LASER_2_SET"
+	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_ANTI_AIR_TURBO_LASER_3_SET"
+	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_ANTI_AIR_TURBO_LASER_4_SET"
+	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_ANTI_AIR_TURBO_LASER_5_SET"
+	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_05"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_ANTI_AIR_TURBO_LASER_6_SET"
+	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_06"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_ANTI_AIR_TURBO_LASER_7_SET"
+	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_07"
+	icon_frame = 1
+}
+
+#-------------------------------------------------------

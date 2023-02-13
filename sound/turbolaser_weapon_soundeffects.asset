@@ -1,0 +1,882 @@
+###################################################################################
+###																				###
+###							Star Wars 				    			###
+###																				###
+###################################################################################
+
+########## WEAPONS SFX ############
+
+########## DISTANCE WEAPONS SFX
+
+######
+#Green
+######
+
+soundeffect = {
+	name = distance_PD_green
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_pd_green_01
+		sound = fallenrepublic_pd_green_01
+		sound = fallenrepublic_pd_green_01
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 -2.05 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_RF_green
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_rf_green_01
+		sound = fallenrepublic_rf_green_02
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 -2.05 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Single_TL_green
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_single_tl_green_01
+		sound = fallenrepublic_single_tl_green_02
+		sound = fallenrepublic_single_tl_green_03
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 -2.05 }
+	volume = 0.2
+}
+
+soundeffect = {
+	name = distance_Dual_TL_green
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_dual_tl_green_01
+		sound = fallenrepublic_dual_tl_green_02
+		sound = fallenrepublic_dual_tl_green_03
+		sound = fallenrepublic_dual_tl_green_04
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 -2.05 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Quad_TL_green
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_quad_tl_green_01
+		sound = fallenrepublic_quad_tl_green_02
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 -2.05 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Heavyquad_TL_green
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_heavyquad_tl_green_01
+		sound = fallenrepublic_heavyquad_tl_green_02
+		sound = fallenrepublic_heavyquad_tl_green_03
+		sound = fallenrepublic_heavyquad_tl_green_04
+		sound = fallenrepublic_heavyquad_tl_green_05
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 -2.05 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Octuple_TL_green
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_octuple_tl_green_01
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 -2.05 }
+	volume = 0.4
+}
+
+######
+#Ion Cannon
+######
+
+soundeffect = {
+	name = distance_Single_IC
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_single_ic_01
+		sound = fallenrepublic_single_ic_02
+		sound = fallenrepublic_single_ic_03
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 -2.05 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Dual_IC
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_dual_ic_01
+		sound = fallenrepublic_dual_ic_02
+		sound = fallenrepublic_dual_ic_03
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 -2.05 }
+	volume = 0.4
+}
+
+######
+#Disruptor
+######
+
+soundeffect = {
+	name = distance_Disruptor
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_distance_disruptor_01
+		sound = fallenrepublic_distance_disruptor_02
+		sound = fallenrepublic_distance_disruptor_03
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 -2.05 }
+	volume = 0.4
+}
+
+######
+#Concussion Missile
+######
+
+soundeffect = {
+	name = distance_Concussion_Missile
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_concussion_01
+		sound = fallenrepublic_concussion_02
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 -2.05 }
+	volume = 0.4
+}
+
+######
+#Proton Torpedo
+######
+
+soundeffect = {
+	name = distance_Proton_Torpedo
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_proton_torpedo_01
+		sound = fallenrepublic_proton_torpedo_02
+		sound = fallenrepublic_proton_torpedo_03
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 -2.05 }
+	volume = 0.4
+}
+
+
+############ CLOSE WEAPONS SFX
+
+######
+#Green
+######
+soundeffect = {
+	name = PD_green
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_pd_green_01
+		sound = fallenrepublic_pd_green_01
+		sound = fallenrepublic_pd_green_01
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 0.2
+}
+
+soundeffect = {
+	name = RF_green
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_rf_green_01
+		sound = fallenrepublic_rf_green_02
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 0.2
+}
+
+soundeffect = {
+	name = Single_TL_green
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_single_tl_green_01
+		sound = fallenrepublic_single_tl_green_02
+		sound = fallenrepublic_single_tl_green_03
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 0.2
+}
+
+soundeffect = {
+	name = Dual_TL_green
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_dual_tl_green_01
+		sound = fallenrepublic_dual_tl_green_02
+		sound = fallenrepublic_dual_tl_green_03
+		sound = fallenrepublic_dual_tl_green_04
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 0.2
+}
+
+soundeffect = {
+	name = Quad_TL_green
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_quad_tl_green_01
+		sound = fallenrepublic_quad_tl_green_02
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 0.2
+}
+
+soundeffect = {
+	name = Heavyquad_TL_green
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_heavyquad_tl_green_01
+		sound = fallenrepublic_heavyquad_tl_green_02
+		sound = fallenrepublic_heavyquad_tl_green_03
+		sound = fallenrepublic_heavyquad_tl_green_04
+		sound = fallenrepublic_heavyquad_tl_green_05
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 0.2
+}
+
+soundeffect = {
+	name = Octuple_TL_green
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_octuple_tl_green_01
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 0.2
+}
+
+######
+#Ion Cannon
+######
+
+soundeffect = {
+	name = Single_IC
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_single_ic_01
+		sound = fallenrepublic_single_ic_02
+		sound = fallenrepublic_single_ic_03
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 0.2
+}
+
+soundeffect = {
+	name = Dual_IC
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_dual_ic_01
+		sound = fallenrepublic_dual_ic_02
+		sound = fallenrepublic_dual_ic_03
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 0.2
+}
+
+######
+#Disruptor
+######
+
+soundeffect = {
+	name = Disruptor
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_disruptor_01
+		sound = fallenrepublic_disruptor_02
+		sound = fallenrepublic_disruptor_03
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 0.2
+}
+
+######
+#Concussion Missile
+######
+
+soundeffect = {
+	name = Concussion_Missile
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_concussion_01
+		sound = fallenrepublic_concussion_01
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 0.2
+}
+
+######
+#Proton Torpedo
+######
+
+soundeffect = {
+	name = Proton_Torpedo
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_proton_torpedo_01
+		sound = fallenrepublic_proton_torpedo_02
+		sound = fallenrepublic_proton_torpedo_03
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 0.3
+}
+
+######
+#Fighter Laser Cannons
+######
+
+
+soundeffect = {
+	name = Fighter_Green_LC
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_figher_green_lc_01
+		sound = fallenrepublic_figher_green_lc_02
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 0.2
+}
+
+
+######
+#Ion Blast
+######
+
+soundeffect = {
+	name = Ion_Blast
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_ion_blast_01
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 1.0
+}
+
+######
+#Ion Blast
+######
+
+soundeffect = {
+	name = Plasma_Cannon
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = tachyon_lance_fire_01
+		sound = tachyon_lance_fire_02
+		sound = tachyon_lance_fire_03
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 1.0
+}
+
+######### IMPACT #####
+
+####### DISTANT
+soundeffect = {
+	name = distance_Rapidfire_impact
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_impact_rapidfire_01
+		sound = fallenrepublic_impact_rapidfire_02
+		sound = fallenrepublic_impact_rapidfire_03
+		sound = fallenrepublic_impact_rapidfire_04
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Single_TL_impact
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_impact_single_tl_01
+		sound = fallenrepublic_impact_single_tl_02
+		sound = fallenrepublic_impact_single_tl_03
+		sound = fallenrepublic_impact_single_tl_04
+		sound = fallenrepublic_impact_single_tl_05
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Dual_TL_impact
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_impact_dual_tl_01
+		sound = fallenrepublic_impact_dual_tl_02
+		sound = fallenrepublic_impact_dual_tl_03
+		sound = fallenrepublic_impact_dual_tl_04
+		sound = fallenrepublic_impact_dual_tl_05
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Quad_TL_impact
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_impact_dual_tl_01
+		sound = fallenrepublic_impact_dual_tl_02
+		sound = fallenrepublic_impact_single_tl_03
+		sound = fallenrepublic_impact_single_tl_04
+		sound = fallenrepublic_impact_single_tl_05
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Heavyquad_TL_impact
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_impact_heavyquad_tl_01
+		sound = fallenrepublic_impact_heavyquad_tl_02
+		sound = fallenrepublic_impact_heavyquad_tl_03
+		sound = fallenrepublic_impact_dual_tl_03
+		sound = fallenrepublic_impact_dual_tl_04
+		sound = fallenrepublic_impact_dual_tl_05
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Shield_impact
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_shield_hit_01
+		sound = fallenrepublic_shield_hit_02
+		sound = fallenrepublic_shield_hit_03
+		sound = fallenrepublic_shield_hit_04
+		sound = fallenrepublic_shield_hit_05
+		sound = fallenrepublic_shield_hit_06
+		sound = fallenrepublic_shield_hit_07
+		sound = fallenrepublic_shield_hit_08
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Single_IC_impact
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_impact_single_ic_01
+		sound = fallenrepublic_impact_single_ic_02
+		sound = fallenrepublic_impact_single_ic_03
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Dual_IC_impact
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_impact_dual_ic_01
+		sound = fallenrepublic_impact_dual_ic_02
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Conc_Missile_impact
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_impact_distance_concusssion_01
+		sound = fallenrepublic_impact_distance_concusssion_02
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.4
+}
+
+soundeffect = {
+	name = distance_Heavy_Conc_Missile_impact
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = fallenrepublic_impact_heavy_concusssion_01
+		sound = fallenrepublic_impact_heavy_concusssion_01
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.4
+}
+
+
+###### CLOSE
+soundeffect = {
+	name = Rapidfire_impact
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_impact_rapidfire_01
+		sound = fallenrepublic_impact_rapidfire_02
+		sound = fallenrepublic_impact_rapidfire_03
+		sound = fallenrepublic_impact_rapidfire_04
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.3
+}
+
+soundeffect = {
+	name = Single_TL_impact
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_impact_single_tl_01
+		sound = fallenrepublic_impact_single_tl_02
+		sound = fallenrepublic_impact_single_tl_03
+		sound = fallenrepublic_impact_single_tl_04
+		sound = fallenrepublic_impact_single_tl_05
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.3
+}
+
+soundeffect = {
+	name = Dual_TL_impact
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_impact_dual_tl_01
+		sound = fallenrepublic_impact_dual_tl_02
+		sound = fallenrepublic_impact_dual_tl_03
+		sound = fallenrepublic_impact_dual_tl_04
+		sound = fallenrepublic_impact_dual_tl_05
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.3
+}
+
+soundeffect = {
+	name = Quad_TL_impact
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_impact_dual_tl_01
+		sound = fallenrepublic_impact_dual_tl_02
+		sound = fallenrepublic_impact_single_tl_03
+		sound = fallenrepublic_impact_single_tl_04
+		sound = fallenrepublic_impact_single_tl_05
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.3
+}
+
+soundeffect = {
+	name = Heavyquad_TL_impact
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_impact_heavyquad_tl_01
+		sound = fallenrepublic_impact_heavyquad_tl_02
+		sound = fallenrepublic_impact_heavyquad_tl_03
+		sound = fallenrepublic_impact_dual_tl_03
+		sound = fallenrepublic_impact_dual_tl_04
+		sound = fallenrepublic_impact_dual_tl_05
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.3
+}
+
+soundeffect = {
+	name = Shield_impact
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_shield_hit_01
+		sound = fallenrepublic_shield_hit_02
+		sound = fallenrepublic_shield_hit_03
+		sound = fallenrepublic_shield_hit_04
+		sound = fallenrepublic_shield_hit_05
+		sound = fallenrepublic_shield_hit_06
+		sound = fallenrepublic_shield_hit_07
+		sound = fallenrepublic_shield_hit_08
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.3
+}
+
+soundeffect = {
+	name = Single_IC_impact
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_impact_single_ic_01
+		sound = fallenrepublic_impact_single_ic_02
+		sound = fallenrepublic_impact_single_ic_03
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.3
+}
+
+soundeffect = {
+	name = Dual_IC_impact
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_impact_dual_ic_01
+		sound = fallenrepublic_impact_dual_ic_02
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.3
+}
+
+soundeffect = {
+	name = Conc_Missile_impact
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_impact_concusssion_01
+		sound = fallenrepublic_impact_concusssion_02
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.3
+}
+
+soundeffect = {
+	name = Heavy_Conc_Missile_impact
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_impact_heavy_concusssion_01
+		sound = fallenrepublic_impact_heavy_concusssion_02
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.3
+}
+
+soundeffect = {
+	name = Proton_Torpedo_impact
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_impact_proton_torpedo_01
+		sound = fallenrepublic_impact_proton_torpedo_02
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.3
+}
+
+soundeffect = {
+	name = Ion_Blast_impact
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = fallenrepublic_impact_ion_blast_01
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 1.2
+}
+
+soundeffect = {
+	name = Plasma_Cannon_impact
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = tachyon_lance_hit_01
+		sound = tachyon_lance_hit_02
+		sound = tachyon_lance_hit_03wav
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 1.2
+}
+
+
+###### LOOP
+
+soundeffect = {
+	name = Conc_Missile_idle
+	loop = yes
+	falloff = falloff_fleet
+	sounds = {
+		sound = fallenrepublic_missile_idle_01
+	}
+	volume = 0.05
+	volume_random_offset = { -0.05 0.05 }
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+soundeffect = {
+	name = Ion_Blast_Windup
+	loop = yes
+	falloff = falloff_fleet
+	sounds = {
+		sound = fallenrepublic_ion_blast_windup_01
+	}
+	volume = 0.6
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+soundeffect = {
+	name = Plasma_Cannon_Windup
+	loop = yes
+	falloff = falloff_fleet
+	sounds = {
+		sound = fallenrepublic_plasma_cannon_windup_01
+	}
+	volume = 0.6
+	delay_random_offset = { 0.5 }
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+
+
+

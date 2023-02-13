@@ -1,0 +1,128 @@
+component_set = {
+	key = "TURBO_LASER_1"
+	icon = "GFX_ship_part_EOA_turbolaser_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_2"
+	icon = "GFX_ship_part_EOA_turbolaser_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_3"
+	icon = "GFX_ship_part_EOA_turbolaser_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_4"
+	icon = "GFX_ship_part_EOA_turbolaser_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_5"
+	icon = "GFX_ship_part_EOA_turbolaser_05"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_6"
+	icon = "GFX_ship_part_EOA_turbolaser_06"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_7"
+	icon = "GFX_ship_part_EOA_turbolaser_07"
+	icon_frame = 1
+}
+
+#-------------------------------------------------------
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEA_1"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEA_2"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEA_3"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEA_4"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEA_5"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_05"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEA_6"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_06"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEA_7"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_07"
+	icon_frame = 1
+}
+#-------------------------------------------------------
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEB_1"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_typeb_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEB_2"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_typeb_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEB_3"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_typeb_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEB_4"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_typeb_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEB_5"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_typeb_05"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEB_6"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_typeb_06"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEB_7"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_typeb_07"
+	icon_frame = 1
+}
+
+

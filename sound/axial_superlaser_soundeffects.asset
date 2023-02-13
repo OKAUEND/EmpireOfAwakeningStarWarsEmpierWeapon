@@ -1,0 +1,42 @@
+
+############ CLOSE WEAPONS SFX
+soundeffect = {
+	name = axial_superlaser_muzzle
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = axial_superlaser_muzzle_01
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 1.0
+}
+
+soundeffect = {
+	name = axial_superlaser_windup
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = axial_superlaser_windup_01
+		
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 1.5
+}
+
+soundeffect = {
+	name = distant_axial_superlaser_windup_long
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = axial_superlaser_windup_02
+		
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 4.5
+}

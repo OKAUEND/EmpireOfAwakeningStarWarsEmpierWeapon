@@ -1,0 +1,169 @@
+particle={
+	name="concussion_fallenrepublic_fire_muzzle_file"
+	subsystem={
+		name="smoke"
+		max_amount=75
+		slave_particles=0
+		sort="depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/cloud.dds"
+			x=1
+			y=1
+			shader="ParticleAlphaBlend"
+		}
+		color={
+			x=240
+			y=200
+			z=200
+			alpha=10,alpha_fade
+		}
+		position={
+			x=0
+			y=0
+			z=0
+		}
+		start=0
+		duration=0.4
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 30 }
+		velocity_yaw={ 0 45 }
+		velocity={ 2 1 }
+		life={ 1 0.5 }
+		emission=100
+		size={ 1.5 0.5 }
+		particle_yaw=90
+		particle_pitch=90
+		rotation={ 0 180 }
+		rotation_speed={ 20 0 }
+	}
+	subsystem={
+		name="glow"
+		max_amount=2
+		slave_particles=0
+		sort="depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/flare_wide.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			x=255
+			y=170
+			z=100
+			alpha=255,alpha_fade
+		}
+		position={
+			x=0
+			y=0
+			z=0
+		}
+		start=0
+		duration=0.1
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 5 }
+		velocity_yaw={ 0 5 }
+		velocity={ 0 0 }
+		life={ 0.6 0.02 }
+		emission=100
+		size={ 4 0 }
+		rotation={ 0 0 }
+	}
+	subsystem={
+		name="fire"
+		max_amount=75
+		slave_particles=0
+		sort="depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/fire05.dds"
+			x=2
+			y=2
+			shader="ParticleAdditive"
+		}
+		color={
+			x=255
+			y=175
+			z=125
+			alpha=100,alpha_fade
+		}
+		position={
+			x=0
+			y=0
+			z=0
+		}
+		start=0
+		duration=0.25
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 0 }
+		velocity_yaw={ 0 0 }
+		velocity={ 3 2 }
+		life=0.6
+		emission=200
+		size={ 0.7,decrease 0.2 }
+		particle_yaw=90
+		particle_pitch=90
+		rotation={ 0 180 }
+		rotation_speed={ 50 0 }
+	}
+	animation={
+		name="alpha_fade"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 0 0.2 1 0.7 1 1 0 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="decrease"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 1 0.724 0.609 1 0.234 
+		}
+		op="MUL"
+		time="life"
+	}
+	force={
+		type="planar"
+		name="force0"
+		position={
+			0 0 0 
+		}
+		direction={
+			0 1 0 
+		}
+		local_force=yes
+		yaw=0
+		division=16
+		amount=5
+	}
+}

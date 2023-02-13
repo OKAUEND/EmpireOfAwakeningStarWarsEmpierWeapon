@@ -1,0 +1,25 @@
+###################################################################################
+###																				###
+###							Star Wars 				    						###
+###																				###
+###################################################################################
+
+# GREEN HEAVY QUAD TL
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "HEAVYQUAD_TURBOLASER"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "Heavyquad_turbolaser_hit_entity"
+	shield_hit_entity = "Heavyquad_turbolaser_shield_hit_entity"
+	muzzle_flash_entity = "Heavyquad_turbolaser_muzzle_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "Heavyquad_turbolaser_entity"
+	speed = 250.0			#preferred speed of the projectile
+	max_duration = 2.0	#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}

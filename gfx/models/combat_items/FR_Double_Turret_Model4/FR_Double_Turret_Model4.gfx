@@ -1,0 +1,25 @@
+objectTypes = {
+
+	########################################################################
+	########														########
+	########				Star Wars Fallen Republic				########
+	########														########
+	########################################################################
+
+	#######  Turrets  #######	
+
+	pdxmesh = {
+		name = "FR_Double_Turret_Model4_mesh"
+		file = "gfx/models/combat_items/FR_Double_Turret_Model4/FR_Double_Turret_Model4.mesh"
+		scale = 0.1
+
+		meshsettings = {
+			name = "Medium_Dual_TLShape"
+			index = 0
+			texture_diffuse = "FR_Double_Turret_Model4_diffuse.dds"
+			texture_normal = "FR_Double_Turret_Model4_normal.dds"
+			texture_specular = "FR_Double_Turret_Model4_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

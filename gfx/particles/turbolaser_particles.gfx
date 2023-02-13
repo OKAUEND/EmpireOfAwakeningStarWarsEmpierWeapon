@@ -1,0 +1,192 @@
+objectTypes = {
+########
+# Idle Weapon effects
+########
+	pdxparticle = {
+		# name = "swp_ion_spark_idle_particle"
+		name = "swp_ion_spark_idle_particle"
+		type = "swp_ion_spark_idle_effect"
+		
+		scale = 0.1
+	}
+
+
+####################
+#	MUZZLE FLASHES
+####################
+	
+	pdxparticle = {
+		# name = "swp_green_TL_large_muzzle_particle"
+		name = "turbolaser_large_muzzle_particle"
+		type = "turbolaser_muzzle"
+		
+		scale = 0.12
+	}
+	
+	pdxparticle = {
+		# name = "swp_green_TL_medium_muzzle_particle"
+		name = "turbolaser_medium_muzzle_particle"
+		type = "turbolaser_muzzle"
+		
+		scale = 0.1
+	}
+	
+	pdxparticle = {
+		# name = "swp_green_TL_small_muzzle_particle"
+		name = "turbolaser_small_muzzle_particle"
+		type = "turbolaser_muzzle"
+		
+		scale = 0.075
+	}
+	
+	pdxparticle = {
+		# name = "swp_ic_large_muzzle_particle"
+		name = "ioncanon_large_muzzle_particle"
+		type = "gauss_cannon_muzzle"
+		
+		scale = 0.12
+	}
+	
+	pdxparticle = {
+		# name = "swp_ic_medium_muzzle_particle"
+		name = "ioncanon_medium_muzzle_particle"
+		type = "gauss_cannon_muzzle"
+		
+		scale = 0.1
+	}
+	
+	pdxparticle = {
+		# name = "swp_ic_small_muzzle_particle"
+		name = "ioncanon_small_muzzle_particle"
+		type = "gauss_cannon_muzzle"
+		
+		scale = 0.075
+	}
+	
+	pdxparticle = {
+		# name = "swp_disruptor_large_muzzle_particle"
+		name = "disruptor_large_muzzle_particle"
+		type = "disruptor_starwars_muzzle"
+		
+		scale = 0.12
+	}
+	
+	pdxparticle = {
+		# name = "swp_disruptor_medium_muzzle_particle"
+		name = "disruptor_medium_muzzle_particle"
+		type = "disruptor_starwars_muzzle"
+		
+		scale = 0.1
+	}
+	
+	pdxparticle = {
+		# name = "swp_disruptor_small_muzzle_particle"
+		name = "disruptor_small_muzzle_particle"
+		type = "disruptor_starwars_muzzle"
+		
+		scale = 0.075
+	}
+	
+#####
+# HIT EFFECTS
+####
+	
+	pdxparticle = {
+		# name = "swp_green_TL_large_hit_effect"
+		name = "turbolaser_large_hit_effect"
+		type = "turbolaser_hit_file"
+		
+		scale = 0.25
+	}
+	
+	pdxparticle = {
+		# name = "swp_green_TL_medium_hit_effect"
+		name = "turbolaser_medium_hit_effect"
+		type = "turbolaser_hit_file"
+		
+		scale = 0.2
+	}
+	
+	pdxparticle = {
+		# name = "swp_green_TL_small_hit_effect"
+		name = "turbolaser_small_hit_effect"
+		type = "turbolaser_hit_file"
+		
+		scale = 0.15
+	}
+
+	pdxparticle = {
+		# name = "swp_ic_large_hit_effect"
+		name = "ioncanon_large_hit_effect"
+		type = "gauss_cannon_hit_effect"
+		
+		scale = 0.15
+	}
+	
+	pdxparticle = {
+		# name = "swp_ic_medium_hit_effect"
+		name = "ioncanon_medium_hit_effect"
+		type = "gauss_cannon_hit_effect"
+		
+		scale = 0.12
+	}
+	
+	pdxparticle = {
+		# name = "swp_ic_small_hit_effect"
+		name = "ioncanon_small_hit_effect"
+		type = "gauss_cannon_hit_effect"
+		
+		scale = 0.09
+	}
+	
+	pdxparticle = {
+		# name = "swp_disruptor_large_hit_effect"
+		name = "disruptor_large_hit_effect"
+		type = "turbolaser_hit_file"
+		
+		scale = 0.25
+	}
+	
+	pdxparticle = {
+		# name = "swp_disruptor_medium_hit_effect"
+		name = "disruptor_medium_hit_effect"
+		type = "turbolaser_hit_file"
+		
+		scale = 0.2
+	}
+	
+	pdxparticle = {
+		# name = "swp_disruptor_small_hit_effect"
+		name = "disruptor_small_hit_effect"
+		type = "turbolaser_hit_file"
+		
+		scale = 0.15
+	}
+	
+#####
+# Stop EFFECTS
+####
+
+	# TL
+	pdxparticle = {
+		name = "turbolaser_large_stop_hit_effect"
+		type = "turbolaser_stop_hit_file"
+		
+		scale = 0.25
+	}
+	
+	pdxparticle = {
+		name = "turbolaser_medium_stop_hit_effect"
+		type = "turbolaser_stop_hit_file"
+		
+		scale = 0.2
+	}
+	
+	pdxparticle = {
+		name = "turbolaser_small_stop_hit_effect"
+		type = "turbolaser_stop_hit_file"
+		
+		scale = 0.15
+	}
+
+}

@@ -1,0 +1,168 @@
+component_set = {
+	key = "ION_MISSILE_1"
+	icon = "GFX_ship_part_EOA_ion_missile_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ION_MISSILE_2"
+	icon = "GFX_ship_part_EOA_ion_missile_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ION_MISSILE_3"
+	icon = "GFX_ship_part_EOA_ion_missile_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ION_MISSILE_4"
+	icon = "GFX_ship_part_EOA_ion_missile_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ION_MISSILE_5"
+	icon = "GFX_ship_part_EOA_ion_missile_05"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ION_MISSILE_6"
+	icon = "GFX_ship_part_EOA_ion_missile_06"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ION_MISSILE_7"
+	icon = "GFX_ship_part_EOA_ion_missile_07"
+	icon_frame = 1
+}
+#-------------------------------------------------------
+component_set = {
+	key = "EOA_SW_TORPEDO_MISSILE_1"
+	icon = "GFX_ship_part_EOA_torpedo_missile_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_SW_TORPEDO_MISSILE_2"
+	icon = "GFX_ship_part_EOA_torpedo_missile_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_SW_TORPEDO_MISSILE_3"
+	icon = "GFX_ship_part_EOA_torpedo_missile_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_SW_TORPEDO_MISSILE_4"
+	icon = "GFX_ship_part_EOA_torpedo_missile_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_SW_TORPEDO_MISSILE_5"
+	icon = "GFX_ship_part_EOA_torpedo_missile_05"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_SW_TORPEDO_MISSILE_6"
+	icon = "GFX_ship_part_EOA_torpedo_missile_06"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_SW_TORPEDO_MISSILE_7"
+	icon = "GFX_ship_part_EOA_torpedo_missile_07"
+	icon_frame = 1
+}
+#-------------------------------------------------------
+component_set = {
+	key = "EOA_CONCUSSION_MISSILE_1"
+	icon = "GFX_ship_part_EOA_concussion_missile_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_CONCUSSION_MISSILE_2"
+	icon = "GFX_ship_part_EOA_concussion_missile_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_CONCUSSION_MISSILE_3"
+	icon = "GFX_ship_part_EOA_concussion_missile_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_CONCUSSION_MISSILE_4"
+	icon = "GFX_ship_part_EOA_concussion_missile_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_CONCUSSION_MISSILE_5"
+	icon = "GFX_ship_part_EOA_concussion_missile_05"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_CONCUSSION_MISSILE_6"
+	icon = "GFX_ship_part_EOA_concussion_missile_06"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_CONCUSSION_MISSILE_7"
+	icon = "GFX_ship_part_EOA_concussion_missile_07"
+	icon_frame = 1
+}
+#-------------------------------------------------------
+component_set = {
+	key = "EOA_HEAVY_CONCUSSION_MISSILE_1"
+	icon = "GFX_ship_part_EOA_heavy_concussion_missile_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_HEAVY_CONCUSSION_MISSILE_2"
+	icon = "GFX_ship_part_EOA_heavy_concussion_missile_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_HEAVY_CONCUSSION_MISSILE_3"
+	icon = "GFX_ship_part_EOA_heavy_concussion_missile_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_HEAVY_CONCUSSION_MISSILE_4"
+	icon = "GFX_ship_part_EOA_heavy_concussion_missile_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_HEAVY_CONCUSSION_MISSILE_5"
+	icon = "GFX_ship_part_EOA_heavy_concussion_missile_05"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_HEAVY_CONCUSSION_MISSILE_6"
+	icon = "GFX_ship_part_EOA_heavy_concussion_missile_06"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_HEAVY_CONCUSSION_MISSILE_7"
+	icon = "GFX_ship_part_EOA_heavy_concussion_missile_07"
+	icon_frame = 1
+}
+#-------------------------------------------------------

@@ -1,0 +1,14 @@
+sound = {
+	name = "axial_superlaser_muzzle_01"
+	file = "weapons/axial_superlaser_muzzle.wav"
+}
+
+sound = {
+	name = "axial_superlaser_windup_01"
+	file = "weapons/axial_superlaser_windup.wav"
+}
+
+sound = {
+	name = "axial_superlaser_windup_02"
+	file = "weapons/axial_superlaser_windup_long.wav"
+}

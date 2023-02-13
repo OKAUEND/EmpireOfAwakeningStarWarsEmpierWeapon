@@ -1,0 +1,74 @@
+spriteTypes = {
+	# ターボレーザー
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_single_01"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_SIngle_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_single_02"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_SIngle_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_single_03"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_SIngle_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_single_04"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_SIngle_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_single_05"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_SIngle_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_single_06"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_SIngle_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_single_07"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_SIngle_7.dds"
+	}
+
+	# ターボレーザー 
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_01"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_Quad_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_02"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_Quad_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_03"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_Quad_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_04"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_Quad_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_05"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_Quad_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_06"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_Quad_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_07"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_Unique_Ball_Quad_7.dds"
+	}
+}
+
