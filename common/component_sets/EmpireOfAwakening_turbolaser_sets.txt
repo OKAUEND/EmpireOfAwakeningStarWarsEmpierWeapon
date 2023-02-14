@@ -42,7 +42,7 @@ component_set = {
 
 component_set = {
 	key = "TURBO_LASER_8"
-	icon = "GFX_ship_part_EOA_turbolaser_07"
+	icon = "GFX_ship_part_EOA_turbolaser_08"
 	icon_frame = 1
 }
 
@@ -88,6 +88,11 @@ component_set = {
 	icon = "GFX_ship_part_EOA_turbolaser_unique_07"
 	icon_frame = 1
 }
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEA_8"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_08"
+	icon_frame = 1
+}
 #-------------------------------------------------------
 component_set = {
 	key = "TURBO_LASER_UNIQUE_TYPEB_1"
@@ -130,5 +135,12 @@ component_set = {
 	icon = "GFX_ship_part_EOA_turbolaser_unique_typeb_07"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "TURBO_LASER_UNIQUE_TYPEB_8"
+	icon = "GFX_ship_part_EOA_turbolaser_unique_typeb_08"
+	icon_frame = 1
+}
+
 
 

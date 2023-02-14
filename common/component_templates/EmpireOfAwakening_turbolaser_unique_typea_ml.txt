@@ -29,30 +29,31 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_1" }
 
-	damage = { min = 12.0 max = 29.0 }
+	damage = { min = 10.0 max = 25.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 15
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
 	
-	shield_damage = 1.5
-	armor_damage = 1.5
-	shield_penetration = 0.175
-	armor_penetration = 0.175
+	shield_damage = 1.25
+	armor_damage = 1.25
+	shield_penetration = 0.10
+	armor_penetration = 0.10
 	
-	power = -15.00
-	cost = 30.00
+	power = -18.00
 
 	resources = {
 		category = ship_components
 		cost = {
 			alloys = @m_t2_cost
+			exotic_gases = 0.125
 		}		
 		upkeep = {
-			energy = @m_t2_upkeep_energy
-			alloys = @m_t2_upkeep_alloys
+			energy = @eoa_m_t1_upkeep_energy
+			alloys = @eoa_m_t1_upkeep_alloys
+			exotic_gases = 0.005
 		}
 	}
 	
@@ -90,9 +91,9 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_1" }
 
-	damage = { min = 50.0 max = 127.0 }
+	damage = { min = 30.0 max = 100.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	range = 85.0
 	accuracy = 0.90
@@ -104,16 +105,17 @@ weapon_component_template = {
 	armor_penetration = 0.25
 	
 	power = -30.0
-	cost = 55.0
 	
 	resources = {
 		category = ship_components
 		cost = {
 			alloys = @l_t2_cost
+			exotic_gases = 0.15
 		}		
 		upkeep = {
-			energy = @l_t2_upkeep_energy
-			alloys = @l_t2_upkeep_alloys
+			energy = @eoa_l_t1_upkeep_energy
+			alloys = @eoa_l_t1_upkeep_alloys
+			exotic_gases = 0.01
 		}
 	}
 	
@@ -153,30 +155,31 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_2" }
 
-	damage = { min = 17 max = 37.0 }
+	damage = { min = 15.0 max = 30.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 15
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
 	
-	shield_damage = 1.5
-	armor_damage = 1.5
-	shield_penetration = 0.175
-	armor_penetration = 0.175
+	shield_damage = 1.25
+	armor_damage = 1.25
+	shield_penetration = 0.10
+	armor_penetration = 0.10
 	
 	power = -20.00
-	cost = 35.00
 
 	resources = {
 		category = ship_components
 		cost = {
 			alloys = @m_t3_cost
+			exotic_gases = 0.14
 		}		
 		upkeep = {
-			energy = @m_t3_upkeep_energy
-			alloys = @m_t3_upkeep_alloys
+			energy = @eoa_m_t2_upkeep_energy
+			alloys = @eoa_m_t2_upkeep_alloys
+			exotic_gases = 0.007
 		}
 	}
 	
@@ -214,9 +217,9 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_2" }
 
-	damage = { min = 65.0 max = 165.0 }
+	damage = { min = 40.0 max = 110.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	range = 85.0
 	accuracy = 0.90
@@ -228,16 +231,17 @@ weapon_component_template = {
 	armor_penetration = 0.25
 	
 	power = -35.0
-	cost = 70.0
 	
 	resources = {
 		category = ship_components
 		cost = {
 			alloys = @l_t2_cost
+			exotic_gases = 0.17
 		}		
 		upkeep = {
-			energy = @l_t2_upkeep_energy
-			alloys = @l_t2_upkeep_alloys
+			energy = @eoa_l_t2_upkeep_energy
+			alloys = @eoa_l_t2_upkeep_alloys
+			exotic_gases = 0.015
 		}
 	}
 	
@@ -278,32 +282,31 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_3" }
 
-	damage = { min = 17.0 max = 47.0 }
+	damage = { min = 15.0 max = 45.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 15
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
 	
-	shield_damage = 1.5
-	armor_damage = 1.5
-	shield_penetration = 0.175
-	armor_penetration = 0.175
+	shield_damage = 1.25
+	armor_damage = 1.25
+	shield_penetration = 0.10
+	armor_penetration = 0.10
 	
 	power = -25.00
-	cost = 45.00
 
 	resources = {
 		category = ship_components
 		cost = {
 			alloys = @m_t4_cost
-			# eoa_tibanna_gas = 0.2
+			exotic_gases = 0.18
 		}		
 		upkeep = {
-			energy = @m_t4_upkeep_energy
-			alloys = @m_t4_upkeep_alloys
-			# eoa_tibanna_gas = @eoa_weapon_m_t4_cost_special
+			energy = @eoa_m_t3_upkeep_energy
+			alloys = @eoa_m_t3_upkeep_alloys
+			exotic_gases = 0.04
 		}
 	}
 	
@@ -341,9 +344,9 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_3" }
 
-	damage = { min = 85.0 max = 220.0 }
+	damage = { min = 50.0 max = 150.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	range = 85.0
 	accuracy = 0.90
@@ -361,12 +364,12 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @l_t4_cost
-			# eoa_tibanna_gas = 0.3
+			exotic_gases = 0.2
 		}		
 		upkeep = {
-			energy = @l_t4_upkeep_energy
-			alloys = @l_t4_upkeep_alloys
-			# eoa_tibanna_gas = @eoa_weapon_l_t4_cost_special
+			energy = @eoa_l_t3_upkeep_energy
+			alloys = @eoa_l_t3_upkeep_alloys
+			exotic_gases = 0.07
 		}
 	}
 	
@@ -406,18 +409,18 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_4" }
 
-	damage = { min = 24.0 max = 62.0 }
+	damage = { min = 22.0 max = 60.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 15
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
 	
-	shield_damage = 1.5
-	armor_damage = 1.5
-	shield_penetration = 0.175
-	armor_penetration = 0.175
+	shield_damage = 1.25
+	armor_damage = 1.25
+	shield_penetration = 0.10
+	armor_penetration = 0.10
 	
 	power = -30.00
 	cost = 60.00
@@ -429,9 +432,9 @@ weapon_component_template = {
 			eoa_tibanna_gas = @eoa_weapon_m_t5_cost_special
 		}		
 		upkeep = {
-			energy = @m_t5_upkeep_energy
-			alloys = @m_t5_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_m5_upkeep_tibannagas
+			energy = @eoa_m_t4_upkeep_energy
+			alloys = @eoa_m_t4_upkeep_alloys
+			eoa_tibanna_gas = 0.08
 		}
 	}
 	
@@ -469,9 +472,9 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_4" }
 
-	damage = { min = 110.0 max = 290.0 }
+	damage = { min = 55.0 max = 200.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 	
 	range = 85.0
 	accuracy = 0.90
@@ -492,9 +495,9 @@ weapon_component_template = {
 			eoa_tibanna_gas = @eoa_weapon_l_t5_cost_special
 		}		
 		upkeep = {
-			energy = @l_t5_upkeep_energy
-			alloys = @l_t5_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_t5_upkeep_tibannagas
+			energy = @eoa_l_t4_upkeep_energy
+			alloys = @eoa_l_t4_upkeep_alloys
+			eoa_tibanna_gas = 0.1
 		}
 	}
 	
@@ -535,18 +538,18 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_5" }
 
-	damage = { min = 30.0 max = 75.0 }
+	damage = { min = 28.0 max = 73.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 15
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
 	
-	shield_damage = 1.5
-	armor_damage = 1.5
-	shield_penetration = 0.175
-	armor_penetration = 0.175
+	shield_damage = 1.25
+	armor_damage = 1.25
+	shield_penetration = 0.10
+	armor_penetration = 0.10
 	
 	power = -40.00
 
@@ -597,9 +600,9 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_5" }
 
-	damage = { min = 145 max = 330 }
+	damage = { min = 80 max = 260.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	range = 85.0
 	accuracy = 0.90
@@ -662,18 +665,18 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_6" }
 
-	damage = { min = 35.0 max = 120.0 }
+	damage = { min = 30.0 max = 110.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 15
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
 	
-	shield_damage = 1.5
-	armor_damage = 1.5
-	shield_penetration = 0.175
-	armor_penetration = 0.175
+	shield_damage = 1.25
+	armor_damage = 1.25
+	shield_penetration = 0.10
+	armor_penetration = 0.10
 	
 	power = -50.00
 
@@ -724,9 +727,9 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_6" }
 
-	damage = { min = 200.0 max = 440.0 }
+	damage = { min = 110.0 max = 290.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	range = 85.0
 	accuracy = 0.90
@@ -791,16 +794,16 @@ weapon_component_template = {
 
 	damage = { min = 40.0 max = 140.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 15
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
 	
-	shield_damage = 1.5
-	armor_damage = 1.5
-	shield_penetration = 0.175
-	armor_penetration = 0.175
+	shield_damage = 1.25
+	armor_damage = 1.25
+	shield_penetration = 0.10
+	armor_penetration = 0.10
 	
 	power = -55
 
@@ -836,6 +839,7 @@ weapon_component_template = {
 	projectile_gfx = "QUAD_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_MEDIUM_TURBO_LASER_UNIQUE_TYPEA_8"
 }
 
 weapon_component_template = {
@@ -850,9 +854,9 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_7" }
 
-	damage = { min = 210.0 max = 450 }
+	damage = { min = 160.0 max = 350 }
 	windup = { min = 2 max = 20 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	range = 85.0
 	accuracy = 0.90
@@ -894,6 +898,132 @@ weapon_component_template = {
 	}
 	
 	component_set = "TURBO_LASER_UNIQUE_TYPEA_7"
+	projectile_gfx = "QUAD_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_LARGE_TURBO_LASER_UNIQUE_TYPEA_8"
+}
+#############################################
+#  - Tier 7
+#   - ターボレーザー VIII(SML)
+#############################################
+weapon_component_template = {
+	type = instant
+	
+	key = "EOA_MEDIUM_TURBO_LASER_UNIQUE_TYPEA_8"
+	size = medium
+	entity = "FR_Quadruple_Turret_Model2_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_unique_07"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_turbo_lasers_7" }
+
+	damage = { min = 60.0 max = 160.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
+
+	range = 65.0
+	accuracy = 0.90
+	tracking = 0.30
+	
+	shield_damage = 1.25
+	armor_damage = 1.25
+	shield_penetration = 0.10
+	armor_penetration = 0.10
+	
+	power = -100
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_m_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_m_t8_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_m_t8_upkeep_energy
+			alloys = @eoa_weapon_m_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_m8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_UNIQUE_TYPEA_8"
+	projectile_gfx = "QUAD_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+weapon_component_template = {
+	
+	key = "EOA_LARGE_TURBO_LASER_UNIQUE_TYPEA_8"
+	size = large
+	type = instant
+	entity = "FR_Quadruple_Turret_Model2_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_unique_07"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_turbo_lasers_7" }
+
+	damage = { min = 225.0 max = 425.0 }
+	windup = { min = 2 max = 20 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
+
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 1.75
+	armor_damage = 1.75
+	shield_penetration = 0.25
+	armor_penetration = 0.25
+	
+	power = -200
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_m_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t8_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_m_t8_upkeep_energy
+			alloys = @eoa_weapon_m_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_t8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_UNIQUE_TYPEA_8"
 	projectile_gfx = "QUAD_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
