@@ -49,10 +49,10 @@
 @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE2_COOLDOWN = 100
 @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE3_COOLDOWN = 100
 @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE4_COOLDOWN = 100
-@EOA_WEAPON_TURBO_LASER_TITANIC_TYPE1_COOLDOWN = 100
-@EOA_WEAPON_TURBO_LASER_TITANIC_TYPE2_COOLDOWN = 120
-@EOA_WEAPON_TURBO_LASER_TITANIC_TYPE3_COOLDOWN = 140
-@EOA_WEAPON_TURBO_LASER_TITANIC_TYPE4_COOLDOWN = 160
+@EOA_WEAPON_TURBO_LASER_TITANIC_TYPE1_COOLDOWN = 140
+@EOA_WEAPON_TURBO_LASER_TITANIC_TYPE2_COOLDOWN = 160
+@EOA_WEAPON_TURBO_LASER_TITANIC_TYPE3_COOLDOWN = 180
+@EOA_WEAPON_TURBO_LASER_TITANIC_TYPE4_COOLDOWN = 240
 # Tibanna Gas unkeep
 @eoa_weapon_l_s4_upkeep_tibannagas = 0.01
 @eoa_weapon_l_m4_upkeep_tibannagas = 0.05
@@ -171,11 +171,11 @@
 @eoa_weapon_xl_t9_upkeep_energy = 4.90
 @eoa_weapon_xl_t9_upkeep_alloys = 0.980
 
-@eoa_weapon_xl_t5_upkeep_tibannagas = 1.0
-@eoa_weapon_xl_t6_upkeep_tibannagas = 1.2
-@eoa_weapon_xl_t7_upkeep_tibannagas = 1.4
-@eoa_weapon_xl_t8_upkeep_tibannagas = 1.6
-@eoa_weapon_xl_t9_upkeep_tibannagas = 1.8
+@eoa_weapon_xl_t5_upkeep_tibannagas = 0.5
+@eoa_weapon_xl_t6_upkeep_tibannagas = 0.7
+@eoa_weapon_xl_t7_upkeep_tibannagas = 1.0
+@eoa_weapon_xl_t8_upkeep_tibannagas = 1.3
+@eoa_weapon_xl_t9_upkeep_tibannagas = 1.5
 
 ### T slots
 # Titanic
