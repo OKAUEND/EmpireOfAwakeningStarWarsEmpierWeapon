@@ -40,6 +40,12 @@ component_set = {
 	icon_frame = 1
 }
 
+component_set = {
+	key = "TURBO_LASER_8"
+	icon = "GFX_ship_part_EOA_turbolaser_07"
+	icon_frame = 1
+}
+
 #-------------------------------------------------------
 component_set = {
 	key = "TURBO_LASER_UNIQUE_TYPEA_1"
