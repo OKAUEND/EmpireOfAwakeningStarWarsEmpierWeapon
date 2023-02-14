@@ -12,7 +12,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_pre" }
 
-	damage = { min = 10.0 max = 20.0 }
+	damage = { min = 4.0 max = 6.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 	
@@ -20,12 +20,12 @@ weapon_component_template = {
 	accuracy = 0.90
 	tracking = 0.60
 	
-	shield_damage = 1.15
-	armor_damage = 1.15
-	shield_penetration = 0.05
-	armor_penetration = 0.05
+	shield_damage = 1.10
+	armor_damage = 1.10
+	shield_penetration = 0.00
+	armor_penetration = 0.00
 	
-	power = 5
+	power = -5
 	
 	resources = {
 		category = ship_components
@@ -33,8 +33,8 @@ weapon_component_template = {
 			alloys = 5
 		}		
 		upkeep = {
-			energy = 0.05
-			alloys = 0.005
+			energy = 0.01
+			alloys = 0.001
 		}
 	}
 	
@@ -73,7 +73,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_pre" }
 
-	damage = { min = 10.0 max = 20.0 }
+	damage = { min = 12.5 max = 27.5 }
 	windup = { min = 2.0 max = 30.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
@@ -81,10 +81,10 @@ weapon_component_template = {
 	accuracy = 0.90
 	tracking = 0.30
 	
-	shield_damage = 1.5
-	armor_damage = 1.5
-	shield_penetration = 0.175
-	armor_penetration = 0.175
+	shield_damage = 1.25
+	armor_damage = 1.25
+	shield_penetration = 0.10
+	armor_penetration = 0.10
 	
 	power = -15.00
 
@@ -94,7 +94,7 @@ weapon_component_template = {
 			alloys = 10
 		}		
 		upkeep = {
-			energy = 0.010
+			energy = 0.01
 			alloys = 0.001
 		}
 	}
@@ -121,65 +121,65 @@ weapon_component_template = {
 	upgrades_to = "EOA_MEDIUM_TURBO_LASER_1"
 }
 
-weapon_component_template = {
+# weapon_component_template = {
 	
-	key = "EOA_OLDWAR_LARGE_TURBO_LASER"
-	size = large
-	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+# 	key = "EOA_OLDWAR_LARGE_TURBO_LASER"
+# 	size = large
+# 	type = instant
+# 	entity = "FR_Double_Turret_Model1_entity"
 	
-	icon = "GFX_ship_part_EOA_turbolaser_01"
-	icon_frame = 1
+# 	icon = "GFX_ship_part_EOA_turbolaser_01"
+# 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_pre" }
+# 	prerequisites = { "tech_eoa_turbo_lasers_pre" }
 
-	damage = { min = 25.0 max = 40.0 }
-	windup = { min = 2.0 max = 40.0 }
-	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
+# 	damage = { min = 50.0 max = 80.0 }
+# 	windup = { min = 2.0 max = 40.0 }
+# 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
-	range = 85.0
-	accuracy = 0.90
-	tracking = 0.05
+# 	range = 85.0
+# 	accuracy = 0.90
+# 	tracking = 0.05
 	
-	shield_damage = 1.75
-	armor_damage = 1.75
-	shield_penetration = 0.25
-	armor_penetration = 0.25
+# 	shield_damage = 1.75
+# 	armor_damage = 1.75
+# 	shield_penetration = 0.25
+# 	armor_penetration = 0.25
 	
-	power = -30.0
+# 	power = -30.0
 	
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 15
-		}		
-		upkeep = {
-			energy = 0.015
-			alloys = 0.005
-		}
-	}
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 15
+# 		}		
+# 		upkeep = {
+# 			energy = 0.015
+# 			alloys = 0.005
+# 		}
+# 	}
 	
 
-	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
-		modifier = {
-			factor = 0.0
-			if = {
-				is_origin_empire_of_awaking = no
-			}
-		}
-	}
+# 	ai_weight = {
+# 		weight = 0
+# 		modifier = {
+# 			factor = 0.0
+# 			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+# 		}
+# 		modifier = {
+# 			factor = 0.0
+# 			if = {
+# 				is_origin_empire_of_awaking = no
+# 			}
+# 		}
+# 	}
 	
-	component_set = "OLDWAR_TURBO_LASER"
-	projectile_gfx = "DUAL_TURBOLASER"
-	tags = { weapon_type_turbolaser }
-	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "EOA_LARGE_TURBO_LASER_1"
-}
+# 	component_set = "OLDWAR_TURBO_LASER"
+# 	projectile_gfx = "DUAL_TURBOLASER"
+# 	tags = { weapon_type_turbolaser }
+# 	ai_tags = { weapon_role_anti_armor }
+# 	upgrades_to = "EOA_LARGE_TURBO_LASER_1"
+# }
 ##################################################################################
 #
 weapon_component_template = {
@@ -194,21 +194,20 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_turbo_lasers_pre" }
 
-	damage = { min = 28.0 max = 40.0 }
+	damage = { min = 150.0 max = 250.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
 
 	range = 60.0
 	accuracy = 0.90
 	tracking = 0.40
 	
-	hull_damage = 1.25
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
 	armor_penetration = 0.25
 	
-	power = 40.0
+	power = -40.0
 	
 	resources = {
 		category = ship_components
@@ -217,7 +216,7 @@ weapon_component_template = {
 		}		
 		upkeep = {
 			energy = 0.020
-			alloys = 0.010
+			alloys = 0.001
 		}
 	}
 	
@@ -255,7 +254,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_pre" }
 
-	damage = { min = 1.0 max = 2.0 }
+	damage = { min = 2.0 max = 4.0 }
 	windup = { min = 0.0 max = 0.0 }
 	total_fire_time = 5
 	
@@ -418,7 +417,13 @@ strike_craft_component_template = {
 	upgrades_to = "EOA_TIE_FIGHTER_1"
 
 	ai_weight = {
-		weight = 1
+		weight = 100
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
 	}
 }
 
@@ -494,6 +499,12 @@ strike_craft_component_template = {
 	upgrades_to = "EOA_TIE_BOMBER_1"
 
 	ai_weight = {
-		weight = 1
+		weight = 100
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
 	}
 }
