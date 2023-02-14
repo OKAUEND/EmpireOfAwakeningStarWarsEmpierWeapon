@@ -36,6 +36,19 @@ weapon_component_template = {
 	damage = { min = 2.0 max = 4.0 }
 	windup = { min = 0.0 max = 0.0 }
 	total_fire_time = 5
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+	}
 	
 	range = 30.0
 	accuracy = 0.80
@@ -98,6 +111,19 @@ weapon_component_template = {
 	damage = { min = 2.2 max = 5.5 }
 	windup = { min = 0.0 max = 0.0 }
 	total_fire_time = 5
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+	}
 	
 	range = 30.0
 	accuracy = 0.80
@@ -163,6 +189,19 @@ weapon_component_template = {
 	damage = { min = 2.2 max = 7.5 }
 	windup = { min = 0.0 max = 0.0 }
 	total_fire_time = 5
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+	}
 	
 	range = 30.0
 	accuracy = 0.80
@@ -227,6 +266,19 @@ weapon_component_template = {
 	damage = { min = 3.5 max = 10.5 }
 	windup = { min = 0.0 max = 0.0 }
 	total_fire_time = 5
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+	}
 	
 	range = 30.0
 	accuracy = 0.80
@@ -291,6 +343,19 @@ weapon_component_template = {
 	damage = { min = 4.0 max = 12.5 }
 	windup = { min = 0.0 max = 0.0 }
 	total_fire_time = 5
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+	}
 	
 	range = 30.0
 	accuracy = 0.80

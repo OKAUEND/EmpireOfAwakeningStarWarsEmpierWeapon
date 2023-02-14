@@ -29,6 +29,14 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = 35
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 175.0
 	accuracy = 0.90
 	tracking = 0.02
@@ -92,6 +100,14 @@ weapon_component_template = {
 	damage = { min = 160.0 max = 390.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = 35
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
 
 	range = 175.0
 	accuracy = 0.90
@@ -157,6 +173,14 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = 35
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 175.0
 	accuracy = 0.90
 	tracking = 0.02
@@ -220,6 +244,14 @@ weapon_component_template = {
 	damage = { min = 280.0 max = 510.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = 35
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
 
 	range = 175.0
 	accuracy = 0.90

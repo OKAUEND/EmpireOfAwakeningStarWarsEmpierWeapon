@@ -37,6 +37,16 @@ weapon_component_template = {
 	damage = { min = 5.0 max = 7.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
 	
 	range = 40.0
 	accuracy = 0.90
@@ -100,6 +110,16 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
@@ -161,6 +181,16 @@ weapon_component_template = {
 	damage = { min = 30.0 max = 100.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
 
 	range = 85.0
 	accuracy = 0.90
@@ -225,6 +255,16 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -288,6 +328,16 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
@@ -349,6 +399,16 @@ weapon_component_template = {
 	damage = { min = 40.0 max = 110.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
 
 	range = 85.0
 	accuracy = 0.90
@@ -414,6 +474,16 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -478,6 +548,16 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
@@ -539,6 +619,16 @@ weapon_component_template = {
 	damage = { min = 50.0 max = 150.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
 
 	range = 85.0
 	accuracy = 0.90
@@ -604,6 +694,16 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -667,6 +767,16 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
@@ -729,6 +839,16 @@ weapon_component_template = {
 	damage = { min = 55.0 max = 200.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
 	
 	range = 85.0
 	accuracy = 0.90
@@ -795,6 +915,16 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -858,6 +988,16 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
@@ -919,6 +1059,16 @@ weapon_component_template = {
 	damage = { min = 80 max = 260.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
 
 	range = 85.0
 	accuracy = 0.90
@@ -984,6 +1134,16 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -1047,6 +1207,16 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
@@ -1108,6 +1278,16 @@ weapon_component_template = {
 	damage = { min = 110.0 max = 290.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
 
 	range = 85.0
 	accuracy = 0.90
@@ -1173,6 +1353,16 @@ weapon_component_template = {
 	windup = { min = 1.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -1236,6 +1426,16 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
@@ -1297,6 +1497,16 @@ weapon_component_template = {
 	damage = { min = 160.0 max = 350 }
 	windup = { min = 2 max = 20 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
 
 	range = 85.0
 	accuracy = 0.90
@@ -1362,6 +1572,16 @@ weapon_component_template = {
 	windup = { min = 1.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -1424,6 +1644,16 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
 	range = 65.0
 	accuracy = 0.90
 	tracking = 0.30
@@ -1484,6 +1714,16 @@ weapon_component_template = {
 	damage = { min = 225.0 max = 425.0 }
 	windup = { min = 2 max = 20 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
 
 	range = 85.0
 	accuracy = 0.90

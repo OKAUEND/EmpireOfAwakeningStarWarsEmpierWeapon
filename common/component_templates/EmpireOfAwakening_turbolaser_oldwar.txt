@@ -16,6 +16,13 @@ weapon_component_template = {
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 	
+	size_restriction = { 
+		imperial1_stardestroyer
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+	}
+
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -72,6 +79,12 @@ weapon_component_template = {
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_turbo_lasers_pre" }
+	size_restriction = { 
+		imperial1_stardestroyer
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+	}
 
 	damage = { min = 12.5 max = 27.5 }
 	windup = { min = 2.0 max = 30.0 }
@@ -193,6 +206,9 @@ weapon_component_template = {
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_turbo_lasers_pre" }
+	size_restriction = { 
+		imperial1_stardestroyer
+	}
 
 	damage = { min = 150.0 max = 250.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -253,6 +269,12 @@ weapon_component_template = {
 	icon_frame = 1
 	
 	prerequisites = { "tech_eoa_turbo_lasers_pre" }
+	size_restriction = { 
+		imperial1_stardestroyer
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+	}
 
 	damage = { min = 2.0 max = 4.0 }
 	windup = { min = 0.0 max = 0.0 }

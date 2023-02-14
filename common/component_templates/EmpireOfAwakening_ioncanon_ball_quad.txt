@@ -29,7 +29,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_ion_canon_ball_1" }
 
 	size_restriction = { 
-		advance_superstardestroyer
+		early_stardreadnought
 		executor_superstardestroyer 
 	}
 
@@ -99,7 +99,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_ion_canon_ball_2" }
 
 	size_restriction = { 
-		advance_superstardestroyer
+		early_stardreadnought
 		executor_superstardestroyer 
 	}
 
@@ -168,7 +168,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_ion_canon_ball_3" }
 
 	size_restriction = { 
-		advance_superstardestroyer
+		early_stardreadnought
 		executor_superstardestroyer 
 	}
 
@@ -237,7 +237,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_ion_canon_ball_4" }
 
 	size_restriction = { 
-		advance_superstardestroyer
+		early_stardreadnought
 		executor_superstardestroyer 
 	}
 

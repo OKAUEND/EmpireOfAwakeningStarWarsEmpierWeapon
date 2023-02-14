@@ -25,7 +25,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_twin_heavy_turbo_lasers_1" }
 	size_restriction = { 
-		advance_superstardestroyer
+		early_stardreadnought
 	}
 
 	damage = { min = 3000.0 max = 6000.0 }
@@ -94,7 +94,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_twin_heavy_turbo_lasers_2" }
 	size_restriction = { 
-		advance_superstardestroyer
+		early_stardreadnought
 	}
 
 	damage = { min = 3500.0 max = 6500.0 }
@@ -163,7 +163,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_twin_heavy_turbo_lasers_3" }
 	size_restriction = { 
-		advance_superstardestroyer
+		early_stardreadnought
 	}
 
 	damage = { min = 4000.0 max = 7000.0 }
@@ -232,7 +232,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_twin_heavy_turbo_lasers_4" }
 	size_restriction = { 
-		advance_superstardestroyer
+		early_stardreadnought
 	}
 
 	damage = { min = 5000.0 max = 8000.0 }
