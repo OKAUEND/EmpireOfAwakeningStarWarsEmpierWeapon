@@ -381,9 +381,9 @@ weapon_component_template = {
 		# advance_superstardestroyer
 	}
 
-	damage = { min = 110.0 max = 290.0 }
+	damage = { min = 55.0 max = 200.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 	
 	range = 85.0
 	accuracy = 0.90
@@ -404,9 +404,9 @@ weapon_component_template = {
 			eoa_tibanna_gas = @eoa_weapon_l_t5_cost_special
 		}		
 		upkeep = {
-			energy = @l_t5_upkeep_energy
-			alloys = @l_t5_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_t5_upkeep_tibannagas
+			energy = @eoa_l_t4_upkeep_energy
+			alloys = @eoa_l_t4_upkeep_alloys
+			eoa_tibanna_gas = 0.1
 		}
 	}
 	
@@ -499,9 +499,9 @@ weapon_component_template = {
 		# advance_superstardestroyer
 	}
 
-	damage = { min = 145 max = 330 }
+	damage = { min = 80 max = 260.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	range = 85.0
 	accuracy = 0.90
@@ -616,9 +616,9 @@ weapon_component_template = {
 		# advance_superstardestroyer
 	}
 
-	damage = { min = 200.0 max = 440.0 }
+	damage = { min = 110.0 max = 290.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	range = 85.0
 	accuracy = 0.90
@@ -732,9 +732,9 @@ weapon_component_template = {
 		# advance_superstardestroyer
 	}
 
-	damage = { min = 210.0 max = 450 }
+	damage = { min = 160.0 max = 350 }
 	windup = { min = 2 max = 20 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	range = 85.0
 	accuracy = 0.90
@@ -776,6 +776,76 @@ weapon_component_template = {
 	}
 	
 	component_set = "TURBO_LASER_BALL_7"
+	projectile_gfx = "QUAD_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_LARGE_TURBO_LASER_BALL_8"
+}
+#############################################
+#  - Tier 8
+#   - ターボレーザー VIII(SML)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_LARGE_TURBO_LASER_BALL_8"
+	size = large
+	type = instant
+	entity = "FR_Ball_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_turbolaser_ball_single_08"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_turbo_lasers_ball_5" }
+	size_restriction = { 
+		allegiance_stardreadnought 
+		titan_stardreadnought
+		# advance_superstardestroyer
+	}
+
+	damage = { min = 225.0 max = 425.0 }
+	windup = { min = 2 max = 20 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
+
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 1.75
+	armor_damage = 1.75
+	shield_penetration = 0.25
+	armor_penetration = 0.25
+	
+	power = -200
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_m_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t8_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_m_t8_upkeep_energy
+			alloys = @eoa_weapon_m_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_t8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TURBO_LASER_BALL_8"
 	projectile_gfx = "QUAD_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
