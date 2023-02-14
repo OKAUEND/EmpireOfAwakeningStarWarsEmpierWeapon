@@ -28,21 +28,21 @@ weapon_component_template = {
 		advance_superstardestroyer
 	}
 
-	damage = { min = 720.0 max = 2100.0 }
+	damage = { min = 3000.0 max = 6000.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 75
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_TYPE4_COOLDOWN
 
-	range = 175.0
+	range = 165.0
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 1.25
+	hull_damage = 1.35
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
 	armor_penetration = 0.25
 	
-	power = -75.0
+	power = -500.0
 	
 	resources = {
 		category = ship_components
@@ -97,11 +97,11 @@ weapon_component_template = {
 		advance_superstardestroyer
 	}
 
-	damage = { min = 920.0 max = 2700.0 }
+	damage = { min = 3500.0 max = 6500.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 75
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_TYPE4_COOLDOWN
 
-	range = 175.0
+	range = 165.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -111,7 +111,7 @@ weapon_component_template = {
 	shield_penetration = 1.00
 	armor_penetration = 0.25
 	
-	power = -90.0
+	power = -750.0
 	
 	resources = {
 		category = ship_components
@@ -166,11 +166,11 @@ weapon_component_template = {
 		advance_superstardestroyer
 	}
 
-	damage = { min = 1300.0 max = 3200.0 }
+	damage = { min = 4000.0 max = 7000.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 75
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_TYPE4_COOLDOWN
 
-	range = 175.0
+	range = 165.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -180,7 +180,7 @@ weapon_component_template = {
 	shield_penetration = 1.00
 	armor_penetration = 0.25
 	
-	power = -120.0
+	power = -1000.0
 	
 	resources = {
 		category = ship_components
@@ -235,11 +235,11 @@ weapon_component_template = {
 		advance_superstardestroyer
 	}
 
-	damage = { min = 1600.0 max = 3700.0 }
+	damage = { min = 5000.0 max = 8000.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 75
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_TYPE4_COOLDOWN
 
-	range = 175.0
+	range = 165.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -249,7 +249,7 @@ weapon_component_template = {
 	shield_penetration = 1.00
 	armor_penetration = 0.25
 	
-	power = -170.0
+	power = -1500.0
 	
 	resources = {
 		category = ship_components

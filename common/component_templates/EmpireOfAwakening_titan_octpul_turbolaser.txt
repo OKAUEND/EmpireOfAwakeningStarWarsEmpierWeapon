@@ -25,21 +25,20 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_octpule_turbo_lasers_1" }
 
-	damage = { min = 120.0 max = 370.0 }
+	damage = { min = 220.0 max = 320.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
 
-	range = 175.0
+	range = 140.0
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 1.25
-	shield_damage = 2.00
+	shield_damage = 2.75
 	armor_damage = 2.00
-	shield_penetration = 0.50
+	shield_penetration = 1.10
 	armor_penetration = 0.25
 	
-	power = -95.0
+	power = -150.0
 	
 	resources = {
 		category = ship_components
@@ -91,21 +90,20 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_octpule_turbo_lasers_2" }
 
-	damage = { min = 180.0 max = 440.0 }
+	damage = { min = 270.0 max = 530.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
 
-	range = 175.0
+	range = 140.0
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 1.25
-	shield_damage = 2.00
+	shield_damage = 2.75
 	armor_damage = 2.00
-	shield_penetration = 0.50
+	shield_penetration = 1.10
 	armor_penetration = 0.25
 	
-	power = -110.0
+	power = -200.0
 	
 	resources = {
 		category = ship_components
@@ -157,21 +155,20 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_octpule_turbo_lasers_3" }
 
-	damage = { min = 240.0 max = 490.0 }
+	damage = { min = 320.0 max = 600.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
 
-	range = 175.0
+	range = 140.0
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 1.25
-	shield_damage = 2.00
+	shield_damage = 2.75
 	armor_damage = 2.00
-	shield_penetration = 0.50
+	shield_penetration = 1.10
 	armor_penetration = 0.25
 	
-	power = -150.0
+	power = -300.0
 	
 	resources = {
 		category = ship_components
@@ -223,18 +220,17 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_octpule_turbo_lasers_4" }
 
-	damage = { min = 300.0 max = 560.0 }
+	damage = { min = 400.0 max = 650.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
 
-	range = 175.0
+	range = 140.0
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 1.25
-	shield_damage = 2.00
+	shield_damage = 2.75
 	armor_damage = 2.00
-	shield_penetration = 0.50
+	shield_penetration = 1.10
 	armor_penetration = 0.25
 	
 	power = -200.0

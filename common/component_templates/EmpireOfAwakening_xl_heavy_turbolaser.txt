@@ -25,15 +25,14 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_heavy_turbo_lasers_1" }
 
-	damage = { min = 60.0 max = 170.0 }
+	damage = { min = 150.0 max = 250.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
 
 	range = 125.0
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 1.25
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
@@ -91,15 +90,14 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_heavy_turbo_lasers_2" }
 
-	damage = { min = 180.0 max = 410.0 }
+	damage = { min = 200.0 max = 460.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
 
 	range = 125.0
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 1.25
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
@@ -157,15 +155,14 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_heavy_turbo_lasers_3" }
 
-	damage = { min = 240.0 max = 460.0 }
+	damage = { min = 250.0 max = 500.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
 
 	range = 125.0
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 1.25
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
@@ -223,15 +220,14 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_heavy_turbo_lasers_4" }
 
-	damage = { min = 300.0 max = 530.0 }
+	damage = { min = 300.0 max = 550.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
 
 	range = 125.0
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 1.25
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
