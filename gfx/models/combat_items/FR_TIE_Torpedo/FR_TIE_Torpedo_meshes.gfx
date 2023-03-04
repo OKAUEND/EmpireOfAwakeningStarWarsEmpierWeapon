@@ -4,7 +4,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "FR_TIE_Torpedo_mesh"
 		file = "gfx/models/combat_items/FR_TIE_Torpedo/FR_TIE_Torpedo.mesh"
-		scale = 0.2
+		scale = 0.8
 
 		meshsettings = {
 			name = "partsShape"

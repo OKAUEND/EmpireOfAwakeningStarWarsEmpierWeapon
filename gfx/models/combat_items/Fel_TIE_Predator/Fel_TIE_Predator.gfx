@@ -11,7 +11,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "Fel_TIE_Predator_mesh"
 		file = "gfx/models/combat_items/Fel_TIE_Predator/Fel_TIE_Predator.mesh"
-		scale = 0.4
+		scale = 0.8
 		
 		meshsettings = {
 			name = "Predator"

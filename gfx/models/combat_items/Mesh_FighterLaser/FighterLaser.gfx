@@ -12,7 +12,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "fighterlaser_fallenrepublic_mesh"
 		file = "gfx/models/combat_items/Mesh_FighterLaser/FighterLaser_fallenrepublic.mesh"
-		scale = 0.4
+		scale = 2.0
 
 		meshsettings = {
 			name = "green_blaster"

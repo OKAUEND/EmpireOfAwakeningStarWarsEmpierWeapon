@@ -12,7 +12,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "turbolaser_mesh"
 		file = "gfx/models/combat_items/Mesh_TurboLaser/turbo_green.mesh"
-		scale = 1.2
+		scale = 3.0
 
 		meshsettings = {
 			name = "Green Bolt"
@@ -31,7 +31,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "turbolaser_ion_mesh"
 		file = "gfx/models/combat_items/Mesh_TurboLaser/turbo_ion.mesh"
-		scale = 1.0
+		scale = 3.0
 
 		meshsettings = {
 			name = "Ion Bolt"
@@ -50,7 +50,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "turbolaser_disruptor_mesh"
 		file = "gfx/models/combat_items/Mesh_TurboLaser/turbo_purple.mesh"
-		scale = 1.2
+		scale = 3.0
 
 		meshsettings = {
 			name = "Purple Bolt"
@@ -69,7 +69,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "megamaser_mesh"
 		file = "gfx/models/combat_items/Mesh_TurboLaser/turbo_maser.mesh"
-		scale = 1.2
+		scale = 3.0
 
 		meshsettings = {
 			name = "Maser Bolt"

@@ -4,7 +4,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "FR_TIE_Hunter_mesh"
 		file = "gfx/models/combat_items/FR_TIE_Hunter/FR_TIE_Hunter.mesh"
-		scale = 0.2
+		scale = 0.8
 
 		meshsettings = {
 			name = "TIE_HunterShape"

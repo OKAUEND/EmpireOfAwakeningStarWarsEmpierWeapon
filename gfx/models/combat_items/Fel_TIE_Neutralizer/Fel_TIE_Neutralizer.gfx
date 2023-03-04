@@ -9,7 +9,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "Fel_TIE_Neutralizer_mesh"
 		file = "gfx/models/combat_items/Fel_TIE_Neutralizer/Fel_TIE_Neutralizer.mesh"
-		scale = 0.4
+		scale = 0.8
 		
 		meshsettings = {
 			name = "Syca"
