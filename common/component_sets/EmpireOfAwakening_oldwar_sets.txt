@@ -28,6 +28,12 @@ component_set = {
 }
 
 component_set = {
+	key = "EOA_OLDWAR_HEAVY_ION_CANON_1"
+	icon = "GFX_ship_part_EOA_heavy_ion_canon_01"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "EOA_OLDWAR_ANTI_AIR_TURBO_LASER"
 	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_01"
 	icon_frame = 1
