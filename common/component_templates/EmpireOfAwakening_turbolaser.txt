@@ -34,7 +34,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_1" }
 
-	damage = { min = 5.0 max = 7.0 }
+	damage = { min = 2.0 max = 5.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
@@ -47,6 +47,8 @@ weapon_component_template = {
 		early_stardreadnought
 		executor_superstardestroyer
 	}
+
+	point_defence_targets = { "missile" "strike_craft" }
 	
 	range = 40.0
 	accuracy = 0.90
@@ -251,7 +253,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_2" }
 
-	damage = { min = 6.5 max = 8.5 }
+	damage = { min = 4.0 max = 6.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
@@ -265,6 +267,8 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
+	point_defence_targets = { "missile" "strike_craft" }
+	
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -470,7 +474,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_3" }
 
-	damage = { min = 8.0 max = 10.0 }
+	damage = { min = 4.0 max = 5.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
@@ -484,6 +488,8 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
+	point_defence_targets = { "missile" "strike_craft" }
+	
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -690,7 +696,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_4" }
 
-	damage = { min = 10.0 max = 12.0 }
+	damage = { min = 5.0 max = 7.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
@@ -704,6 +710,8 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
+	point_defence_targets = { "missile" "strike_craft" }
+	
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -911,7 +919,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_5" }
 
-	damage = { min = 13.0 max = 16.0 }
+	damage = { min = 6.5 max = 8.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
@@ -925,6 +933,8 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
+	point_defence_targets = { "missile" "strike_craft" }
+	
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -1130,7 +1140,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_6" }
 
-	damage = { min = 15.0 max = 17.0 }
+	damage = { min = 7.5 max = 8.5 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
@@ -1144,6 +1154,8 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
+	point_defence_targets = { "missile" "strike_craft" }
+	
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -1349,7 +1361,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_7" }
 
-	damage = { min = 20.0 max = 22.0 }
+	damage = { min = 10.0 max = 11.0 }
 	windup = { min = 1.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
@@ -1363,6 +1375,8 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
+	point_defence_targets = { "missile" "strike_craft" }
+	
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -1568,7 +1582,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_7" }
 
-	damage = { min = 25.0 max = 27.0 }
+	damage = { min = 12.5 max = 13.5 }
 	windup = { min = 1.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
@@ -1582,6 +1596,8 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
+	point_defence_targets = { "missile" "strike_craft" }
+	
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60

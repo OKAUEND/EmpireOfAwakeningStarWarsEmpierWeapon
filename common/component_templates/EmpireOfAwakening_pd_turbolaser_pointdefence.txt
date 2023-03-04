@@ -49,6 +49,8 @@ weapon_component_template = {
 		eoa_imperial_military_station_model2
 		eoa_imperial_military_station_model3
 	}
+
+	point_defence_targets = { "missile" "strike_craft" }
 	
 	range = 30.0
 	accuracy = 0.80
@@ -124,6 +126,8 @@ weapon_component_template = {
 		eoa_imperial_military_station_model2
 		eoa_imperial_military_station_model3
 	}
+
+	point_defence_targets = { "missile" "strike_craft" }
 	
 	range = 30.0
 	accuracy = 0.80
@@ -202,6 +206,8 @@ weapon_component_template = {
 		eoa_imperial_military_station_model2
 		eoa_imperial_military_station_model3
 	}
+
+	point_defence_targets = { "missile" "strike_craft" }
 	
 	range = 30.0
 	accuracy = 0.80
@@ -279,6 +285,8 @@ weapon_component_template = {
 		eoa_imperial_military_station_model2
 		eoa_imperial_military_station_model3
 	}
+
+	point_defence_targets = { "missile" "strike_craft" }
 	
 	range = 30.0
 	accuracy = 0.80
@@ -356,6 +364,8 @@ weapon_component_template = {
 		eoa_imperial_military_station_model2
 		eoa_imperial_military_station_model3
 	}
+
+	point_defence_targets = { "missile" "strike_craft" }
 	
 	range = 30.0
 	accuracy = 0.80
