@@ -27,7 +27,7 @@ weapon_component_template = {
 
 	damage = { min = 100.0 max = 320.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -37,7 +37,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 175.0
+	range = 100.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -99,7 +99,7 @@ weapon_component_template = {
 
 	damage = { min = 160.0 max = 390.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -109,7 +109,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 175.0
+	range = 100.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -171,7 +171,7 @@ weapon_component_template = {
 
 	damage = { min = 220.0 max = 440.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -181,7 +181,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 175.0
+	range = 100.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -243,7 +243,7 @@ weapon_component_template = {
 
 	damage = { min = 280.0 max = 510.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = 35
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -253,7 +253,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 175.0
+	range = 100.0
 	accuracy = 0.90
 	tracking = 0.02
 	
