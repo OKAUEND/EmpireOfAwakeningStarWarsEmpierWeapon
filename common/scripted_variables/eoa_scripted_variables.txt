@@ -42,7 +42,7 @@
 ###                         weapons                      ###
 ############################################################
 #CoolDown
-@EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN = 5
+@EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN = 2.5
 @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN = 15
 @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN = 35
 @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN = 80
