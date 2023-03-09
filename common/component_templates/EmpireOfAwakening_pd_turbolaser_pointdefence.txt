@@ -35,7 +35,7 @@ weapon_component_template = {
 
 	damage = { min = 2.0 max = 4.0 }
 	windup = { min = 0.0 max = 0.0 }
-	total_fire_time = 5
+	total_fire_time = 2.5
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -91,7 +91,7 @@ weapon_component_template = {
 	component_set = "EOA_ANTI_AIR_TURBO_LASER_1_SET"
 	projectile_gfx = "TURBOLASER_LC_PD"
 	tags = { weapon_type_point_defense weapon_type_turbolaser }
-	ai_tags = { weapon_role_point_defense }
+	ai_tags = { weapon_role_point_defense screen }
 	upgrades_to = "EOA_ANTI_AIR_TURBO_LASER_2"	
 }
 
@@ -112,7 +112,7 @@ weapon_component_template = {
 
 	damage = { min = 2.2 max = 5.5 }
 	windup = { min = 0.0 max = 0.0 }
-	total_fire_time = 5
+	total_fire_time = 2.5
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -192,7 +192,7 @@ weapon_component_template = {
 
 	damage = { min = 2.2 max = 7.5 }
 	windup = { min = 0.0 max = 0.0 }
-	total_fire_time = 5
+	total_fire_time = 2.5
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -271,7 +271,7 @@ weapon_component_template = {
 
 	damage = { min = 3.5 max = 10.5 }
 	windup = { min = 0.0 max = 0.0 }
-	total_fire_time = 5
+	total_fire_time = 2.5
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -350,7 +350,7 @@ weapon_component_template = {
 
 	damage = { min = 4.0 max = 12.5 }
 	windup = { min = 0.0 max = 0.0 }
-	total_fire_time = 5
+	total_fire_time = 2.5
 
 	size_restriction = { 
 		imperial1_stardestroyer
