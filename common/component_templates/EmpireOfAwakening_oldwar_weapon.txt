@@ -23,6 +23,8 @@ weapon_component_template = {
 		eoa_imperial_military_station_model3
 	}
 
+	point_defence_targets = { "missile" "strike_craft" }
+
 	range = 40.0
 	accuracy = 0.90
 	tracking = 0.60
@@ -347,6 +349,8 @@ weapon_component_template = {
 	windup = { min = 0.0 max = 0.0 }
 	total_fire_time = 2.5
 	
+	point_defence_targets = { "missile" "strike_craft" }
+
 	range = 30.0
 	accuracy = 0.80
 	tracking = 0.65
