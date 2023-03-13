@@ -1,0 +1,26 @@
+
+EoA_turret_TurboLaser_L = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = ""
+	}
+}
+
+
+EoA_turret_TurboLaser_M = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = ""
+	}
+}
+
+
+EoA_turret_TurboLaser_S = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = ""
+	}
+}
