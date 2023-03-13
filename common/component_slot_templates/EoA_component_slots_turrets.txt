@@ -1,5 +1,6 @@
-
-EoA_turret_TurboLaser_L = {
+##############################################
+#ターボレーザー/イオン砲汎用
+EoA_turret_TurboLaser_L_TypeA = {
 	size = large
 	component = weapon
 	entities = {
@@ -7,8 +8,7 @@ EoA_turret_TurboLaser_L = {
 	}
 }
 
-
-EoA_turret_TurboLaser_M = {
+EoA_turret_TurboLaser_L_TypeB = {
 	size = large
 	component = weapon
 	entities = {
@@ -16,11 +16,102 @@ EoA_turret_TurboLaser_M = {
 	}
 }
 
+EoA_turret_TurboLaser_M_typeA = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = ""
+		weapon_type_energy = ""
+	}
+}
+
+EoA_turret_TurboLaser_M_typeB = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = ""
+		weapon_type_energy = ""
+	}
+}
 
 EoA_turret_TurboLaser_S = {
 	size = large
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = ""
+		weapon_type_energy = ""
+	}
+}
+
+EoA_turret_TurboLaser_PD = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = ""
+	}
+}
+
+##############################################
+#ターボレーザー/ボール
+EoA_turret_TurboLaser_SingleBall = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = ""
+		weapon_type_energy = ""
+	}
+}
+
+EoA_turret_TurboLaser_QuadBall = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = ""
+		weapon_type_energy = ""
+	}
+}
+
+
+##############################################
+#重ターボレーザー/重イオン
+EoA_turret_TurboLaser_Heavy = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = ""
+		weapon_type_energy = ""
+	}
+}
+
+##############################################
+#オクトプル・ターボレーザー
+EoA_turret_TurboLaser_Octpul = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = ""
+		weapon_type_energy = ""
+	}
+}
+
+##############################################
+#超重ターボレーザー
+#大型砲塔型
+EoA_turret_TurboLaser_SuperHeavy_typeA = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = ""
+		weapon_type_energy = ""
+	}
+}
+
+#小型砲塔型
+EoA_turret_TurboLaser_SuperHeavy_typeB = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = ""
+		weapon_type_energy = ""
 	}
 }
