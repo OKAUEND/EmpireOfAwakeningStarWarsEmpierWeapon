@@ -24,9 +24,17 @@ EoA_turret_TurboLaser_L_Triple = {
 	}
 }
 
+EoA_turret_TurboLaser_L_Single = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = "FR_Triple_Turret_Model1_entity"
+	}
+}
+
 
 EoA_turret_TurboLaser_M_typeA = {
-	size = large
+	size = medium
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "FR_Double_Turret_Model1_entity"
@@ -35,7 +43,16 @@ EoA_turret_TurboLaser_M_typeA = {
 }
 
 EoA_turret_TurboLaser_M_typeB = {
-	size = large
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = "FR_Quadruple_Turret_Model2_entity"
+		weapon_type_energy = "FR_NK7_Turret_entity"
+	}
+}
+
+EoA_turret_TurboLaser_M_Single = {
+	size = medium
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "FR_Quadruple_Turret_Model2_entity"
@@ -44,7 +61,7 @@ EoA_turret_TurboLaser_M_typeB = {
 }
 
 EoA_turret_TurboLaser_S = {
-	size = large
+	size = small
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "FR_Double_Turret_Model1_entity"
@@ -53,7 +70,7 @@ EoA_turret_TurboLaser_S = {
 }
 
 EoA_turret_TurboLaser_PD = {
-	size = large
+	size = point_defence
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "FR_Double_Turret_Model1_entity"
@@ -84,7 +101,7 @@ EoA_turret_TurboLaser_QuadBall = {
 ##############################################
 #重ターボレーザー/重イオン
 EoA_turret_TurboLaser_Heavy = {
-	size = large
+	size = extra_large
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "FR_Double_Turret_Model3_entity"
@@ -92,13 +109,22 @@ EoA_turret_TurboLaser_Heavy = {
 	}
 }
 
+EoA_turret_TurboLaser_Heavy_Triple = {
+	size = extra_large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = "FR_Triple_Turret_Model1_entity"
+	}
+}
+
 ##############################################
 #オクトプル・ターボレーザー
 EoA_turret_TurboLaser_Octpul = {
-	size = large
+	size = extra_large
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "FR_Octuple_Turret_entity"
+		weapon_type_energy = "FR_Double_Turret_Model2_entity"
 	}
 }
 
@@ -106,7 +132,7 @@ EoA_turret_TurboLaser_Octpul = {
 #超重ターボレーザー
 #大型砲塔型
 EoA_turret_TurboLaser_SuperHeavy_typeA = {
-	size = large
+	size = titanic
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "Annihilator_Bismarck_Turret_entity"
@@ -115,7 +141,7 @@ EoA_turret_TurboLaser_SuperHeavy_typeA = {
 
 #小型砲塔型
 EoA_turret_TurboLaser_SuperHeavy_typeB = {
-	size = large
+	size = titanic
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "FR_Double_Turret_Model5_entity"
@@ -124,7 +150,7 @@ EoA_turret_TurboLaser_SuperHeavy_typeB = {
 
 #オクトプル
 EoA_turret_TurboLaser_SuperHeavy_Octpul = {
-	size = large
+	size = titanic
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "FR_Octuple_Turret_entity"
