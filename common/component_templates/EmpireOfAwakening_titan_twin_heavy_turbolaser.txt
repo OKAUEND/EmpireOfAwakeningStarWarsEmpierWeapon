@@ -18,7 +18,7 @@ weapon_component_template = {
 	key = "EOA_TITAN_TIWN_HEAVY_TURBO_LASER_1"
 	size = titanic
 	type = instant
-	entity = "Annihilator_Bismarck_Turret_entity"
+	# entity = "Annihilator_Bismarck_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_01"
 	icon_frame = 1
@@ -87,7 +87,7 @@ weapon_component_template = {
 	key = "EOA_TITAN_TIWN_HEAVY_TURBO_LASER_2"
 	size = titanic
 	type = instant
-	entity = "Annihilator_Bismarck_Turret_entity"
+	# entity = "Annihilator_Bismarck_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_02"
 	icon_frame = 1
@@ -156,7 +156,7 @@ weapon_component_template = {
 	key = "EOA_TITAN_TIWN_HEAVY_TURBO_LASER_3"
 	size = titanic
 	type = instant
-	entity = "Annihilator_Bismarck_Turret_entity"
+	# entity = "Annihilator_Bismarck_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_03"
 	icon_frame = 1
@@ -225,7 +225,7 @@ weapon_component_template = {
 	key = "EOA_TITAN_TIWN_HEAVY_TURBO_LASER_4"
 	size = titanic
 	type = instant
-	entity = "Annihilator_Bismarck_Turret_entity"
+	# entity = "Annihilator_Bismarck_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_04"
 	icon_frame = 1

@@ -27,7 +27,7 @@ weapon_component_template = {
 	key = "EOA_SMALL_TURBO_LASER_1"
 	size = small
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_01"
 	icon_frame = 1
@@ -39,6 +39,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -101,7 +104,7 @@ weapon_component_template = {
 	
 	key = "EOA_MEDIUM_TURBO_LASER_1"
 	size = medium
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_01"
 	icon_frame = 1
@@ -113,6 +116,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -173,7 +179,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_TURBO_LASER_1"
 	size = large
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_01"
 	icon_frame = 1
@@ -185,6 +191,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -246,7 +255,7 @@ weapon_component_template = {
 	key = "EOA_SMALL_TURBO_LASER_2"
 	size = small
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_02"
 	icon_frame = 1
@@ -258,6 +267,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -321,7 +333,7 @@ weapon_component_template = {
 	
 	key = "EOA_MEDIUM_TURBO_LASER_2"
 	size = medium
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_02"
 	icon_frame = 1
@@ -333,6 +345,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -393,7 +408,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_TURBO_LASER_2"
 	size = large
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_02"
 	icon_frame = 1
@@ -405,6 +420,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -467,7 +485,7 @@ weapon_component_template = {
 	key = "EOA_SMALL_TURBO_LASER_3"
 	size = small
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_03"
 	icon_frame = 1
@@ -479,6 +497,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -543,7 +564,7 @@ weapon_component_template = {
 	
 	key = "EOA_MEDIUM_TURBO_LASER_3"
 	size = medium
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_03"
 	icon_frame = 1
@@ -555,6 +576,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -615,7 +639,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_TURBO_LASER_3"
 	size = large
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_03"
 	icon_frame = 1
@@ -627,6 +651,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -689,7 +716,7 @@ weapon_component_template = {
 	key = "EOA_SMALL_TURBO_LASER_4"
 	size = small
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_04"
 	icon_frame = 1
@@ -701,6 +728,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -764,7 +794,7 @@ weapon_component_template = {
 	
 	key = "EOA_MEDIUM_TURBO_LASER_4"
 	size = medium
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_04"
 	icon_frame = 1
@@ -776,6 +806,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -837,7 +870,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_TURBO_LASER_4"
 	size = large
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_04"
 	icon_frame = 1
@@ -849,6 +882,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -912,7 +948,7 @@ weapon_component_template = {
 	key = "EOA_SMALL_TURBO_LASER_5"
 	size = small
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_05"
 	icon_frame = 1
@@ -924,6 +960,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -987,7 +1026,7 @@ weapon_component_template = {
 	
 	key = "EOA_MEDIUM_TURBO_LASER_5"
 	size = medium
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_05"
 	icon_frame = 1
@@ -999,6 +1038,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1059,7 +1101,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_TURBO_LASER_5"
 	size = large
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_05"
 	icon_frame = 1
@@ -1071,6 +1113,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1133,7 +1178,7 @@ weapon_component_template = {
 	key = "EOA_SMALL_TURBO_LASER_6"
 	size = small
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_06"
 	icon_frame = 1
@@ -1145,6 +1190,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1208,7 +1256,7 @@ weapon_component_template = {
 	
 	key = "EOA_MEDIUM_TURBO_LASER_6"
 	size = medium
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_06"
 	icon_frame = 1
@@ -1220,6 +1268,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1280,7 +1331,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_TURBO_LASER_6"
 	size = large
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_06"
 	icon_frame = 1
@@ -1292,6 +1343,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1354,7 +1408,7 @@ weapon_component_template = {
 	key = "EOA_SMALL_TURBO_LASER_7"
 	size = small
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_07"
 	icon_frame = 1
@@ -1366,6 +1420,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1429,7 +1486,7 @@ weapon_component_template = {
 	
 	key = "EOA_MEDIUM_TURBO_LASER_7"
 	size = medium
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_07"
 	icon_frame = 1
@@ -1441,6 +1498,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1501,7 +1561,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_TURBO_LASER_7"
 	size = large
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_07"
 	icon_frame = 1
@@ -1513,6 +1573,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1575,7 +1638,7 @@ weapon_component_template = {
 	key = "EOA_SMALL_TURBO_LASER_8"
 	size = small
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_07"
 	icon_frame = 1
@@ -1587,6 +1650,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1649,7 +1715,7 @@ weapon_component_template = {
 	
 	key = "EOA_MEDIUM_TURBO_LASER_8"
 	size = medium
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_07"
 	icon_frame = 1
@@ -1661,6 +1727,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1720,7 +1789,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_TURBO_LASER_8"
 	size = large
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_07"
 	icon_frame = 1
@@ -1732,6 +1801,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer

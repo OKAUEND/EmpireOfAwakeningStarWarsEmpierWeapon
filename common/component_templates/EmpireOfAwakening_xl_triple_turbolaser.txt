@@ -18,7 +18,7 @@ weapon_component_template = {
 	key = "EOA_TRIPLE_TURBO_LASER_1"
 	size = extra_large
 	type = instant
-	entity = "FR_Triple_Turret_Model1_entity"
+	# entity = "FR_Triple_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_unique_typeb_01"
 	icon_frame = 1
@@ -88,7 +88,7 @@ weapon_component_template = {
 	key = "EOA_TRIPLE_TURBO_LASER_2"
 	size = extra_large
 	type = instant
-	entity = "FR_Triple_Turret_Model1_entity"
+	# entity = "FR_Triple_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_unique_typeb_02"
 	icon_frame = 1
@@ -158,7 +158,7 @@ weapon_component_template = {
 	key = "EOA_TRIPLE_TURBO_LASER_3"
 	size = extra_large
 	type = instant
-	entity = "FR_Triple_Turret_Model1_entity"
+	# entity = "FR_Triple_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_unique_typeb_03"
 	icon_frame = 1
@@ -228,7 +228,7 @@ weapon_component_template = {
 	key = "EOA_TRIPLE_TURBO_LASER_4"
 	size = extra_large
 	type = instant
-	entity = "FR_Triple_Turret_Model1_entity"
+	# entity = "FR_Triple_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_unique_typeb_04"
 	icon_frame = 1

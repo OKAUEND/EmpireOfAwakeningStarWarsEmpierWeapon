@@ -32,7 +32,7 @@ weapon_component_template = {
 		eoa_imperial_military_station_model3
 	}
 	
-	prerequisites = { "tech_eoa_turbo_lasers_1" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 5.0 max = 12.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -100,7 +100,7 @@ weapon_component_template = {
 		eoa_imperial_military_station_model3
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_1" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 12.0 max = 29.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -168,7 +168,7 @@ weapon_component_template = {
 		eoa_imperial_military_station_model3
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_1" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 50.0 max = 127.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -239,7 +239,7 @@ weapon_component_template = {
 
 	}
 	
-	prerequisites = { "tech_eoa_turbo_lasers_2" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 6.0 max = 15.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -309,7 +309,7 @@ weapon_component_template = {
 
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_2" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 17 max = 37.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -378,7 +378,7 @@ weapon_component_template = {
 
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_2" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 65.0 max = 165.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -450,7 +450,7 @@ weapon_component_template = {
 
 	}
 	
-	prerequisites = { "tech_eoa_turbo_lasers_3" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 8.0 max = 19.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -521,7 +521,7 @@ weapon_component_template = {
 
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_3" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 17.0 max = 47.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -590,7 +590,7 @@ weapon_component_template = {
 
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_3" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 85.0 max = 220.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -661,7 +661,7 @@ weapon_component_template = {
 
 	}
 	
-	prerequisites = { "tech_eoa_turbo_lasers_4" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 10.0 max = 26.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -731,7 +731,7 @@ weapon_component_template = {
 
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_4" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 24.0 max = 62.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -801,7 +801,7 @@ weapon_component_template = {
 
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_4" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 110.0 max = 290.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -873,7 +873,7 @@ weapon_component_template = {
 
 	}
 	
-	prerequisites = { "tech_eoa_turbo_lasers_5" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 13.0 max = 35.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -943,7 +943,7 @@ weapon_component_template = {
 
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_5" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 30.0 max = 75.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1012,7 +1012,7 @@ weapon_component_template = {
 
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_5" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 145 max = 330 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1083,7 +1083,7 @@ weapon_component_template = {
 
 	}
 	
-	prerequisites = { "tech_eoa_turbo_lasers_6" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 15.0 max = 40.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1153,7 +1153,7 @@ weapon_component_template = {
 
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_6" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 35.0 max = 120.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1222,7 +1222,7 @@ weapon_component_template = {
 
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_6" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 200.0 max = 440.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1293,7 +1293,7 @@ weapon_component_template = {
 
 	}
 	
-	prerequisites = { "tech_eoa_turbo_lasers_7" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 17.0 max = 45.0 }
 	windup = { min = 1.0 max = 10.0 }
@@ -1362,7 +1362,7 @@ weapon_component_template = {
 
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_7" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 40.0 max = 140.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1430,7 +1430,7 @@ weapon_component_template = {
 
 	}
 
-	prerequisites = { "tech_eoa_turbo_lasers_7" }
+	prerequisites = { "tech_eoa_hidden_weapons"}
 
 	damage = { min = 210.0 max = 450 }
 	windup = { min = 2 max = 20 }

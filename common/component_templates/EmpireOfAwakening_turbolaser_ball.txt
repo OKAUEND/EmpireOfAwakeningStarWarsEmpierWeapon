@@ -369,7 +369,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_TURBO_LASER_BALL_4"
 	size = large
 	type = instant
-	entity = "FR_Ball_Turret_entity"
+	# entity = "FR_Ball_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_ball_single_04"
 	icon_frame = 1
@@ -487,7 +487,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_TURBO_LASER_BALL_5"
 	size = large
 	type = instant
-	entity = "FR_Ball_Turret_entity"
+	# entity = "FR_Ball_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_ball_single_05"
 	icon_frame = 1
@@ -604,7 +604,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_TURBO_LASER_BALL_6"
 	size = large
 	type = instant
-	entity = "FR_Ball_Turret_entity"
+	# entity = "FR_Ball_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_ball_single_06"
 	icon_frame = 1
@@ -720,7 +720,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_TURBO_LASER_BALL_7"
 	size = large
 	type = instant
-	entity = "FR_Ball_Turret_entity"
+	# entity = "FR_Ball_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_ball_single_07"
 	icon_frame = 1
@@ -790,7 +790,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_TURBO_LASER_BALL_8"
 	size = large
 	type = instant
-	entity = "FR_Ball_Turret_entity"
+	# entity = "FR_Ball_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_ball_single_08"
 	icon_frame = 1

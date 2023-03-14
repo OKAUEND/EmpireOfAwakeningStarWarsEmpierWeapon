@@ -5,7 +5,7 @@ weapon_component_template = {
 	key = "EOA_OLDWAR_SMALL_TURBO_LASER"
 	size = small
 	type = instant
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_01"
 	icon_frame = 1
@@ -75,7 +75,7 @@ weapon_component_template = {
 	
 	key = "EOA_OLDWAR_MEDIUM_TURBO_LASER"
 	size = medium
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_turbolaser_01"
 	icon_frame = 1
@@ -141,7 +141,7 @@ weapon_component_template = {
 # 	key = "EOA_OLDWAR_LARGE_TURBO_LASER"
 # 	size = large
 # 	type = instant
-# 	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 # 	icon = "GFX_ship_part_EOA_turbolaser_01"
 # 	icon_frame = 1
@@ -202,7 +202,7 @@ weapon_component_template = {
 	key = "EOA_OLDWAR_HEAVY_TURBO_LASER"
 	size = extra_large
 	type = instant
-	entity = "FR_Double_Turret_Model3_entity"
+	# entity = "FR_Double_Turret_Model3_entity"
 	
 	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_01"
 	icon_frame = 1
@@ -265,7 +265,7 @@ weapon_component_template = {
 	key = "EOA_OLDWAR_HEAVY_ION_CANON"
 	size = extra_large
 	type = instant
-	entity = "FR_Double_Turret_Model2_entity"
+	# entity = "FR_Double_Turret_Model2_entity"
 	
 	icon = "GFX_ship_part_EOA_heavy_ion_canon_01"
 	icon_frame = 1
@@ -332,7 +332,7 @@ weapon_component_template = {
 	key = "EOA_OLDWAR_ANTI_AIR_TURBO_LASER"
 	size = point_defence
 	type = point_defence
-	entity = "FR_Double_Turret_Model1_entity"
+	# entity = "FR_Double_Turret_Model1_entity"
 	
 	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_01"
 	icon_frame = 1

@@ -21,7 +21,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_ION_CANON_BALL_1"
 	size = large
 	type = instant
-	entity = "FR_Ball_Turret_entity"
+	# entity = "FR_Ball_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_ion_canon_single_ball_01"
 	icon_frame = 1
@@ -92,7 +92,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_ION_CANON_BALL_2"
 	size = large
 	type = instant
-	entity = "FR_Ball_Turret_entity"
+	# entity = "FR_Ball_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_ion_canon_single_ball_02"
 	icon_frame = 1
@@ -162,7 +162,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_ION_CANON_BALL_3"
 	size = large
 	type = instant
-	entity = "FR_Ball_Turret_entity"
+	# entity = "FR_Ball_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_ion_canon_single_ball_03"
 	icon_frame = 1
@@ -232,7 +232,7 @@ weapon_component_template = {
 	key = "EOA_LARGE_ION_CANON_BALL_4"
 	size = large
 	type = instant
-	entity = "FR_Ball_Turret_entity"
+	# entity = "FR_Ball_Turret_entity"
 	
 	icon = "GFX_ship_part_turbo_laser_g_1"
 	icon_frame = 1

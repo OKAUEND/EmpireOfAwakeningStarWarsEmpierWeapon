@@ -21,12 +21,12 @@ weapon_component_template = {
 	key = "EOA_LARGE_ION_CANON_QUAD_BALL_1"
 	size = large
 	type = instant
-	entity = "FR_Ball_Quad_Turret_entity"
+	# entity = "FR_Ball_Quad_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_ion_canon_quad_ball_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_ball_1" }
+	prerequisites = { "tech_eoa_weapon_hidden" }
 
 	size_restriction = { 
 		early_stardreadnought
@@ -91,12 +91,12 @@ weapon_component_template = {
 	key = "EOA_LARGE_ION_CANON_QUAD_BALL_2"
 	size = large
 	type = instant
-	entity = "FR_Ball_Quad_Turret_entity"
+	# entity = "FR_Ball_Quad_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_ion_canon_quad_ball_02"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_ball_2" }
+	prerequisites = { "tech_eoa_weapon_hidden" }
 
 	size_restriction = { 
 		early_stardreadnought
@@ -160,12 +160,12 @@ weapon_component_template = {
 	key = "EOA_LARGE_ION_CANON_QUAD_BALL_3"
 	size = large
 	type = instant
-	entity = "FR_Ball_Quad_Turret_entity"
+	# entity = "FR_Ball_Quad_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_ion_canon_quad_ball_03"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_ball_3" }
+	prerequisites = { "tech_eoa_weapon_hidden" }
 
 	size_restriction = { 
 		early_stardreadnought
@@ -229,12 +229,12 @@ weapon_component_template = {
 	key = "EOA_LARGE_ION_CANON_QUAD_BALL_4"
 	size = large
 	type = instant
-	entity = "FR_Ball_Quad_Turret_entity"
+	# entity = "FR_Ball_Quad_Turret_entity"
 	
 	icon = "GFX_ship_part_EOA_ion_canon_quad_ball_04"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_ball_4" }
+	prerequisites = { "tech_eoa_weapon_hidden" }
 
 	size_restriction = { 
 		early_stardreadnought

@@ -27,7 +27,7 @@
 # 	icon = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_01"
 # 	icon_frame = 1
 
-# 	prerequisites = { "tech_eoa_turbo_lasers_1" "tech_lasers_2" }
+# 	prerequisites = { "tech_eoa_weapon_hidden" "tech_lasers_2" }
 
 # 	size_restriction = { 
 # 		early_stardreadnought
@@ -80,7 +80,7 @@
 # 	icon = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_02"
 # 	icon_frame = 1
 
-# 	prerequisites = { "tech_eoa_turbo_lasers_2" }
+# 	prerequisites = { "tech_eoa_weapon_hidden" }
 
 # 	size_restriction = { 
 # 		early_stardreadnought
@@ -134,7 +134,7 @@
 # 	icon = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_03"
 # 	icon_frame = 1
 
-# 	prerequisites = { "tech_eoa_turbo_lasers_3" }
+# 	prerequisites = { "tech_eoa_weapon_hidden" }
 
 # 	size_restriction = { 
 # 		early_stardreadnought
@@ -189,7 +189,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_04"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_ball_1" }
+	prerequisites = { "tech_eoa_weapon_hidden" }
 
 	size_restriction = { 
 		early_stardreadnought
@@ -260,7 +260,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_05"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_ball_2" }
+	prerequisites = { "tech_eoa_weapon_hidden" }
 
 	size_restriction = { 
 		early_stardreadnought
@@ -330,7 +330,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_06"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_ball_3" }
+	prerequisites = { "tech_eoa_weapon_hidden" }
 
 	size_restriction = { 
 		early_stardreadnought
@@ -400,7 +400,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_07"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_ball_4" }
+	prerequisites = { "tech_eoa_weapon_hidden" }
 
 	size_restriction = { 
 		early_stardreadnought
@@ -470,7 +470,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_ball_unique_quad_08"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_ball_5" }
+	prerequisites = { "tech_eoa_weapon_hidden" }
 
 	size_restriction = { 
 		early_stardreadnought
