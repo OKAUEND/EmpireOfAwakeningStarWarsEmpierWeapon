@@ -4,7 +4,7 @@ EoA_turret_TurboLaser_L_TypeA = {
 	size = large
 	component = weapon
 	entities = {
-		weapon_type_turbolaser = ""
+		weapon_type_turbolaser = "FR_Double_Turret_Model1_entity"
 	}
 }
 
@@ -12,16 +12,25 @@ EoA_turret_TurboLaser_L_TypeB = {
 	size = large
 	component = weapon
 	entities = {
-		weapon_type_turbolaser = ""
+		weapon_type_turbolaser = "FR_Quadruple_Turret_Model2_entity"
 	}
 }
+
+EoA_turret_TurboLaser_L_Triple = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = "FR_Triple_Turret_Model1_entity"
+	}
+}
+
 
 EoA_turret_TurboLaser_M_typeA = {
 	size = large
 	component = weapon
 	entities = {
-		weapon_type_turbolaser = ""
-		weapon_type_energy = ""
+		weapon_type_turbolaser = "FR_Double_Turret_Model1_entity"
+		weapon_type_energy = "FR_NK7_Turret_entity"
 	}
 }
 
@@ -29,8 +38,8 @@ EoA_turret_TurboLaser_M_typeB = {
 	size = large
 	component = weapon
 	entities = {
-		weapon_type_turbolaser = ""
-		weapon_type_energy = ""
+		weapon_type_turbolaser = "FR_Quadruple_Turret_Model2_entity"
+		weapon_type_energy = "FR_NK7_Turret_entity"
 	}
 }
 
@@ -38,8 +47,8 @@ EoA_turret_TurboLaser_S = {
 	size = large
 	component = weapon
 	entities = {
-		weapon_type_turbolaser = ""
-		weapon_type_energy = ""
+		weapon_type_turbolaser = "FR_Double_Turret_Model1_entity"
+		weapon_type_energy = "FR_NK7_Turret_entity"
 	}
 }
 
@@ -47,7 +56,7 @@ EoA_turret_TurboLaser_PD = {
 	size = large
 	component = weapon
 	entities = {
-		weapon_type_turbolaser = ""
+		weapon_type_turbolaser = "FR_Double_Turret_Model1_entity"
 	}
 }
 
@@ -57,8 +66,8 @@ EoA_turret_TurboLaser_SingleBall = {
 	size = large
 	component = weapon
 	entities = {
-		weapon_type_turbolaser = ""
-		weapon_type_energy = ""
+		weapon_type_turbolaser = "FR_Ball_Turret_entity"
+		weapon_type_energy = "FR_Ball_Turret_entity"
 	}
 }
 
@@ -66,8 +75,8 @@ EoA_turret_TurboLaser_QuadBall = {
 	size = large
 	component = weapon
 	entities = {
-		weapon_type_turbolaser = ""
-		weapon_type_energy = ""
+		weapon_type_turbolaser = "FR_Ball_Quad_Turret_entity"
+		weapon_type_energy = "FR_Ball_Quad_Turret_entity"
 	}
 }
 
@@ -78,8 +87,8 @@ EoA_turret_TurboLaser_Heavy = {
 	size = large
 	component = weapon
 	entities = {
-		weapon_type_turbolaser = ""
-		weapon_type_energy = ""
+		weapon_type_turbolaser = "FR_Double_Turret_Model3_entity"
+		weapon_type_energy = "FR_Double_Turret_Model2_entity"
 	}
 }
 
@@ -89,8 +98,7 @@ EoA_turret_TurboLaser_Octpul = {
 	size = large
 	component = weapon
 	entities = {
-		weapon_type_turbolaser = ""
-		weapon_type_energy = ""
+		weapon_type_turbolaser = "FR_Octuple_Turret_entity"
 	}
 }
 
@@ -101,8 +109,7 @@ EoA_turret_TurboLaser_SuperHeavy_typeA = {
 	size = large
 	component = weapon
 	entities = {
-		weapon_type_turbolaser = ""
-		weapon_type_energy = ""
+		weapon_type_turbolaser = "Annihilator_Bismarck_Turret_entity"
 	}
 }
 
@@ -111,7 +118,15 @@ EoA_turret_TurboLaser_SuperHeavy_typeB = {
 	size = large
 	component = weapon
 	entities = {
-		weapon_type_turbolaser = ""
-		weapon_type_energy = ""
+		weapon_type_turbolaser = "FR_Double_Turret_Model5_entity"
+	}
+}
+
+#オクトプル
+EoA_turret_TurboLaser_SuperHeavy_Octpul = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = "FR_Octuple_Turret_entity"
 	}
 }
