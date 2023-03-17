@@ -4,4 +4,4 @@ tags={
 	"Military"
 }
 name="EmpireOfAwakeningStarWarsWeapon"
-supported_version="3.6.1"
+supported_version="3.7.2"
