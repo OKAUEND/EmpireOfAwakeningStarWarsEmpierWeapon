@@ -3,5 +3,5 @@ tags={
 	"Sound"
 	"Military"
 }
-name="EmpireOfAwakeningStarWarsWeapon"
+name="EmpireOfAwakening Of Empires Weapon"
 supported_version="3.7.2"
