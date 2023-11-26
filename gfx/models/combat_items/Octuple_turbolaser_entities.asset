@@ -38,23 +38,25 @@ entity = {
 		event = { time = 0.0 particle = "turbolaser_large_stop_hit_effect" }
 	}
 	
-	#locator = { name = "bolt1" rotation = { 0 0 0 } position = { -0.5 0 0 } }
-	#locator = { name = "bolt2" rotation = { 0 0 0 } position = { -1 0 0 } }
-	#locator = { name = "bolt3" rotation = { 0 0 0 } position = { -1.5 0 0 } }
-	#locator = { name = "bolt4" rotation = { 0 0 0 } position = { 0.5 0 0 } }
-	#locator = { name = "bolt5" rotation = { 0 0 0 } position = { 1 0 0 } }
-	#locator = { name = "bolt6" rotation = { 0 0 0 } position = { 1.5 0 0 } }
-	#locator = { name = "bolt7" rotation = { 0 0 0 } position = { 2 0 0 } }
+	locator = { name = "bolt1" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "bolt2" rotation = { 0 0 0 } position = { -0.5 0 0 } }
+	locator = { name = "bolt3" rotation = { 0 0 0 } position = { -1 0 0 } }
+	locator = { name = "bolt4" rotation = { 0 0 0 } position = { -1.5 0 0 } }
+	locator = { name = "bolt5" rotation = { 0 0 0 } position = { 0.5 0 0 } }
+	locator = { name = "bolt6" rotation = { 0 0 0 } position = { 1 0 0 } }
+	locator = { name = "bolt7" rotation = { 0 0 0 } position = { 1.5 0 0 } }
+	locator = { name = "bolt8" rotation = { 0 0 0 } position = { 2 0 0 } }
 	
-	#attach = { bolt1 = "turbolaser_bolt_green_entity" }
-	#attach = { bolt2 = "turbolaser_bolt_green_entity" }
-	#attach = { bolt3 = "turbolaser_bolt_green_entity" }
-	#attach = { bolt4 = "turbolaser_bolt_green_entity" }
-	#attach = { bolt5 = "turbolaser_bolt_green_entity" }
-	#attach = { bolt6 = "turbolaser_bolt_green_entity" }
-	#attach = { bolt7 = "turbolaser_bolt_green_entity" }
+	attach = { bolt1 = "turbolaser_bolt_green_entity" }
+	attach = { bolt2 = "turbolaser_bolt_green_entity" }
+	attach = { bolt3 = "turbolaser_bolt_green_entity" }
+	attach = { bolt4 = "turbolaser_bolt_green_entity" }
+	attach = { bolt5 = "turbolaser_bolt_green_entity" }
+	attach = { bolt6 = "turbolaser_bolt_green_entity" }
+	attach = { bolt7 = "turbolaser_bolt_green_entity" }
+	attach = { bolt8 = "turbolaser_bolt_green_entity" }
 	
-	scale = 1.2
+	scale = 1.5
 }
 
 # HIT EFFECT
