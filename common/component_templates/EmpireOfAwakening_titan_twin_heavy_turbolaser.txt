@@ -28,15 +28,15 @@ weapon_component_template = {
 		early_stardreadnought
 	}
 
-	damage = { min = 3000.0 max = 6000.0 }
+	damage = { min = 1500.0 max = 4000.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
 
-	range = 165.0
+	range = 185.0
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 1.35
+	hull_damage = 0.75
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
@@ -97,17 +97,17 @@ weapon_component_template = {
 		early_stardreadnought
 	}
 
-	damage = { min = 3500.0 max = 6500.0 }
+	damage = { min = 2000.0 max = 5000.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
 
-	range = 165.0
+	range = 185.0
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 1.25
-	shield_damage = 2.50
-	armor_damage = 2.00
+	hull_damage = 0.75
+	shield_damage = 3.00
+	armor_damage = 2.50
 	shield_penetration = 1.00
 	armor_penetration = 0.25
 	
@@ -166,17 +166,17 @@ weapon_component_template = {
 		early_stardreadnought
 	}
 
-	damage = { min = 4000.0 max = 7000.0 }
+	damage = { min = 2500.0 max = 5500.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
 
-	range = 165.0
+	range = 185.0
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 1.25
-	shield_damage = 2.50
-	armor_damage = 2.00
+	hull_damage = 0.75
+	shield_damage = 3.00
+	armor_damage = 2.50
 	shield_penetration = 1.00
 	armor_penetration = 0.25
 	
@@ -235,17 +235,17 @@ weapon_component_template = {
 		early_stardreadnought
 	}
 
-	damage = { min = 5000.0 max = 8000.0 }
+	damage = { min = 3000.0 max = 6700.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
 
-	range = 165.0
+	range = 185.0
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 1.25
-	shield_damage = 2.50
-	armor_damage = 2.00
+	hull_damage = 0.75
+	shield_damage = 3.00
+	armor_damage = 2.50
 	shield_penetration = 1.00
 	armor_penetration = 0.25
 	
