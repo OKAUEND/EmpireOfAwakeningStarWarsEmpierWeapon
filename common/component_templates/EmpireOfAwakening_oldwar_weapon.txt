@@ -214,7 +214,7 @@ weapon_component_template = {
 
 	damage = { min = 75.0 max = 125.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	range = 60.0
 	accuracy = 0.90
@@ -274,7 +274,7 @@ weapon_component_template = {
 
 	damage = { min = 50.0 max = 110.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer

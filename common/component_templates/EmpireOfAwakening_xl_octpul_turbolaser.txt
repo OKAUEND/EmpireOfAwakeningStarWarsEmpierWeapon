@@ -27,7 +27,7 @@ weapon_component_template = {
 
 	damage = { min = 170.0 max = 270.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -100,7 +100,7 @@ weapon_component_template = {
 
 	damage = { min = 220.0 max = 480.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -173,7 +173,7 @@ weapon_component_template = {
 
 	damage = { min = 270.0 max = 520.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -246,7 +246,7 @@ weapon_component_template = {
 
 	damage = { min = 320.0 max = 570.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer

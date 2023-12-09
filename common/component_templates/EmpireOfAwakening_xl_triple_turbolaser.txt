@@ -27,7 +27,7 @@ weapon_component_template = {
 
 	damage = { min = 120.0 max = 220.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
 		dominator_stardestroyer
@@ -97,7 +97,7 @@ weapon_component_template = {
 
 	damage = { min = 180.0 max = 420.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
 		dominator_stardestroyer
@@ -167,7 +167,7 @@ weapon_component_template = {
 
 	damage = { min = 230.0 max = 460.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
 		dominator_stardestroyer
@@ -237,7 +237,7 @@ weapon_component_template = {
 
 	damage = { min = 280.0 max = 480.0 }
 	windup = { min = 2.0 max = 20.0 }
-	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_TYPE1_COOLDOWN
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
 		dominator_stardestroyer

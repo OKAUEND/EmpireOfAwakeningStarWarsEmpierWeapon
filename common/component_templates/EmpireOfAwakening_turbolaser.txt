@@ -492,7 +492,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_3" }
 
-	damage = { min = 4.0 max = 5.0 }
+	damage = { min = 4.5 max = 6.5 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_SMALL_COOLDOWN
 
@@ -1640,7 +1640,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Double_Turret_Model1_entity"
 	
-	icon = "GFX_ship_part_EOA_turbolaser_07"
+	icon = "GFX_ship_part_EOA_turbolaser_08"
 	icon_frame = 1
 	
 	prerequisites = { "tech_eoa_turbo_lasers_7" }
