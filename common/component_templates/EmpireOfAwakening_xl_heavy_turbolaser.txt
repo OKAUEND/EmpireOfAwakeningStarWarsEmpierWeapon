@@ -1,17 +1,23 @@
 # ############################################
 #  Heavy Turbo Laser
 # ############################################
-#  - Tier 3
-#   - 重ターボレーザー I(XL)
-#  - Tier 4
+#  - Tier 2
 #   - 重ターボレーザー II(XL)
-#  - Tier 5
-#   - 重ターボレーザー III(XL)
-#  - Tier 6
-#   - 重ターボレーザー IV(XL)
-#############################################
 #  - Tier 3
-#   - ターボレーザー III(SML)
+#   - 重ターボレーザー III(XL)
+#  - Tier 4
+#   - 重ターボレーザー IV(XL)
+#  - Tier 5
+#   - 重ターボレーザー V(XL)
+#  - Tier 6
+#   - 重ターボレーザー VI(XL)
+#  - Tier 7
+#   - 重ターボレーザー VII(XL)
+#  - Tier 8
+#   - 重ターボレーザー VIII(XL)
+#############################################
+#  - Tier 1
+#   - 重ターボレーザー I(XL)
 #############################################
 weapon_component_template = {
 	
@@ -23,9 +29,75 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_01"
 	icon_frame = 1
 
+	prerequisites = { "tech_eoa_turbo_lasers_pre" }
+	size_restriction = { 
+		imperial1_stardestroyer
+	}
+
+	damage = { min = 75.0 max = 125.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
+
+	range = 60.0
+	accuracy = 0.90
+	tracking = 0.40
+	
+	shield_damage = 2.50
+	armor_damage = 2.00
+	shield_penetration = 1.00
+	armor_penetration = 0.25
+	
+	power = -40.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}		
+		upkeep = {
+			energy = 0.020
+			alloys = 0.001
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "HEAVY_TURBO_LASER_1"
+	projectile_gfx = "HEAVYQUAD_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_HEAVY_TURBO_LASER_1"
+}
+#############################################
+#  - Tier 2
+#   - 重ターボレーザー II(XL)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_HEAVY_TURBO_LASER_2"
+	size = extra_large
+	type = instant
+	# entity = "FR_Double_Turret_Model3_entity"
+	
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_01"
+	icon_frame = 1
+
 	prerequisites = { "tech_eoa_heavy_turbo_lasers_1" }
 
-	damage = { min = 150.0 max = 250.0 }
+	damage = { min = 80.0 max = 195.6 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
@@ -42,7 +114,7 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 2.50
-	armor_damage = 2.00
+	armor_damage = 1.50
 	shield_penetration = 1.00
 	armor_penetration = 0.25
 	
@@ -76,19 +148,19 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "HEAVY_TURBO_LASER_1"
+	component_set = "HEAVY_TURBO_LASER_2"
 	projectile_gfx = "HEAVYQUAD_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
-	upgrades_to = "EOA_HEAVY_TURBO_LASER_2"
+	upgrades_to = "EOA_HEAVY_TURBO_LASER_3"
 }
 #############################################
-#  - Tier 4
-#   - ターボレーザー V(SML)
+#  - Tier 3
+#   - 重ターボレーザー III(XL)
 #############################################
 weapon_component_template = {
 	
-	key = "EOA_HEAVY_TURBO_LASER_2"
+	key = "EOA_HEAVY_TURBO_LASER_3"
 	size = extra_large
 	type = instant
 	# entity = "FR_Double_Turret_Model3_entity"
@@ -98,7 +170,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_heavy_turbo_lasers_2" }
 
-	damage = { min = 200.0 max = 460.0 }
+	damage = { min = 120.0 max = 295.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
@@ -149,19 +221,19 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "HEAVY_TURBO_LASER_2"
+	component_set = "HEAVY_TURBO_LASER_3"
 	projectile_gfx = "HEAVYQUAD_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
-	upgrades_to = "EOA_HEAVY_TURBO_LASER_3"
+	upgrades_to = "EOA_HEAVY_TURBO_LASER_4"
 }
 #############################################
-#  - Tier 5
-#   - ターボレーザー VI(SML)
+#  - Tier 4
+#   - 重ターボレーザー IV(XL)
 #############################################
 weapon_component_template = {
 	
-	key = "EOA_HEAVY_TURBO_LASER_3"
+	key = "EOA_HEAVY_TURBO_LASER_4"
 	size = extra_large
 	type = instant
 	# entity = "FR_Double_Turret_Model3_entity"
@@ -171,7 +243,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_heavy_turbo_lasers_3" }
 
-	damage = { min = 250.0 max = 500.0 }
+	damage = { min = 370.0 max = 1010.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
@@ -222,19 +294,19 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "HEAVY_TURBO_LASER_3"
+	component_set = "HEAVY_TURBO_LASER_4"
 	projectile_gfx = "HEAVYQUAD_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
-	upgrades_to = "EOA_HEAVY_TURBO_LASER_4"
+	upgrades_to = "EOA_HEAVY_TURBO_LASER_5"
 }
 #############################################
-#  - Tier 6
-#   - ターボレーザー VII(SML)
+#  - Tier 5
+#   - 重ターボレーザー V(XL)
 #############################################
 weapon_component_template = {
 	
-	key = "EOA_HEAVY_TURBO_LASER_4"
+	key = "EOA_HEAVY_TURBO_LASER_5"
 	size = extra_large
 	type = instant
 	# entity = "FR_Double_Turret_Model3_entity"
@@ -244,7 +316,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_heavy_turbo_lasers_4" }
 
-	damage = { min = 300.0 max = 550.0 }
+	damage = { min = 420.0 max = 1400.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
@@ -295,7 +367,226 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "HEAVY_TURBO_LASER_4"
+	component_set = "HEAVY_TURBO_LASER_5"
+	projectile_gfx = "HEAVYQUAD_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_HEAVY_TURBO_LASER_6"
+}
+#############################################
+#  - Tier 6
+#   - 重ターボレーザー VI(XL)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_HEAVY_TURBO_LASER_6"
+	size = extra_large
+	type = instant
+	# entity = "FR_Double_Turret_Model3_entity"
+	
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_04"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_heavy_turbo_lasers_4" }
+
+	damage = { min = 420.0 max = 1400.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 125.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	shield_damage = 2.50
+	armor_damage = 2.00
+	shield_penetration = 1.00
+	armor_penetration = 0.25
+	
+	power = -170.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_xl_t8_cost_special
+		}		
+		upkeep = {
+			energy = @xl_t8_upkeep_energy
+			alloys = @xl_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_xl_t8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "HEAVY_TURBO_LASER_6"
+	projectile_gfx = "HEAVYQUAD_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_HEAVY_TURBO_LASER_7"
+}
+#############################################
+#  - Tier 7
+#   - 重ターボレーザー VII(XL)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_HEAVY_TURBO_LASER_7"
+	size = extra_large
+	type = instant
+	# entity = "FR_Double_Turret_Model3_entity"
+	
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_04"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_heavy_turbo_lasers_4" }
+
+	damage = { min = 420.0 max = 1400.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 125.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	shield_damage = 2.50
+	armor_damage = 2.00
+	shield_penetration = 1.00
+	armor_penetration = 0.25
+	
+	power = -170.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_xl_t8_cost_special
+		}		
+		upkeep = {
+			energy = @xl_t8_upkeep_energy
+			alloys = @xl_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_xl_t8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "HEAVY_TURBO_LASER_7"
+	projectile_gfx = "HEAVYQUAD_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_HEAVY_TURBO_LASER_8"
+}
+#############################################
+#  - Tier 8
+#   - 重ターボレーザー VII(XL)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_HEAVY_TURBO_LASER_8"
+	size = extra_large
+	type = instant
+	# entity = "FR_Double_Turret_Model3_entity"
+	
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_04"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_heavy_turbo_lasers_4" }
+
+	damage = { min = 420.0 max = 1400.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 125.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	shield_damage = 2.50
+	armor_damage = 2.00
+	shield_penetration = 1.00
+	armor_penetration = 0.25
+	
+	power = -170.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_xl_t8_cost_special
+		}		
+		upkeep = {
+			energy = @xl_t8_upkeep_energy
+			alloys = @xl_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_xl_t8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "HEAVY_TURBO_LASER_8"
 	projectile_gfx = "HEAVYQUAD_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }

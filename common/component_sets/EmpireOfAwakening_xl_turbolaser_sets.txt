@@ -33,6 +33,17 @@ component_set = {
 	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_04"
 	icon_frame = 1
 }
+component_set = {
+	key = "HEAVY_TURBO_LASER_7"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "HEAVY_TURBO_LASER_8"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_04"
+	icon_frame = 1
+}
 
 #--------------------------------------------
 component_set = {
