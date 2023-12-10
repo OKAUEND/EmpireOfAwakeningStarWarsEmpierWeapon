@@ -113,8 +113,3 @@ component_set = {
 	icon_frame = 1
 }
 
-component_set = {
-	key = "OCTUPLE_TURBO_LASER_6"
-	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_01"
-	icon_frame = 1
-}

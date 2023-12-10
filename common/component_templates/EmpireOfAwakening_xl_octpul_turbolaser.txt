@@ -1,17 +1,19 @@
 # ############################################
 #  Octuple Turbo Laser
 # ############################################
-#  - Tier 3
-#   - 重ターボレーザー I(XL)
 #  - Tier 4
-#   - 重ターボレーザー II(XL)
+#   - オクトプルターボレーザー I(XL)
 #  - Tier 5
-#   - 重ターボレーザー III(XL)
+#   - オクトプルターボレーザー II(XL)
 #  - Tier 6
-#   - 重ターボレーザー IV(XL)
+#   - オクトプルターボレーザー III(XL)
+#  - Tier 7
+#   - オクトプルターボレーザー IV(XL)
+#  - Tier 8
+#   - オクトプルターボレーザー V(XL)
 #############################################
-#  - Tier 3
-#   - ターボレーザー III(SML)
+#  - Tier 4
+#   - オクトプルターボレーザー I(XL)
 #############################################
 weapon_component_template = {
 	
@@ -25,7 +27,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_octpule_turbo_lasers_1" }
 
-	damage = { min = 170.0 max = 270.0 }
+	damage = { min = 350.0 max = 1000.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
 
@@ -41,10 +43,10 @@ weapon_component_template = {
 	accuracy = 0.90
 	tracking = 0.02
 	
-	shield_damage = 2.75
-	armor_damage = 2.00
+	shield_damage = 2.25
+	armor_damage = 1.75
 	shield_penetration = 1.10
-	armor_penetration = 0.25
+	armor_penetration = 0.30
 	
 	power = -95.0
 	
@@ -83,8 +85,8 @@ weapon_component_template = {
 	upgrades_to = "EOA_OCTUPLE_TURBO_LASER_2"
 }
 #############################################
-#  - Tier 4
-#   - ターボレーザー V(SML)
+#  - Tier 5
+#   - オクトプルターボレーザー II(XL)
 #############################################
 weapon_component_template = {
 	
@@ -98,7 +100,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_octpule_turbo_lasers_2" }
 
-	damage = { min = 220.0 max = 480.0 }
+	damage = { min = 400.0 max = 1310.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
 
@@ -114,10 +116,10 @@ weapon_component_template = {
 	accuracy = 0.90
 	tracking = 0.02
 	
-	shield_damage = 2.75
-	armor_damage = 2.00
+	shield_damage = 2.25
+	armor_damage = 1.75
 	shield_penetration = 1.10
-	armor_penetration = 0.25
+	armor_penetration = 0.30
 	
 	power = -110.0
 	
@@ -156,8 +158,8 @@ weapon_component_template = {
 	upgrades_to = "EOA_OCTUPLE_TURBO_LASER_3"
 }
 #############################################
-#  - Tier 5
-#   - ターボレーザー VI(SML)
+#  - Tier 6
+#   - オクトプルターボレーザー III(XL)
 #############################################
 weapon_component_template = {
 	
@@ -171,7 +173,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_octpule_turbo_lasers_3" }
 
-	damage = { min = 270.0 max = 520.0 }
+	damage = { min = 500.0 max = 1670.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
 
@@ -187,10 +189,10 @@ weapon_component_template = {
 	accuracy = 0.90
 	tracking = 0.02
 	
-	shield_damage = 2.75
-	armor_damage = 2.00
+	shield_damage = 2.25
+	armor_damage = 1.75
 	shield_penetration = 1.10
-	armor_penetration = 0.25
+	armor_penetration = 0.30
 	
 	power = -150.0
 	
@@ -229,8 +231,8 @@ weapon_component_template = {
 	upgrades_to = "EOA_OCTUPLE_TURBO_LASER_4"
 }
 #############################################
-#  - Tier 6
-#   - ターボレーザー VII(SML)
+#  - Tier 7
+#   - オクトプルターボレーザー IV(XL)
 #############################################
 weapon_component_template = {
 	
@@ -244,7 +246,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_octpule_turbo_lasers_4" }
 
-	damage = { min = 320.0 max = 570.0 }
+	damage = { min = 600.0 max = 1750.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
 
@@ -260,10 +262,10 @@ weapon_component_template = {
 	accuracy = 0.90
 	tracking = 0.02
 	
-	shield_damage = 2.75
-	armor_damage = 2.00
+	shield_damage = 2.25
+	armor_damage = 1.75
 	shield_penetration = 1.10
-	armor_penetration = 0.25
+	armor_penetration = 0.30
 	
 	power = -200.0
 	
@@ -296,6 +298,79 @@ weapon_component_template = {
 	}
 	
 	component_set = "OCTUPLE_TURBO_LASER_4"
+	projectile_gfx = "OCTUPLE_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_OCTUPLE_TURBO_LASER_5"
+}
+#############################################
+#  - Tier 8
+#   - オクトプルターボレーザー V(XL)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_OCTUPLE_TURBO_LASER_5"
+	size = extra_large
+	type = instant
+	# entity = "FR_Octuple_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_04"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_octpule_turbo_lasers_4" }
+
+	damage = { min = 600.0 max = 1750.0 }
+	windup = { min = 2.0 max = 20.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 140.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	shield_damage = 2.25
+	armor_damage = 1.75
+	shield_penetration = 1.10
+	armor_penetration = 0.30
+	
+	power = -200.0
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t8_cost
+			eoa_tibanna_gas = @eoa_weapon_xl_t8_cost_special
+		}		
+		upkeep = {
+			energy = @xl_t8_upkeep_energy
+			alloys = @xl_t8_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_xl_t8_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "OCTUPLE_TURBO_LASER_5"
 	projectile_gfx = "OCTUPLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
