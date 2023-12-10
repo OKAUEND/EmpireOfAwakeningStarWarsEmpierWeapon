@@ -15,7 +15,7 @@
 #############################################
 weapon_component_template = {
 	
-	key = "EOA_TITAN_TIWN_HEAVY_TURBO_LASER_1"
+	key = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_1"
 	size = titanic
 	type = instant
 	# entity = "Annihilator_Bismarck_Turret_entity"
@@ -72,11 +72,11 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TITAN_TIWN_HEAVY_TURBO_LASER_1"
+	component_set = "TITAN_TWIN_HEAVY_TURBO_LASER_1"
 	projectile_gfx = "OCTUPLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
-	upgrades_to = "EOA_TITAN_TIWN_HEAVY_TURBO_LASER_2"
+	upgrades_to = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_2"
 }
 #############################################
 #  - Tier 4
@@ -84,7 +84,7 @@ weapon_component_template = {
 #############################################
 weapon_component_template = {
 	
-	key = "EOA_TITAN_TIWN_HEAVY_TURBO_LASER_2"
+	key = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_2"
 	size = titanic
 	type = instant
 	# entity = "Annihilator_Bismarck_Turret_entity"
@@ -141,11 +141,11 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TITAN_TIWN_HEAVY_TURBO_LASER_2"
+	component_set = "TITAN_TWIN_HEAVY_TURBO_LASER_2"
 	projectile_gfx = "OCTUPLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
-	upgrades_to = "EOA_TITAN_TIWN_HEAVY_TURBO_LASER_3"
+	upgrades_to = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_3"
 }
 #############################################
 #  - Tier 5
@@ -153,7 +153,7 @@ weapon_component_template = {
 #############################################
 weapon_component_template = {
 	
-	key = "EOA_TITAN_TIWN_HEAVY_TURBO_LASER_3"
+	key = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_3"
 	size = titanic
 	type = instant
 	# entity = "Annihilator_Bismarck_Turret_entity"
@@ -210,11 +210,11 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TITAN_TIWN_HEAVY_TURBO_LASER_3"
+	component_set = "TITAN_TWIN_HEAVY_TURBO_LASER_3"
 	projectile_gfx = "OCTUPLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
-	upgrades_to = "EOA_TITAN_TIWN_HEAVY_TURBO_LASER_4"
+	upgrades_to = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_4"
 }
 #############################################
 #  - Tier 6
@@ -222,7 +222,7 @@ weapon_component_template = {
 #############################################
 weapon_component_template = {
 	
-	key = "EOA_TITAN_TIWN_HEAVY_TURBO_LASER_4"
+	key = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_4"
 	size = titanic
 	type = instant
 	# entity = "Annihilator_Bismarck_Turret_entity"
@@ -279,7 +279,7 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TITAN_TIWN_HEAVY_TURBO_LASER_4"
+	component_set = "TITAN_TWIN_HEAVY_TURBO_LASER_4"
 	projectile_gfx = "OCTUPLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }

@@ -36,37 +36,37 @@ component_set = {
 
 #--------------------------------------------
 component_set = {
-	key = "TITAN_TIWN_HEAVY_TURBO_LASER_1"
+	key = "TITAN_TWIN_HEAVY_TURBO_LASER_1"
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_01"
 	icon_frame = 1
 }
 
 component_set = {
-	key = "TITAN_TIWN_HEAVY_TURBO_LASER_2"
+	key = "TITAN_TWIN_HEAVY_TURBO_LASER_2"
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_02"
 	icon_frame = 1
 }
 
 component_set = {
-	key = "TITAN_TIWN_HEAVY_TURBO_LASER_3"
+	key = "TITAN_TWIN_HEAVY_TURBO_LASER_3"
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_03"
 	icon_frame = 1
 }
 
 component_set = {
-	key = "TITAN_TIWN_HEAVY_TURBO_LASER_4"
+	key = "TITAN_TWIN_HEAVY_TURBO_LASER_4"
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_04"
 	icon_frame = 1
 }
 
 component_set = {
-	key = "TITAN_TIWN_HEAVY_TURBO_LASER_5"
+	key = "TITAN_TWIN_HEAVY_TURBO_LASER_5"
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_01"
 	icon_frame = 1
 }
 
 component_set = {
-	key = "TITAN_TIWN_HEAVY_TURBO_LASER_6"
+	key = "TITAN_TWIN_HEAVY_TURBO_LASER_6"
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_01"
 	icon_frame = 1
 }
