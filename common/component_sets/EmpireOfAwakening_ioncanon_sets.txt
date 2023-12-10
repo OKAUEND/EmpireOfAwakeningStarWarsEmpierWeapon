@@ -82,6 +82,12 @@ component_set = {
 	icon = "GFX_ship_part_EOA_heavy_ion_canon_07"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "HEAVY_ION_CANON_8"
+	icon = "GFX_ship_part_EOA_heavy_ion_canon_07"
+	icon_frame = 1
+}
 #-------------------------------------------------------
 component_set = {
 	key = "ION_CANON_BALL_1"
