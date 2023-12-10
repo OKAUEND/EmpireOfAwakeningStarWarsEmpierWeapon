@@ -45,8 +45,8 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 1.10
-	armor_damage = 1.00
-	shield_penetration = 0.80
+	armor_damage = 0.25
+	shield_penetration = 0.50
 	armor_penetration = 0.25
 	
 	power = -75.0
@@ -115,8 +115,8 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 1.10
-	armor_damage = 1.00
-	shield_penetration = 0.80
+	armor_damage = 0.25
+	shield_penetration = 0.50
 	armor_penetration = 0.25
 	
 	power = -90.0
@@ -185,8 +185,8 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 1.10
-	armor_damage = 1.00
-	shield_penetration = 0.80
+	armor_damage = 0.25
+	shield_penetration = 0.50
 	armor_penetration = 0.25
 	
 	power = -120.0
@@ -255,8 +255,8 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 1.10
-	armor_damage = 1.00
-	shield_penetration = 0.80
+	armor_damage = 0.25
+	shield_penetration = 0.50
 	armor_penetration = 0.25
 	
 	power = -170.0
@@ -325,8 +325,8 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 1.10
-	armor_damage = 1.00
-	shield_penetration = 0.80
+	armor_damage = 0.25
+	shield_penetration = 0.50
 	armor_penetration = 0.25
 	
 	power = -90.0
@@ -395,8 +395,8 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 1.10
-	armor_damage = 1.00
-	shield_penetration = 0.80
+	armor_damage = 0.25
+	shield_penetration = 0.50
 	armor_penetration = 0.25
 	
 	power = -120.0
@@ -465,8 +465,8 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 1.10
-	armor_damage = 1.00
-	shield_penetration = 0.80
+	armor_damage = 0.25
+	shield_penetration = 0.50
 	armor_penetration = 0.25
 	
 	power = -170.0

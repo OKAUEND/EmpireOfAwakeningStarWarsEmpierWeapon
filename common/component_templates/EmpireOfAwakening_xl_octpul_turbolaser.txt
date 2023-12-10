@@ -263,7 +263,7 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 2.25
-	armor_damage = 1.75
+	armor_damage = 0.75
 	shield_penetration = 1.10
 	armor_penetration = 0.30
 	
