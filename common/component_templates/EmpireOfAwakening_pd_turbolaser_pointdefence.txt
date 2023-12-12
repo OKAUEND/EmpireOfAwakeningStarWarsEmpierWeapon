@@ -1,26 +1,19 @@
 # ############################################
 #  Turbo Laser
 ###################################################
-#    !! ターボレーザー !!
-#
-#  - Tier 2
-#   - ターボレーザーPD I(PD)
-#
+#  - Tier 1
+#   - レーザーPD I(PD)
 #  - Tier 3
-#   - ターボレーザーPD II(PD)
-#
-#  - Tier 4
-#   - ターボレーザーPD III(PD)
-#
+#   - レーザーPD II(PD)
 #  - Tier 5
-#   - ターボレーザーPD IV(PD)
-#
+#   - レーザーPD III(PD)
 #  - Tier 6
-#   - ターボレーザーPD V(PD)
-#
+#   - レーザーPD IV(PD)
+#  - Tier 8
+#   - レーザーPD V(PD)
 ###################################################
-#  - Tier 2
-#   - ターボレーザー I(SML)
+#  - Tier 1
+#   - レーザーPD I(PD)
 #############################################
 weapon_component_template = {
 	key = "EOA_ANTI_AIR_TURBO_LASER_1"
@@ -35,7 +28,7 @@ weapon_component_template = {
 
 	damage = { min = 2.0 max = 4.0 }
 	windup = { min = 0.0 max = 0.0 }
-	total_fire_time = 2.5
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_ANTIAIR_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -97,7 +90,7 @@ weapon_component_template = {
 
 #############################################
 #  - Tier 3
-#   - ターボレーザー III(SML)
+#   - レーザーPD II(PD)
 #############################################
 weapon_component_template = {
 	key = "EOA_ANTI_AIR_TURBO_LASER_2"
@@ -110,9 +103,9 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_pd_1" }
 
-	damage = { min = 2.2 max = 5.5 }
+	damage = { min = 3.0 max = 6.0 }
 	windup = { min = 0.0 max = 0.0 }
-	total_fire_time = 2.5
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_ANTIAIR_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -176,8 +169,8 @@ weapon_component_template = {
 }
 
 #############################################
-#  - Tier 4
-#   - ターボレーザー V(SML)
+#  - Tier 5
+#   - レーザーPD III(PD)
 #############################################
 weapon_component_template = {
 	key = "EOA_ANTI_AIR_TURBO_LASER_3"
@@ -190,9 +183,9 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_pd_2" }
 
-	damage = { min = 2.2 max = 7.5 }
+	damage = { min = 4.0 max = 8.0 }
 	windup = { min = 0.0 max = 0.0 }
-	total_fire_time = 2.5
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_ANTIAIR_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -255,8 +248,8 @@ weapon_component_template = {
 }
 
 #############################################
-#  - Tier 5
-#   - ターボレーザー VI(SML)
+#  - Tier 6
+#   - レーザーPD IV(PD)
 #############################################
 weapon_component_template = {
 	key = "EOA_ANTI_AIR_TURBO_LASER_4"
@@ -269,9 +262,9 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_pd_3" }
 
-	damage = { min = 3.5 max = 10.5 }
+	damage = { min = 6.0 max = 11.0 }
 	windup = { min = 0.0 max = 0.0 }
-	total_fire_time = 2.5
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_ANTIAIR_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer
@@ -334,8 +327,8 @@ weapon_component_template = {
 }
 
 #############################################
-#  - Tier 6
-#   - ターボレーザー VII(SML)
+#  - Tier 8
+#   - レーザーPD V(PD)
 #############################################
 weapon_component_template = {
 	key = "EOA_ANTI_AIR_TURBO_LASER_5"
@@ -348,9 +341,9 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_turbo_lasers_pd_4" }
 
-	damage = { min = 4.0 max = 12.5 }
+	damage = { min = 8.0 max = 14.0 }
 	windup = { min = 0.0 max = 0.0 }
-	total_fire_time = 2.5
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_ANTIAIR_COOLDOWN
 
 	size_restriction = { 
 		imperial1_stardestroyer
