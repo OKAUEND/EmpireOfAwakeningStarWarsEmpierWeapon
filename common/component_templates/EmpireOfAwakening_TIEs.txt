@@ -1,25 +1,26 @@
 ###################################################
 #
 #    !! TIE 戦闘機シリーズ !!
-#
+#  - Tier 1
+#   - TIE Fighter v1
+#   - TIE Bomber v1
 #  - Tier 2
-#   - TIE Fighter
-#   - TIE Bomber
-#
+#   - TIE Fighter v2
+#   - TIE Bomber v2
 #  - Tier 3
-#   - TIE Interceptor
-#   - TIE Striker(地上用)
-#
+#   - TIE Advance v1
 #  - Tier 4
+#   - TIE Advance x1
+#  - Tier 5
+#   - TIE Interceptor v1
+#   - TIE Toperd v1
+#  - Tier 6
 #   - TIE Hunter
 #   - TIE Fighter - Adv
 #   - TIE Interceptor  - Adv
-#   - TIE Toperd
-#
-#  - Tier 5
+#  - Tier 7
 #   - TIE Defender (Fighter/bomber)
-#
-#  - Tier 6
+#  - Tier 8
 #   - TIE Predetor 
 #   - TIE -------
 ###################################################
