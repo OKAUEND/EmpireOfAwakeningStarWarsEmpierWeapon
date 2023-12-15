@@ -39,16 +39,58 @@ component_set = {
 	icon = "GFX_ship_part_EOA_tie_fighter"
 	icon_frame = 1
 }
+component_set = {
+	key = "EOA_TIE_FIGHTER_8"
+	icon = "GFX_ship_part_EOA_tie_fighter"
+	icon_frame = 1
+}
 #-------------------------------------------------------
 component_set = {
 	key = "EOA_TIE_FIGHTER_ADV_1"
 	icon = "GFX_ship_part_EOA_tie_fighter_adv"
 	icon_frame = 1
 }
-
+#-------------------------------------------------------
 component_set = {
-	key = "EOA_TIE_FIGHTER_ADV_2"
-	icon = "GFX_ship_part_EOA_tie_interceptor_adv"
+	key = "EOA_TIE_INTERCEPTOR_ADV_1"
+	icon = "GFX_ship_part_EOA_tie_fighter_adv"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_INTERCEPTOR_ADV_2"
+	icon = "GFX_ship_part_EOA_tie_fighter_adv"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_INTERCEPTOR_ADV_3"
+	icon = "GFX_ship_part_EOA_tie_fighter_adv"
+	icon_frame = 1
+}
+#-------------------------------------------------------
+component_set = {
+	key = "EOA_TIE_HUNTER_v2"
+	icon = "GFX_ship_part_EOA_tie_fighter_adv"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_HUNTER_v3"
+	icon = "GFX_ship_part_EOA_tie_fighter_adv"
+	icon_frame = 1
+}
+#-------------------------------------------------------
+component_set = {
+	key = "EOA_TIE_AVENGER_v2"
+	icon = "GFX_ship_part_EOA_tie_fighter_adv"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_AVENGER_v2"
+	icon = "GFX_ship_part_EOA_tie_fighter_adv"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_AVENGER_v3"
+	icon = "GFX_ship_part_EOA_tie_fighter_adv"
 	icon_frame = 1
 }
 #-------------------------------------------------------
@@ -75,3 +117,9 @@ component_set = {
 	icon = "GFX_ship_part_EOA_tie_neutralizer"
 	icon_frame = 1
 }
+component_set = {
+	key = "EOA_TIE_BOMBER_5"
+	icon = "GFX_ship_part_EOA_tie_neutralizer"
+	icon_frame = 1
+}
+

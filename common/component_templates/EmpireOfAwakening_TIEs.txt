@@ -2,27 +2,33 @@
 #
 #    !! TIE 戦闘機シリーズ !!
 #  - Tier 1
-#   - TIE Fighter v1
-#   - TIE Bomber v1
+#   - TIE/LN-v1 Fighter v1
+#   - TIE/sa-v1 Bomber v1
 #  - Tier 2
-#   - TIE Fighter v2
+#   - TIE/LN-v2 Fighter v2
 #  - Tier 3
-#   - TIE Advance v1
-#   - TIE Bomber v2
+#   - TIE/x1 Advance x1
+#   - TIE/sa-v2 Bomber v2
 #  - Tier 4
-#   - TIE Advance x1
+#   - TIE/x2 Advance x2
 #  - Tier 5
-#   - TIE Interceptor v1
-#   - TIE Toperd v1
+#   - TIE/IN Interceptor
+#   - TIE/tp Toperd v1
 #  - Tier 6
-#   - TIE Hunter
-#   - TIE Fighter - Adv
-#   - TIE Interceptor  - Adv
+#   - TIE/HU-v1 Hunter - v1
+#   - TIE/AD-v1 Avenger v1
+#   - TIE/LN-Adv Fighter - Adv
+#   - TIE/IN-Adv1 Interceptor  - Adv1
 #  - Tier 7
-#   - TIE Defender (Fighter/bomber)
+#   - TIE/D-v1 Defender (Fighter/bomber) -v1
+#   - TIE/HU-v2 Hunter - v2
+#   - TIE/AD-v1 Avenger v2
+#   - TIE/IN-Adv2 Interceptor  - Adv2
 #  - Tier 8
-#   - TIE Predetor 
-#   - TIE -------
+#   - TIE/D-v2 Defender (Fighter/bomber) -v2
+#   - TIE/HU-v3 Hunter - v3
+#   - TIE/AD-v3 Avenger v3
+#   - TIE/IN-Adv3 Interceptor  - Adv3
 ###################################################
 ############################################################
 ###                    Strikecraft Vars                  ###
@@ -31,14 +37,20 @@
 @eoa_strikecraft_count = 8
 @eoa_strikecraft_regen = 1
 @eoa_strikecraft_launch_time = 1.5
-@eoa_strikecraft_speed_2 = 650
-@eoa_strikecraft_speed_3 = 700
-@eoa_strikecraft_speed_4 = 750
-@eoa_strikecraft_speed_5 = 770
-@eoa_strikecraft_speed_6 = 820
+@eoa_strikecraft_speed_1 = 600
+@eoa_strikecraft_speed_2 = 610
+@eoa_strikecraft_speed_3 = 630
+@eoa_strikecraft_speed_4 = 650
+@eoa_strikecraft_speed_5 = 670
+@eoa_strikecraft_speed_6 = 700
+@eoa_strikecraft_speed_7 = 750
+@eoa_strikecraft_speed_8 = 800
 
-@eoa_bomber_speed_2 = 500
-@eoa_bomber_speed_3 = 520
+@eoa_bomber_speed_1 = 500
+@eoa_bomber_speed_2 = 520
+@eoa_bomber_speed_3 = 540
+@eoa_bomber_speed_4 = 560
+@eoa_bomber_speed_5 = 580
 
 @eoa_bomber_acceleration = 1
 @eoa_bomber_rotation_speed = 0.75
@@ -72,9 +84,9 @@
 @eoa_tie_high_tier_evasion = 0.87
 @eoa_tie_bomber_evasion = 0.60
 ###################################################
-#  - Tier 2
-#   - TIE Fighter
-#   - TIE Bomber
+#  - Tier 1
+#   - TIE Fighter v1
+#   - TIE Bomber v1
 ###################################################
 strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_1"
@@ -225,8 +237,8 @@ strike_craft_component_template = {
 }
 
 ###################################################
-#  - Tier 3
-#   - TIE Interceptor
+#  - Tier 2
+#   - TIE Fighter v2
 ###################################################
 strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_2"
@@ -304,11 +316,24 @@ strike_craft_component_template = {
 
 
 ###################################################
+#  - Tier 3
+#   - TIE Fighter X
+#   - TIE Bomber v2
+###################################################
+###################################################
 #  - Tier 4
+#   - TIE Advance x1
+###################################################
+###################################################
+#  - Tier 5
+#   - TIE Interceptor v1
+#   - TIE Toperd v1
+###################################################
+###################################################
+#  - Tier 6
 #   - TIE Hunter
-#   	- TIE Fighter - Adv
-#   	- TIE Interceptor  - Adv
-#   - TIE Toperd
+#   - TIE Fighter - Adv
+#   - TIE Interceptor  - Adv
 ###################################################
 strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_3"
@@ -607,7 +632,7 @@ strike_craft_component_template = {
 }
 
 ###################################################
-#  - Tier 5
+#  - Tier 7
 #   - TIE Defender (Fighter/bomber)
 ###################################################
 strike_craft_component_template = {
@@ -759,7 +784,7 @@ strike_craft_component_template = {
 }
 
 ###################################################
-#  - Tier 6
+#  - Tier 8
 #   - TIE Predetor 
 #   - TIE -------
 ###################################################
