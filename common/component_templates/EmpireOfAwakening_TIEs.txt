@@ -3,29 +3,33 @@
 #    !! TIE 戦闘機シリーズ !!
 #  - Tier 1
 #   - TIE/LN-v1 Fighter v1
+#   - TIE/LN-v1(PD) Fighter v1
 #   - TIE/sa-v1 Bomber v1
 #  - Tier 2
 #   - TIE/LN-v2 Fighter v2
 #  - Tier 3
 #   - TIE/x1 Advance x1
+#   - TIE/LN-v1(PD) Fighter v2
 #   - TIE/sa-v2 Bomber v2
 #  - Tier 4
 #   - TIE/x2 Advance x2
 #  - Tier 5
 #   - TIE/IN Interceptor
+#   - TIE/IN Interceptor(PD)
 #   - TIE/tp Toperd v1
 #  - Tier 6
 #   - TIE/HU-v1 Hunter - v1
-#   - TIE/AD-v1 Avenger v1
+#   - TIE/HU-v1 Hunter(PD) - v1
+#   - TIE/AD-v1 Avenger - v1
 #   - TIE/LN-Adv Fighter - Adv
 #   - TIE/IN-Adv1 Interceptor  - Adv1
 #  - Tier 7
-#   - TIE/D-v1 Defender (Fighter/bomber) -v1
+#   - TIE/D-v1 Defender (Fighter/bomber/PD) -v1
 #   - TIE/HU-v2 Hunter - v2
 #   - TIE/AD-v1 Avenger v2
 #   - TIE/IN-Adv2 Interceptor  - Adv2
 #  - Tier 8
-#   - TIE/D-v2 Defender (Fighter/bomber) -v2
+#   - TIE/D-v2 Defender (Fighter/bomber/PD) -v2
 #   - TIE/HU-v3 Hunter - v3
 #   - TIE/AD-v3 Avenger v3
 #   - TIE/IN-Adv3 Interceptor  - Adv3
@@ -97,10 +101,10 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 4 max = 10 }
+	damage = { min = 3 max = 9 }
 	cooldown = 2.15
 
-	power = @power2
+	power = @power1
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -117,7 +121,7 @@ strike_craft_component_template = {
 	armor = 0
 	shield = 0
 
-	speed = @eoa_strikecraft_speed_2
+	speed = @eoa_strikecraft_speed_1
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
@@ -131,12 +135,10 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @l_t2_cost
-			exotic_gases = @eoa_weapon_l_t4_cost_special
 		}
 		upkeep = {
 			energy = @l_t2_upkeep_energy
 			alloys = @l_t2_upkeep_alloys
-			exotic_gases = @eoa_weapon_l_s4_upkeep_tibannagas
 		}
 	}
 	
@@ -171,7 +173,7 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 6 max = 12 }
+	damage = { min = 5 max = 11 }
 	cooldown = 2.15
 
 	power = @power2
@@ -191,7 +193,7 @@ strike_craft_component_template = {
 	armor = 0
 	shield = 0
 
-	speed = @eoa_bomber_speed_2
+	speed = @eoa_bomber_speed_1
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_bomber_evasion
@@ -204,13 +206,11 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @l_t2_cost
-			exotic_gases = @eoa_weapon_l_t4_cost_special
+			alloys = @l_t1_cost
 		}
 		upkeep = {
-			energy = @l_t2_upkeep_energy
-			alloys = @l_t2_upkeep_alloys
-			exotic_gases = @eoa_weapon_l_s4_upkeep_tibannagas
+			energy = @l_t1_upkeep_energy
+			alloys = @l_t1_upkeep_alloys
 		}
 	}
 	
