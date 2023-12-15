@@ -131,6 +131,12 @@ component_set = {
 }
 #-------------------------------------------------------
 component_set = {
+	key = "EOA_TIE_MANGLER_1"
+	icon = "GFX_ship_part_EOA_tie_fighter_adv"
+	icon_frame = 1
+}
+#-------------------------------------------------------
+component_set = {
 	key = "EOA_TIE_BOMBER_1"
 	icon = "GFX_ship_part_EOA_tie_bomber"
 	icon_frame = 1

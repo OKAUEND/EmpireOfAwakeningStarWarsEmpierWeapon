@@ -30,6 +30,7 @@
 #   - TIE/IN-Adv2 Interceptor  - Adv2
 #  - Tier 8
 #   - TIE/D-v2 Defender (Fighter/bomber/PD) -v2	-> TIE/D-α Defender (Fighter/bomber/PD) - ACoT α
+#   - TIE/MA Mangler     (Fighter/bomber)		-> TIE/MA-α Mangler (Fighter/bomber) - ACoT α
 #   - TIE/HU-v3 Hunter - v3　					-> TIE/HU-α Hunter - ACoT α
 #   - TIE/AD-v3 Avenger v3						-> TIE/AD-α Avenger - ACoT α
 #   - TIE/IN-Adv3 Interceptor  - Adv3			-> TIE/IN-α Interceptor - ACoT α
@@ -1813,6 +1814,81 @@ strike_craft_component_template = {
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FLEETDEFENCE_ACOT_ALPHA"
 }
+
+strike_craft_component_template = {
+	key = "EOA_TIE_MANGLER_1"
+	size = LARGE
+	entity = "FR_TIE_Defender_entity"
+	icon = "GFX_ship_part_EOA_tie_defender"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 11 max = 20 }
+	cooldown = 2.0
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_high_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_hunter_tracking
+
+	health = 120
+	armor = 50
+	shield = 75
+
+	speed = @eoa_strikecraft_speed_5
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_fighter_evasion
+
+	hull_damage = @eoa_fighter_hull_damage
+	armor_damage = @eoa_fighter_armor_damage
+	shield_damage = @eoa_fighter_shield_damage
+	shield_penetration = @eoa_fighter_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @eoa_weapon_l_t6_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t6_cost_special
+		}
+		upkeep = {
+			energy = @eoa_weapon_l_t6_upkeep_energy
+			alloys = @eoa_weapon_l_t6_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s6_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "TIE_FIGHTER_LASERCANON"
+	component_set = "EOA_TIE_MANGLER_1"
+	prerequisites = { "tech_eoa_tie_defender" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EOA_TIE_MANGLER_ACOT_ALPHA"
+}
+
 
 strike_craft_component_template = {
 	key = "EOA_TIE_AVENGER_3"
