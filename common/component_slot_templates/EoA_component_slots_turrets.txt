@@ -5,6 +5,7 @@ EoA_turret_TurboLaser_L_TypeA = {
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "FR_Double_Turret_Model1_entity"
+		weapon_type_energy = "FR_NK7_Turret_entity"
 	}
 }
 
@@ -13,6 +14,7 @@ EoA_turret_TurboLaser_L_TypeB = {
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "FR_Quadruple_Turret_Model2_entity"
+		weapon_type_energy = "FR_NK7_Turret_entity"
 	}
 }
 
@@ -21,6 +23,7 @@ EoA_turret_TurboLaser_L_Triple = {
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "FR_Triple_Turret_Model1_entity"
+		weapon_type_energy = "FR_NK7_Turret_entity"
 	}
 }
 
@@ -29,6 +32,7 @@ EoA_turret_TurboLaser_L_Single = {
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "FR_Triple_Turret_Model1_entity"
+		weapon_type_energy = "FR_NK7_Turret_entity"
 	}
 }
 
