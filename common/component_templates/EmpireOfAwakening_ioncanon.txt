@@ -36,6 +36,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -108,6 +111,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -178,6 +184,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		allegiance_stardreadnought
 		titan_stardreadnought
 		early_stardreadnought
@@ -233,6 +242,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -305,6 +317,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -375,6 +390,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		allegiance_stardreadnought
 		titan_stardreadnought
 		early_stardreadnought
@@ -430,6 +448,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -502,6 +523,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -572,6 +596,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		allegiance_stardreadnought
 		titan_stardreadnought
 		early_stardreadnought
@@ -627,6 +654,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -699,6 +729,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -769,6 +802,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		allegiance_stardreadnought
 		titan_stardreadnought
 		early_stardreadnought
@@ -824,6 +860,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -896,6 +935,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -966,6 +1008,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		allegiance_stardreadnought
 		titan_stardreadnought
 		early_stardreadnought
@@ -1021,6 +1066,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1093,6 +1141,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1163,6 +1214,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		allegiance_stardreadnought
 		titan_stardreadnought
 		early_stardreadnought
@@ -1218,6 +1272,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1290,6 +1347,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1360,6 +1420,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		allegiance_stardreadnought
 		titan_stardreadnought
 		early_stardreadnought
@@ -1415,6 +1478,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1487,6 +1553,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		imperial1_stardestroyer
 		dominator_stardestroyer
 		pocket_stardestroyer
@@ -1557,6 +1626,9 @@ weapon_component_template = {
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
 	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
 		allegiance_stardreadnought
 		titan_stardreadnought
 		early_stardreadnought
