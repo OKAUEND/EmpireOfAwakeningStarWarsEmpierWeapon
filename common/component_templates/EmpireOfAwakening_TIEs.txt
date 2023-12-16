@@ -30,7 +30,7 @@
 #   - TIE/IN-Adv2 Interceptor  - Adv2
 #  - Tier 8
 #   - TIE/D-v2 Defender (Fighter/bomber/PD) -v2	-> TIE/D-α Defender (Fighter/bomber/PD) - ACoT α
-#   - TIE/MA Mangler     (Fighter/bomber)		-> TIE/MA-α Mangler (Fighter/bomber) - ACoT α
+#   - TIE/MA Mangler    						-> TIE/MA-α Mangler (Fighter/bomber) - ACoT α
 #   - TIE/HU-v3 Hunter - v3　					-> TIE/HU-α Hunter - ACoT α
 #   - TIE/AD-v3 Avenger v3						-> TIE/AD-α Avenger - ACoT α
 #   - TIE/IN-Adv3 Interceptor  - Adv3			-> TIE/IN-α Interceptor - ACoT α
@@ -50,8 +50,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 3 max = 9 }
-	cooldown = 2.15
+	damage = { min = 4 max = 9 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power1
 
@@ -124,8 +124,8 @@ strike_craft_component_template = {
 	ship_behavior = "fighters_pd_behavior"
 	point_defence_targets = { "missile" "strike_craft" }
 
-	damage = { min = 3 max = 8 }
-	cooldown = 2.15
+	damage = { min = 2 max = 7 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power1
 
@@ -194,8 +194,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 5 max = 11 }
-	cooldown = 2.15
+	damage = { min = 10 max = 20 }
+	cooldown = @EOA_WEAPON_BOMBER_COOLDOWN
 
 	power = @power2
 
@@ -270,8 +270,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 4 max = 10 }
-	cooldown = 2.15
+	damage = { min = 4.5 max = 10 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power1
 
@@ -349,7 +349,7 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 
 	damage = { min = 5 max = 11 }
-	cooldown = 2.15
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power2
 
@@ -424,8 +424,8 @@ strike_craft_component_template = {
 	ship_behavior = "fighters_pd_behavior"
 	point_defence_targets = { "missile" "strike_craft" }
 
-	damage = { min = 3 max = 8 }
-	cooldown = 2.15
+	damage = { min = 4 max = 10 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power1
 
@@ -442,7 +442,7 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	speed = @eoa_strikecraft_speed_1
+	speed = @eoa_strikecraft_speed_3
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
@@ -494,8 +494,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 5 max = 11 }
-	cooldown = 2.15
+	damage = { min = 14 max = 24 }
+	cooldown = @EOA_WEAPON_BOMBER_COOLDOWN
 
 	power = @power2
 
@@ -514,7 +514,7 @@ strike_craft_component_template = {
 	armor = 0
 	shield = 0
 
-	speed = @eoa_bomber_speed_1
+	speed = @eoa_bomber_speed_3
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_bomber_evasion
@@ -569,8 +569,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 5 max = 11 }
-	cooldown = 2.15
+	damage = { min = 6 max = 12 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power2
 
@@ -589,7 +589,7 @@ strike_craft_component_template = {
 	armor = 0
 	shield = 0
 
-	speed = @eoa_strikecraft_speed_3
+	speed = @eoa_strikecraft_speed_4
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
@@ -633,6 +633,7 @@ strike_craft_component_template = {
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FIGHTER_5"
 }
+
 ###################################################
 #  - Tier 5
 #   - TIE/IN Interceptor v2
@@ -648,8 +649,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 5 max = 11 }
-	cooldown = 2.15
+	damage = { min = 7 max = 13 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power2
 
@@ -668,7 +669,7 @@ strike_craft_component_template = {
 	armor = 0
 	shield = 0
 
-	speed = @eoa_strikecraft_speed_3
+	speed = @eoa_strikecraft_speed_5
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
@@ -725,8 +726,8 @@ strike_craft_component_template = {
 	ship_behavior = "fighters_pd_behavior"
 	point_defence_targets = { "missile" "strike_craft" }
 
-	damage = { min = 3 max = 8 }
-	cooldown = 2.15
+	damage = { min = 5 max = 11 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power1
 
@@ -743,7 +744,7 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	speed = @eoa_strikecraft_speed_1
+	speed = @eoa_strikecraft_speed_5
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
@@ -796,8 +797,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 5 max = 11 }
-	cooldown = 2.15
+	damage = { min = 18 max = 28 }
+	cooldown = @EOA_WEAPON_BOMBER_COOLDOWN
 
 	power = @power2
 
@@ -810,13 +811,13 @@ strike_craft_component_template = {
 	range = @eoa_fighter_attack_range_low_tier
 	engagement_range = @eoa_strikecraft_engagement_range
 	accuracy = @eoa_strikecraft_accuracy
-	tracking = @eoa_bomber_tracking
+	tracking = @eoa_bomber_tracking_2
 
 	health = 65
 	armor = 0
 	shield = 0
 
-	speed = @eoa_bomber_speed_1
+	speed = @eoa_bomber_speed_5
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_bomber_evasion
@@ -875,8 +876,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 6 max = 18 }
-	cooldown = 2.15
+	damage = { min = 12 max = 22 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power2
 
@@ -895,14 +896,14 @@ strike_craft_component_template = {
 	armor = 40
 	shield = 65
 
-	speed = @eoa_strikecraft_speed_4
+	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_2
+	armor_damage = @eoa_fighter_armor_damage_2
+	shield_damage = @eoa_fighter_shield_damage_2
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -934,10 +935,10 @@ strike_craft_component_template = {
 	}
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
-	component_set = "EOA_TIE_FIGHTER_3"
+	component_set = "EOA_TIE_FIGHTER_6"
 	prerequisites = { "tech_eoa_tie_hunter" }
 	tags = { weapon_type_strike_craft }
-	upgrades_to = "EOA_TIE_FIGHTER_4"
+	upgrades_to = "EOA_TIE_FIGHTER_7"
 }
 
 strike_craft_component_template = {
@@ -951,8 +952,8 @@ strike_craft_component_template = {
 	ship_behavior = "fighters_pd_behavior"
 	point_defence_targets = { "missile" "strike_craft" }
 
-	damage = { min = 3 max = 8 }
-	cooldown = 2.15
+	damage = { min = 8 max = 18 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power1
 
@@ -969,14 +970,14 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	speed = @eoa_strikecraft_speed_1
+	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_2
+	armor_damage = @eoa_fighter_armor_damage_2
+	shield_damage = @eoa_fighter_shield_damage_2
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -1021,8 +1022,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 6 max = 18 }
-	cooldown = 2.15
+	damage = { min = 12 max = 22 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power2
 
@@ -1041,14 +1042,14 @@ strike_craft_component_template = {
 	armor = 40
 	shield = 65
 
-	speed = @eoa_strikecraft_speed_4
+	speed = @eoa_strikecraft_speed_6
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_3
+	armor_damage = @eoa_fighter_armor_damage_3
+	shield_damage = @eoa_fighter_shield_damage_3
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -1095,8 +1096,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 5 max = 17 }
-	cooldown = 2.15
+	damage = { min = 10 max = 20 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power2
 
@@ -1115,14 +1116,14 @@ strike_craft_component_template = {
 	armor = 30
 	shield = 55
 
-	speed = @eoa_strikecraft_speed_3
+	speed = @eoa_strikecraft_speed_6
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_2
+	armor_damage = @eoa_fighter_armor_damage_2
+	shield_damage = @eoa_fighter_shield_damage_2
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -1169,8 +1170,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 5.5 max = 17.5 }
-	cooldown = 2.15
+	damage = { min = 10 max = 20 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power2
 
@@ -1189,14 +1190,14 @@ strike_craft_component_template = {
 	armor = 35
 	shield = 60
 
-	speed = @eoa_strikecraft_speed_3
+	speed = @eoa_strikecraft_speed_6
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_2
+	armor_damage = @eoa_fighter_armor_damage_2
+	shield_damage = @eoa_fighter_shield_damage_2
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -1250,7 +1251,7 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 11 max = 20 }
+	damage = { min = 17 max = 27 }
 	cooldown = 2.0
 
 	power = @power2
@@ -1270,14 +1271,14 @@ strike_craft_component_template = {
 	armor = 50
 	shield = 75
 
-	speed = @eoa_strikecraft_speed_5
+	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_3
+	armor_damage = @eoa_fighter_armor_damage_3
+	shield_damage = @eoa_fighter_shield_damage_3
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -1326,8 +1327,8 @@ strike_craft_component_template = {
 	ship_behavior = "fighters_pd_behavior"
 	point_defence_targets = { "missile" "strike_craft" }
 
-	damage = { min = 3 max = 8 }
-	cooldown = 2.15
+	damage = { min = 13 max = 23 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power1
 
@@ -1344,14 +1345,14 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	speed = @eoa_strikecraft_speed_1
+	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_2
+	armor_damage = @eoa_fighter_armor_damage_2 
+	shield_damage = @eoa_fighter_shield_damage_2
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -1396,8 +1397,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 6 max = 18 }
-	cooldown = 2.15
+	damage = { min = 17 max = 27 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power2
 
@@ -1416,14 +1417,14 @@ strike_craft_component_template = {
 	armor = 40
 	shield = 65
 
-	speed = @eoa_strikecraft_speed_4
+	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_3
+	armor_damage = @eoa_fighter_armor_damage_3
+	shield_damage = @eoa_fighter_shield_damage_3
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -1470,8 +1471,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 5.5 max = 17.5 }
-	cooldown = 2.15
+	damage = { min = 15 max = 25 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power2
 
@@ -1490,14 +1491,14 @@ strike_craft_component_template = {
 	armor = 35
 	shield = 60
 
-	speed = @eoa_strikecraft_speed_3
+	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_2
+	armor_damage = @eoa_fighter_armor_damage_2
+	shield_damage = @eoa_fighter_shield_damage_2
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -1544,8 +1545,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 15 max = 25 }
-	cooldown = 2.0
+	damage = { min = 35 max = 55 }
+	cooldown = @EOA_WEAPON_BOMBER_COOLDOWN
 
 	power = @power2
 
@@ -1553,24 +1554,24 @@ strike_craft_component_template = {
 	regeneration_per_day = @eoa_strikecraft_regen
 	launch_time = @eoa_strikecraft_launch_time
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	range = @eoa_fighter_attack_range_high_tier
 	engagement_range = @eoa_strikecraft_engagement_range
 	accuracy = @eoa_strikecraft_accuracy
-	tracking = @eoa_bomber_tracking
+	tracking = @eoa_bomber_tracking_2
 
 	health = 120
 	armor = 50
 	shield = 75
 
-	speed = @eoa_strikecraft_speed_5
+	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_bomber_hull_damage
-	armor_damage = @eoa_bomber_armor_damage
+	hull_damage = @eoa_bomber_hull_damage_2
+	armor_damage = @eoa_bomber_armor_damage_2
 	shield_damage = @eoa_bomber_shield_penetration
 	shield_penetration = @eoa_bomber_shield_penetration
 
@@ -1612,6 +1613,7 @@ strike_craft_component_template = {
 ###################################################
 #  - Tier 8
 #   - TIE/D-v2 Defender (Fighter/bomber/PD) -v2
+#   - TIE/MA Mangler
 #   - TIE/HU-v3 Hunter - v3
 #   - TIE/AD-v3 Avenger v3
 #   - TIE/IN-Adv3 Interceptor  - Adv3
@@ -1625,7 +1627,7 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 11 max = 20 }
+	damage = { min = 22 max = 32 }
 	cooldown = 2.0
 
 	power = @power2
@@ -1645,14 +1647,14 @@ strike_craft_component_template = {
 	armor = 50
 	shield = 75
 
-	speed = @eoa_strikecraft_speed_5
+	speed = @eoa_strikecraft_speed_8
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_3
+	armor_damage = @eoa_fighter_armor_damage_3
+	shield_damage = @eoa_fighter_shield_damage_3
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -1701,8 +1703,8 @@ strike_craft_component_template = {
 	ship_behavior = "fighters_pd_behavior"
 	point_defence_targets = { "missile" "strike_craft" }
 
-	damage = { min = 3 max = 8 }
-	cooldown = 2.15
+	damage = { min = 18 max = 28 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power1
 
@@ -1719,14 +1721,14 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	speed = @eoa_strikecraft_speed_1
+	speed = @eoa_strikecraft_speed_8
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_2
+	armor_damage = @eoa_fighter_armor_damage_2 
+	shield_damage = @eoa_fighter_shield_damage_2
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -1771,12 +1773,12 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 11 max = 20 }
+	damage = { min = 40 max = 50 }
 	cooldown = 2.0
 
 	power = @power2
 
-	count = @eoa_strikecraft_count
+	count = 6
 	regeneration_per_day = @eoa_strikecraft_regen
 	launch_time = @eoa_strikecraft_launch_time
 
@@ -1787,18 +1789,18 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_hunter_tracking
 
-	health = 120
-	armor = 50
-	shield = 75
+	health = 150
+	armor = 70
+	shield = 100
 
-	speed = @eoa_strikecraft_speed_5
+	speed = @eoa_strikecraft_speed_8
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_MA 
+	armor_damage = @eoa_fighter_armor_damage_MA
+	shield_damage = @eoa_fighter_shield_damage_MA
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -1836,7 +1838,6 @@ strike_craft_component_template = {
 	upgrades_to = "EOA_TIE_MANGLER_ACOT_ALPHA"
 }
 
-
 strike_craft_component_template = {
 	key = "EOA_TIE_AVENGER_3"
 	size = LARGE
@@ -1846,8 +1847,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 6 max = 18 }
-	cooldown = 2.15
+	damage = { min = 22 max = 32 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power2
 
@@ -1866,14 +1867,14 @@ strike_craft_component_template = {
 	armor = 40
 	shield = 65
 
-	speed = @eoa_strikecraft_speed_4
+	speed = @eoa_strikecraft_speed_8
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_3
+	armor_damage = @eoa_fighter_armor_damage_3
+	shield_damage = @eoa_fighter_shield_damage_3
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -1920,8 +1921,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 5.5 max = 17.5 }
-	cooldown = 2.15
+	damage = { min = 20 max = 30 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @power2
 
@@ -1940,14 +1941,14 @@ strike_craft_component_template = {
 	armor = 35
 	shield = 60
 
-	speed = @eoa_strikecraft_speed_3
+	speed = @eoa_strikecraft_speed_8
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_2
+	armor_damage = @eoa_fighter_armor_damage_2
+	shield_damage = @eoa_fighter_shield_damage_2
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
@@ -1994,8 +1995,8 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 15 max = 25 }
-	cooldown = 2.0
+	damage = { min = 42 max = 62 }
+	cooldown = @EOA_WEAPON_BOMBER_COOLDOWN
 
 	power = @power2
 
@@ -2003,24 +2004,24 @@ strike_craft_component_template = {
 	regeneration_per_day = @eoa_strikecraft_regen
 	launch_time = @eoa_strikecraft_launch_time
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	range = @eoa_fighter_attack_range_high_tier
 	engagement_range = @eoa_strikecraft_engagement_range
 	accuracy = @eoa_strikecraft_accuracy
-	tracking = @eoa_bomber_tracking
+	tracking = @eoa_bomber_tracking_3
 
 	health = 120
 	armor = 50
 	shield = 75
 
-	speed = @eoa_strikecraft_speed_5
+	speed = @eoa_strikecraft_speed_8
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_bomber_hull_damage
-	armor_damage = @eoa_bomber_armor_damage
+	hull_damage = @eoa_bomber_hull_damage_2
+	armor_damage = @eoa_bomber_armor_damage_2
 	shield_damage = @eoa_bomber_shield_penetration
 	shield_penetration = @eoa_bomber_shield_penetration
 
