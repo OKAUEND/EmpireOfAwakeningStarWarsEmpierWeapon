@@ -50,8 +50,8 @@ weapon_component_template = {
 	tracking = 0.60
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -20
 	
@@ -122,8 +122,8 @@ weapon_component_template = {
 	tracking = 0.30
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -30.00
 
@@ -189,8 +189,8 @@ weapon_component_template = {
 	tracking = 0.05
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -60.0
 	cost = 112.0
@@ -228,7 +228,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 6.0 max = 16.0 }
+	damage = { min = 8.0 max = 21.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
@@ -247,8 +247,8 @@ weapon_component_template = {
 	tracking = 0.60
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -20
 	
@@ -300,7 +300,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 15.0 max = 40.0 }
+	damage = { min = 20.0 max = 53.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
@@ -319,8 +319,8 @@ weapon_component_template = {
 	tracking = 0.30
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -30.00
 
@@ -370,7 +370,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 36.0 max = 96.0 }
+	damage = { min = 48.0 max = 126.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
@@ -386,8 +386,8 @@ weapon_component_template = {
 	tracking = 0.05
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -60.0
 	cost = 112.0
@@ -425,7 +425,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 6.0 max = 16.0 }
+	damage = { min = 10.0 max = 27.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
@@ -444,8 +444,8 @@ weapon_component_template = {
 	tracking = 0.60
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -20
 	
@@ -497,7 +497,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 15.0 max = 40.0 }
+	damage = { min = 25.0 max = 68.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
@@ -516,8 +516,8 @@ weapon_component_template = {
 	tracking = 0.30
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -30.00
 
@@ -567,7 +567,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 36.0 max = 96.0 }
+	damage = { min = 60.0 max = 162.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
@@ -583,8 +583,8 @@ weapon_component_template = {
 	tracking = 0.05
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -60.0
 	cost = 112.0
@@ -622,7 +622,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 6.0 max = 16.0 }
+	damage = { min = 13.0 max = 35.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
@@ -641,8 +641,8 @@ weapon_component_template = {
 	tracking = 0.60
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -20
 	
@@ -694,7 +694,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 15.0 max = 40.0 }
+	damage = { min = 33.0 max = 88.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
@@ -713,8 +713,8 @@ weapon_component_template = {
 	tracking = 0.30
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -30.00
 
@@ -764,7 +764,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 36.0 max = 96.0 }
+	damage = { min = 78.0 max = 210.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
@@ -780,8 +780,8 @@ weapon_component_template = {
 	tracking = 0.05
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -60.0
 	cost = 112.0
@@ -819,7 +819,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 6.0 max = 16.0 }
+	damage = { min = 17.0 max = 46.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
@@ -838,8 +838,8 @@ weapon_component_template = {
 	tracking = 0.60
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -20
 	
@@ -891,7 +891,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 15.0 max = 40.0 }
+	damage = { min = 43.0 max = 115.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
@@ -910,8 +910,8 @@ weapon_component_template = {
 	tracking = 0.30
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -30.00
 
@@ -961,7 +961,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 36.0 max = 96.0 }
+	damage = { min = 102.0 max = 276.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
@@ -977,8 +977,8 @@ weapon_component_template = {
 	tracking = 0.05
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -60.0
 	cost = 112.0
@@ -1016,7 +1016,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 6.0 max = 16.0 }
+	damage = { min = 21.0 max = 58.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
@@ -1035,8 +1035,8 @@ weapon_component_template = {
 	tracking = 0.60
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -20
 	
@@ -1088,7 +1088,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 15.0 max = 40.0 }
+	damage = { min = 53.0 max = 134.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
@@ -1107,8 +1107,8 @@ weapon_component_template = {
 	tracking = 0.30
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -30.00
 
@@ -1158,7 +1158,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 36.0 max = 96.0 }
+	damage = { min = 132.0 max = 310.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
@@ -1174,8 +1174,8 @@ weapon_component_template = {
 	tracking = 0.05
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -60.0
 	cost = 112.0
@@ -1213,7 +1213,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 6.0 max = 16.0 }
+	damage = { min = 25.0 max = 72.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
@@ -1232,8 +1232,8 @@ weapon_component_template = {
 	tracking = 0.60
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -20
 	
@@ -1285,7 +1285,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 15.0 max = 40.0 }
+	damage = { min = 65.0 max = 206.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
@@ -1304,8 +1304,8 @@ weapon_component_template = {
 	tracking = 0.30
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -30.00
 
@@ -1355,7 +1355,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 36.0 max = 96.0 }
+	damage = { min = 256.0 max = 488.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
@@ -1371,8 +1371,8 @@ weapon_component_template = {
 	tracking = 0.05
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -60.0
 	cost = 112.0
@@ -1410,7 +1410,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 6.0 max = 16.0 }
+	damage = { min = 48.0 max = 88.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
@@ -1429,8 +1429,8 @@ weapon_component_template = {
 	tracking = 0.60
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -20
 	
@@ -1482,7 +1482,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 15.0 max = 40.0 }
+	damage = { min = 106.0 max = 242.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
@@ -1501,8 +1501,8 @@ weapon_component_template = {
 	tracking = 0.30
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -30.00
 
@@ -1552,7 +1552,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_1" }
 
-	damage = { min = 36.0 max = 96.0 }
+	damage = { min = 256.0 max = 488.0 }
 	windup = { min = 2.0 max = 20.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
@@ -1568,8 +1568,8 @@ weapon_component_template = {
 	tracking = 0.05
 	
 	shield_damage = 5.0
-	armor_damage = 0.01
-	hull_damage = 0.01
+	armor_damage = -1.00
+	hull_damage = -1.00
 	
 	power = -60.0
 	cost = 112.0
