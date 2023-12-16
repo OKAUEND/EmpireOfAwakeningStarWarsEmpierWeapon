@@ -79,11 +79,11 @@ EoA_turret_TurboLaser_PD = {
 
 ##############################################
 #ターボレーザー/ボール
-EoA_turret_TurboLaser_SingleBall = {
+EoA_turret_TurboLaser_QuadSingleBall = {
 	size = large
 	component = weapon
 	entities = {
-		weapon_type_turbolaser = "FR_Ball_Turret_entity"
+		weapon_type_turbolaser = "FR_Ball_Quad_Turret_entity"
 		weapon_type_energy = "FR_Ball_Turret_entity"
 	}
 }
@@ -148,11 +148,3 @@ EoA_turret_TurboLaser_SuperHeavy_typeB = {
 	}
 }
 
-#オクトプル
-EoA_turret_TurboLaser_SuperHeavy_Octpul = {
-	size = titanic
-	component = weapon
-	entities = {
-		weapon_type_turbolaser = "FR_Octuple_Turret_entity"
-	}
-}
