@@ -1,0 +1,76 @@
+############################################################
+###                    TIE Strikecraft Vars              ###
+############################################################
+
+#汎用
+@eoa_strikecraft_engagement_range = 100
+@eoa_strikecraft_accuracy = 1.0
+#戦闘機
+@eoa_strikecraft_count = 8
+@eoa_strikecraft_regen = 1
+@eoa_strikecraft_launch_time = 1.5
+@eoa_strikecraft_speed_1 = 600
+@eoa_strikecraft_speed_2 = 610
+@eoa_strikecraft_speed_3 = 630
+@eoa_strikecraft_speed_4 = 650
+@eoa_strikecraft_speed_5 = 670
+@eoa_strikecraft_speed_6 = 700
+@eoa_strikecraft_speed_7 = 750
+@eoa_strikecraft_speed_8 = 800
+
+@eoa_fighter_acceleration = 1.1
+@eoa_fighter_rotation_speed = 0.8
+
+@eoa_fighter_attack_range_low_tier = 10
+@eoa_fighter_attack_range_high_tier = 15
+
+@eoa_fighter_shield_penetration = 1.1
+@eoa_fighter_armor_damage = 1.10
+@eoa_fighter_shield_damage = 1.05
+@eoa_fighter_hull_damage = 1.10
+
+@eoa_fighter_hull_damage_2 = 1.15
+@eoa_fighter_armor_damage_2 = 1.15
+@eoa_fighter_shield_damage_2 = 1.10
+
+@eoa_fighter_hull_damage_3 = 1.17
+@eoa_fighter_armor_damage_3 = 1.17
+@eoa_fighter_shield_damage_3 = 1.12
+
+@eoa_fighter_armor_damage_MA = 1.40
+@eoa_fighter_shield_damage_MA = 1.20
+@eoa_fighter_hull_damage_MA = 1.25
+
+@eoa_fighter_tracking = 0.85
+@eoa_hunter_tracking = 1.0
+
+@eoa_tie_fighter_evasion = 0.70
+@eoa_tie_interceptor_evasion = 0.82
+@eoa_tie_hunter_evasion = 0.85
+@eoa_tie_high_tier_evasion = 0.87
+#爆撃機
+
+@eoa_bomber_speed_1 = 500
+@eoa_bomber_speed_2 = 520
+@eoa_bomber_speed_3 = 540
+@eoa_bomber_speed_4 = 560
+@eoa_bomber_speed_5 = 580
+
+@eoa_bomber_acceleration = 1
+@eoa_bomber_rotation_speed = 0.75
+
+@eoa_bomber_shield_penetration = 1
+@eoa_bomber_armor_damage = 1.25
+@eoa_bomber_hull_damage = 1.20
+
+@eoa_bomber_armor_damage_2 = 1.35
+@eoa_bomber_hull_damage_2 = 1.30
+
+@eoa_bomber_attack_range_low_tier = 8
+@eoa_bomber_attack_range_high_tier = 12
+
+@eoa_bomber_tracking = 0.65
+@eoa_bomber_tracking_2 = 0.75
+@eoa_bomber_tracking_3 = 0.85
+
+@eoa_tie_bomber_evasion = 0.60
