@@ -1,14 +1,14 @@
 # ############################################
 #  Executor Heavy Turbo Laser
 # ############################################
-#  - Tier 1 (Vanila Tier 5)
-#   - 重ターボレーザー I(XL)
-#  - Tier 2 (ESC-N Tier 6)
-#   - 重ターボレーザー II(XL)
-#  - Tier 3 (ESC-N Tier 7)
-#   - 重ターボレーザー III(XL)
-#  - Tier 4 (ESC-N Tier 8)
-#   - 重ターボレーザー IV(XL)
+#  - Tier 5 (Vanila Tier 5)
+#   - 重ターボレーザー I(T)
+#  - Tier 6 (ESC-N Tier 6)
+#   - 重ターボレーザー II(T)
+#  - Tier 7 (ESC-N Tier 7)
+#   - 重ターボレーザー III(T)
+#  - Tier 8 (ESC-N Tier 8)
+#   - 重ターボレーザー IV(T)
 #############################################
 #  - Tier 4
 #   - ターボレーザー III(SML)
