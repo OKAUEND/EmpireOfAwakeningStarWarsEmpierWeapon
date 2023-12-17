@@ -1615,7 +1615,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_08"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_turbo_lasers_7" }
+	prerequisites = { "tech_eoa_turbo_lasers_8" }
 
 	damage = { min = 14.0 max = 27.0 }
 	windup = { min = 1.0 max = 20.0 }
@@ -1690,7 +1690,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_07"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_7" }
+	prerequisites = { "tech_eoa_turbo_lasers_8" }
 
 	damage = { min = 55.0 max = 110.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1762,7 +1762,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_07"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_7" }
+	prerequisites = { "tech_eoa_turbo_lasers_8" }
 
 	damage = { min = 130.0 max = 450.0 }
 	windup = { min = 2 max = 20 }
