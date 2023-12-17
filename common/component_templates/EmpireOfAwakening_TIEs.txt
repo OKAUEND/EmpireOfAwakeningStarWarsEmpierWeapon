@@ -12,11 +12,11 @@
 #   - TIE/LN-v1(PD) Fighter v2
 #   - TIE/sa-v2 Bomber v2
 #  - Tier 4
-#   - TIE/IN Interceptor v1
+#   - TIE/IN-v1 Interceptor v1
 #   - TIE/x3 Advance x3
 #  - Tier 5
-#   - TIE/IN Interceptor v2
-#   - TIE/IN Interceptor(PD)
+#   - TIE/INv-2 Interceptor v2
+#   - TIE/IN-v1 Interceptor(PD)
 #   - TIE/x7 Advance x7
 #   - TIE/tp Toperd v1
 #  - Tier 6
