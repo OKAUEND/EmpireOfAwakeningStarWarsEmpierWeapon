@@ -13,9 +13,11 @@
 #   - TIE/sa-v2 Bomber v2
 #  - Tier 4
 #   - TIE/IN Interceptor v1
+#   - TIE/x3 Advance x3
 #  - Tier 5
 #   - TIE/IN Interceptor v2
 #   - TIE/IN Interceptor(PD)
+#   - TIE/x7 Advance x7
 #   - TIE/tp Toperd v1
 #  - Tier 6
 #   - TIE/HU-v1 Hunter - v1
@@ -559,6 +561,7 @@ strike_craft_component_template = {
 ###################################################
 #  - Tier 4
 #   - TIE/IN Interceptor v1
+#   - TIE/x3 Advance x3
 ###################################################
 strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_4"
@@ -634,6 +637,79 @@ strike_craft_component_template = {
 	upgrades_to = "EOA_TIE_FIGHTER_5"
 }
 
+strike_craft_component_template = {
+	key = "EOA_TIE_ADVANCE_1"
+	size = LARGE
+	entity = "FR_TIE_Interceptor_entity"
+	icon = "GFX_ship_part_EOA_tie_interceptor"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 6 max = 12 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_low_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_fighter_tracking
+
+	health = 85.0
+	armor = 0
+	shield = 0
+
+	speed = @eoa_strikecraft_speed_4
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_fighter_evasion
+
+	hull_damage = @eoa_fighter_hull_damage
+	armor_damage = @eoa_fighter_armor_damage
+	shield_damage = @eoa_fighter_shield_damage
+	shield_penetration = @eoa_fighter_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+			exotic_gases = @eoa_weapon_l_t4_cost_special
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+			exotic_gases = @eoa_weapon_l_s4_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "TIE_FIGHTER_LASERCANON"
+	component_set = "EOA_TIE_ADVANCE_1"
+	prerequisites = { "tech_eoa_tie_interceptor" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EOA_TIE_ADVANCE_2"
+}
 ###################################################
 #  - Tier 5
 #   - TIE/IN Interceptor v2
@@ -714,7 +790,6 @@ strike_craft_component_template = {
 	upgrades_to = "EOA_TIE_FIGHTER_6"
 }
 
-
 strike_craft_component_template = {
 	key = "EOA_TIE_FLEETDEFENCE_3"
 	size = LARGE
@@ -787,6 +862,79 @@ strike_craft_component_template = {
 	upgrades_to = "EOA_TIE_FLEETDEFENCE_4"
 }
 
+strike_craft_component_template = {
+	key = "EOA_TIE_ADVANCE_2"
+	size = LARGE
+	entity = "FR_TIE_Interceptor_entity"
+	icon = "GFX_ship_part_EOA_tie_interceptor"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 7 max = 13 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_low_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_fighter_tracking
+
+	health = 85.0
+	armor = 0
+	shield = 0
+
+	speed = @eoa_strikecraft_speed_5
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_fighter_evasion
+
+	hull_damage = @eoa_fighter_hull_damage
+	armor_damage = @eoa_fighter_armor_damage
+	shield_damage = @eoa_fighter_shield_damage
+	shield_penetration = @eoa_fighter_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+			exotic_gases = @eoa_weapon_l_t4_cost_special
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+			exotic_gases = @eoa_weapon_l_s4_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "TIE_FIGHTER_LASERCANON"
+	component_set = "EOA_TIE_ADVANCE_2"
+	prerequisites = { "tech_eoa_tie_interceptor" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EOA_TIE_AVENGER_1"
+}
 
 strike_craft_component_template = {
 	key = "EOA_TIE_BOMBER_3"
