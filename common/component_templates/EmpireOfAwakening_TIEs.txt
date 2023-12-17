@@ -110,7 +110,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FIGHTER_1"
-	prerequisites = { "tech_eoa_tie_fighter" }
+	prerequisites = { "tech_eoa_tie_fighter_v1" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FIGHTER_2"
 }
@@ -182,7 +182,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FLEETDEFENCE_1"
-	prerequisites = { "tech_eoa_tie_fighter" }
+	prerequisites = { "tech_eoa_tie_fighter_v1" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FLEETDEFENCE_2"
 }
@@ -254,7 +254,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "FIGHTER_PROTON_TORPEDO"
 	component_set = "EOA_TIE_BOMBER_1"
-	prerequisites = { "tech_eoa_tie_bomber" }
+	prerequisites = { "tech_eoa_tie_bomber_v1" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_BOMBER_2"
 }
@@ -330,7 +330,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FIGHTER_2"
-	prerequisites = { "tech_eoa_tie_fighter" }
+	prerequisites = { "tech_eoa_tie_fighter_v2" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FIGHTER_3"
 }
@@ -410,7 +410,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FIGHTER_3"
-	prerequisites = { "tech_eoa_tie_interceptor" }
+	prerequisites = { "tech_eoa_tie_advance_x1" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FIGHTER_4"
 }
@@ -482,7 +482,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FLEETDEFENCE_2"
-	prerequisites = { "tech_eoa_tie_fighter" }
+	prerequisites = { "tech_eoa_tie_advance_x1" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FLEETDEFENCE_3"
 }
@@ -554,7 +554,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "FIGHTER_PROTON_TORPEDO"
 	component_set = "EOA_TIE_BOMBER_2"
-	prerequisites = { "tech_eoa_tie_bomber" }
+	prerequisites = { "tech_eoa_tie_bomber_v2" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_BOMBER_3"
 }
@@ -632,7 +632,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FIGHTER_4"
-	prerequisites = { "tech_eoa_tie_interceptor" }
+	prerequisites = { "tech_eoa_tie_interceptor_v1" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FIGHTER_5"
 }
@@ -706,7 +706,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_ADVANCE_1"
-	prerequisites = { "tech_eoa_tie_interceptor" }
+	prerequisites = { "tech_eoa_tie_advance_x3" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_ADVANCE_2"
 }
@@ -785,7 +785,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FIGHTER_5"
-	prerequisites = { "tech_eoa_tie_interceptor" }
+	prerequisites = { "tech_eoa_tie_interceptor_v2" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FIGHTER_6"
 }
@@ -857,7 +857,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FLEETDEFENCE_3"
-	prerequisites = { "tech_eoa_tie_fighter" }
+	prerequisites = { "tech_eoa_tie_interceptor_v2" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FLEETDEFENCE_4"
 }
@@ -931,7 +931,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_ADVANCE_2"
-	prerequisites = { "tech_eoa_tie_interceptor" }
+	prerequisites = { "tech_eoa_tie_advance_x7" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_AVENGER_1"
 }
@@ -1003,7 +1003,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "FIGHTER_PROTON_TORPEDO"
 	component_set = "EOA_TIE_BOMBER_3"
-	prerequisites = { "tech_eoa_tie_bomber" }
+	prerequisites = { "tech_eoa_tie_torpedo" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_BOMBER_4"
 }
@@ -1084,7 +1084,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FIGHTER_6"
-	prerequisites = { "tech_eoa_tie_hunter" }
+	prerequisites = { "tech_eoa_tie_hunter_v1" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FIGHTER_7"
 }
@@ -1156,7 +1156,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FLEETDEFENCE_4"
-	prerequisites = { "tech_eoa_tie_fighter" }
+	prerequisites = { "tech_eoa_tie_hunter_v1" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FLEETDEFENCE_5"
 }
@@ -1230,7 +1230,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_AVENGER_1"
-	prerequisites = { "tech_eoa_tie_hunter" }
+	prerequisites = { "tech_eoa_tie_avenger_v1" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_AVENGER_2"
 }
@@ -1378,7 +1378,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_INTERCEPTOR_ADV_1"
-	prerequisites = { "tech_eoa_tie_interceptor_adv" }
+	prerequisites = { "tech_eoa_tie_interceptor_adv1" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FIGHTER_4"
 }
@@ -1459,7 +1459,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FIGHTER_7"
-	prerequisites = { "tech_eoa_tie_defender" }
+	prerequisites = { "tech_eoa_tie_defender_v1" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FIGHTER_8"
 }
@@ -1531,9 +1531,83 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FLEETDEFENCE_5"
-	prerequisites = { "tech_eoa_tie_fighter" }
+	prerequisites = { "tech_eoa_tie_defender_v1" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FLEETDEFENCE_6"
+}
+
+strike_craft_component_template = {
+	key = "EOA_TIE_HUNTER_1"
+	size = LARGE
+	entity = "FR_TIE_Hunter_entity"
+	icon = "GFX_ship_part_EOA_tie_hunter"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 17 max = 27 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_high_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_hunter_tracking
+
+	health = 100.0
+	armor = 40
+	shield = 65
+
+	speed = @eoa_strikecraft_speed_7
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_fighter_evasion
+
+	hull_damage = @eoa_fighter_hull_damage_3
+	armor_damage = @eoa_fighter_armor_damage_3
+	shield_damage = @eoa_fighter_shield_damage_3
+	shield_penetration = @eoa_fighter_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t5_cost_special
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s5_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "TIE_FIGHTER_LASERCANON"
+	component_set = "EOA_TIE_HUNTER_1"
+	prerequisites = { "tech_eoa_tie_hunter_v2" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EOA_TIE_HUNTER_2"
 }
 
 strike_craft_component_template = {
@@ -1605,7 +1679,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_AVENGER_2"
-	prerequisites = { "tech_eoa_tie_hunter" }
+	prerequisites = { "tech_eoa_tie_avenger_v2" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_AVENGER_3"
 }
@@ -1679,7 +1753,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_INTERCEPTOR_ADV_2"
-	prerequisites = { "tech_eoa_tie_interceptor_adv" }
+	prerequisites = { "tech_eoa_tie_interceptor_adv2" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_INTERCEPTOR_ADV_3"
 }
@@ -1753,7 +1827,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "FIGHTER_PROTON_TORPEDO"
 	component_set = "EOA_TIE_BOMBER_4"
-	prerequisites = { "tech_eoa_tie_defender" }
+	prerequisites = { "tech_eoa_tie_defender_v1" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_BOMBER_5"
 }
@@ -1835,7 +1909,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FIGHTER_8"
-	prerequisites = { "tech_eoa_tie_defender" }
+	prerequisites = { "tech_eoa_tie_defender_v2" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FIGHTER_ACOT_ALPHA"
 }
@@ -1907,7 +1981,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_FLEETDEFENCE_6"
-	prerequisites = { "tech_eoa_tie_fighter" }
+	prerequisites = { "tech_eoa_tie_defender_v2" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_FLEETDEFENCE_ACOT_ALPHA"
 }
@@ -1981,9 +2055,83 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_MANGLER_1"
-	prerequisites = { "tech_eoa_tie_defender" }
+	prerequisites = { "tech_eoa_tie_mangler" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_MANGLER_ACOT_ALPHA"
+}
+
+strike_craft_component_template = {
+	key = "EOA_TIE_HUNTER_2"
+	size = LARGE
+	entity = "FR_TIE_Hunter_entity"
+	icon = "GFX_ship_part_EOA_tie_hunter"
+	icon_frame = 1
+
+	weapon_type = point_defence
+
+	damage = { min = 22 max = 32 }
+	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
+
+	power = @power2
+
+	count = @eoa_strikecraft_count
+	regeneration_per_day = @eoa_strikecraft_regen
+	launch_time = @eoa_strikecraft_launch_time
+
+	ship_behavior = "fighters_behavior"
+
+	range = @eoa_fighter_attack_range_high_tier
+	engagement_range = @eoa_strikecraft_engagement_range
+	accuracy = @eoa_strikecraft_accuracy
+	tracking = @eoa_hunter_tracking
+
+	health = 100.0
+	armor = 40
+	shield = 65
+
+	speed = @eoa_strikecraft_speed_8
+	rotation_speed = @eoa_fighter_rotation_speed 
+	acceleration = @eoa_fighter_acceleration
+	evasion = @eoa_tie_fighter_evasion
+
+	hull_damage = @eoa_fighter_hull_damage_3
+	armor_damage = @eoa_fighter_armor_damage_3
+	shield_damage = @eoa_fighter_shield_damage_3
+	shield_penetration = @eoa_fighter_shield_penetration
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+			eoa_tibanna_gas = @eoa_weapon_l_t5_cost_special
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+			eoa_tibanna_gas = @eoa_weapon_l_s5_upkeep_tibannagas
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	projectile_gfx = "TIE_FIGHTER_LASERCANON"
+	component_set = "EOA_TIE_HUNTER_2"
+	prerequisites = { "tech_eoa_tie_hunter_v3" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EOA_TIE_HUNTER_ACOT_ALPHA"
 }
 
 strike_craft_component_template = {
@@ -2055,7 +2203,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_AVENGER_3"
-	prerequisites = { "tech_eoa_tie_hunter" }
+	prerequisites = { "tech_eoa_tie_avenger_v3" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_AVENGER_ACOT_ALPHA"
 }
@@ -2129,7 +2277,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "TIE_FIGHTER_LASERCANON"
 	component_set = "EOA_TIE_INTERCEPTOR_ADV_3"
-	prerequisites = { "tech_eoa_tie_interceptor_adv" }
+	prerequisites = { "tech_eoa_tie_interceptor_adv3" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_INTERCEPTOR_ADV_ACOT_ALPHA"
 }
@@ -2203,7 +2351,7 @@ strike_craft_component_template = {
 
 	projectile_gfx = "FIGHTER_PROTON_TORPEDO"
 	component_set = "EOA_TIE_BOMBER_5"
-	prerequisites = { "tech_eoa_tie_defender" }
+	prerequisites = { "tech_eoa_tie_defender_v2" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EOA_TIE_BOMBER_ACOT_ALPHA"
 }
