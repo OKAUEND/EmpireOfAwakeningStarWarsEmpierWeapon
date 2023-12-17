@@ -235,7 +235,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_2" }
 
 	damage = { min = 8.0 max = 21.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -310,7 +310,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_2" }
 
 	damage = { min = 20.0 max = 53.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -383,7 +383,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_2" }
 
 	damage = { min = 48.0 max = 126.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -441,7 +441,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_3" }
 
 	damage = { min = 10.0 max = 27.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -516,7 +516,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_3" }
 
 	damage = { min = 25.0 max = 68.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -589,7 +589,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_3" }
 
 	damage = { min = 60.0 max = 162.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -647,7 +647,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_4" }
 
 	damage = { min = 13.0 max = 35.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -722,7 +722,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_4" }
 
 	damage = { min = 33.0 max = 88.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -795,7 +795,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_4" }
 
 	damage = { min = 78.0 max = 210.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -853,7 +853,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_5" }
 
 	damage = { min = 17.0 max = 46.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -928,7 +928,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_5" }
 
 	damage = { min = 43.0 max = 115.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1001,7 +1001,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_5" }
 
 	damage = { min = 102.0 max = 276.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1059,7 +1059,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_6" }
 
 	damage = { min = 21.0 max = 58.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1134,7 +1134,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_6" }
 
 	damage = { min = 53.0 max = 134.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1207,7 +1207,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_6" }
 
 	damage = { min = 132.0 max = 310.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1265,7 +1265,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_7" }
 
 	damage = { min = 25.0 max = 72.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1340,7 +1340,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_7" }
 
 	damage = { min = 65.0 max = 206.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1413,7 +1413,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_7" }
 
 	damage = { min = 256.0 max = 488.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1471,7 +1471,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_8" }
 
 	damage = { min = 48.0 max = 88.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1546,7 +1546,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_8" }
 
 	damage = { min = 106.0 max = 242.0 }
 	windup = { min = 2.0 max = 20.0 }
@@ -1619,7 +1619,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_ion_canon_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_ion_canon_1" }
+	prerequisites = { "tech_eoa_ion_canon_8" }
 
 	damage = { min = 256.0 max = 488.0 }
 	windup = { min = 2.0 max = 20.0 }

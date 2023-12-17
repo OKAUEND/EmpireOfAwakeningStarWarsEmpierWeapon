@@ -24,7 +24,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_01"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_turbo_lasers_pd_0" }
+	prerequisites = { "tech_eoa_turbo_laser_pd_1" }
 
 	damage = { min = 2.0 max = 4.0 }
 	windup = { min = 0.0 max = 0.0 }
@@ -101,7 +101,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_02"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_turbo_lasers_pd_1" }
+	prerequisites = { "tech_eoa_turbo_laser_pd_2" }
 
 	damage = { min = 3.0 max = 6.0 }
 	windup = { min = 0.0 max = 0.0 }
@@ -181,7 +181,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_03"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_turbo_lasers_pd_2" }
+	prerequisites = { "tech_eoa_turbo_laser_pd_3" }
 
 	damage = { min = 4.0 max = 8.0 }
 	windup = { min = 0.0 max = 0.0 }
@@ -260,7 +260,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_04"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_turbo_lasers_pd_3" }
+	prerequisites = { "tech_eoa_turbo_laser_pd_4" }
 
 	damage = { min = 6.0 max = 11.0 }
 	windup = { min = 0.0 max = 0.0 }
@@ -339,7 +339,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_anti_aire_turbolaser_05"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_turbo_lasers_pd_4" }
+	prerequisites = { "tech_eoa_turbo_laser_pd_5" }
 
 	damage = { min = 8.0 max = 14.0 }
 	windup = { min = 0.0 max = 0.0 }
