@@ -81,7 +81,7 @@ weapon_component_template = {
 	projectile_gfx = "HEAVYQUAD_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
-	upgrades_to = "EOA_HEAVY_TURBO_LASER_1"
+	upgrades_to = "EOA_HEAVY_TURBO_LASER_2"
 }
 #############################################
 #  - Tier 2
