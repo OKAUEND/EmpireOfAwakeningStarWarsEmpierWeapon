@@ -33,44 +33,44 @@
 @EoA_large_weapon_cost_energy_tier8 = 0.01
 
 # XL-重ターボレーザー/重イオン砲
-@EoA_extra_large_1_weapon_upkeep_cost_tier1 = 0.01
-@EoA_extra_large_1_weapon_upkeep_cost_tier2 = 0.01
-@EoA_extra_large_1_weapon_upkeep_cost_tier3 = 0.01
-@EoA_extra_large_1_weapon_upkeep_cost_tier4 = 0.01
-@EoA_extra_large_1_weapon_upkeep_cost_tier5 = 0.01
-@EoA_extra_large_1_weapon_upkeep_cost_tier6 = 0.01
-@EoA_extra_large_1_weapon_upkeep_cost_tier7 = 0.01
-@EoA_extra_large_1_weapon_upkeep_cost_tier8 = 0.01
+@EoA_extra_large_1_weapon_cost_energy_tier1 = 0.01
+@EoA_extra_large_1_weapon_cost_energy_tier2 = 0.01
+@EoA_extra_large_1_weapon_cost_energy_tier3 = 0.01
+@EoA_extra_large_1_weapon_cost_energy_tier4 = 0.01
+@EoA_extra_large_1_weapon_cost_energy_tier5 = 0.01
+@EoA_extra_large_1_weapon_cost_energy_tier6 = 0.01
+@EoA_extra_large_1_weapon_cost_energy_tier7 = 0.01
+@EoA_extra_large_1_weapon_cost_energy_tier8 = 0.01
 
 # XL-オクトプルターボレーザー
-@EoA_extra_large_2_weapon_upkeep_cost_tier1 = 0.01
-@EoA_extra_large_2_weapon_upkeep_cost_tier2 = 0.01
-@EoA_extra_large_2_weapon_upkeep_cost_tier3 = 0.01
-@EoA_extra_large_2_weapon_upkeep_cost_tier4 = 0.01
-@EoA_extra_large_2_weapon_upkeep_cost_tier5 = 0.01
-@EoA_extra_large_2_weapon_upkeep_cost_tier6 = 0.01
-@EoA_extra_large_2_weapon_upkeep_cost_tier7 = 0.01
-@EoA_extra_large_2_weapon_upkeep_cost_tier8 = 0.01
+@EoA_extra_large_2_weapon_cost_energy_tier1 = 0.01
+@EoA_extra_large_2_weapon_cost_energy_tier2 = 0.01
+@EoA_extra_large_2_weapon_cost_energy_tier3 = 0.01
+@EoA_extra_large_2_weapon_cost_energy_tier4 = 0.01
+@EoA_extra_large_2_weapon_cost_energy_tier5 = 0.01
+@EoA_extra_large_2_weapon_cost_energy_tier6 = 0.01
+@EoA_extra_large_2_weapon_cost_energy_tier7 = 0.01
+@EoA_extra_large_2_weapon_cost_energy_tier8 = 0.01
 
 # T-超重ターボレーザーI型
-@EoA_titan_1_weapon_upkeep_cost_tier1 = 0.01
-@EoA_titan_1_weapon_upkeep_cost_tier2 = 0.01
-@EoA_titan_1_weapon_upkeep_cost_tier3 = 0.01
-@EoA_titan_1_weapon_upkeep_cost_tier4 = 0.01
-@EoA_titan_1_weapon_upkeep_cost_tier5 = 0.01
-@EoA_titan_1_weapon_upkeep_cost_tier6 = 0.01
-@EoA_titan_1_weapon_upkeep_cost_tier7 = 0.01
-@EoA_titan_1_weapon_upkeep_cost_tier8 = 0.01
+@EoA_titan_1_weapon_cost_energy_tier1 = 0.01
+@EoA_titan_1_weapon_cost_energy_tier2 = 0.01
+@EoA_titan_1_weapon_cost_energy_tier3 = 0.01
+@EoA_titan_1_weapon_cost_energy_tier4 = 0.01
+@EoA_titan_1_weapon_cost_energy_tier5 = 0.01
+@EoA_titan_1_weapon_cost_energy_tier6 = 0.01
+@EoA_titan_1_weapon_cost_energy_tier7 = 0.01
+@EoA_titan_1_weapon_cost_energy_tier8 = 0.01
 
 # T-超重ターボレーザーII型
-@EoA_titan_2_weapon_upkeep_cost_tier1 = 0.01
-@EoA_titan_2_weapon_upkeep_cost_tier2 = 0.01
-@EoA_titan_2_weapon_upkeep_cost_tier3 = 0.01
-@EoA_titan_2_weapon_upkeep_cost_tier4 = 0.01
-@EoA_titan_2_weapon_upkeep_cost_tier5 = 0.01
-@EoA_titan_2_weapon_upkeep_cost_tier6 = 0.01
-@EoA_titan_2_weapon_upkeep_cost_tier7 = 0.01
-@EoA_titan_2_weapon_upkeep_cost_tier8 = 0.01
+@EoA_titan_2_weapon_cost_energy_tier1 = 0.01
+@EoA_titan_2_weapon_cost_energy_tier2 = 0.01
+@EoA_titan_2_weapon_cost_energy_tier3 = 0.01
+@EoA_titan_2_weapon_cost_energy_tier4 = 0.01
+@EoA_titan_2_weapon_cost_energy_tier5 = 0.01
+@EoA_titan_2_weapon_cost_energy_tier6 = 0.01
+@EoA_titan_2_weapon_cost_energy_tier7 = 0.01
+@EoA_titan_2_weapon_cost_energy_tier8 = 0.01
 ############################################################
 # 合金
 # S-サイズ
