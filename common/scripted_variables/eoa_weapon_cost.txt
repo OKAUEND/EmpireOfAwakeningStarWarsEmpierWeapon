@@ -1,0 +1,391 @@
+############################################################
+###               Weapons UnKeep Cost                    ###
+############################################################
+# エネルギー
+# S-サイズ
+@EoA_small_weapon_upkeep_energy_tier1 = 0.01
+@EoA_small_weapon_upkeep_energy_tier2 = 0.01
+@EoA_small_weapon_upkeep_energy_tier3 = 0.01
+@EoA_small_weapon_upkeep_energy_tier4 = 0.01
+@EoA_small_weapon_upkeep_energy_tier5 = 0.01
+@EoA_small_weapon_upkeep_energy_tier6 = 0.01
+@EoA_small_weapon_upkeep_energy_tier7 = 0.01
+@EoA_small_weapon_upkeep_energy_tier8 = 0.01
+
+# M-サイズ
+@EoA_medium_weapon_upkeep_energy_tier1 = 0.01
+@EoA_medium_weapon_upkeep_energy_tier2 = 0.01
+@EoA_medium_weapon_upkeep_energy_tier3 = 0.01
+@EoA_medium_weapon_upkeep_energy_tier4 = 0.01
+@EoA_medium_weapon_upkeep_energy_tier5 = 0.01
+@EoA_medium_weapon_upkeep_energy_tier6 = 0.01
+@EoA_medium_weapon_upkeep_energy_tier7 = 0.01
+@EoA_medium_weapon_upkeep_energy_tier8 = 0.01
+
+# L-サイズ
+@EoA_large_weapon_upkeep_energy_tier1 = 0.01
+@EoA_large_weapon_upkeep_energy_tier2 = 0.01
+@EoA_large_weapon_upkeep_energy_tier3 = 0.01
+@EoA_large_weapon_upkeep_energy_tier4 = 0.01
+@EoA_large_weapon_upkeep_energy_tier5 = 0.01
+@EoA_large_weapon_upkeep_energy_tier6 = 0.01
+@EoA_large_weapon_upkeep_energy_tier7 = 0.01
+@EoA_large_weapon_upkeep_energy_tier8 = 0.01
+
+# XL-重ターボレーザー/重イオン砲
+@EoA_extra_large_1_weapon_upkeep_energy_tier1 = 0.01
+@EoA_extra_large_1_weapon_upkeep_energy_tier2 = 0.01
+@EoA_extra_large_1_weapon_upkeep_energy_tier3 = 0.01
+@EoA_extra_large_1_weapon_upkeep_energy_tier4 = 0.01
+@EoA_extra_large_1_weapon_upkeep_energy_tier5 = 0.01
+@EoA_extra_large_1_weapon_upkeep_energy_tier6 = 0.01
+@EoA_extra_large_1_weapon_upkeep_energy_tier7 = 0.01
+@EoA_extra_large_1_weapon_upkeep_energy_tier8 = 0.01
+
+# XL-オクトプルターボレーザー
+@EoA_extra_large_2_weapon_upkeep_energy_tier1 = 0.01
+@EoA_extra_large_2_weapon_upkeep_energy_tier2 = 0.01
+@EoA_extra_large_2_weapon_upkeep_energy_tier3 = 0.01
+@EoA_extra_large_2_weapon_upkeep_energy_tier4 = 0.01
+@EoA_extra_large_2_weapon_upkeep_energy_tier5 = 0.01
+@EoA_extra_large_2_weapon_upkeep_energy_tier6 = 0.01
+@EoA_extra_large_2_weapon_upkeep_energy_tier7 = 0.01
+@EoA_extra_large_2_weapon_upkeep_energy_tier8 = 0.01
+
+# T-超重ターボレーザーI型
+@EoA_titan_1_weapon_upkeep_energy_tier1 = 0.01
+@EoA_titan_1_weapon_upkeep_energy_tier2 = 0.01
+@EoA_titan_1_weapon_upkeep_energy_tier3 = 0.01
+@EoA_titan_1_weapon_upkeep_energy_tier4 = 0.01
+@EoA_titan_1_weapon_upkeep_energy_tier5 = 0.01
+@EoA_titan_1_weapon_upkeep_energy_tier6 = 0.01
+@EoA_titan_1_weapon_upkeep_energy_tier7 = 0.01
+@EoA_titan_1_weapon_upkeep_energy_tier8 = 0.01
+
+# T-超重ターボレーザーII型
+@EoA_titan_2_weapon_upkeep_energy_tier1 = 0.01
+@EoA_titan_2_weapon_upkeep_energy_tier2 = 0.01
+@EoA_titan_2_weapon_upkeep_energy_tier3 = 0.01
+@EoA_titan_2_weapon_upkeep_energy_tier4 = 0.01
+@EoA_titan_2_weapon_upkeep_energy_tier5 = 0.01
+@EoA_titan_2_weapon_upkeep_energy_tier6 = 0.01
+@EoA_titan_2_weapon_upkeep_energy_tier7 = 0.01
+@EoA_titan_2_weapon_upkeep_energy_tier8 = 0.01
+
+############################################################
+# 合金
+# S-サイズ
+@EoA_small_weapon_upkeep_alloys_tier1 = 0.01
+@EoA_small_weapon_upkeep_alloys_tier2 = 0.01
+@EoA_small_weapon_upkeep_alloys_tier3 = 0.01
+@EoA_small_weapon_upkeep_alloys_tier4 = 0.01
+@EoA_small_weapon_upkeep_alloys_tier5 = 0.01
+@EoA_small_weapon_upkeep_alloys_tier6 = 0.01
+@EoA_small_weapon_upkeep_alloys_tier7 = 0.01
+@EoA_small_weapon_upkeep_alloys_tier8 = 0.01
+
+# M-サイズ
+@EoA_medium_weapon_upkeep_alloys_tier1 = 0.01
+@EoA_medium_weapon_upkeep_alloys_tier2 = 0.01
+@EoA_medium_weapon_upkeep_alloys_tier3 = 0.01
+@EoA_medium_weapon_upkeep_alloys_tier4 = 0.01
+@EoA_medium_weapon_upkeep_alloys_tier5 = 0.01
+@EoA_medium_weapon_upkeep_alloys_tier6 = 0.01
+@EoA_medium_weapon_upkeep_alloys_tier7 = 0.01
+@EoA_medium_weapon_upkeep_alloys_tier8 = 0.01
+
+# L-サイズ
+@EoA_large_weapon_upkeep_alloys_tier1 = 0.01
+@EoA_large_weapon_upkeep_alloys_tier2 = 0.01
+@EoA_large_weapon_upkeep_alloys_tier3 = 0.01
+@EoA_large_weapon_upkeep_alloys_tier4 = 0.01
+@EoA_large_weapon_upkeep_alloys_tier5 = 0.01
+@EoA_large_weapon_upkeep_alloys_tier6 = 0.01
+@EoA_large_weapon_upkeep_alloys_tier7 = 0.01
+@EoA_large_weapon_upkeep_alloys_tier8 = 0.01
+
+# XL-重ターボレーザー/重イオン砲
+@EoA_extra_large_1_weapon_upkeep_alloys_tier1 = 0.01
+@EoA_extra_large_1_weapon_upkeep_alloys_tier2 = 0.01
+@EoA_extra_large_1_weapon_upkeep_alloys_tier3 = 0.01
+@EoA_extra_large_1_weapon_upkeep_alloys_tier4 = 0.01
+@EoA_extra_large_1_weapon_upkeep_alloys_tier5 = 0.01
+@EoA_extra_large_1_weapon_upkeep_alloys_tier6 = 0.01
+@EoA_extra_large_1_weapon_upkeep_alloys_tier7 = 0.01
+@EoA_extra_large_1_weapon_upkeep_alloys_tier8 = 0.01
+
+# XL-オクトプルターボレーザー
+@EoA_extra_large_2_weapon_upkeep_alloys_tier1 = 0.01
+@EoA_extra_large_2_weapon_upkeep_alloys_tier2 = 0.01
+@EoA_extra_large_2_weapon_upkeep_alloys_tier3 = 0.01
+@EoA_extra_large_2_weapon_upkeep_alloys_tier4 = 0.01
+@EoA_extra_large_2_weapon_upkeep_alloys_tier5 = 0.01
+@EoA_extra_large_2_weapon_upkeep_alloys_tier6 = 0.01
+@EoA_extra_large_2_weapon_upkeep_alloys_tier7 = 0.01
+@EoA_extra_large_2_weapon_upkeep_alloys_tier8 = 0.01
+
+# T-超重ターボレーザーI型
+@EoA_titan_1_weapon_upkeep_alloys_tier1 = 0.01
+@EoA_titan_1_weapon_upkeep_alloys_tier2 = 0.01
+@EoA_titan_1_weapon_upkeep_alloys_tier3 = 0.01
+@EoA_titan_1_weapon_upkeep_alloys_tier4 = 0.01
+@EoA_titan_1_weapon_upkeep_alloys_tier5 = 0.01
+@EoA_titan_1_weapon_upkeep_alloys_tier6 = 0.01
+@EoA_titan_1_weapon_upkeep_alloys_tier7 = 0.01
+@EoA_titan_1_weapon_upkeep_alloys_tier8 = 0.01
+
+# T-超重ターボレーザーII型
+@EoA_titan_2_weapon_upkeep_alloys_tier1 = 0.01
+@EoA_titan_2_weapon_upkeep_alloys_tier2 = 0.01
+@EoA_titan_2_weapon_upkeep_alloys_tier3 = 0.01
+@EoA_titan_2_weapon_upkeep_alloys_tier4 = 0.01
+@EoA_titan_2_weapon_upkeep_alloys_tier5 = 0.01
+@EoA_titan_2_weapon_upkeep_alloys_tier6 = 0.01
+@EoA_titan_2_weapon_upkeep_alloys_tier7 = 0.01
+@EoA_titan_2_weapon_upkeep_alloys_tier8 = 0.01
+
+############################################################
+# エキゾチックガス/ティバナガス
+# S-サイズ
+@EoA_small_weapon_upkeep_gas_tier1 = 0.01
+@EoA_small_weapon_upkeep_gas_tier2 = 0.01
+@EoA_small_weapon_upkeep_gas_tier3 = 0.01
+@EoA_small_weapon_upkeep_gas_tier4 = 0.01
+@EoA_small_weapon_upkeep_gas_tier5 = 0.01
+@EoA_small_weapon_upkeep_gas_tier6 = 0.01
+@EoA_small_weapon_upkeep_gas_tier7 = 0.01
+@EoA_small_weapon_upkeep_gas_tier8 = 0.01
+
+# M-サイズ
+@EoA_medium_weapon_upkeep_gas_tier1 = 0.01
+@EoA_medium_weapon_upkeep_gas_tier2 = 0.01
+@EoA_medium_weapon_upkeep_gas_tier3 = 0.01
+@EoA_medium_weapon_upkeep_gas_tier4 = 0.01
+@EoA_medium_weapon_upkeep_gas_tier5 = 0.01
+@EoA_medium_weapon_upkeep_gas_tier6 = 0.01
+@EoA_medium_weapon_upkeep_gas_tier7 = 0.01
+@EoA_medium_weapon_upkeep_gas_tier8 = 0.01
+
+# L-サイズ
+@EoA_large_weapon_upkeep_gas_tier1 = 0.01
+@EoA_large_weapon_upkeep_gas_tier2 = 0.01
+@EoA_large_weapon_upkeep_gas_tier3 = 0.01
+@EoA_large_weapon_upkeep_gas_tier4 = 0.01
+@EoA_large_weapon_upkeep_gas_tier5 = 0.01
+@EoA_large_weapon_upkeep_gas_tier6 = 0.01
+@EoA_large_weapon_upkeep_gas_tier7 = 0.01
+@EoA_large_weapon_upkeep_gas_tier8 = 0.01
+
+# XL-重ターボレーザー/重イオン砲
+@EoA_extra_large_1_weapon_upkeep_gas_tier1 = 0.01
+@EoA_extra_large_1_weapon_upkeep_gas_tier2 = 0.01
+@EoA_extra_large_1_weapon_upkeep_gas_tier3 = 0.01
+@EoA_extra_large_1_weapon_upkeep_gas_tier4 = 0.01
+@EoA_extra_large_1_weapon_upkeep_gas_tier5 = 0.01
+@EoA_extra_large_1_weapon_upkeep_gas_tier6 = 0.01
+@EoA_extra_large_1_weapon_upkeep_gas_tier7 = 0.01
+@EoA_extra_large_1_weapon_upkeep_gas_tier8 = 0.01
+
+# XL-オクトプルターボレーザー
+@EoA_extra_large_2_weapon_upkeep_gas_tier1 = 0.01
+@EoA_extra_large_2_weapon_upkeep_gas_tier2 = 0.01
+@EoA_extra_large_2_weapon_upkeep_gas_tier3 = 0.01
+@EoA_extra_large_2_weapon_upkeep_gas_tier4 = 0.01
+@EoA_extra_large_2_weapon_upkeep_gas_tier5 = 0.01
+@EoA_extra_large_2_weapon_upkeep_gas_tier6 = 0.01
+@EoA_extra_large_2_weapon_upkeep_gas_tier7 = 0.01
+@EoA_extra_large_2_weapon_upkeep_gas_tier8 = 0.01
+
+# T-超重ターボレーザーI型
+@EoA_titan_1_weapon_upkeep_gas_tier1 = 0.01
+@EoA_titan_1_weapon_upkeep_gas_tier2 = 0.01
+@EoA_titan_1_weapon_upkeep_gas_tier3 = 0.01
+@EoA_titan_1_weapon_upkeep_gas_tier4 = 0.01
+@EoA_titan_1_weapon_upkeep_gas_tier5 = 0.01
+@EoA_titan_1_weapon_upkeep_gas_tier6 = 0.01
+@EoA_titan_1_weapon_upkeep_gas_tier7 = 0.01
+@EoA_titan_1_weapon_upkeep_gas_tier8 = 0.01
+
+# T-超重ターボレーザーII型
+@EoA_titan_2_weapon_upkeep_gas_tier1 = 0.01
+@EoA_titan_2_weapon_upkeep_gas_tier2 = 0.01
+@EoA_titan_2_weapon_upkeep_gas_tier3 = 0.01
+@EoA_titan_2_weapon_upkeep_gas_tier4 = 0.01
+@EoA_titan_2_weapon_upkeep_gas_tier5 = 0.01
+@EoA_titan_2_weapon_upkeep_gas_tier6 = 0.01
+@EoA_titan_2_weapon_upkeep_gas_tier7 = 0.01
+@EoA_titan_2_weapon_upkeep_gas_tier8 = 0.01
+
+@eoa_s_t1_upkeep_energy = 0.05
+@eoa_s_t1_upkeep_alloys = 0.010
+@eoa_s_t2_upkeep_energy = 0.07
+@eoa_s_t2_upkeep_alloys = 0.015
+@eoa_s_t3_upkeep_energy = 0.10
+@eoa_s_t3_upkeep_alloys = 0.020
+@eoa_s_t4_upkeep_energy = 0.12
+@eoa_s_t4_upkeep_alloys = 0.025
+
+@eoa_m_t1_upkeep_energy = 0.07
+@eoa_m_t1_upkeep_alloys = 0.040
+@eoa_m_t2_upkeep_energy = 0.09
+@eoa_m_t2_upkeep_alloys = 0.052
+@eoa_m_t3_upkeep_energy = 0.11
+@eoa_m_t3_upkeep_alloys = 0.068
+@eoa_m_t4_upkeep_energy = 0.13
+@eoa_m_t4_upkeep_alloys = 0.068
+
+@eoa_l_t1_upkeep_energy = 0.09
+@eoa_l_t1_upkeep_alloys = 0.080
+@eoa_l_t2_upkeep_energy = 0.11
+@eoa_l_t2_upkeep_alloys = 0.104
+@eoa_l_t3_upkeep_energy = 0.13
+@eoa_l_t3_upkeep_alloys = 0.136
+@eoa_l_t4_upkeep_energy = 0.15
+@eoa_l_t4_upkeep_alloys = 0.136
+
+
+
+# Tibanna Gas unkeep
+@eoa_weapon_l_s4_upkeep_tibannagas = 0.01
+@eoa_weapon_l_m4_upkeep_tibannagas = 0.05
+@eoa_weapon_l_t4_upkeep_tibannagas = 0.1
+
+@eoa_weapon_l_s5_upkeep_tibannagas = 0.050
+@eoa_weapon_l_m5_upkeep_tibannagas = 0.085
+@eoa_weapon_l_t5_upkeep_tibannagas = 0.25
+
+@eoa_weapon_l_s6_upkeep_tibannagas = 0.06
+@eoa_weapon_l_m6_upkeep_tibannagas = 0.11
+@eoa_weapon_l_t6_upkeep_tibannagas = 0.7
+
+@eoa_weapon_l_s7_upkeep_tibannagas = 0.06
+@eoa_weapon_l_m7_upkeep_tibannagas = 0.11
+@eoa_weapon_l_t7_upkeep_tibannagas = 0.7
+
+@eoa_weapon_l_s8_upkeep_tibannagas = 0.09
+@eoa_weapon_l_m8_upkeep_tibannagas = 0.3
+@eoa_weapon_l_t8_upkeep_tibannagas = 1.1
+
+### tier 4
+@eoa_weapon_s_t4_cost_special = 0.1
+@eoa_weapon_m_t4_cost_special = 0.2
+@eoa_weapon_l_t4_cost_special = 0.8
+
+### tier 5
+@eoa_weapon_s_t5_cost_special = 0.3
+@eoa_weapon_m_t5_cost_special = 0.5
+@eoa_weapon_l_t5_cost_special = 1.1
+
+### tier 6 + crystalline 4
+@eoa_weapon_s_t6_cost = 29
+@eoa_weapon_s_t6_cost_special = 0.43
+@eoa_weapon_s_t6_upkeep_energy = 0.29
+@eoa_weapon_s_t6_upkeep_alloys = 0.058
+@eoa_weapon_m_t6_cost = 57
+@eoa_weapon_m_t6_cost_special = 0.85
+@eoa_weapon_m_t6_upkeep_energy = 0.57
+@eoa_weapon_m_t6_upkeep_alloys = 0.104
+@eoa_weapon_l_t6_cost = 114
+@eoa_weapon_l_t6_cost_special = 1.69
+@eoa_weapon_l_t6_upkeep_energy = 1.14
+@eoa_weapon_l_t6_upkeep_alloys = 0.228
+
+### tier 7 + crystalline 5
+@eoa_weapon_s_t7_cost = 38
+@eoa_weapon_s_t7_cost_special = 0.55
+@eoa_weapon_s_t7_upkeep_energy = 0.38
+@eoa_weapon_s_t7_upkeep_alloys = 0.076
+@eoa_weapon_m_t7_cost = 74
+@eoa_weapon_m_t7_cost_special = 1.1
+@eoa_weapon_m_t7_upkeep_energy = 0.74
+@eoa_weapon_m_t7_upkeep_alloys = 0.148
+@eoa_weapon_l_t7_cost = 148
+@eoa_weapon_l_t7_cost_special = 2.2
+@eoa_weapon_l_t7_upkeep_energy = 1.48
+@eoa_weapon_l_t7_upkeep_alloys = 0.296
+
+### tier 8
+@eoa_weapon_s_t8_cost = 52
+@eoa_weapon_s_t8_cost_special = 0.7
+@eoa_weapon_s_t8_upkeep_energy = 0.52
+@eoa_weapon_s_t8_upkeep_alloys = 0.104
+@eoa_weapon_m_t8_cost = 104
+@eoa_weapon_m_t8_cost_special = 1.4
+@eoa_weapon_m_t8_upkeep_energy = 1.04
+@eoa_weapon_m_t8_upkeep_alloys = 0.208
+@eoa_weapon_l_t8_cost = 208
+@eoa_weapon_l_t8_cost_special = 2.75
+@eoa_weapon_l_t8_upkeep_energy = 2.08
+@eoa_weapon_l_t8_upkeep_alloys = 0.416
+
+### tier 9
+@eoa_weapon_s_t9_cost = 68
+@eoa_weapon_s_t9_cost_special = 0.85
+@eoa_weapon_s_t9_upkeep_energy = 0.68
+@eoa_weapon_s_t9_upkeep_alloys = 0.136
+@eoa_weapon_m_t9_cost = 136
+@eoa_weapon_m_t9_cost_special = 1.75
+@eoa_weapon_m_t9_upkeep_energy = 1.36
+@eoa_weapon_m_t9_upkeep_alloys = 0.272
+@eoa_weapon_l_t9_cost = 272
+@eoa_weapon_l_t9_cost_special = 3.0
+@eoa_weapon_l_t9_upkeep_energy = 2.72
+@eoa_weapon_l_t9_upkeep_alloys = 0.544
+
+### X slots
+# Extra Large
+
+@eoa_xl_t5_cost = 176 #not 232, uses rare goods instead
+@eoa_xl_t6_cost = 229 #298
+
+@eoa_xl_t5_upkeep_energy = 0.3
+@eoa_xl_t5_upkeep_alloys = 0.25
+@eoa_xl_t6_upkeep_energy = 0.5
+@eoa_xl_t6_upkeep_alloys = 0.458
+@eoa_xl_t7_upkeep_energy = 0.7
+@eoa_xl_t7_upkeep_alloys = 0.596
+
+@eoa_weapon_xl_t5_cost_special = 3
+@eoa_weapon_xl_t6_cost_special = 3.7
+
+@eoa_weapon_xl_t7_cost = 298
+@eoa_weapon_xl_t7_cost_special = 4.4
+@eoa_weapon_xl_t7_upkeep_energy = 2.98
+@eoa_weapon_xl_t7_upkeep_alloys = 0.596
+
+@eoa_weapon_xl_t8_cost = 387
+@eoa_weapon_xl_t8_cost_special = 5.6
+@eoa_weapon_xl_t8_upkeep_energy = 3.87
+@eoa_weapon_xl_t8_upkeep_alloys = 0.774
+
+@eoa_weapon_xl_t9_cost = 490
+@eoa_weapon_xl_t9_cost_special = 6.8
+@eoa_weapon_xl_t9_upkeep_energy = 4.90
+@eoa_weapon_xl_t9_upkeep_alloys = 0.980
+
+@eoa_weapon_xl_t5_upkeep_tibannagas = 0.5
+@eoa_weapon_xl_t6_upkeep_tibannagas = 0.7
+@eoa_weapon_xl_t7_upkeep_tibannagas = 1.0
+@eoa_weapon_xl_t8_upkeep_tibannagas = 1.3
+@eoa_weapon_xl_t9_upkeep_tibannagas = 1.5
+
+### T slots
+# Titanic
+
+@titanic_t6_cost = 456 #593
+@titanic_t7_cost = 593 #771
+
+@titanic_t6_upkeep_energy = 4.56
+@titanic_t6_upkeep_alloys = 0.912
+@titanic_t7_upkeep_energy = 5.93
+@titanic_t7_upkeep_alloys = 1.186
+
+@eoa_weapon_t_t6_cost = 456
+@eoa_weapon_t_t6_cost_special = 6.76
+@eoa_weapon_t_t6_upkeep_energy = 4.56
+@eoa_weapon_t_t6_upkeep_alloys = 0.912
+
+@eoa_weapon_t_t7_cost = 593
+@eoa_weapon_t_t7_cost_special = 8.79
+@eoa_weapon_t_t7_upkeep_energy = 5.93
+@eoa_weapon_t_t7_upkeep_alloys = 1.186
