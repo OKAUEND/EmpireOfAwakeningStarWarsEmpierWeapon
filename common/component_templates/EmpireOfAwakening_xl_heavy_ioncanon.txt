@@ -81,7 +81,7 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "EOA_OLDWAR_HEAVY_ION_CANON_1"
+	component_set = "HEAVY_ION_CANON_1"
 	projectile_gfx = "HEAVY_DUAL_IONCANON"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_long_range }
