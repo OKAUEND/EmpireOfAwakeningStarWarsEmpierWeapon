@@ -73,34 +73,34 @@
 @EoA_titan_2_weapon_cost_alloys_tier8 = 0.01
 
 # 戦闘機 - TIE / TIE PD / TIE Adv
-@EoA_large_weapon_cost_alloys_tier1 = 0.01
-@EoA_large_weapon_cost_alloys_tier2 = 0.01
-@EoA_large_weapon_cost_alloys_tier3 = 0.01
-@EoA_large_weapon_cost_alloys_tier4 = 0.01
-@EoA_large_weapon_cost_alloys_tier5 = 0.01
-@EoA_large_weapon_cost_alloys_tier6 = 0.01
-@EoA_large_weapon_cost_alloys_tier7 = 0.01
-@EoA_large_weapon_cost_alloys_tier8 = 0.01
+@EoA_tie_weapon_cost_alloys_tier1 = 0.01
+@EoA_tie_weapon_cost_alloys_tier2 = 0.01
+@EoA_tie_weapon_cost_alloys_tier3 = 0.01
+@EoA_tie_weapon_cost_alloys_tier4 = 0.01
+@EoA_tie_weapon_cost_alloys_tier5 = 0.01
+@EoA_tie_weapon_cost_alloys_tier6 = 0.01
+@EoA_tie_weapon_cost_alloys_tier7 = 0.01
+@EoA_tie_weapon_cost_alloys_tier8 = 0.01
 
 # 戦闘機 - Heavy TIE 
-@EoA_large_weapon_cost_alloys_tier1 = 0.01
-@EoA_large_weapon_cost_alloys_tier2 = 0.01
-@EoA_large_weapon_cost_alloys_tier3 = 0.01
-@EoA_large_weapon_cost_alloys_tier4 = 0.01
-@EoA_large_weapon_cost_alloys_tier5 = 0.01
-@EoA_large_weapon_cost_alloys_tier6 = 0.01
-@EoA_large_weapon_cost_alloys_tier7 = 0.01
-@EoA_large_weapon_cost_alloys_tier8 = 0.01
+@EoA_heavy_tie_weapon_cost_alloys_tier1 = 0.01
+@EoA_heavy_tie_weapon_cost_alloys_tier2 = 0.01
+@EoA_heavy_tie_weapon_cost_alloys_tier3 = 0.01
+@EoA_heavy_tie_weapon_cost_alloys_tier4 = 0.01
+@EoA_heavy_tie_weapon_cost_alloys_tier5 = 0.01
+@EoA_heavy_tie_weapon_cost_alloys_tier6 = 0.01
+@EoA_heavy_tie_weapon_cost_alloys_tier7 = 0.01
+@EoA_heavy_tie_weapon_cost_alloys_tier8 = 0.01
 
 # 爆撃機 - TIE
-@EoA_large_weapon_cost_alloys_tier1 = 0.01
-@EoA_large_weapon_cost_alloys_tier2 = 0.01
-@EoA_large_weapon_cost_alloys_tier3 = 0.01
-@EoA_large_weapon_cost_alloys_tier4 = 0.01
-@EoA_large_weapon_cost_alloys_tier5 = 0.01
-@EoA_large_weapon_cost_alloys_tier6 = 0.01
-@EoA_large_weapon_cost_alloys_tier7 = 0.01
-@EoA_large_weapon_cost_alloys_tier8 = 0.01
+@EoA_tie_bomber_weapon_cost_alloys_tier1 = 0.01
+@EoA_tie_bomber_weapon_cost_alloys_tier2 = 0.01
+@EoA_tie_bomber_weapon_cost_alloys_tier3 = 0.01
+@EoA_tie_bomber_weapon_cost_alloys_tier4 = 0.01
+@EoA_tie_bomber_weapon_cost_alloys_tier5 = 0.01
+@EoA_tie_bomber_weapon_cost_alloys_tier6 = 0.01
+@EoA_tie_bomber_weapon_cost_alloys_tier7 = 0.01
+@EoA_tie_bomber_weapon_cost_alloys_tier8 = 0.01
 ############################################################
 # エキゾチックガス/ティバナガス
 # S-サイズ
@@ -174,34 +174,34 @@
 @EoA_titan_2_weapon_cost_gas_tier8 = 0.01
 
 # 戦闘機 - TIE / TIE PD / TIE Adv
-@EoA_large_weapon_cost_gas_tier1 = 0.01
-@EoA_large_weapon_cost_gas_tier2 = 0.01
-@EoA_large_weapon_cost_gas_tier3 = 0.01
-@EoA_large_weapon_cost_gas_tier4 = 0.01
-@EoA_large_weapon_cost_gas_tier5 = 0.01
-@EoA_large_weapon_cost_gas_tier6 = 0.01
-@EoA_large_weapon_cost_gas_tier7 = 0.01
-@EoA_large_weapon_cost_gas_tier8 = 0.01
+@EoA_tie_weapon_cost_gas_tier1 = 0.01
+@EoA_tie_weapon_cost_gas_tier2 = 0.01
+@EoA_tie_weapon_cost_gas_tier3 = 0.01
+@EoA_tie_weapon_cost_gas_tier4 = 0.01
+@EoA_tie_weapon_cost_gas_tier5 = 0.01
+@EoA_tie_weapon_cost_gas_tier6 = 0.01
+@EoA_tie_weapon_cost_gas_tier7 = 0.01
+@EoA_tie_weapon_cost_gas_tier8 = 0.01
 
 # 戦闘機 - Heavy TIE 
-@EoA_large_weapon_cost_gas_tier1 = 0.01
-@EoA_large_weapon_cost_gas_tier2 = 0.01
-@EoA_large_weapon_cost_gas_tier3 = 0.01
-@EoA_large_weapon_cost_gas_tier4 = 0.01
-@EoA_large_weapon_cost_gas_tier5 = 0.01
-@EoA_large_weapon_cost_gas_tier6 = 0.01
-@EoA_large_weapon_cost_gas_tier7 = 0.01
-@EoA_large_weapon_cost_gas_tier8 = 0.01
+@EoA_heavy_tie_weapon_cost_gas_tier1 = 0.01
+@EoA_heavy_tie_weapon_cost_gas_tier2 = 0.01
+@EoA_heavy_tie_weapon_cost_gas_tier3 = 0.01
+@EoA_heavy_tie_weapon_cost_gas_tier4 = 0.01
+@EoA_heavy_tie_weapon_cost_gas_tier5 = 0.01
+@EoA_heavy_tie_weapon_cost_gas_tier6 = 0.01
+@EoA_heavy_tie_weapon_cost_gas_tier7 = 0.01
+@EoA_heavy_tie_weapon_cost_gas_tier8 = 0.01
 
 # 爆撃機 - TIE
-@EoA_large_weapon_cost_gas_tier1 = 0.01
-@EoA_large_weapon_cost_gas_tier2 = 0.01
-@EoA_large_weapon_cost_gas_tier3 = 0.01
-@EoA_large_weapon_cost_gas_tier4 = 0.01
-@EoA_large_weapon_cost_gas_tier5 = 0.01
-@EoA_large_weapon_cost_gas_tier6 = 0.01
-@EoA_large_weapon_cost_gas_tier7 = 0.01
-@EoA_large_weapon_cost_gas_tier8 = 0.01
+@EoA_tie_bomber_weapon_cost_gas_tier1 = 0.01
+@EoA_tie_bomber_weapon_cost_gas_tier2 = 0.01
+@EoA_tie_bomber_weapon_cost_gas_tier3 = 0.01
+@EoA_tie_bomber_weapon_cost_gas_tier4 = 0.01
+@EoA_tie_bomber_weapon_cost_gas_tier5 = 0.01
+@EoA_tie_bomber_weapon_cost_gas_tier6 = 0.01
+@EoA_tie_bomber_weapon_cost_gas_tier7 = 0.01
+@EoA_tie_bomber_weapon_cost_gas_tier8 = 0.01
 ############################################################
 ###               Weapons UnKeep Cost                    ###
 ############################################################
@@ -276,6 +276,35 @@
 @EoA_titan_2_weapon_upkeep_energy_tier7 = 0.01
 @EoA_titan_2_weapon_upkeep_energy_tier8 = 0.01
 
+# 戦闘機 - TIE / TIE PD / TIE Adv
+@EoA_tie_weapon_upkeep_energy_tier1 = 0.01
+@EoA_tie_weapon_upkeep_energy_tier2 = 0.01
+@EoA_tie_weapon_upkeep_energy_tier3 = 0.01
+@EoA_tie_weapon_upkeep_energy_tier4 = 0.01
+@EoA_tie_weapon_upkeep_energy_tier5 = 0.01
+@EoA_tie_weapon_upkeep_energy_tier6 = 0.01
+@EoA_tie_weapon_upkeep_energy_tier7 = 0.01
+@EoA_tie_weapon_upkeep_energy_tier8 = 0.01
+
+# 戦闘機 - Heavy TIE 
+@EoA_heavy_tie_weapon_upkeep_energy_tier1 = 0.01
+@EoA_heavy_tie_weapon_upkeep_energy_tier2 = 0.01
+@EoA_heavy_tie_weapon_upkeep_energy_tier3 = 0.01
+@EoA_heavy_tie_weapon_upkeep_energy_tier4 = 0.01
+@EoA_heavy_tie_weapon_upkeep_energy_tier5 = 0.01
+@EoA_heavy_tie_weapon_upkeep_energy_tier6 = 0.01
+@EoA_heavy_tie_weapon_upkeep_energy_tier7 = 0.01
+@EoA_heavy_tie_weapon_upkeep_energy_tier8 = 0.01
+
+# 爆撃機 - TIE
+@EoA_tie_bomber_weapon_upkeep_energy_tier1 = 0.01
+@EoA_tie_bomber_weapon_upkeep_energy_tier2 = 0.01
+@EoA_tie_bomber_weapon_upkeep_energy_tier3 = 0.01
+@EoA_tie_bomber_weapon_upkeep_energy_tier4 = 0.01
+@EoA_tie_bomber_weapon_upkeep_energy_tier5 = 0.01
+@EoA_tie_bomber_weapon_upkeep_energy_tier6 = 0.01
+@EoA_tie_bomber_weapon_upkeep_energy_tier7 = 0.01
+@EoA_tie_bomber_weapon_upkeep_energy_tier8 = 0.01
 ############################################################
 # 合金
 # S-サイズ
@@ -348,6 +377,36 @@
 @EoA_titan_2_weapon_upkeep_alloys_tier7 = 0.01
 @EoA_titan_2_weapon_upkeep_alloys_tier8 = 0.01
 
+# 戦闘機 - TIE / TIE PD / TIE Adv
+@EoA_tie_2_weapon_upkeep_alloys_tier1 = 0.01
+@EoA_tie_2_weapon_upkeep_alloys_tier2 = 0.01
+@EoA_tie_2_weapon_upkeep_alloys_tier3 = 0.01
+@EoA_tie_2_weapon_upkeep_alloys_tier4 = 0.01
+@EoA_tie_2_weapon_upkeep_alloys_tier5 = 0.01
+@EoA_tie_2_weapon_upkeep_alloys_tier6 = 0.01
+@EoA_tie_2_weapon_upkeep_alloys_tier7 = 0.01
+@EoA_tie_2_weapon_upkeep_alloys_tier8 = 0.01
+
+# 戦闘機 - Heavy TIE 
+@EoA_heavy_tie_2_weapon_upkeep_alloys_tier1 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_alloys_tier2 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_alloys_tier3 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_alloys_tier4 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_alloys_tier5 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_alloys_tier6 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_alloys_tier7 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_alloys_tier8 = 0.01
+
+# 爆撃機 - TIE
+@EoA_tie_bomber_2_weapon_upkeep_alloys_tier1 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_alloys_tier2 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_alloys_tier3 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_alloys_tier4 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_alloys_tier5 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_alloys_tier6 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_alloys_tier7 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_alloys_tier8 = 0.01
+
 ############################################################
 # エキゾチックガス/ティバナガス
 # S-サイズ
@@ -419,6 +478,36 @@
 @EoA_titan_2_weapon_upkeep_gas_tier6 = 0.01
 @EoA_titan_2_weapon_upkeep_gas_tier7 = 0.01
 @EoA_titan_2_weapon_upkeep_gas_tier8 = 0.01
+
+# 戦闘機 - TIE / TIE PD / TIE Adv
+@EoA_tie_2_weapon_upkeep_gas_tier1 = 0.01
+@EoA_tie_2_weapon_upkeep_gas_tier2 = 0.01
+@EoA_tie_2_weapon_upkeep_gas_tier3 = 0.01
+@EoA_tie_2_weapon_upkeep_gas_tier4 = 0.01
+@EoA_tie_2_weapon_upkeep_gas_tier5 = 0.01
+@EoA_tie_2_weapon_upkeep_gas_tier6 = 0.01
+@EoA_tie_2_weapon_upkeep_gas_tier7 = 0.01
+@EoA_tie_2_weapon_upkeep_gas_tier8 = 0.01
+
+# 戦闘機 - Heavy TIE 
+@EoA_heavy_tie_2_weapon_upkeep_gas_tier1 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_gas_tier2 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_gas_tier3 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_gas_tier4 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_gas_tier5 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_gas_tier6 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_gas_tier7 = 0.01
+@EoA_heavy_tie_2_weapon_upkeep_gas_tier8 = 0.01
+
+# 爆撃機 - TIE
+@EoA_tie_bomber_2_weapon_upkeep_gas_tier1 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_gas_tier2 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_gas_tier3 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_gas_tier4 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_gas_tier5 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_gas_tier6 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_gas_tier7 = 0.01
+@EoA_tie_bomber_2_weapon_upkeep_gas_tier8 = 0.01
 
 @eoa_s_t1_upkeep_energy = 0.05
 @eoa_s_t1_upkeep_alloys = 0.010
