@@ -58,7 +58,7 @@ weapon_component_template = {
 	shield_damage = 1.05
 	armor_damage = 1.05
 	
-	power = -7
+	power = @EoA_small_weapon_power_tier1
 	
 	resources = {
 		category = ship_components
@@ -130,7 +130,7 @@ weapon_component_template = {
 	shield_damage = 1.10
 	armor_damage = 1.10
 	
-	power = -18.00
+	power = @EoA_medium_weapon_power_tier1
 
 	resources = {
 		category = ship_components
@@ -204,7 +204,7 @@ weapon_component_template = {
 	shield_penetration = 0.10
 	armor_penetration = 0.10
 	
-	power = -30.0
+	power = @EoA_large_weapon_power_tier1
 	
 	resources = {
 		category = ship_components
@@ -280,7 +280,7 @@ weapon_component_template = {
 	shield_damage = 1.05
 	armor_damage = 1.05
 	
-	power = -10.00
+	power = @EoA_small_weapon_power_tier2
 	
 	resources = {
 		category = ship_components
@@ -353,7 +353,7 @@ weapon_component_template = {
 	shield_damage = 1.10
 	armor_damage = 1.10
 	
-	power = -20.00
+	power = @EoA_medium_weapon_power_tier2
 
 	resources = {
 		category = ship_components
@@ -427,7 +427,7 @@ weapon_component_template = {
 	shield_penetration = 0.10
 	armor_penetration = 0.10
 	
-	power = -35.0
+	power = @EoA_large_weapon_power_tier2
 	
 	resources = {
 		category = ship_components
@@ -503,7 +503,7 @@ weapon_component_template = {
 	shield_damage = 1.05
 	armor_damage = 1.05
 	
-	power = -15
+	power = @EoA_small_weapon_power_tier3
 	
 	resources = {
 		category = ship_components
@@ -577,7 +577,7 @@ weapon_component_template = {
 	shield_damage = 1.10
 	armor_damage = 1.10
 	
-	power = -25.00
+	power = @EoA_medium_weapon_power_tier3
 
 	resources = {
 		category = ship_components
@@ -651,8 +651,7 @@ weapon_component_template = {
 	shield_penetration = 0.10
 	armor_penetration = 0.10
 	
-	power = -45.0
-	cost = 90.0
+	power = @EoA_large_weapon_power_tier3
 	
 	resources = {
 		category = ship_components
@@ -728,7 +727,7 @@ weapon_component_template = {
 	shield_damage = 1.05
 	armor_damage = 1.05
 	
-	power = -20
+	power = @EoA_small_weapon_power_tier4 
 	
 	resources = {
 		category = ship_components
@@ -801,8 +800,7 @@ weapon_component_template = {
 	shield_damage = 1.10
 	armor_damage = 1.10
 	
-	power = -30.00
-	cost = 60.00
+	power = @EoA_medium_weapon_power_tier4
 
 	resources = {
 		category = ship_components
@@ -876,8 +874,7 @@ weapon_component_template = {
 	shield_penetration = 0.10
 	armor_penetration = 0.10
 	
-	power = -60.0
-	cost = 112.0
+	power = @EoA_large_weapon_power_tier4
 	
 	resources = {
 		category = ship_components
@@ -953,7 +950,7 @@ weapon_component_template = {
 	shield_damage = 1.05
 	armor_damage = 1.05
 	
-	power = -20
+	power = @EoA_small_weapon_power_tier5
 	
 	resources = {
 		category = ship_components
@@ -1026,7 +1023,7 @@ weapon_component_template = {
 	shield_damage = 1.10
 	armor_damage = 1.10
 	
-	power = -40.00
+	power = @EoA_medium_weapon_power_tier5
 
 	resources = {
 		category = ship_components
@@ -1100,7 +1097,7 @@ weapon_component_template = {
 	shield_penetration = 0.10
 	armor_penetration = 0.10
 	
-	power = -64
+	power = @EoA_large_weapon_power_tier6
 	
 	resources = {
 		category = ship_components
@@ -1176,7 +1173,7 @@ weapon_component_template = {
 	shield_damage = 1.05
 	armor_damage = 1.05
 	
-	power = -26
+	power = @EoA_small_weapon_power_tier6
 	
 	resources = {
 		category = ship_components
@@ -1249,7 +1246,7 @@ weapon_component_template = {
 	shield_damage = 1.10
 	armor_damage = 1.10
 	
-	power = -50.00
+	power = @EoA_medium_weapon_power_tier6
 
 	resources = {
 		category = ship_components
@@ -1323,7 +1320,7 @@ weapon_component_template = {
 	shield_penetration = 0.10
 	armor_penetration = 0.10
 	
-	power = -90.0
+	power = @EoA_large_weapon_power_tier6
 	
 	resources = {
 		category = ship_components
@@ -1399,7 +1396,7 @@ weapon_component_template = {
 	shield_damage = 1.05
 	armor_damage = 1.05
 	
-	power = -25
+	power = @EoA_small_weapon_power_tier7
 	
 	resources = {
 		category = ship_components
@@ -1472,7 +1469,7 @@ weapon_component_template = {
 	shield_damage = 1.10
 	armor_damage = 1.10
 	
-	power = -55
+	power = @EoA_medium_weapon_power_tier7
 
 	resources = {
 		category = ship_components
@@ -1546,7 +1543,7 @@ weapon_component_template = {
 	shield_penetration = 0.10
 	armor_penetration = 0.10
 	
-	power = -100
+	power = @EoA_large_weapon_power_tier7 
 	
 	resources = {
 		category = ship_components
@@ -1622,7 +1619,7 @@ weapon_component_template = {
 	shield_damage = 1.05
 	armor_damage = 1.05
 	
-	power = -50
+	power = @EoA_small_weapon_power_tier8
 	
 	resources = {
 		category = ship_components
@@ -1694,7 +1691,7 @@ weapon_component_template = {
 	shield_damage = 1.10
 	armor_damage = 1.10
 	
-	power = -100
+	power = @EoA_medium_weapon_power_tier8
 
 	resources = {
 		category = ship_components
@@ -1767,7 +1764,7 @@ weapon_component_template = {
 	shield_penetration = 0.10
 	armor_penetration = 0.10
 	
-	power = -200
+	power = @EoA_large_weapon_power_tier8
 	
 	resources = {
 		category = ship_components

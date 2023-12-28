@@ -44,7 +44,7 @@ weapon_component_template = {
 	missile_health = 7
 	missile_retarget_range = 120
 	
-	power = -15.00
+	power = @EoA_medium_weapon_power_tier2
 
 	resources = {
 		category = ship_components
@@ -112,6 +112,8 @@ weapon_component_template = {
 	missile_health = 8
 	missile_retarget_range = 120
 
+	power = @EoA_medium_weapon_power_tier3
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -178,6 +180,8 @@ weapon_component_template = {
 	missile_health = 9
 	missile_retarget_range = 120
 
+	power = @EoA_medium_weapon_power_tier4
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -243,6 +247,8 @@ weapon_component_template = {
 	missile_evasion = 0.45
 	missile_health = 10
 	missile_retarget_range = 120
+
+	power = @EoA_medium_weapon_power_tier5
 
 	resources = {
 		category = ship_components
@@ -332,6 +338,8 @@ weapon_component_template = {
 	missile_evasion = 0.45
 	missile_health = 11
 	missile_retarget_range = 120
+
+	power = @EoA_medium_weapon_power_tier6
 
 	resources = {
 		category = ship_components
@@ -441,6 +449,7 @@ weapon_component_template = {
 	missile_health = 10
 	missile_retarget_range = 50
 
+	power = @EoA_medium_weapon_power_tier2
 
 	resources = {
 		category = ship_components
@@ -509,6 +518,8 @@ weapon_component_template = {
 	missile_health = 12
 	missile_retarget_range = 50
 
+	power = @EoA_medium_weapon_power_tier3
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -575,6 +586,8 @@ weapon_component_template = {
 	missile_evasion = 0.25
 	missile_health = 14
 	missile_retarget_range = 50
+
+	power = @EoA_medium_weapon_power_tier4
 
 	resources = {
 		category = ship_components
@@ -643,6 +656,8 @@ weapon_component_template = {
 	missile_health = 14
 	missile_retarget_range = 50
 
+	power = @EoA_medium_weapon_power_tier5
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -709,6 +724,8 @@ weapon_component_template = {
 	missile_evasion = 0.25
 	missile_health = 14
 	missile_retarget_range = 50
+
+	power = @EoA_medium_weapon_power_tier6
 
 	resources = {
 		category = ship_components
@@ -792,6 +809,8 @@ weapon_component_template = {
 	missile_armor = 2
 	missile_retarget_range = 100
 
+	power = @EoA_medium_weapon_power_tier3
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -858,6 +877,8 @@ weapon_component_template = {
 	missile_health = 17
 	missile_armor = 2
 	missile_retarget_range = 100
+
+	power = @EoA_medium_weapon_power_tier4
 
 	resources = {
 		category = ship_components
@@ -926,6 +947,8 @@ weapon_component_template = {
 	missile_armor = 2
 	missile_retarget_range = 100
 
+	power = @EoA_medium_weapon_power_tier5
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -991,6 +1014,8 @@ weapon_component_template = {
 	missile_evasion = 0.25
 	missile_health = 14
 	missile_retarget_range = 50
+
+	power = @EoA_medium_weapon_power_tier6
 
 	resources = {
 		category = ship_components
@@ -1070,6 +1095,8 @@ weapon_component_template = {
 	missile_armor = 2
 	missile_retarget_range = 100
 
+	power = @EoA_large_weapon_power_tier4
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -1137,6 +1164,8 @@ weapon_component_template = {
 	missile_armor = 3
 	missile_retarget_range = 100
 
+	power = @EoA_large_weapon_power_tier5
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -1203,6 +1232,8 @@ weapon_component_template = {
 	missile_health = 14
 	missile_armor = 5
 	missile_retarget_range = 50
+
+	power = @EoA_large_weapon_power_tier6
 
 	resources = {
 		category = ship_components

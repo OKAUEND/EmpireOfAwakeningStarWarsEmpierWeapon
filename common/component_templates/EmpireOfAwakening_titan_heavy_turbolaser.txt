@@ -10,7 +10,7 @@
 #  - Tier 8 (ESC-N Tier 8)
 #   - 重ターボレーザー IV(T)
 #############################################
-#  - Tier 4
+#  - Tier 5
 #   - ターボレーザー III(SML)
 #############################################
 weapon_component_template = {
@@ -42,17 +42,17 @@ weapon_component_template = {
 	shield_penetration = 1.00
 	armor_penetration = 0.25
 	
-	power = -500.0
+	power = @EoA_titan_1_weapon_power_tier5
 	
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_titan_2_weapon_cost_alloys_tier1
-			eoa_tibanna_gas = @EoA_titan_2_weapon_cost_gas_tier1
+			alloys = @EoA_titan_2_weapon_cost_alloys_tier5
+			eoa_tibanna_gas = @EoA_titan_2_weapon_cost_gas_tier5
 		}
 		upkeep = {
-			energy = @EoA_titan_2_weapon_upkeep_energy_tier1
-			alloys = @EoA_titan_2_weapon_upkeep_alloys_tier1
+			energy = @EoA_titan_2_weapon_upkeep_energy_tier5
+			alloys = @EoA_titan_2_weapon_upkeep_alloys_tier5
 		}
 	}
 	
@@ -78,7 +78,7 @@ weapon_component_template = {
 	upgrades_to = "EOA_TITAN_HEAVY_TURBO_LASER_2"
 }
 #############################################
-#  - Tier 5
+#  - Tier 6
 #   - ターボレーザー V(SML)
 #############################################
 weapon_component_template = {
@@ -110,17 +110,17 @@ weapon_component_template = {
 	shield_penetration = 1.00
 	armor_penetration = 0.25
 	
-	power = -750.0
+	power = @EoA_titan_1_weapon_power_tier6
 	
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_titan_2_weapon_cost_alloys_tier2
-			eoa_tibanna_gas = @EoA_titan_2_weapon_cost_gas_tier2
+			alloys = @EoA_titan_2_weapon_cost_alloys_tier6
+			eoa_tibanna_gas = @EoA_titan_2_weapon_cost_gas_tier6
 		}
 		upkeep = {
-			energy = @EoA_titan_2_weapon_upkeep_energy_tier2
-			alloys = @EoA_titan_2_weapon_upkeep_alloys_tier2
+			energy = @EoA_titan_2_weapon_upkeep_energy_tier6
+			alloys = @EoA_titan_2_weapon_upkeep_alloys_tier6
 		}
 	}
 	
@@ -146,7 +146,7 @@ weapon_component_template = {
 	upgrades_to = "EOA_TITAN_HEAVY_TURBO_LASER_3"
 }
 #############################################
-#  - Tier 6
+#  - Tier 7
 #   - ターボレーザー VI(SML)
 #############################################
 weapon_component_template = {
@@ -178,17 +178,17 @@ weapon_component_template = {
 	shield_penetration = 1.00
 	armor_penetration = 0.25
 	
-	power = -1000.0
+	power = @EoA_titan_1_weapon_power_tier7
 	
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_titan_2_weapon_cost_alloys_tier3
-			eoa_tibanna_gas = @EoA_titan_2_weapon_cost_gas_tier3
+			alloys = @EoA_titan_2_weapon_cost_alloys_tier7
+			eoa_tibanna_gas = @EoA_titan_2_weapon_cost_gas_tier7
 		}
 		upkeep = {
-			energy = @EoA_titan_2_weapon_upkeep_energy_tier3
-			alloys = @EoA_titan_2_weapon_upkeep_alloys_tier3
+			energy = @EoA_titan_2_weapon_upkeep_energy_tier7
+			alloys = @EoA_titan_2_weapon_upkeep_alloys_tier7
 		}
 	}
 	
@@ -214,7 +214,7 @@ weapon_component_template = {
 	upgrades_to = "EOA_TITAN_HEAVY_TURBO_LASER_4"
 }
 #############################################
-#  - Tier 7
+#  - Tier 8
 #   - ターボレーザー VII(SML)
 #############################################
 weapon_component_template = {
@@ -246,17 +246,17 @@ weapon_component_template = {
 	shield_penetration = 1.00
 	armor_penetration = 0.25
 	
-	power = -1500.0
+	power = @EoA_titan_1_weapon_power_tier8
 	
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_titan_2_weapon_cost_alloys_tier4
-			eoa_tibanna_gas = @EoA_titan_2_weapon_cost_gas_tier4
+			alloys = @EoA_titan_2_weapon_cost_alloys_tier8
+			eoa_tibanna_gas = @EoA_titan_2_weapon_cost_gas_tier8
 		}
 		upkeep = {
-			energy = @EoA_titan_2_weapon_upkeep_energy_tier4
-			alloys = @EoA_titan_2_weapon_upkeep_alloys_tier4
+			energy = @EoA_titan_2_weapon_upkeep_energy_tier8
+			alloys = @EoA_titan_2_weapon_upkeep_alloys_tier8
 		}
 	}
 	

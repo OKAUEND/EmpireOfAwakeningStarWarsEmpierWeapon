@@ -55,7 +55,7 @@ strike_craft_component_template = {
 	damage = { min = 4 max = 9 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power1
+	power = @EoA_tie_weapon_power_tier1
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -130,7 +130,7 @@ strike_craft_component_template = {
 	damage = { min = 2 max = 7 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power1
+	power = @EoA_tie_weapon_power_tier1
 
 	health = 75.0
 	armor = 0
@@ -201,7 +201,7 @@ strike_craft_component_template = {
 	damage = { min = 10 max = 20 }
 	cooldown = @EOA_WEAPON_BOMBER_COOLDOWN
 
-	power = @power2
+	power = @EoA_tie_bomber_weapon_power_tier1
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -278,7 +278,7 @@ strike_craft_component_template = {
 	damage = { min = 4.5 max = 10 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power1
+	power = @EoA_tie_weapon_power_tier2
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -357,7 +357,7 @@ strike_craft_component_template = {
 	damage = { min = 5 max = 11 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_tie_weapon_power_tier3
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -432,7 +432,7 @@ strike_craft_component_template = {
 	damage = { min = 4 max = 10 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power1
+	power = @EoA_tie_weapon_power_tier3
 
 	health = 75.0
 	armor = 0
@@ -503,7 +503,7 @@ strike_craft_component_template = {
 	damage = { min = 14 max = 24 }
 	cooldown = @EOA_WEAPON_BOMBER_COOLDOWN
 
-	power = @power2
+	power = @EoA_tie_bomber_weapon_power_tier3
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -580,7 +580,7 @@ strike_craft_component_template = {
 	damage = { min = 6 max = 12 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_tie_weapon_power_tier4
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -653,7 +653,7 @@ strike_craft_component_template = {
 	damage = { min = 6 max = 12 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_heavy_tie_weapon_power_tier4
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -731,7 +731,7 @@ strike_craft_component_template = {
 	damage = { min = 7 max = 13 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_tie_weapon_power_tier5
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -806,7 +806,7 @@ strike_craft_component_template = {
 	damage = { min = 5 max = 11 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power1
+	power = @EoA_tie_weapon_power_tier5
 
 	health = 75.0
 	armor = 0
@@ -877,7 +877,7 @@ strike_craft_component_template = {
 	damage = { min = 7 max = 13 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_heavy_tie_weapon_power_tier5
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -950,7 +950,7 @@ strike_craft_component_template = {
 	damage = { min = 18 max = 28 }
 	cooldown = @EOA_WEAPON_BOMBER_COOLDOWN
 
-	power = @power2
+	power = @EoA_tie_bomber_weapon_power_tier5
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -1030,7 +1030,7 @@ strike_craft_component_template = {
 	damage = { min = 12 max = 22 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_tie_weapon_power_tier6
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -1105,7 +1105,7 @@ strike_craft_component_template = {
 	damage = { min = 8 max = 18 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power1
+	power = @EoA_tie_weapon_power_tier6
 
 	health = 75.0
 	armor = 0
@@ -1176,7 +1176,7 @@ strike_craft_component_template = {
 	damage = { min = 12 max = 22 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_heavy_tie_weapon_power_tier6
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -1249,7 +1249,7 @@ strike_craft_component_template = {
 	damage = { min = 10 max = 20 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_tie_weapon_power_tier6
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -1322,7 +1322,7 @@ strike_craft_component_template = {
 	damage = { min = 10 max = 20 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_tie_weapon_power_tier6
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -1402,7 +1402,7 @@ strike_craft_component_template = {
 	damage = { min = 17 max = 27 }
 	cooldown = 2.0
 
-	power = @power2
+	power = @EoA_tie_weapon_power_tier7
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -1477,7 +1477,7 @@ strike_craft_component_template = {
 	damage = { min = 13 max = 23 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power1
+	power = @EoA_tie_weapon_power_tier7
 
 	health = 75.0
 	armor = 0
@@ -1548,7 +1548,7 @@ strike_craft_component_template = {
 	damage = { min = 17 max = 27 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_heavy_tie_weapon_power_tier7
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -1621,7 +1621,7 @@ strike_craft_component_template = {
 	damage = { min = 17 max = 27 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_heavy_tie_weapon_power_tier7
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -1694,7 +1694,7 @@ strike_craft_component_template = {
 	damage = { min = 15 max = 25 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_tie_weapon_power_tier7
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -1767,7 +1767,7 @@ strike_craft_component_template = {
 	damage = { min = 35 max = 55 }
 	cooldown = @EOA_WEAPON_BOMBER_COOLDOWN
 
-	power = @power2
+	power = @EoA_tie_bomber_weapon_power_tier7
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -1848,7 +1848,7 @@ strike_craft_component_template = {
 	damage = { min = 22 max = 32 }
 	cooldown = 2.0
 
-	power = @power2
+	power = @EoA_tie_weapon_power_tier8
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -1923,7 +1923,7 @@ strike_craft_component_template = {
 	damage = { min = 18 max = 28 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power1
+	power = @EoA_tie_weapon_power_tier8
 
 	health = 75.0
 	armor = 0
@@ -1994,7 +1994,7 @@ strike_craft_component_template = {
 	damage = { min = 40 max = 50 }
 	cooldown = 2.0
 
-	power = @power2
+	power = @EoA_heavy_tie_weapon_power_tier8
 
 	count = 6
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -2067,7 +2067,7 @@ strike_craft_component_template = {
 	damage = { min = 22 max = 32 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_heavy_tie_weapon_power_tier8
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -2140,7 +2140,7 @@ strike_craft_component_template = {
 	damage = { min = 22 max = 32 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_heavy_tie_weapon_power_tier8
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -2213,7 +2213,7 @@ strike_craft_component_template = {
 	damage = { min = 20 max = 30 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
-	power = @power2
+	power = @EoA_tie_weapon_power_tier8
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -2286,7 +2286,7 @@ strike_craft_component_template = {
 	damage = { min = 42 max = 62 }
 	cooldown = @EOA_WEAPON_BOMBER_COOLDOWN
 
-	power = @power2
+	power = @EoA_tie_bomber_weapon_power_tier8
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen

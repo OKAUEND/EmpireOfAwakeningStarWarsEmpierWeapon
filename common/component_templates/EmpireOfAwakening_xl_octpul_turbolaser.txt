@@ -48,17 +48,17 @@ weapon_component_template = {
 	shield_penetration = 1.10
 	armor_penetration = 0.30
 	
-	power = -95.0
+	power = @EoA_extra_large_2_weapon_power_tier4
 	
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_extra_large_2_weapon_cost_alloys_tier1
-			eoa_tibanna_gas = @EoA_extra_large_2_weapon_cost_gas_tier1
+			alloys = @EoA_extra_large_2_weapon_cost_alloys_tier4
+			eoa_tibanna_gas = @EoA_extra_large_2_weapon_cost_gas_tier4
 		}
 		upkeep = {
-			energy = @EoA_extra_large_2_weapon_upkeep_energy_tier1
-			alloys = @EoA_extra_large_2_weapon_upkeep_alloys_tier1
+			energy = @EoA_extra_large_2_weapon_upkeep_energy_tier4
+			alloys = @EoA_extra_large_2_weapon_upkeep_alloys_tier4
 		}
 	}
 	
@@ -120,17 +120,17 @@ weapon_component_template = {
 	shield_penetration = 1.10
 	armor_penetration = 0.30
 	
-	power = -110.0
+	power = @EoA_extra_large_2_weapon_power_tier5
 	
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_extra_large_2_weapon_cost_alloys_tier2
-			eoa_tibanna_gas = @EoA_extra_large_2_weapon_cost_gas_tier2
+			alloys = @EoA_extra_large_2_weapon_cost_alloys_tier5
+			eoa_tibanna_gas = @EoA_extra_large_2_weapon_cost_gas_tier5
 		}
 		upkeep = {
-			energy = @EoA_extra_large_2_weapon_upkeep_energy_tier2
-			alloys = @EoA_extra_large_2_weapon_upkeep_alloys_tier2
+			energy = @EoA_extra_large_2_weapon_upkeep_energy_tier5
+			alloys = @EoA_extra_large_2_weapon_upkeep_alloys_tier5
 		}
 	}
 	
@@ -192,17 +192,17 @@ weapon_component_template = {
 	shield_penetration = 1.10
 	armor_penetration = 0.30
 	
-	power = -150.0
+	power = @EoA_extra_large_2_weapon_power_tier6
 	
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_extra_large_2_weapon_cost_alloys_tier3
-			eoa_tibanna_gas = @EoA_extra_large_2_weapon_cost_gas_tier3
+			alloys = @EoA_extra_large_2_weapon_cost_alloys_tier6
+			eoa_tibanna_gas = @EoA_extra_large_2_weapon_cost_gas_tier6
 		}
 		upkeep = {
-			energy = @EoA_extra_large_2_weapon_upkeep_energy_tier3
-			alloys = @EoA_extra_large_2_weapon_upkeep_alloys_tier3
+			energy = @EoA_extra_large_2_weapon_upkeep_energy_tier6
+			alloys = @EoA_extra_large_2_weapon_upkeep_alloys_tier6
 		}
 	}
 	
@@ -264,17 +264,17 @@ weapon_component_template = {
 	shield_penetration = 1.10
 	armor_penetration = 0.30
 	
-	power = -200.0
+	power = @EoA_extra_large_2_weapon_power_tier7
 	
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_extra_large_2_weapon_cost_alloys_tier4
-			eoa_tibanna_gas = @EoA_extra_large_2_weapon_cost_gas_tier4
+			alloys = @EoA_extra_large_2_weapon_cost_alloys_tier7
+			eoa_tibanna_gas = @EoA_extra_large_2_weapon_cost_gas_tier7
 		}
 		upkeep = {
-			energy = @EoA_extra_large_2_weapon_upkeep_energy_tier4
-			alloys = @EoA_extra_large_2_weapon_upkeep_alloys_tier4
+			energy = @EoA_extra_large_2_weapon_upkeep_energy_tier7
+			alloys = @EoA_extra_large_2_weapon_upkeep_alloys_tier7
 		}
 	}
 	
@@ -336,17 +336,17 @@ weapon_component_template = {
 	shield_penetration = 1.10
 	armor_penetration = 0.30
 	
-	power = -200.0
+	power = @EoA_extra_large_2_weapon_power_tier8
 	
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_extra_large_2_weapon_cost_alloys_tier5
-			eoa_tibanna_gas = @EoA_extra_large_2_weapon_cost_gas_tier5
+			alloys = @EoA_extra_large_2_weapon_cost_alloys_tier8
+			eoa_tibanna_gas = @EoA_extra_large_2_weapon_cost_gas_tier8
 		}
 		upkeep = {
-			energy = @EoA_extra_large_2_weapon_upkeep_energy_tier5
-			alloys = @EoA_extra_large_2_weapon_upkeep_alloys_tier5
+			energy = @EoA_extra_large_2_weapon_upkeep_energy_tier8
+			alloys = @EoA_extra_large_2_weapon_upkeep_alloys_tier8
 		}
 	}
 	

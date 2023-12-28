@@ -52,7 +52,7 @@ weapon_component_template = {
 	shield_damage = 1.10
 	armor_damage = 1.1
 	
-	power = -7
+	power = @EoA_small_weapon_power_tier1
 	
 	resources = {
 		category = ship_components
@@ -130,7 +130,7 @@ weapon_component_template = {
 	shield_damage = 1.10
 	armor_damage = 1.1
 	
-	power = -10
+	power = @EoA_small_weapon_power_tier3
 	
 	resources = {
 		category = ship_components
@@ -209,7 +209,7 @@ weapon_component_template = {
 	shield_damage = 1.10
 	armor_damage = 1.1
 	
-	power = -14
+	power = @EoA_small_weapon_power_tier5
 	
 	
 	resources = {
@@ -288,7 +288,7 @@ weapon_component_template = {
 	shield_damage = 1.10
 	armor_damage = 1.1
 	
-	power = -26
+	power = @EoA_small_weapon_power_tier6
 
 	resources = {
 		category = ship_components
@@ -366,7 +366,7 @@ weapon_component_template = {
 	shield_damage = 1.10
 	armor_damage = 1.1
 	
-	power = -25
+	power = @EoA_small_weapon_power_tier8
 	
 	resources = {
 		category = ship_components

@@ -53,7 +53,7 @@ weapon_component_template = {
 	armor_damage = -1.00
 	hull_damage = -1.00
 	
-	power = -75.0
+	power = @EoA_extra_large_1_weapon_power_tier1
 	
 	resources = {
 		category = ship_components
@@ -124,7 +124,7 @@ weapon_component_template = {
 	armor_damage = -1.00
 	hull_damage = -1.00
 	
-	power = -75.0
+	power = @EoA_extra_large_1_weapon_power_tier2
 	
 	resources = {
 		category = ship_components
@@ -195,7 +195,7 @@ weapon_component_template = {
 	armor_damage = -1.00
 	hull_damage = -1.00
 	
-	power = -90.0
+	power = @EoA_extra_large_1_weapon_power_tier3
 	
 	resources = {
 		category = ship_components
@@ -266,7 +266,7 @@ weapon_component_template = {
 	armor_damage = -1.00
 	hull_damage = -1.00
 	
-	power = -120.0
+	power = @EoA_extra_large_1_weapon_power_tier4
 	
 	resources = {
 		category = ship_components
@@ -337,7 +337,7 @@ weapon_component_template = {
 	armor_damage = -1.00
 	hull_damage = -1.00
 	
-	power = -170.0
+	power = @EoA_extra_large_1_weapon_power_tier5
 	
 	resources = {
 		category = ship_components
@@ -408,7 +408,7 @@ weapon_component_template = {
 	armor_damage = -1.00
 	hull_damage = -1.00
 	
-	power = -120.0
+	power = @EoA_extra_large_1_weapon_power_tier6
 	
 	resources = {
 		category = ship_components
@@ -479,7 +479,7 @@ weapon_component_template = {
 	armor_damage = -1.00
 	hull_damage = -1.00
 	
-	power = -170.0
+	power = @EoA_extra_large_1_weapon_power_tier7
 	
 	resources = {
 		category = ship_components
@@ -550,7 +550,7 @@ weapon_component_template = {
 	armor_damage = -1.00
 	hull_damage = -1.00
 	
-	power = -170.0
+	power = @EoA_extra_large_1_weapon_power_tier8
 	
 	resources = {
 		category = ship_components
