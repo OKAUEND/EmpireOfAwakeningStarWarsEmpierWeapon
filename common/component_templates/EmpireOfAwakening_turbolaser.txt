@@ -63,13 +63,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @s_t2_cost
-			exotic_gases = 0.10
+			alloys = @EoA_small_weapon_cost_alloys_tier1
+			exotic_gases = @EoA_small_weapon_cost_gas_tier1
 		}		
 		upkeep = {
-			energy = @eoa_s_t1_upkeep_energy
-			alloys = @eoa_s_t1_upkeep_alloys
-			exotic_gases = 0.001
+			energy = @EoA_small_weapon_upkeep_energy_tier1
+			alloys = @EoA_small_weapon_upkeep_alloys_tier1
 		}
 	}
 	
@@ -136,13 +135,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @m_t2_cost
-			exotic_gases = 0.125
+			alloys = @EoA_mediumm_weapon_cost_alloys_tier1
+			exotic_gases = @EoA_medium_weapon_cost_gas_tier1
 		}		
 		upkeep = {
-			energy = @eoa_m_t1_upkeep_energy
-			alloys = @eoa_m_t1_upkeep_alloys
-			exotic_gases = 0.005
+			energy = @EoA_medium_weapon_upkeep_energy_tier1
+			alloys = @EoA_medium_weapon_upkeep_alloys_tier1
 		}
 	}
 	
@@ -211,13 +209,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @l_t2_cost
-			exotic_gases = 0.15
+			alloys = @EoA_large_weapon_cost_alloys_tier1
+			exotic_gases = @EoA_large_weapon_cost_gas_tier1
 		}		
 		upkeep = {
-			energy = @eoa_l_t1_upkeep_energy
-			alloys = @eoa_l_t1_upkeep_alloys
-			exotic_gases = 0.01
+			energy = @EoA_large_weapon_upkeep_energy_tier1
+			alloys = @EoA_large_weapon_upkeep_alloys_tier1
 		}
 	}
 	
@@ -288,13 +285,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @s_t3_cost
-			exotic_gases = 0.12
+			alloys = @EoA_small_weapon_cost_alloys_tier1
+			exotic_gases = @EoA_small_weapon_cost_gas_tier2
 		}		
 		upkeep = {
-			energy = @eoa_s_t2_upkeep_energy
-			alloys = @eoa_s_t2_upkeep_alloys
-			exotic_gases = 0.002
+			energy = @EoA_small_weapon_upkeep_energy_tier2
+			alloys = @EoA_small_weapon_upkeep_alloys_tier2
 		}
 	}
 	
@@ -362,13 +358,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @m_t3_cost
-			exotic_gases = 0.14
+			alloys = @EoA_medium_weapon_cost_alloys_tier2
+			exotic_gases = @EoA_medium_weapon_cost_gas_tier2
 		}		
 		upkeep = {
-			energy = @eoa_m_t2_upkeep_energy
-			alloys = @eoa_m_t2_upkeep_alloys
-			exotic_gases = 0.007
+			energy = @EoA_medium_weapon_upkeep_energy_tier2
+			alloys = @EoA_medium_weapon_upkeep_alloys_tier2
 		}
 	}
 	
@@ -437,13 +432,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @l_t2_cost
-			exotic_gases = 0.17
+			alloys = @EoA_large_weapon_cost_alloys_tier2
+			exotic_gases = @EoA_large_weapon_cost_gas_tier2
 		}		
 		upkeep = {
-			energy = @eoa_l_t2_upkeep_energy
-			alloys = @eoa_l_t2_upkeep_alloys
-			exotic_gases = 0.015
+			energy = @EoA_large_weapon_upkeep_energy_tier2
+			alloys = @EoA_large_weapon_upkeep_alloys_tier2
 		}
 	}
 	
@@ -514,14 +508,13 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @s_t4_cost
-			exotic_gases = 0.14
+			alloys = @EoA_small_weapon_cost_alloys_tier3
+			exotic_gases = @EoA_small_weapon_cost_gas_tier3
 
 		}		
 		upkeep = {
-			energy = @eoa_s_t3_upkeep_energy
-			alloys = @eoa_s_t3_upkeep_alloys
-			exotic_gases = 0.003
+			energy = @EoA_small_weapon_upkeep_energy_tier3
+			alloys = @EoA_small_weapon_upkeep_alloys_tier3
 		}
 	}
 	
@@ -589,13 +582,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @m_t4_cost
-			exotic_gases = 0.18
+			alloys = @EoA_medium_weapon_cost_alloys_tier3
+			exotic_gases = @EoA_medium_weapon_cost_gas_tier3
 		}		
 		upkeep = {
-			energy = @eoa_m_t3_upkeep_energy
-			alloys = @eoa_m_t3_upkeep_alloys
-			exotic_gases = 0.04
+			energy = @EoA_medium_weapon_upkeep_energy_tier3
+			alloys = @EoA_medium_weapon_upkeep_alloys_tier3
 		}
 	}
 	
@@ -665,13 +657,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @l_t4_cost
-			exotic_gases = 0.2
+			alloys = @EoA_large_weapon_cost_alloys_tier3
+			exotic_gases = @EoA_large_weapon_cost_gas_tier3
 		}		
 		upkeep = {
-			energy = @eoa_l_t3_upkeep_energy
-			alloys = @eoa_l_t3_upkeep_alloys
-			exotic_gases = 0.07
+			energy = @EoA_large_weapon_upkeep_energy_tier3
+			alloys = @EoA_large_weapon_upkeep_alloys_tier3
 		}
 	}
 	
@@ -742,13 +733,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @s_t5_cost
-			eoa_tibanna_gas = @eoa_weapon_s_t5_cost_special
+			alloys = @EoA_small_weapon_cost_alloys_tier4
+			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier4
 		}		
 		upkeep = {
-			energy = @eoa_s_t4_upkeep_energy
-			alloys = @eoa_s_t4_upkeep_alloys
-			eoa_tibanna_gas = 0.004
+			energy = @EoA_small_weapon_upkeep_energy_tier4
+			alloys = @EoA_small_weapon_upkeep_alloys_tier4
 		}
 	}
 	
@@ -817,13 +807,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @m_t5_cost
-			eoa_tibanna_gas = @eoa_weapon_m_t5_cost_special
+			alloys = @EoA_medium_weapon_cost_alloys_tier4
+			eoa_tibanna_gas = @EoA_medium_weapon_cost_gas_tier4
 		}		
 		upkeep = {
-			energy = @eoa_m_t4_upkeep_energy
-			alloys = @eoa_m_t4_upkeep_alloys
-			eoa_tibanna_gas = 0.08
+			energy = @EoA_medium_weapon_upkeep_energy_tier4
+			alloys = @EoA_medium_weapon_upkeep_alloys_tier4
 		}
 	}
 	
@@ -893,13 +882,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @l_t5_cost
-			eoa_tibanna_gas = @eoa_weapon_l_t5_cost_special
+			alloys = @EoA_large_weapon_cost_alloys_tier4
+			eoa_tibanna_gas = @EoA_large_weapon_cost_gas_tier4
 		}		
 		upkeep = {
-			energy = @eoa_l_t4_upkeep_energy
-			alloys = @eoa_l_t4_upkeep_alloys
-			eoa_tibanna_gas = 0.1
+			energy = @EoA_large_weapon_upkeep_energy_tier4
+			alloys = @EoA_large_weapon_upkeep_alloys_tier4
 		}
 	}
 	
@@ -970,13 +958,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_s_t6_cost
-			eoa_tibanna_gas = @eoa_weapon_s_t6_cost_special
+			alloys = @EoA_small_weapon_cost_alloys_tier5
+			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier5
 		}
 		upkeep = {
-			energy = @eoa_weapon_s_t6_upkeep_energy
-			alloys = @eoa_weapon_s_t6_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_s6_upkeep_tibannagas
+			energy = @EoA_small_weapon_upkeep_energy_tier5
+			alloys = @EoA_small_weapon_upkeep_alloys_tier5
 		}
 	}
 	
@@ -1044,13 +1031,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_m_t6_cost
-			eoa_tibanna_gas = @eoa_weapon_m_t6_cost_special
+			alloys = @EoA_medium_weapon_cost_alloys_tier5
+			eoa_tibanna_gas = @EoA_medium_weapon_cost_gas_tier5
 		}
 		upkeep = {
-			energy = @eoa_weapon_m_t6_upkeep_energy
-			alloys = @eoa_weapon_m_t6_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_m6_upkeep_tibannagas
+			energy = @EoA_medium_weapon_upkeep_energy_tier5
+			alloys = @EoA_medium_weapon_upkeep_alloys_tier5
 		}
 	}
 	
@@ -1119,13 +1105,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_l_t6_cost
-			eoa_tibanna_gas = @eoa_weapon_l_t6_cost_special
+			alloys = @EoA_large_weapon_cost_alloys_tier5
+			eoa_tibanna_gas = @EoA_large_weapon_cost_gas_tier5
 		}
 		upkeep = {
-			energy = @eoa_weapon_l_t6_upkeep_energy
-			alloys = @eoa_weapon_l_t6_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_t6_upkeep_tibannagas
+			energy = @EoA_large_weapon_upkeep_energy_tier5
+			alloys = @EoA_large_weapon_upkeep_alloys_tier5
 		}
 	}
 	
@@ -1196,13 +1181,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_s_t7_cost
-			eoa_tibanna_gas = @eoa_weapon_s_t7_cost_special
+			alloys = @EoA_small_weapon_cost_alloys_tier6
+			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier6
 		}
 		upkeep = {
-			energy = @eoa_weapon_s_t7_upkeep_energy
-			alloys = @eoa_weapon_s_t7_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_s7_upkeep_tibannagas
+			energy = @EoA_small_weapon_upkeep_energy_tier6
+			alloys = @EoA_small_weapon_upkeep_alloys_tier6
 		}
 	}
 	
@@ -1270,13 +1254,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_m_t7_cost
-			eoa_tibanna_gas = @eoa_weapon_m_t7_cost_special
+			alloys = @EoA_medium_weapon_cost_alloys_tier6
+			eoa_tibanna_gas = @EoA_medium_weapon_cost_gas_tier6
 		}
 		upkeep = {
-			energy = @eoa_weapon_m_t7_upkeep_energy
-			alloys = @eoa_weapon_m_t7_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_m7_upkeep_tibannagas
+			energy = @EoA_medium_weapon_upkeep_energy_tier6
+			alloys = @EoA_medium_weapon_upkeep_alloys_tier6
 		}
 	}
 	
@@ -1345,13 +1328,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_s_t7_cost
-			eoa_tibanna_gas = @eoa_weapon_l_t7_cost_special
+			alloys = @EoA_large_weapon_cost_alloys_tier6
+			eoa_tibanna_gas = @EoA_large_weapon_cost_gas_tier6
 		}
 		upkeep = {
-			energy = @eoa_weapon_l_t7_upkeep_energy
-			alloys = @eoa_weapon_l_t7_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_t7_upkeep_tibannagas
+			energy = @EoA_large_weapon_upkeep_energy_tier6
+			alloys = @EoA_large_weapon_upkeep_alloys_tier6
 		}
 	}
 	
@@ -1422,13 +1404,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_s_t8_cost
-			eoa_tibanna_gas = @eoa_weapon_s_t8_cost_special
+			alloys = @EoA_small_weapon_cost_alloys_tier7
+			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier7
 		}
 		upkeep = {
-			energy = @eoa_weapon_s_t8_upkeep_energy
-			alloys = @eoa_weapon_s_t8_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_s8_upkeep_tibannagas
+			energy = @EoA_small_weapon_upkeep_energy_tier7
+			alloys = @EoA_small_weapon_upkeep_alloys_tier7
 		}
 	}
 	
@@ -1496,13 +1477,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_m_t8_cost
-			eoa_tibanna_gas = @eoa_weapon_m_t8_cost_special
+			alloys = @EoA_medium_weapon_cost_alloys_tier7
+			eoa_tibanna_gas = @EoA_medium_weapon_cost_gas_tier7
 		}
 		upkeep = {
-			energy = @eoa_weapon_m_t8_upkeep_energy
-			alloys = @eoa_weapon_m_t8_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_m8_upkeep_tibannagas
+			energy = @EoA_medium_weapon_upkeep_energy_tier7
+			alloys = @EoA_medium_weapon_upkeep_alloys_tier7
 		}
 	}
 	
@@ -1571,13 +1551,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_m_t8_cost
-			eoa_tibanna_gas = @eoa_weapon_l_t8_cost_special
+			alloys = @EoA_large_weapon_cost_alloys_tier7
+			eoa_tibanna_gas = @EoA_large_weapon_cost_gas_tier7
 		}
 		upkeep = {
-			energy = @eoa_weapon_m_t8_upkeep_energy
-			alloys = @eoa_weapon_m_t8_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_t8_upkeep_tibannagas
+			energy = @EoA_large_weapon_upkeep_energy_tier7
+			alloys = @EoA_large_weapon_upkeep_alloys_tier7
 		}
 	}
 	
@@ -1648,13 +1627,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_s_t8_cost
-			eoa_tibanna_gas = @eoa_weapon_s_t8_cost_special
+			alloys = @EoA_small_weapon_cost_alloys_tier8
+			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier8
 		}
 		upkeep = {
-			energy = @eoa_weapon_s_t8_upkeep_energy
-			alloys = @eoa_weapon_s_t8_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_s8_upkeep_tibannagas
+			energy = @EoA_small_weapon_upkeep_energy_tier8
+			alloys = @EoA_small_weapon_upkeep_alloys_tier8
 		}
 	}
 	
@@ -1721,13 +1699,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_m_t8_cost
-			eoa_tibanna_gas = @eoa_weapon_m_t8_cost_special
+			alloys = @EoA_medium_weapon_cost_alloys_tier8
+			eoa_tibanna_gas = @EoA_medium_weapon_cost_gas_tier8
 		}
 		upkeep = {
-			energy = @eoa_weapon_m_t8_upkeep_energy
-			alloys = @eoa_weapon_m_t8_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_m8_upkeep_tibannagas
+			energy = @EoA_medium_weapon_upkeep_energy_tier8
+			alloys = @EoA_medium_weapon_upkeep_alloys_tier8
 		}
 	}
 	
@@ -1795,13 +1772,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_m_t8_cost
-			eoa_tibanna_gas = @eoa_weapon_l_t8_cost_special
+			alloys = @EoA_large_weapon_cost_alloys_tier8
+			eoa_tibanna_gas = @EoA_large_weapon_cost_gas_tier8
 		}
 		upkeep = {
-			energy = @eoa_weapon_m_t8_upkeep_energy
-			alloys = @eoa_weapon_m_t8_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_t8_upkeep_tibannagas
+			energy = @EoA_large_weapon_upkeep_energy_tier8
+			alloys = @EoA_large_weapon_upkeep_alloys_tier8
 		}
 	}
 	
