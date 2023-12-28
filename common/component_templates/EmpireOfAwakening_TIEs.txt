@@ -68,8 +68,8 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	health = 75.0
-	armor = 0
+	health = 10
+	armor = 5
 	shield = 0
 
 	speed = @eoa_strikecraft_speed_1
@@ -132,9 +132,9 @@ strike_craft_component_template = {
 
 	power = @EoA_tie_weapon_power_tier1
 
-	health = 75.0
-	armor = 0
-	shield = 0
+	health = 10
+	armor = 5
+	shield = 2
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -214,9 +214,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_bomber_tracking
 
-	health = 65
-	armor = 0
-	shield = 0
+	health = 7.5
+	armor = 4
+	shield = 2
 
 	speed = @eoa_bomber_speed_1
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -291,9 +291,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	health = 75.0
-	armor = 0
-	shield = 0
+	health = 12
+	armor = 6
+	shield = 2
 
 	speed = @eoa_strikecraft_speed_2
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -370,9 +370,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	health = 85.0
-	armor = 0
-	shield = 0
+	health = 15
+	armor = 7
+	shield = 4
 
 	speed = @eoa_strikecraft_speed_3
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -434,9 +434,9 @@ strike_craft_component_template = {
 
 	power = @EoA_tie_weapon_power_tier3
 
-	health = 75.0
-	armor = 0
-	shield = 0
+	health = 14
+	armor = 6
+	shield = 2
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -516,9 +516,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_bomber_tracking
 
-	health = 65
-	armor = 0
-	shield = 0
+	health = 9.0
+	armor = 6
+	shield = 2
 
 	speed = @eoa_bomber_speed_3
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -593,9 +593,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	health = 85.0
-	armor = 0
-	shield = 0
+	health = 17
+	armor = 8
+	shield = 4
 
 	speed = @eoa_strikecraft_speed_4
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -666,9 +666,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	health = 85.0
-	armor = 0
-	shield = 0
+	health = 18
+	armor = 9
+	shield = 6
 
 	speed = @eoa_strikecraft_speed_4
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -744,9 +744,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	health = 85.0
-	armor = 0
-	shield = 0
+	health = 20
+	armor = 12
+	shield = 6
 
 	speed = @eoa_strikecraft_speed_5
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -808,9 +808,9 @@ strike_craft_component_template = {
 
 	power = @EoA_tie_weapon_power_tier5
 
-	health = 75.0
-	armor = 0
-	shield = 0
+	health = 20
+	armor = 12
+	shield = 6
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -890,9 +890,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	health = 85.0
-	armor = 0
-	shield = 0
+	health = 22
+	armor = 14
+	shield = 10
 
 	speed = @eoa_strikecraft_speed_5
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -963,9 +963,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_bomber_tracking_2
 
-	health = 65
-	armor = 0
-	shield = 0
+	health = 16.0
+	armor = 9
+	shield = 6
 
 	speed = @eoa_bomber_speed_5
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -1043,9 +1043,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_hunter_tracking
 
-	health = 100.0
-	armor = 40
-	shield = 65
+	health = 30
+	armor = 15
+	shield = 50
 
 	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -1107,9 +1107,9 @@ strike_craft_component_template = {
 
 	power = @EoA_tie_weapon_power_tier6
 
-	health = 75.0
-	armor = 0
-	shield = 0
+	health = 30
+	armor = 15
+	shield = 50
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -1189,9 +1189,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_hunter_tracking
 
-	health = 100.0
-	armor = 40
-	shield = 65
+	health = 35
+	armor = 20
+	shield = 60
 
 	speed = @eoa_strikecraft_speed_6
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -1262,9 +1262,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	health = 95.0
-	armor = 30
-	shield = 55
+	health = 30
+	armor = 13
+	shield = 50
 
 	speed = @eoa_strikecraft_speed_6
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -1335,9 +1335,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	health = 95.0
-	armor = 35
-	shield = 60
+	health = 30
+	armor = 14
+	shield = 50
 
 	speed = @eoa_strikecraft_speed_6
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -1415,9 +1415,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_hunter_tracking
 
-	health = 120
-	armor = 50
-	shield = 75
+	health = 40
+	armor = 20
+	shield = 80
 
 	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -1479,9 +1479,9 @@ strike_craft_component_template = {
 
 	power = @EoA_tie_weapon_power_tier7
 
-	health = 75.0
-	armor = 0
-	shield = 0
+	health = 40
+	armor = 20
+	shield = 80
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -1561,9 +1561,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_hunter_tracking
 
-	health = 100.0
-	armor = 40
-	shield = 65
+	health = 40
+	armor = 20
+	shield = 70
 
 	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -1634,9 +1634,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_hunter_tracking
 
-	health = 100.0
-	armor = 40
-	shield = 65
+	health = 45
+	armor = 25
+	shield = 80
 
 	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -1707,9 +1707,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	health = 95.0
-	armor = 35
-	shield = 60
+	health = 35
+	armor = 20
+	shield = 65
 
 	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -1780,9 +1780,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_bomber_tracking_2
 
-	health = 120
-	armor = 50
-	shield = 75
+	health = 40
+	armor = 20
+	shield = 80
 
 	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -1861,9 +1861,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_hunter_tracking
 
-	health = 120
-	armor = 50
-	shield = 75
+	health = 60
+	armor = 30
+	shield = 120
 
 	speed = @eoa_strikecraft_speed_8
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -1925,9 +1925,9 @@ strike_craft_component_template = {
 
 	power = @EoA_tie_weapon_power_tier8
 
-	health = 75.0
-	armor = 0
-	shield = 0
+	health = 60
+	armor = 30
+	shield = 120
 
 	count = @eoa_strikecraft_count
 	regeneration_per_day = @eoa_strikecraft_regen
@@ -2080,9 +2080,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_hunter_tracking
 
-	health = 100.0
-	armor = 40
-	shield = 65
+	health = 60
+	armor = 30
+	shield = 120
 
 	speed = @eoa_strikecraft_speed_8
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -2153,9 +2153,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_hunter_tracking
 
-	health = 100.0
-	armor = 40
-	shield = 65
+	health = 65
+	armor = 35
+	shield = 120
 
 	speed = @eoa_strikecraft_speed_8
 	rotation_speed = @eoa_fighter_rotation_speed 
@@ -2226,9 +2226,9 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	health = 95.0
-	armor = 35
-	shield = 60
+	health = 55
+	armor = 25
+	shield = 100
 
 	speed = @eoa_strikecraft_speed_8
 	rotation_speed = @eoa_fighter_rotation_speed 
