@@ -3,101 +3,101 @@
 ############################################################
 # 消費電力
 # S-サイズ
-@EoA_small_weapon_power_tier1 = 1
-@EoA_small_weapon_power_tier2 = 1
-@EoA_small_weapon_power_tier3 = 1
-@EoA_small_weapon_power_tier4 = 1
-@EoA_small_weapon_power_tier5 = 1
-@EoA_small_weapon_power_tier6 = 1
-@EoA_small_weapon_power_tier7 = 1
-@EoA_small_weapon_power_tier8 = 1
+@EoA_small_weapon_power_tier1 = -7
+@EoA_small_weapon_power_tier2 = -9
+@EoA_small_weapon_power_tier3 = -12
+@EoA_small_weapon_power_tier4 = -15
+@EoA_small_weapon_power_tier5 = -19
+@EoA_small_weapon_power_tier6 = -24
+@EoA_small_weapon_power_tier7 = -29
+@EoA_small_weapon_power_tier8 = -34
 
 # M-サイズ
-@EoA_medium_weapon_power_tier1 = 1
-@EoA_medium_weapon_power_tier2 = 1
-@EoA_medium_weapon_power_tier3 = 1
-@EoA_medium_weapon_power_tier4 = 1
-@EoA_medium_weapon_power_tier5 = 1
-@EoA_medium_weapon_power_tier6 = 1
-@EoA_medium_weapon_power_tier7 = 1
-@EoA_medium_weapon_power_tier8 = 1
+@EoA_medium_weapon_power_tier1 = -15
+@EoA_medium_weapon_power_tier2 = -19
+@EoA_medium_weapon_power_tier3 = -24
+@EoA_medium_weapon_power_tier4 = -32
+@EoA_medium_weapon_power_tier5 = -42
+@EoA_medium_weapon_power_tier6 = -54
+@EoA_medium_weapon_power_tier7 = -66
+@EoA_medium_weapon_power_tier8 = -78
 
 # L-サイズ
-@EoA_large_weapon_power_tier1 = 1
-@EoA_large_weapon_power_tier2 = 1
-@EoA_large_weapon_power_tier3 = 1
-@EoA_large_weapon_power_tier4 = 1
-@EoA_large_weapon_power_tier5 = 1
-@EoA_large_weapon_power_tier6 = 1
-@EoA_large_weapon_power_tier7 = 1
-@EoA_large_weapon_power_tier8 = 1
+@EoA_large_weapon_power_tier1 = -35
+@EoA_large_weapon_power_tier2 = -45
+@EoA_large_weapon_power_tier3 = -58
+@EoA_large_weapon_power_tier4 = -70
+@EoA_large_weapon_power_tier5 = -94
+@EoA_large_weapon_power_tier6 = -110
+@EoA_large_weapon_power_tier7 = -125
+@EoA_large_weapon_power_tier8 = -160
 
 # XL-重ターボレーザー/重イオン砲
-@EoA_extra_large_1_weapon_power_tier1 = 1
-@EoA_extra_large_1_weapon_power_tier2 = 1
-@EoA_extra_large_1_weapon_power_tier3 = 1
-@EoA_extra_large_1_weapon_power_tier4 = 1
-@EoA_extra_large_1_weapon_power_tier5 = 1
-@EoA_extra_large_1_weapon_power_tier6 = 1
-@EoA_extra_large_1_weapon_power_tier7 = 1
-@EoA_extra_large_1_weapon_power_tier8 = 1
+@EoA_extra_large_1_weapon_power_tier1 = -40
+@EoA_extra_large_1_weapon_power_tier2 = -55
+@EoA_extra_large_1_weapon_power_tier3 = -80
+@EoA_extra_large_1_weapon_power_tier4 = -160
+@EoA_extra_large_1_weapon_power_tier5 = -240
+@EoA_extra_large_1_weapon_power_tier6 = -280
+@EoA_extra_large_1_weapon_power_tier7 = -320
+@EoA_extra_large_1_weapon_power_tier8 = -360
 
 # XL-オクトプルターボレーザー
-@EoA_extra_large_2_weapon_power_tier1 = 1
-@EoA_extra_large_2_weapon_power_tier2 = 1
-@EoA_extra_large_2_weapon_power_tier3 = 1
-@EoA_extra_large_2_weapon_power_tier4 = 1
-@EoA_extra_large_2_weapon_power_tier5 = 1
-@EoA_extra_large_2_weapon_power_tier6 = 1
-@EoA_extra_large_2_weapon_power_tier7 = 1
-@EoA_extra_large_2_weapon_power_tier8 = 1
+@EoA_extra_large_2_weapon_power_tier1 = 0
+@EoA_extra_large_2_weapon_power_tier2 = 0
+@EoA_extra_large_2_weapon_power_tier3 = 0
+@EoA_extra_large_2_weapon_power_tier4 = -170
+@EoA_extra_large_2_weapon_power_tier5 = -250
+@EoA_extra_large_2_weapon_power_tier6 = -290
+@EoA_extra_large_2_weapon_power_tier7 = -330
+@EoA_extra_large_2_weapon_power_tier8 = -370
 
 # T-超重ターボレーザーI型
 @EoA_titan_1_weapon_power_tier1 = 1
 @EoA_titan_1_weapon_power_tier2 = 1
 @EoA_titan_1_weapon_power_tier3 = 1
 @EoA_titan_1_weapon_power_tier4 = 1
-@EoA_titan_1_weapon_power_tier5 = 1
-@EoA_titan_1_weapon_power_tier6 = 1
-@EoA_titan_1_weapon_power_tier7 = 1
-@EoA_titan_1_weapon_power_tier8 = 1
+@EoA_titan_1_weapon_power_tier5 = -500
+@EoA_titan_1_weapon_power_tier6 = -750
+@EoA_titan_1_weapon_power_tier7 = -1000
+@EoA_titan_1_weapon_power_tier8 = -1250
 
 # T-超重ターボレーザーII型
 @EoA_titan_2_weapon_power_tier1 = 1
 @EoA_titan_2_weapon_power_tier2 = 1
 @EoA_titan_2_weapon_power_tier3 = 1
 @EoA_titan_2_weapon_power_tier4 = 1
-@EoA_titan_2_weapon_power_tier5 = 1
-@EoA_titan_2_weapon_power_tier6 = 1
-@EoA_titan_2_weapon_power_tier7 = 1
-@EoA_titan_2_weapon_power_tier8 = 1
+@EoA_titan_2_weapon_power_tier5 = -450
+@EoA_titan_2_weapon_power_tier6 = -725
+@EoA_titan_2_weapon_power_tier7 = -950
+@EoA_titan_2_weapon_power_tier8 = -1200
 
 # 戦闘機 - TIE / TIE PD / TIE Adv
-@EoA_tie_weapon_power_tier1 = 1
-@EoA_tie_weapon_power_tier2 = 1
-@EoA_tie_weapon_power_tier3 = 1
-@EoA_tie_weapon_power_tier4 = 1
-@EoA_tie_weapon_power_tier5 = 1
-@EoA_tie_weapon_power_tier6 = 1
-@EoA_tie_weapon_power_tier7 = 1
-@EoA_tie_weapon_power_tier8 = 1
+@EoA_tie_weapon_power_tier1 = -20
+@EoA_tie_weapon_power_tier2 = -34
+@EoA_tie_weapon_power_tier3 = -45
+@EoA_tie_weapon_power_tier4 = -52
+@EoA_tie_weapon_power_tier5 = -59
+@EoA_tie_weapon_power_tier6 = -75
+@EoA_tie_weapon_power_tier7 = -85
+@EoA_tie_weapon_power_tier8 = -100
 
 # 戦闘機 - Heavy TIE 
-@EoA_heavy_tie_weapon_power_tier1 = 1
-@EoA_heavy_tie_weapon_power_tier2 = 1
-@EoA_heavy_tie_weapon_power_tier3 = 1
-@EoA_heavy_tie_weapon_power_tier4 = 1
-@EoA_heavy_tie_weapon_power_tier5 = 1
-@EoA_heavy_tie_weapon_power_tier6 = 1
-@EoA_heavy_tie_weapon_power_tier7 = 1
-@EoA_heavy_tie_weapon_power_tier8 = 1
+@EoA_heavy_tie_weapon_power_tier1 = -20
+@EoA_heavy_tie_weapon_power_tier2 = -34
+@EoA_heavy_tie_weapon_power_tier3 = -45
+@EoA_heavy_tie_weapon_power_tier4 = -57
+@EoA_heavy_tie_weapon_power_tier5 = -64
+@EoA_heavy_tie_weapon_power_tier6 = -85
+@EoA_heavy_tie_weapon_power_tier7 = -95
+@EoA_heavy_tie_weapon_power_tier8 = -110
 
 # 爆撃機 - TIE
-@EoA_tie_bomber_weapon_power_tier1 = 1
-@EoA_tie_bomber_weapon_power_tier2 = 1
-@EoA_tie_bomber_weapon_power_tier3 = 1
-@EoA_tie_bomber_weapon_power_tier4 = 1
-@EoA_tie_bomber_weapon_power_tier5 = 1
-@EoA_tie_bomber_weapon_power_tier6 = 1
-@EoA_tie_bomber_weapon_power_tier7 = 1
-@EoA_tie_bomber_weapon_power_tier8 = 1
+@EoA_tie_bomber_weapon_power_tier1 = -20
+@EoA_tie_bomber_weapon_power_tier2 = -34
+@EoA_tie_bomber_weapon_power_tier3 = -45
+@EoA_tie_bomber_weapon_power_tier4 = -52
+@EoA_tie_bomber_weapon_power_tier5 = -59
+@EoA_tie_bomber_weapon_power_tier6 = -75
+@EoA_tie_bomber_weapon_power_tier7 = -85
+@EoA_tie_bomber_weapon_power_tier8 = -100
