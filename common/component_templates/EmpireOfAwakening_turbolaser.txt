@@ -201,8 +201,8 @@ weapon_component_template = {
 	
 	shield_damage = 1.20
 	armor_damage = 1.20
-	shield_penetration = 0.10
-	armor_penetration = 0.10
+	shield_penetration = 1.20
+	armor_penetration = 1.20
 	
 	power = @EoA_large_weapon_power_tier1
 	
@@ -424,8 +424,8 @@ weapon_component_template = {
 	
 	shield_damage = 1.20
 	armor_damage = 1.20
-	shield_penetration = 0.10
-	armor_penetration = 0.10
+	shield_penetration = 1.20
+	armor_penetration = 1.20
 	
 	power = @EoA_large_weapon_power_tier2
 	
@@ -648,8 +648,8 @@ weapon_component_template = {
 	
 	shield_damage = 1.20
 	armor_damage = 1.20
-	shield_penetration = 0.10
-	armor_penetration = 0.10
+	shield_penetration = 1.20
+	armor_penetration = 1.20
 	
 	power = @EoA_large_weapon_power_tier3
 	
@@ -871,8 +871,8 @@ weapon_component_template = {
 	
 	shield_damage = 1.20
 	armor_damage = 1.20
-	shield_penetration = 0.10
-	armor_penetration = 0.10
+	shield_penetration = 1.20
+	armor_penetration = 1.20
 	
 	power = @EoA_large_weapon_power_tier4
 	
@@ -1094,8 +1094,8 @@ weapon_component_template = {
 	
 	shield_damage = 1.20
 	armor_damage = 1.20
-	shield_penetration = 0.10
-	armor_penetration = 0.10
+	shield_penetration = 1.20
+	armor_penetration = 1.20
 	
 	power = @EoA_large_weapon_power_tier6
 	
@@ -1317,8 +1317,8 @@ weapon_component_template = {
 	
 	shield_damage = 1.20
 	armor_damage = 1.20
-	shield_penetration = 0.10
-	armor_penetration = 0.10
+	shield_penetration = 1.20
+	armor_penetration = 1.20
 	
 	power = @EoA_large_weapon_power_tier6
 	
@@ -1540,8 +1540,8 @@ weapon_component_template = {
 	
 	shield_damage = 1.20
 	armor_damage = 1.20
-	shield_penetration = 0.10
-	armor_penetration = 0.10
+	shield_penetration = 1.20
+	armor_penetration = 1.20
 	
 	power = @EoA_large_weapon_power_tier7 
 	
@@ -1761,8 +1761,8 @@ weapon_component_template = {
 	
 	shield_damage = 1.20
 	armor_damage = 1.20
-	shield_penetration = 0.10
-	armor_penetration = 0.10
+	shield_penetration = 1.20
+	armor_penetration = 1.20
 	
 	power = @EoA_large_weapon_power_tier8
 	

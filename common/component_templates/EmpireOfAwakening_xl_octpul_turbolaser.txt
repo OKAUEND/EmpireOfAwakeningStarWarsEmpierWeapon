@@ -46,7 +46,7 @@ weapon_component_template = {
 	shield_damage = 2.25
 	armor_damage = 1.75
 	shield_penetration = 1.10
-	armor_penetration = 0.30
+	armor_penetration = 1.30
 	
 	power = @EoA_extra_large_2_weapon_power_tier4
 	
@@ -118,7 +118,7 @@ weapon_component_template = {
 	shield_damage = 2.25
 	armor_damage = 1.75
 	shield_penetration = 1.10
-	armor_penetration = 0.30
+	armor_penetration = 1.30
 	
 	power = @EoA_extra_large_2_weapon_power_tier5
 	
@@ -190,7 +190,7 @@ weapon_component_template = {
 	shield_damage = 2.25
 	armor_damage = 1.75
 	shield_penetration = 1.10
-	armor_penetration = 0.30
+	armor_penetration = 1.30
 	
 	power = @EoA_extra_large_2_weapon_power_tier6
 	
@@ -260,9 +260,9 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 2.25
-	armor_damage = 0.75
+	armor_damage = 1.75
 	shield_penetration = 1.10
-	armor_penetration = 0.30
+	armor_penetration = 1.30
 	
 	power = @EoA_extra_large_2_weapon_power_tier7
 	
@@ -334,7 +334,7 @@ weapon_component_template = {
 	shield_damage = 2.25
 	armor_damage = 1.75
 	shield_penetration = 1.10
-	armor_penetration = 0.30
+	armor_penetration = 1.30
 	
 	power = @EoA_extra_large_2_weapon_power_tier8
 	

@@ -36,11 +36,11 @@ weapon_component_template = {
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 0.50
+	hull_damage = 1.25
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
-	armor_penetration = 0.25
+	armor_penetration = 1.25
 	
 	power = @EoA_titan_1_weapon_power_tier5
 	
@@ -104,11 +104,11 @@ weapon_component_template = {
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 0.50
+	hull_damage = 1.25
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
-	armor_penetration = 0.25
+	armor_penetration = 1.25
 	
 	power = @EoA_titan_1_weapon_power_tier6
 	
@@ -172,11 +172,11 @@ weapon_component_template = {
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 0.50
+	hull_damage = 1.25
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
-	armor_penetration = 0.25
+	armor_penetration = 1.25
 	
 	power = @EoA_titan_1_weapon_power_tier7
 	
@@ -240,11 +240,11 @@ weapon_component_template = {
 	accuracy = 0.90
 	tracking = 0.02
 	
-	hull_damage = 0.50
+	hull_damage = 1.25
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
-	armor_penetration = 0.25
+	armor_penetration = 1.25
 	
 	power = @EoA_titan_1_weapon_power_tier8
 	

@@ -45,9 +45,9 @@ weapon_component_template = {
 	tracking = 0.40
 	
 	shield_damage = 2.50
-	armor_damage = 0.50
+	armor_damage = 1.50
 	shield_penetration = 1.00
-	armor_penetration = 0.25
+	armor_penetration = 1.25
 	
 	power = @EoA_extra_large_1_weapon_power_tier1
 	
@@ -117,9 +117,9 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 2.50
-	armor_damage = 0.50
+	armor_damage = 1.50
 	shield_penetration = 1.00
-	armor_penetration = 0.25
+	armor_penetration = 1.25
 	
 	power = @EoA_extra_large_1_weapon_power_tier2
 	
@@ -189,9 +189,9 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 2.50
-	armor_damage = 0.50
+	armor_damage = 1.50
 	shield_penetration = 1.00
-	armor_penetration = 0.25
+	armor_penetration = 1.25
 	
 	power = @EoA_extra_large_1_weapon_power_tier3
 	
@@ -261,9 +261,9 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 2.50
-	armor_damage = 0.50
+	armor_damage = 1.50
 	shield_penetration = 1.00
-	armor_penetration = 0.25
+	armor_penetration = 1.25
 	
 	power = @EoA_extra_large_1_weapon_power_tier4
 	
@@ -333,9 +333,9 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 2.50
-	armor_damage = 0.50
+	armor_damage = 1.50
 	shield_penetration = 1.00
-	armor_penetration = 0.25
+	armor_penetration = 1.25
 	
 	power = @EoA_extra_large_1_weapon_power_tier5
 	
@@ -405,9 +405,9 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 2.50
-	armor_damage = 0.50
+	armor_damage = 1.50
 	shield_penetration = 1.00
-	armor_penetration = 0.25
+	armor_penetration = 1.25
 	
 	power = @EoA_extra_large_1_weapon_power_tier6
 	
@@ -477,9 +477,9 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 2.50
-	armor_damage = 0.50
+	armor_damage = 1.50
 	shield_penetration = 1.00
-	armor_penetration = 0.25
+	armor_penetration = 1.25
 	
 	power = @EoA_extra_large_1_weapon_power_tier7
 	
@@ -549,9 +549,9 @@ weapon_component_template = {
 	tracking = 0.02
 	
 	shield_damage = 2.50
-	armor_damage = 0.50
+	armor_damage = 1.50
 	shield_penetration = 1.00
-	armor_penetration = 0.25
+	armor_penetration = 1.25
 	
 	power = @EoA_extra_large_1_weapon_power_tier8
 	
