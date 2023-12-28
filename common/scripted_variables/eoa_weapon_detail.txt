@@ -1,0 +1,103 @@
+############################################################
+###               Weapons Detail                         ###
+############################################################
+# 消費電力
+# S-サイズ
+@EoA_small_weapon_power_tier1 = 1
+@EoA_small_weapon_power_tier2 = 1
+@EoA_small_weapon_power_tier3 = 1
+@EoA_small_weapon_power_tier4 = 1
+@EoA_small_weapon_power_tier5 = 1
+@EoA_small_weapon_power_tier6 = 1
+@EoA_small_weapon_power_tier7 = 1
+@EoA_small_weapon_power_tier8 = 1
+
+# M-サイズ
+@EoA_medium_weapon_power_tier1 = 1
+@EoA_medium_weapon_power_tier2 = 1
+@EoA_medium_weapon_power_tier3 = 1
+@EoA_medium_weapon_power_tier4 = 1
+@EoA_medium_weapon_power_tier5 = 1
+@EoA_medium_weapon_power_tier6 = 1
+@EoA_medium_weapon_power_tier7 = 1
+@EoA_medium_weapon_power_tier8 = 1
+
+# L-サイズ
+@EoA_large_weapon_power_tier1 = 1
+@EoA_large_weapon_power_tier2 = 1
+@EoA_large_weapon_power_tier3 = 1
+@EoA_large_weapon_power_tier4 = 1
+@EoA_large_weapon_power_tier5 = 1
+@EoA_large_weapon_power_tier6 = 1
+@EoA_large_weapon_power_tier7 = 1
+@EoA_large_weapon_power_tier8 = 1
+
+# XL-重ターボレーザー/重イオン砲
+@EoA_extra_large_1_weapon_power_tier1 = 1
+@EoA_extra_large_1_weapon_power_tier2 = 1
+@EoA_extra_large_1_weapon_power_tier3 = 1
+@EoA_extra_large_1_weapon_power_tier4 = 1
+@EoA_extra_large_1_weapon_power_tier5 = 1
+@EoA_extra_large_1_weapon_power_tier6 = 1
+@EoA_extra_large_1_weapon_power_tier7 = 1
+@EoA_extra_large_1_weapon_power_tier8 = 1
+
+# XL-オクトプルターボレーザー
+@EoA_extra_large_2_weapon_power_tier1 = 1
+@EoA_extra_large_2_weapon_power_tier2 = 1
+@EoA_extra_large_2_weapon_power_tier3 = 1
+@EoA_extra_large_2_weapon_power_tier4 = 1
+@EoA_extra_large_2_weapon_power_tier5 = 1
+@EoA_extra_large_2_weapon_power_tier6 = 1
+@EoA_extra_large_2_weapon_power_tier7 = 1
+@EoA_extra_large_2_weapon_power_tier8 = 1
+
+# T-超重ターボレーザーI型
+@EoA_titan_1_weapon_power_tier1 = 1
+@EoA_titan_1_weapon_power_tier2 = 1
+@EoA_titan_1_weapon_power_tier3 = 1
+@EoA_titan_1_weapon_power_tier4 = 1
+@EoA_titan_1_weapon_power_tier5 = 1
+@EoA_titan_1_weapon_power_tier6 = 1
+@EoA_titan_1_weapon_power_tier7 = 1
+@EoA_titan_1_weapon_power_tier8 = 1
+
+# T-超重ターボレーザーII型
+@EoA_titan_2_weapon_power_tier1 = 1
+@EoA_titan_2_weapon_power_tier2 = 1
+@EoA_titan_2_weapon_power_tier3 = 1
+@EoA_titan_2_weapon_power_tier4 = 1
+@EoA_titan_2_weapon_power_tier5 = 1
+@EoA_titan_2_weapon_power_tier6 = 1
+@EoA_titan_2_weapon_power_tier7 = 1
+@EoA_titan_2_weapon_power_tier8 = 1
+
+# 戦闘機 - TIE / TIE PD / TIE Adv
+@EoA_tie_weapon_power_tier1 = 1
+@EoA_tie_weapon_power_tier2 = 1
+@EoA_tie_weapon_power_tier3 = 1
+@EoA_tie_weapon_power_tier4 = 1
+@EoA_tie_weapon_power_tier5 = 1
+@EoA_tie_weapon_power_tier6 = 1
+@EoA_tie_weapon_power_tier7 = 1
+@EoA_tie_weapon_power_tier8 = 1
+
+# 戦闘機 - Heavy TIE 
+@EoA_heavy_tie_weapon_power_tier1 = 1
+@EoA_heavy_tie_weapon_power_tier2 = 1
+@EoA_heavy_tie_weapon_power_tier3 = 1
+@EoA_heavy_tie_weapon_power_tier4 = 1
+@EoA_heavy_tie_weapon_power_tier5 = 1
+@EoA_heavy_tie_weapon_power_tier6 = 1
+@EoA_heavy_tie_weapon_power_tier7 = 1
+@EoA_heavy_tie_weapon_power_tier8 = 1
+
+# 爆撃機 - TIE
+@EoA_tie_bomber_weapon_power_tier1 = 1
+@EoA_tie_bomber_weapon_power_tier2 = 1
+@EoA_tie_bomber_weapon_power_tier3 = 1
+@EoA_tie_bomber_weapon_power_tier4 = 1
+@EoA_tie_bomber_weapon_power_tier5 = 1
+@EoA_tie_bomber_weapon_power_tier6 = 1
+@EoA_tie_bomber_weapon_power_tier7 = 1
+@EoA_tie_bomber_weapon_power_tier8 = 1
