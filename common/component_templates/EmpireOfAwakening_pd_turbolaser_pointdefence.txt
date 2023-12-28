@@ -57,11 +57,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @s_t2_cost
+			alloys = @EoA_small_weapon_cost_alloys_tier1
+			exotic_gases = @EoA_small_weapon_cost_gas_tier1
 		}		
 		upkeep = {
-			energy = @eoa_s_t1_upkeep_energy
-			alloys = @eoa_s_t1_upkeep_alloys
+			energy = @EoA_small_weapon_upkeep_energy_tier1
+			alloys = @EoA_small_weapon_upkeep_alloys_tier1
 		}
 	}
 	
@@ -134,14 +135,13 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @s_t4_cost
-			# eoa_tibanna_gas = 0.1
+			alloys = @EoA_small_weapon_cost_alloys_tier3
+			exotic_gases = @EoA_small_weapon_cost_gas_tier3
 
 		}		
 		upkeep = {
-			energy = @eoa_s_t2_upkeep_energy
-			alloys = @eoa_s_t2_upkeep_alloys
-			# eoa_tibanna_gas = @eoa_weapon_s_t4_cost_special
+			energy = @EoA_small_weapon_upkeep_energy_tier3
+			alloys = @EoA_small_weapon_upkeep_alloys_tier3
 		}
 	}
 	
@@ -211,16 +211,16 @@ weapon_component_template = {
 	
 	power = -14
 	
+	
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_s_t6_cost
-			eoa_tibanna_gas = @eoa_weapon_s_t6_cost_special
+			alloys = @EoA_small_weapon_cost_alloys_tier5
+			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier5
 		}
 		upkeep = {
-			energy = @eoa_weapon_s_t6_upkeep_energy
-			alloys = @eoa_weapon_s_t6_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_s6_upkeep_tibannagas
+			energy = @EoA_small_weapon_upkeep_energy_tier5
+			alloys = @EoA_small_weapon_upkeep_alloys_tier5
 		}
 	}
 	
@@ -289,17 +289,16 @@ weapon_component_template = {
 	armor_damage = 1.1
 	
 	power = -26
-	
+
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_s_t7_cost
-			eoa_tibanna_gas = @eoa_weapon_s_t7_cost_special
+			alloys = @EoA_small_weapon_cost_alloys_tier6
+			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier6
 		}
 		upkeep = {
-			energy = @eoa_weapon_s_t7_upkeep_energy
-			alloys = @eoa_weapon_s_t7_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_s7_upkeep_tibannagas
+			energy = @EoA_small_weapon_upkeep_energy_tier6
+			alloys = @EoA_small_weapon_upkeep_alloys_tier6
 		}
 	}
 	
@@ -372,13 +371,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @eoa_weapon_s_t8_cost
-			eoa_tibanna_gas = @eoa_weapon_s_t8_cost_special
+			alloys = @EoA_small_weapon_cost_alloys_tier8
+			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier8
 		}
 		upkeep = {
-			energy = @eoa_weapon_s_t8_upkeep_energy
-			alloys = @eoa_weapon_s_t8_upkeep_alloys
-			eoa_tibanna_gas = @eoa_weapon_l_s8_upkeep_tibannagas
+			energy = @EoA_small_weapon_upkeep_energy_tier8
+			alloys = @EoA_small_weapon_upkeep_alloys_tier8
 		}
 	}
 	
