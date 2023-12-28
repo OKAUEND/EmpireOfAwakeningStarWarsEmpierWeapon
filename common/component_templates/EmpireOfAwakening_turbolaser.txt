@@ -135,7 +135,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_mediumm_weapon_cost_alloys_tier1
+			alloys = @EoA_medium_weapon_cost_alloys_tier1
 			exotic_gases = @EoA_medium_weapon_cost_gas_tier1
 		}		
 		upkeep = {
