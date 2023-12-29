@@ -1,38 +1,10 @@
 #############################################################################################################
 # Dual Turbolaser
 #############################################################################################################
-# Heavy Turbolaser
-
-# MUZZLE FLASH
+# Heavy Turbolaser Base
+#BOLT
 entity = {
-	name = "Heavy_Turbolaser_muzzle_entity"
-	cull_radius = 1.0
-	
-	default_state = "idle"
-	state = { name = "idle" state_time = 7 looping = no
-		event = { time = 0 particle = "turbolaser_medium_muzzle_particle" keep_particle = yes sound = { soundeffect = Dual_TL_green } }
-		event = { trigger_once = yes sound = { soundeffect = "distance_Dual_TL_green" } }
-	}
-}
-
-# PROJECTILE
-entity = {
-	name = "Heavy_Turbolaser_turbolaser_entity"
-	pdxmesh = "turbolaser_mesh"
-	
-	default_state = "idle"
-	state = { name = "idle" }
-	
-	locator = { name = "bolt1" rotation = { 0 0 0 } position = { 0.25 0 0 } }
-	locator = { name = "bolt2" rotation = { 0 0 0 } position = { -0.25 0 0 } }
-
-	attach = { bolt1 = "turbolaser_bolt_entity" }
-	attach = { bolt2 = "turbolaser_bolt_entity" }
-	
-	scale = 1.0
-}
-entity = {
-	name = "Heavy_Turbolaser_turbolaser_bolt_entity"
+	name = "Heavy_TL_turbolaser_bolt_entity"
 	pdxmesh = "turbolaser_mesh"
 	
 	default_state = "idle"
@@ -47,7 +19,7 @@ entity = {
 
 # IMPACT EFFECT
 entity = {
-	name = "Heavy_Turbolaser_turbolaser_hit_entity"
+	name = "BASE_Heavy_TL_turbolaser_hit_entity"
 	cull_radius = 1.0
 	
 	state = { name = "explode_med_hp" state_time = 5 looping = no
@@ -65,7 +37,7 @@ entity = {
 
 # SHIELD HIT
 entity = {
-	name = "Heavy_Turbolaser_turbolaser_shield_hit_entity"
+	name = "BASE_Heavy_TL_turbolaser_shield_hit_entity"
 	cull_radius = 1.0
 	
 	state = { name = "explode_med_hp" state_time = 5 looping = no
@@ -75,4 +47,102 @@ entity = {
 	}
 	default_state = "explode_med_hp"
 }
+
+#############################################################################################################
+# Heavy Turbolaser
+# MUZZLE FLASH
+entity = {
+	name = "Heavy_TL_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "turbolaser_medium_muzzle_particle" keep_particle = yes sound = { soundeffect = Dual_TL_green } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Dual_TL_green" } }
+	}
+}
+
+# PROJECTILE
+entity = {
+	name = "Heavy_TL_turbolaser_entity"
+	pdxmesh = "turbolaser_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	locator = { name = "bolt1" rotation = { 0 0 0 } position = { 0.25 0 0 } }
+	locator = { name = "bolt2" rotation = { 0 0 0 } position = { -0.25 0 0 } }
+
+	attach = { bolt1 = "Heavy_TL_turbolaser_bolt_entity" }
+	attach = { bolt2 = "Heavy_TL_turbolaser_bolt_entity" }
+	
+	scale = 1.0
+}
+
+
+
+#############################################################################################################
+# Twin Super Heavy Turbolaser
+# MUZZLE FLASH
+entity = {
+	name = "Twin_Super_Heavy_TL_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "turbolaser_medium_muzzle_particle" keep_particle = yes sound = { soundeffect = Dual_TL_green } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Dual_TL_green" } }
+	}
+}
+
+# PROJECTILE
+entity = {
+	name = "Twin_Super_Heavy_TL_entity"
+	pdxmesh = "turbolaser_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	locator = { name = "bolt1" rotation = { 0 0 0 } position = { 0.75 0 0 } }
+	locator = { name = "bolt2" rotation = { 0 0 0 } position = { -0.75 0 0 } }
+
+	attach = { bolt1 = "Twin_Super_Heavy_TL_bolt_entity" }
+	attach = { bolt2 = "Twin_Super_Heavy_TL_bolt_entity" }
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "Twin_Super_Heavy_TL_bolt_entity"
+	pdxmesh = "turbolaser_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	state = { name = "stop" looping = no
+		event = { time = 0.0 particle = "turbolaser_medium_stop_hit_effect" }
+	}
+	
+	scale = 1.2
+}
+
+#############################################################################################################
+# Titan Super Heavy Turbolaser
+# PROJECTILE
+entity = {
+	name = "Titan_Super_Heavy_TL_entity"
+	pdxmesh = "turbolaser_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	locator = { name = "bolt1" rotation = { 0 0 0 } position = { 0.5 0 0 } }
+	locator = { name = "bolt2" rotation = { 0 0 0 } position = { -0.5 0 0 } }
+
+	attach = { bolt1 = "Heavy_TL_turbolaser_bolt_entity" }
+	attach = { bolt2 = "Heavy_TL_turbolaser_bolt_entity" }
+	
+	scale = 1.0
+}
+
 
