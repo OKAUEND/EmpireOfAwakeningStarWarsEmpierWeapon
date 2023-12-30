@@ -1,20 +1,19 @@
 ###################################################################################
 ###																				###
-###							Star Wars 				    						###
+###						対空ターボレーザー					    				　###
 ###																				###
 ###################################################################################
-
-# PROJECTILE GREEN LASER CANNON PD
+# 対空ターボレーザー
 projectile_gfx_ballistic = {
 	#common for all types of projectiles
 	# name = "GREEN_LC_PD"
-	name = "TURBOLASER_LC_PD"
+	name = "EOA_ANTI_AIR_TURBOLASER"
 	color = { 1.0	1.0		1.0		1.0 }
-	hit_entity = "PD_turbolaser_small_hit_entity"
-	muzzle_flash_entity = "PD_turbolaser_small_muzzle_entity"
+	hit_entity = "PD_TL_hit_entity"
+	muzzle_flash_entity = "PD_TL_muzzle_entity"
 	
 	#ballistic specific
-	entity = "PD_turbolaser_small_entity"
+	entity = "PD_TL_entity"
 	speed = 125.0			#preferred speed of the projectile
 	max_duration = 1.0	#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
 }
