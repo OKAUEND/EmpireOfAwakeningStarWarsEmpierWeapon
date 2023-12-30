@@ -78,7 +78,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "OCTUPLE_TURBO_LASER_1"
-	projectile_gfx = "OCTUPLE_TURBOLASER"
+	projectile_gfx = "EoA_OCTUPLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_OCTUPLE_TURBO_LASER_2"
@@ -150,7 +150,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "OCTUPLE_TURBO_LASER_2"
-	projectile_gfx = "OCTUPLE_TURBOLASER"
+	projectile_gfx = "EoA_OCTUPLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_OCTUPLE_TURBO_LASER_3"
@@ -222,7 +222,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "OCTUPLE_TURBO_LASER_3"
-	projectile_gfx = "OCTUPLE_TURBOLASER"
+	projectile_gfx = "EoA_OCTUPLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_OCTUPLE_TURBO_LASER_4"
@@ -294,7 +294,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "OCTUPLE_TURBO_LASER_4"
-	projectile_gfx = "OCTUPLE_TURBOLASER"
+	projectile_gfx = "EoA_OCTUPLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_OCTUPLE_TURBO_LASER_5"
@@ -366,7 +366,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "OCTUPLE_TURBO_LASER_5"
-	projectile_gfx = "OCTUPLE_TURBOLASER"
+	projectile_gfx = "EoA_OCTUPLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
 }

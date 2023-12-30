@@ -72,7 +72,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "TITAN_HEAVY_TURBO_LASER_1"
-	projectile_gfx = "OCTUPLE_TURBOLASER"
+	projectile_gfx = "EoA_SUPER_HEAVY_DUAL_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_TITAN_HEAVY_TURBO_LASER_2"
@@ -140,7 +140,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "TITAN_HEAVY_TURBO_LASER_2"
-	projectile_gfx = "OCTUPLE_TURBOLASER"
+	projectile_gfx = "EoA_SUPER_HEAVY_DUAL_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_TITAN_HEAVY_TURBO_LASER_3"
@@ -208,7 +208,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "TITAN_HEAVY_TURBO_LASER_3"
-	projectile_gfx = "OCTUPLE_TURBOLASER"
+	projectile_gfx = "EoA_SUPER_HEAVY_DUAL_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_TITAN_HEAVY_TURBO_LASER_4"
@@ -276,7 +276,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "TITAN_HEAVY_TURBO_LASER_4"
-	projectile_gfx = "OCTUPLE_TURBOLASER"
+	projectile_gfx = "EoA_SUPER_HEAVY_DUAL_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
 }

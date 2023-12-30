@@ -83,7 +83,7 @@ weapon_component_template = {
 	
 
 	component_set = "EOA_ANTI_AIR_TURBO_LASER_1_SET"
-	projectile_gfx = "TURBOLASER_LC_PD"
+	projectile_gfx = "EOA_ANTI_AIR_TURBOLASER"
 	tags = { weapon_type_point_defense weapon_type_turbolaser }
 	ai_tags = { weapon_role_point_defense screen }
 	upgrades_to = "EOA_ANTI_AIR_TURBO_LASER_2"	
@@ -162,7 +162,7 @@ weapon_component_template = {
 	
 
 	component_set = "EOA_ANTI_AIR_TURBO_LASER_2_SET"
-	projectile_gfx = "TURBOLASER_LC_PD"
+	projectile_gfx = "EOA_ANTI_AIR_TURBOLASER"
 	tags = { weapon_type_point_defense weapon_type_turbolaser }
 	ai_tags = { weapon_role_point_defense }
 	upgrades_to = "EOA_ANTI_AIR_TURBO_LASER_3"	
@@ -241,7 +241,7 @@ weapon_component_template = {
 	
 
 	component_set = "EOA_ANTI_AIR_TURBO_LASER_3_SET"
-	projectile_gfx = "TURBOLASER_LC_PD"
+	projectile_gfx = "EOA_ANTI_AIR_TURBOLASER"
 	tags = { weapon_type_point_defense weapon_type_turbolaser }
 	ai_tags = { weapon_role_point_defense }
 	upgrades_to = "EOA_ANTI_AIR_TURBO_LASER_4"	
@@ -319,7 +319,7 @@ weapon_component_template = {
 	
 
 	component_set = "EOA_ANTI_AIR_TURBO_LASER_4_SET"
-	projectile_gfx = "TURBOLASER_LC_PD"
+	projectile_gfx = "EOA_ANTI_AIR_TURBOLASER"
 	tags = { weapon_type_point_defense weapon_type_turbolaser }
 	ai_tags = { weapon_role_point_defense }
 	upgrades_to = "EOA_ANTI_AIR_TURBO_LASER_5"	
@@ -397,7 +397,7 @@ weapon_component_template = {
 	
 
 	component_set = "EOA_ANTI_AIR_TURBO_LASER_5_SET"
-	projectile_gfx = "TURBOLASER_LC_PD"
+	projectile_gfx = "EOA_ANTI_AIR_TURBOLASER"
 	tags = { weapon_type_point_defense weapon_type_turbolaser }
 	ai_tags = { weapon_role_point_defense }
 }

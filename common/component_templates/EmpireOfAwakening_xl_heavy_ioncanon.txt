@@ -83,7 +83,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "HEAVY_ION_CANON_1"
-	projectile_gfx = "HEAVY_DUAL_IONCANON"
+	projectile_gfx = "EOA_HEAVY_DUAL_IONCANON"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_HEAVY_ION_CANON_2"
@@ -154,7 +154,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "HEAVY_ION_CANON_2"
-	projectile_gfx = "HEAVY_DUAL_IONCANON"
+	projectile_gfx = "EOA_HEAVY_DUAL_IONCANON"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_HEAVY_ION_CANON_3"
@@ -225,7 +225,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "HEAVY_ION_CANON_3"
-	projectile_gfx = "HEAVY_DUAL_IONCANON"
+	projectile_gfx = "EOA_HEAVY_DUAL_IONCANON"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_HEAVY_ION_CANON_4"
@@ -296,7 +296,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "HEAVY_ION_CANON_4"
-	projectile_gfx = "HEAVY_DUAL_IONCANON"
+	projectile_gfx = "EOA_HEAVY_DUAL_IONCANON"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_HEAVY_ION_CANON_5"
@@ -367,7 +367,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "HEAVY_ION_CANON_5"
-	projectile_gfx = "HEAVY_DUAL_IONCANON"
+	projectile_gfx = "EOA_HEAVY_DUAL_IONCANON"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_HEAVY_ION_CANON_6"
@@ -438,7 +438,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "HEAVY_ION_CANON_6"
-	projectile_gfx = "HEAVY_DUAL_IONCANON"
+	projectile_gfx = "EOA_HEAVY_DUAL_IONCANON"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_HEAVY_ION_CANON_7"
@@ -509,7 +509,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "HEAVY_ION_CANON_7"
-	projectile_gfx = "HEAVY_DUAL_IONCANON"
+	projectile_gfx = "EOA_HEAVY_DUAL_IONCANON"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_long_range }
 	upgrades_to = "EOA_HEAVY_ION_CANON_8"
@@ -580,7 +580,7 @@ weapon_component_template = {
 	}
 	
 	component_set = "HEAVY_ION_CANON_8"
-	projectile_gfx = "HEAVY_DUAL_IONCANON"
+	projectile_gfx = "EOA_HEAVY_DUAL_IONCANON"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_long_range }
 }
