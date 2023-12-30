@@ -4,7 +4,7 @@
 # Single Turbolaser
 # MUZZLE FLASH
 entity = {
-	name = "Single_TL_muzzle_entity"
+	name = "EoA_Single_TL_muzzle_entity"
 	cull_radius = 1.0
 	
 	default_state = "idle"
@@ -16,7 +16,7 @@ entity = {
 
 # PROJECTILE
 entity = {
-	name = "Single_TL_entity"
+	name = "EoA_Single_TL_entity"
 	pdxmesh = "turbolaser_mesh"
 	
 	default_state = "idle"
@@ -24,12 +24,12 @@ entity = {
 	
 	locator = { name = "bolt1" rotation = { 0 0 0 } position = { 0 0 0 } }
 
-	attach = { bolt1 = "turbolaser_bolt_entity" }
+	attach = { bolt1 = "EoA_Single_TL_bolt_entity" }
 	
 	scale = 1.0
 }
 entity = {
-	name = "Single_TL_entity"
+	name = "EoA_Single_TL_bolt_entity"
 	pdxmesh = "turbolaser_mesh"
 	
 	default_state = "idle"
@@ -44,7 +44,7 @@ entity = {
 
 # IMPACT EFFECT
 entity = {
-	name = "Single_TL_hit_entity"
+	name = "EoA_Single_TL_hit_entity"
 	cull_radius = 1.0
 	
 	state = { name = "explode_med_hp" state_time = 5 looping = no
@@ -62,7 +62,7 @@ entity = {
 
 # SHIELD HIT
 entity = {
-	name = "Single_TL_shield_hit_entity"
+	name = "EoA_Single_TL_shield_hit_entity"
 	cull_radius = 1.0
 	
 	state = { name = "explode_med_hp" state_time = 5 looping = no

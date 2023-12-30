@@ -11,7 +11,7 @@
 
 # MUZZLE FLASH
 entity = {
-	name = "PD_turbolaser_small_muzzle_entity"
+	name = "PD_TL_muzzle_entity"
 	cull_radius = 0.5
 	
 	default_state = "idle"
@@ -23,7 +23,7 @@ entity = {
 
 # PROJECTILE
 entity = {
-	name = "PD_turbolaser_small_entity"
+	name = "PD_TL_entity"
 	pdxmesh = "turbolaser_mesh"
 	
 	default_state = "idle"
@@ -37,7 +37,7 @@ entity = {
 
 # HIT EFFECT
 entity = {
-	name = "PD_turbolaser_small_hit_entity"
+	name = "PD_TL_hit_entity"
 	pdxmesh = "locator_mesh"
 	
 	state = { name = "explode_med_hp" state_time = 5.0 looping = no
@@ -54,7 +54,7 @@ entity = {
 
 # MUZZLE FLASH
 entity = {
-	name = "Rapidfire_turbolaser_muzzle_entity"
+	name = "Rapidfire_TL_muzzle_entity"
 	cull_radius = 1.0
 	
 	default_state = "idle"
@@ -66,7 +66,7 @@ entity = {
 
 # IMPACT EFFECT
 entity = {
-	name = "Rapidfire_turbolaser_hit_entity"
+	name = "Rapidfire_TL_hit_entity"
 	cull_radius = 1.0
 	
 	state = { name = "explode_med_hp" state_time = 5 looping = no

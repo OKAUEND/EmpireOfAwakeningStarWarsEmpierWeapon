@@ -4,7 +4,7 @@
 # Heavy Turbolaser Base
 #BOLT
 entity = {
-	name = "Heavy_TL_turbolaser_bolt_entity"
+	name = "EoA_Heavy_TL_turbolaser_bolt_entity"
 	pdxmesh = "turbolaser_mesh"
 	
 	default_state = "idle"
@@ -19,7 +19,7 @@ entity = {
 
 # IMPACT EFFECT
 entity = {
-	name = "BASE_Heavy_TL_turbolaser_hit_entity"
+	name = "EoA_BASE_Heavy_TL_turbolaser_hit_entity"
 	cull_radius = 1.0
 	
 	state = { name = "explode_med_hp" state_time = 5 looping = no
@@ -37,7 +37,7 @@ entity = {
 
 # SHIELD HIT
 entity = {
-	name = "BASE_Heavy_TL_turbolaser_shield_hit_entity"
+	name = "EoA_BASE_Heavy_TL_turbolaser_shield_hit_entity"
 	cull_radius = 1.0
 	
 	state = { name = "explode_med_hp" state_time = 5 looping = no
@@ -52,7 +52,7 @@ entity = {
 # Heavy Turbolaser
 # MUZZLE FLASH
 entity = {
-	name = "Heavy_TL_muzzle_entity"
+	name = "EoA_Heavy_TL_muzzle_entity"
 	cull_radius = 1.0
 	
 	default_state = "idle"
@@ -64,7 +64,7 @@ entity = {
 
 # PROJECTILE
 entity = {
-	name = "Heavy_TL_turbolaser_entity"
+	name = "EoA_Heavy_TL_turbolaser_entity"
 	pdxmesh = "turbolaser_mesh"
 	
 	default_state = "idle"
@@ -73,8 +73,8 @@ entity = {
 	locator = { name = "bolt1" rotation = { 0 0 0 } position = { 0.25 0 0 } }
 	locator = { name = "bolt2" rotation = { 0 0 0 } position = { -0.25 0 0 } }
 
-	attach = { bolt1 = "Heavy_TL_turbolaser_bolt_entity" }
-	attach = { bolt2 = "Heavy_TL_turbolaser_bolt_entity" }
+	attach = { bolt1 = "EoA_Heavy_TL_turbolaser_bolt_entity" }
+	attach = { bolt2 = "EoA_Heavy_TL_turbolaser_bolt_entity" }
 	
 	scale = 1.0
 }
@@ -85,7 +85,7 @@ entity = {
 # Twin Super Heavy Turbolaser
 # MUZZLE FLASH
 entity = {
-	name = "Twin_Super_Heavy_TL_muzzle_entity"
+	name = "EoA_Twin_Super_Heavy_TL_muzzle_entity"
 	cull_radius = 1.0
 	
 	default_state = "idle"
@@ -97,7 +97,7 @@ entity = {
 
 # PROJECTILE
 entity = {
-	name = "Twin_Super_Heavy_TL_entity"
+	name = "EoA_Twin_Super_Heavy_TL_entity"
 	pdxmesh = "turbolaser_mesh"
 	
 	default_state = "idle"
@@ -106,14 +106,14 @@ entity = {
 	locator = { name = "bolt1" rotation = { 0 0 0 } position = { 0.75 0 0 } }
 	locator = { name = "bolt2" rotation = { 0 0 0 } position = { -0.75 0 0 } }
 
-	attach = { bolt1 = "Twin_Super_Heavy_TL_bolt_entity" }
-	attach = { bolt2 = "Twin_Super_Heavy_TL_bolt_entity" }
+	attach = { bolt1 = "EoA_Twin_Super_Heavy_TL_bolt_entity" }
+	attach = { bolt2 = "EoA_Twin_Super_Heavy_TL_bolt_entity" }
 	
 	scale = 1.0
 }
 
 entity = {
-	name = "Twin_Super_Heavy_TL_bolt_entity"
+	name = "EoA_Twin_Super_Heavy_TL_bolt_entity"
 	pdxmesh = "turbolaser_mesh"
 	
 	default_state = "idle"
@@ -130,7 +130,7 @@ entity = {
 # Titan Super Heavy Turbolaser
 # PROJECTILE
 entity = {
-	name = "Titan_Super_Heavy_TL_entity"
+	name = "EoA_Titan_Super_Heavy_TL_entity"
 	pdxmesh = "turbolaser_mesh"
 	
 	default_state = "idle"
@@ -139,8 +139,8 @@ entity = {
 	locator = { name = "bolt1" rotation = { 0 0 0 } position = { 0.5 0 0 } }
 	locator = { name = "bolt2" rotation = { 0 0 0 } position = { -0.5 0 0 } }
 
-	attach = { bolt1 = "Heavy_TL_turbolaser_bolt_entity" }
-	attach = { bolt2 = "Heavy_TL_turbolaser_bolt_entity" }
+	attach = { bolt1 = "EoA_Heavy_TL_turbolaser_bolt_entity" }
+	attach = { bolt2 = "EoA_Heavy_TL_turbolaser_bolt_entity" }
 	
 	scale = 1.0
 }
