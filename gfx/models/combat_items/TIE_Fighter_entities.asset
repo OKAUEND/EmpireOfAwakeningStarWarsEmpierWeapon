@@ -4,7 +4,7 @@ entity = {
 	scale = 2.0
 }
 entity = {
-	name = "TIE_Advance_entity"
+	name = "EoA_TIE_Advance_entity"
 	pdxmesh = "TIE_Advance_mesh"
 	scale = 2.0
 }
