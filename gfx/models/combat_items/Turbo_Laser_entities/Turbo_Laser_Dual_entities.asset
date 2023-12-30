@@ -24,7 +24,7 @@ entity = {
 	
 	state = { name = "explode_med_hp" state_time = 5 looping = no
 		event = { time = 0.0 node = "root" particle = "turbolaser_medium_hit_effect" sound = { soundeffect = Dual_TL_impact } }
-		event = { trigger_once = yes sound = { soundeffect = "distance_Dual_TL_impact" } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Heavyquad_TL_impact" } }
 	}
 	#state = { name = "explode_med_hp" state_time = 5 looping = no
 	#	event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
@@ -58,7 +58,7 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" state_time = 7 looping = no
 		event = { time = 0 particle = "turbolaser_medium_muzzle_particle" keep_particle = yes sound = { soundeffect = Dual_TL_green } }
-		event = { trigger_once = yes sound = { soundeffect = "distance_Dual_TL_green" } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Heavyquad_TL_green" } }
 	}
 }
 
@@ -91,7 +91,7 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" state_time = 7 looping = no
 		event = { time = 0 particle = "turbolaser_medium_muzzle_particle" keep_particle = yes sound = { soundeffect = Dual_TL_green } }
-		event = { trigger_once = yes sound = { soundeffect = "distance_Dual_TL_green" } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_Quad_TL_green" } }
 	}
 }
 
