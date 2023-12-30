@@ -214,6 +214,22 @@ entity = {
 	pdxmesh = "turbolaser_ion_mesh"
 	
 	default_state = "idle"
+	state = { name = "idle" }
+	
+	locator = { name = "bolt1" rotation = { 0 0 0 } position = { 0.25 0 0 } }
+	locator = { name = "bolt2" rotation = { 0 0 0 } position = { -0.25 0 0 } }
+
+	attach = { bolt1 = "Heavy_Dual_IonCanon_Bolt_entity" }
+	attach = { bolt2 = "Heavy_Dual_IonCanon_Bolt_entity" }
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "Heavy_Dual_IonCanon_Bolt_entity"
+	pdxmesh = "turbolaser_ion_mesh"
+	
+	default_state = "idle"
 	state = { name = "idle" 
 		event = { time = 0 particle = "swp_ion_spark_idle_particle" keep_particle = yes }
 	}
