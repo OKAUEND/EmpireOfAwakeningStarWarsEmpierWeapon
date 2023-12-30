@@ -67,7 +67,7 @@ projectile_gfx_ballistic = {
 # HEAVY DUAL IC
 projectile_gfx_ballistic = {
 	#common for all types of projectiles
-	name = "HEAVY_DUAL_IONCANON"
+	name = "EOA_HEAVY_DUAL_IONCANON"
 	color = { 1.0	1.0		1.0		1.0 }
 	hit_entity = "Heavy_Dual_IonCanon_hit_entity"
 	shield_hit_entity = "Heavy_Dual_IonCanon_shield_hit_entity"
