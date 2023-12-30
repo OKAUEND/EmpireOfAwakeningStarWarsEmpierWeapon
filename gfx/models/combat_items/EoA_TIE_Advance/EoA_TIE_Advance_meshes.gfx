@@ -2,15 +2,15 @@ objectTypes = {
 	### Imperial Strikecraft
 	#TIE Defender
 	pdxmesh = {
-		name = "FR_TIE_Defender_mesh"
-		file = "gfx/models/combat_items/FR_TIE_Defender/FR_TIE_Defender.mesh"
+		name = "EoA_TIE_Advance_mesh"
+		file = "gfx/models/combat_items/EoA_TIE_Advance/EoA_TIE_Advance.mesh"
 		scale = 0.8
 
 		meshsettings = {
 			name = "TIE_DefenderShape"
 			index = 0
-			texture_diffuse = "FR_TIE_Defender_diffuse.dds"
-			texture_normal = "FR_TIE_Defender_normal.dds"
+			texture_diffuse = "EoA_TIE_Advance_diffuse.dds"
+			texture_normal = "EoA_TIE_Advance_normal.dds"
 			texture_specular = "nospec.dds"
 			shader = "PdxMeshShip"
 		}

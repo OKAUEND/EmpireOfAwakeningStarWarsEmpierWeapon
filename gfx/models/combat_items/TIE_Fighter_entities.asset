@@ -1,40 +1,55 @@
 entity = {
-	name = "FR_TIE_Fighter_entity"
-	pdxmesh = "FR_TIE_Fighter_mesh"
+	name = "EoA_TIE_Fighter_entity"
+	pdxmesh = "EoA_TIE_Fighter_mesh"
 	scale = 2.0
 }
 entity = {
-	name = "FR_TIE_Interceptor_entity"
-	pdxmesh = "FR_TIE_Interceptor_mesh"
+	name = "TIE_Advance_entity"
+	pdxmesh = "TIE_Advance_mesh"
 	scale = 2.0
 }
 entity = {
-	name = "FR_TIE_Hunter_entity"
-	pdxmesh = "FR_TIE_Hunter_mesh"
+	name = "EoA_TIE_Interceptor_entity"
+	pdxmesh = "EoA_TIE_Interceptor_mesh"
 	scale = 2.0
 }
 entity = {
-	name = "FR_TIE_Defender_entity"
-	pdxmesh = "FR_TIE_Defender_mesh"
+	name = "EoA_TIE_Hunter_entity"
+	pdxmesh = "EoA_TIE_Hunter_mesh"
 	scale = 2.0
 }
 entity = {
-	name = "Fel_TIE_Predator_entity"
-	pdxmesh = "Fel_TIE_Predator_mesh"
+	name = "EoA_TIE_Avenger_entity"
+	pdxmesh = "EoA_TIE_Interceptor_mesh"
 	scale = 2.0
 }
 entity = {
-	name = "FR_TIE_Bomber_entity"
-	pdxmesh = "FR_TIE_Bomber_mesh"
+	name = "EoA_TIE_Defender_entity"
+	pdxmesh = "EoA_TIE_Defender_mesh"
 	scale = 2.0
 }
 entity = {
-	name = "FR_TIE_Torpedo_entity"
-	pdxmesh = "FR_TIE_Torpedo_mesh"
+	name = "EoA_TIE_Mangler_entity"
+	pdxmesh = "EoA_TIE_Hunter_mesh"
 	scale = 2.0
 }
 entity = {
-	name = "Fel_TIE_Neutralizer_entity"
-	pdxmesh = "Fel_TIE_Neutralizer_mesh"
+	name = "EoA_TIE_Predator_entity"
+	pdxmesh = "EoA_TIE_Predator_mesh"
+	scale = 2.0
+}
+entity = {
+	name = "EoA_TIE_Bomber_entity"
+	pdxmesh = "EoA_TIE_Bomber_mesh"
+	scale = 2.0
+}
+entity = {
+	name = "EoA_TIE_Torpedo_entity"
+	pdxmesh = "EoA_TIE_Torpedo_mesh"
+	scale = 2.0
+}
+entity = {
+	name = "EoA_TIE_Neutralizer_entity"
+	pdxmesh = "EoA_TIE_Neutralizer_mesh"
 	scale = 2.0
 }

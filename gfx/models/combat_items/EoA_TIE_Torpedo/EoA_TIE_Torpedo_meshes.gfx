@@ -2,15 +2,15 @@ objectTypes = {
 	### Imperial Strikecraft
 	#TIE Torpedo
 	pdxmesh = {
-		name = "FR_TIE_Torpedo_mesh"
-		file = "gfx/models/combat_items/FR_TIE_Torpedo/FR_TIE_Torpedo.mesh"
+		name = "EoA_TIE_Torpedo_mesh"
+		file = "gfx/models/combat_items/EoA_TIE_Torpedo/EoA_TIE_Torpedo.mesh"
 		scale = 0.8
 
 		meshsettings = {
 			name = "partsShape"
 			index = 0
-			texture_diffuse = "FR_TIE_Torpedo_parts_diffuse.dds"
-			texture_normal = "FR_TIE_Torpedo_parts_normal.dds"
+			texture_diffuse = "EoA_TIE_Torpedo_parts_diffuse.dds"
+			texture_normal = "EoA_TIE_Torpedo_parts_normal.dds"
 			texture_specular = "nospec.dds"
 			shader = "PdxMeshShip"
 		}
@@ -18,8 +18,8 @@ objectTypes = {
 		meshsettings = {
 			name = "PanelsShape"
 			index = 0
-			texture_diffuse = "FR_TIE_Torpedo_panels_diffuse.dds"
-			texture_normal = "FR_TIE_Torpedo_panels_normal.dds"
+			texture_diffuse = "EoA_TIE_Torpedo_panels_diffuse.dds"
+			texture_normal = "EoA_TIE_Torpedo_panels_normal.dds"
 			texture_specular = "nospec.dds"
 			shader = "PdxMeshShip"
 		}
