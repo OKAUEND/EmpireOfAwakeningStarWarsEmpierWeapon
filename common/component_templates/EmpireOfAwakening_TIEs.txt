@@ -47,7 +47,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_1"
 	size = LARGE
 	entity = "EoA_TIE_Fighter_entity"
-	icon = "GFX_ship_part_EOA_tie_fighter"
+	icon = "GFX_ship_part_EOA_TIE_fighter_1"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -120,7 +120,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FLEETDEFENCE_1"
 	size = LARGE
 	entity = "EoA_TIE_Fighter_entity"
-	icon = "GFX_ship_part_EOA_tie_fighter"
+	icon = "GFX_ship_part_EOA_TIE_PD_1"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -193,7 +193,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_BOMBER_1"
 	size = LARGE
 	entity = "EoA_TIE_Bomber_entity"
-	icon = "GFX_ship_part_EOA_tie_bomber"
+	icon = "GFX_ship_part_EOA_TIE_bomber_1"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -270,7 +270,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_2"
 	size = LARGE
 	entity = "EoA_TIE_Fighter_entity"
-	icon = "GFX_ship_part_EOA_tie_fighter"
+	icon = "GFX_ship_part_EOA_TIE_fighter_2"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -349,7 +349,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_3"
 	size = LARGE
 	entity = "EoA_TIE_Advance_entity"
-	icon = "GFX_ship_part_EOA_tie_interceptor"
+	icon = "GFX_ship_part_EOA_TIE_fighter_3"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -422,7 +422,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FLEETDEFENCE_2"
 	size = LARGE
 	entity = "EoA_TIE_Fighter_entity"
-	icon = "GFX_ship_part_EOA_tie_fighter"
+	icon = "GFX_ship_part_EOA_TIE_PD_2"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -495,7 +495,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_BOMBER_2"
 	size = LARGE
 	entity = "EoA_TIE_Bomber_entity"
-	icon = "GFX_ship_part_EOA_tie_bomber"
+	icon = "GFX_ship_part_EOA_TIE_bomber_2"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -572,7 +572,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_4"
 	size = LARGE
 	entity = "EoA_TIE_Interceptor_entity"
-	icon = "GFX_ship_part_EOA_tie_interceptor"
+	icon = "GFX_ship_part_EOA_TIE_fighter_4"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -645,7 +645,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_ADVANCE_1"
 	size = LARGE
 	entity = "EoA_TIE_Advance_entity"
-	icon = "GFX_ship_part_EOA_tie_interceptor"
+	icon = "GFX_ship_part_EOA_TIE_Advance_1"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -723,7 +723,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_5"
 	size = LARGE
 	entity = "EoA_TIE_Interceptor_entity"
-	icon = "GFX_ship_part_EOA_tie_interceptor"
+	icon = "GFX_ship_part_EOA_TIE_fighter_5"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -796,7 +796,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FLEETDEFENCE_3"
 	size = LARGE
 	entity = "EoA_TIE_Interceptor_entity"
-	icon = "GFX_ship_part_EOA_tie_fighter"
+	icon = "GFX_ship_part_EOA_TIE_PD_3"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -869,7 +869,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_ADVANCE_2"
 	size = LARGE
 	entity = "EoA_TIE_Advance_entity"
-	icon = "GFX_ship_part_EOA_tie_interceptor"
+	icon = "GFX_ship_part_EOA_TIE_Advance_2"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -942,7 +942,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_BOMBER_3"
 	size = LARGE
 	entity = "EoA_TIE_Torpedo_entity"
-	icon = "GFX_ship_part_EOA_tie_bomber"
+	icon = "GFX_ship_part_EOA_TIE_bomber_3"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1022,7 +1022,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_6"
 	size = LARGE
 	entity = "EoA_TIE_Hunter_entity"
-	icon = "GFX_ship_part_EOA_tie_hunter"
+	icon = "GFX_ship_part_EOA_TIE_fighter_6"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1095,7 +1095,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FLEETDEFENCE_4"
 	size = LARGE
 	entity = "EoA_TIE_Hunter_entity"
-	icon = "GFX_ship_part_EOA_tie_fighter"
+	icon = "GFX_ship_part_EOA_TIE_PD_4"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1168,7 +1168,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_AVENGER_1"
 	size = LARGE
 	entity = "EoA_TIE_Avenger_entity"
-	icon = "GFX_ship_part_EOA_tie_hunter"
+	icon = "GFX_ship_part_EOA_TIE_Avenger_3"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1241,7 +1241,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_ADV_1"
 	size = LARGE
 	entity = "EoA_TIE_Fighter_entity"
-	icon = "GFX_ship_part_EOA_tie_fighter_adv"
+	icon = "GFX_ship_part_EOA_TIE_fighter_Adv"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1314,7 +1314,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_INTERCEPTOR_ADV_1"
 	size = LARGE
 	entity = "EoA_TIE_Interceptor_entity"
-	icon = "GFX_ship_part_EOA_tie_interceptor_adv"
+	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_1"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1394,7 +1394,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_7"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_tie_defender"
+	icon = "GFX_ship_part_EOA_TIE_fighter_7"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1467,7 +1467,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FLEETDEFENCE_5"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_tie_fighter"
+	icon = "GFX_ship_part_EOA_TIE_PD_5"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1540,7 +1540,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_HUNTER_1"
 	size = LARGE
 	entity = "EoA_TIE_Hunter_entity"
-	icon = "GFX_ship_part_EOA_tie_hunter"
+	icon = "GFX_ship_part_EOA_TIE_hunter_1"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1613,7 +1613,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_AVENGER_2"
 	size = LARGE
 	entity = "EoA_TIE_Avenger_entity"
-	icon = "GFX_ship_part_EOA_tie_hunter"
+	icon = "GFX_ship_part_EOA_TIE_Avenger_4"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1686,7 +1686,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_INTERCEPTOR_ADV_2"
 	size = LARGE
 	entity = "EoA_TIE_Interceptor_entity"
-	icon = "GFX_ship_part_EOA_tie_interceptor_adv"
+	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_2"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1759,7 +1759,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_BOMBER_4"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_tie_defender_bomber"
+	icon = "GFX_ship_part_EOA_TIE_bomber_4"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1840,7 +1840,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_8"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_tie_defender"
+	icon = "GFX_ship_part_EOA_TIE_fighter_8"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1913,7 +1913,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FLEETDEFENCE_6"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_tie_fighter"
+	icon = "GFX_ship_part_EOA_TIE_PD_6"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1986,7 +1986,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_MANGLER_1"
 	size = LARGE
 	entity = "EoA_TIE_Mangler_entity"
-	icon = "GFX_ship_part_EOA_tie_defender"
+	icon = "GFX_ship_part_EOA_TIE_Mangler"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -2059,7 +2059,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_HUNTER_2"
 	size = LARGE
 	entity = "EoA_TIE_Hunter_entity"
-	icon = "GFX_ship_part_EOA_tie_hunter"
+	icon = "GFX_ship_part_EOA_TIE_hunter_2"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -2132,7 +2132,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_AVENGER_3"
 	size = LARGE
 	entity = "EoA_TIE_Avenger_entity"
-	icon = "GFX_ship_part_EOA_tie_hunter"
+	icon = "GFX_ship_part_EOA_TIE_Avenger_5"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -2205,7 +2205,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_INTERCEPTOR_ADV_3"
 	size = LARGE
 	entity = "EoA_TIE_Interceptor_entity"
-	icon = "GFX_ship_part_EOA_tie_interceptor_adv"
+	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_3"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -2278,7 +2278,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_BOMBER_5"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_tie_defender_bomber"
+	icon = "GFX_ship_part_EOA_TIE_bomber_5"
 	icon_frame = 1
 
 	weapon_type = point_defence

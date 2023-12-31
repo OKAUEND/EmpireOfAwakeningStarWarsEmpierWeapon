@@ -310,7 +310,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Octuple_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_04"
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_05"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_octople_turbo_laser_5" }

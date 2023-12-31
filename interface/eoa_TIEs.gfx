@@ -1,58 +1,135 @@
 spriteTypes = {
 	# TIE Fighter
 	spriteType = {
-		name = "GFX_ship_part_EOA_tie_fighter"
-		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_fighter.dds"
+		name = "GFX_ship_part_EOA_TIE_fighter_1"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_fighter_2"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_fighter_3"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_fighter_4"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_fighter_5"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_5.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_fighter_6"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_6.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_fighter_7"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_7.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_fighter_8"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_8.dds"
+	}
+	# TIE Fighter PD
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_PD_1"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_PD_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_PD_2"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_PD_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_PD_3"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_PD_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_PD_4"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_PD_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_PD_5"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_PD_5.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_PD_6"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_PD_6.dds"
 	}
 	# TIE Bomber
 	spriteType = {
-		name = "GFX_ship_part_EOA_tie_bomber"
-		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_bomber.dds"
+		name = "GFX_ship_part_EOA_TIE_bomber_1"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_bomber_1.dds"
 	}
-	# TIE Interceptor
 	spriteType = {
-		name = "GFX_ship_part_EOA_tie_interceptor"
-		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_interceptor.dds"
+		name = "GFX_ship_part_EOA_TIE_bomber_2"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_bomber_2.dds"
 	}
-	# TIE Hunter
 	spriteType = {
-		name = "GFX_ship_part_EOA_tie_hunter"
-		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_hunter.dds"
+		name = "GFX_ship_part_EOA_TIE_bomber_3"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_bomber_3.dds"
 	}
-	# TIE Torpedo
 	spriteType = {
-		name = "GFX_ship_part_EOA_tie_torpedo"
-		texturefile = "gfx/interface/icons/ship_parts/eoa_Ship_part_tie_torpedo.dds"
+		name = "GFX_ship_part_EOA_TIE_bomber_4"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_bomber_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_bomber_5"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_bomber_5.dds"
+	}
+	# TIE Advance / Avenger
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Advance_1"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_advance_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Advance_2"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_advance_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Avenger_3"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_avenger_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Avenger_4"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_avenger_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Avenger_5"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_avenger_5.dds"
+	}
+	# TIE Hunter Adv
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_hunter_1"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_hunter_1_Adv.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_hunter_2"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_hunter_2_Adv.dds"
 	}
 	# TIE Fighter Adv
 	spriteType = {
-		name = "GFX_ship_part_EOA_tie_fighter_adv"
-		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_fighter_adv.dds"
+		name = "GFX_ship_part_EOA_TIE_fighter_Adv"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_Adv.dds"
 	}
 	# TIE Interceptor Adv
 	spriteType = {
-		name = "GFX_ship_part_EOA_tie_interceptor_adv"
-		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_interceptor_adv.dds"
+		name = "GFX_ship_part_EOA_TIE_interceptor_Adv_1"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_interceptor_1_Adv.dds"
 	}
-	# TIE Defender
 	spriteType = {
-		name = "GFX_ship_part_EOA_tie_defender"
-		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_defender.dds"
+		name = "GFX_ship_part_EOA_TIE_interceptor_Adv_2"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_interceptor_2_Adv.dds"
 	}
-	# TIE Defender - bomber
 	spriteType = {
-		name = "GFX_ship_part_EOA_tie_defender_bomber"
-		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_defender_bomber.dds"
+		name = "GFX_ship_part_EOA_TIE_interceptor_Adv_3"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_interceptor_3_Adv.dds"
 	}
-	# TIE Predetor
+	# TIE Mangler
 	spriteType = {
-		name = "GFX_ship_part_EOA_tie_predetor"
-		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_predetor.dds"
-	}
-	# TIE Neutralizer
-	spriteType = {
-		name = "GFX_ship_part_EOA_tie_neutralizer"
-		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_predetor.dds"
+		name = "GFX_ship_part_EOA_TIE_Mangler"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_Mangler.dds"
 	}
 }
 

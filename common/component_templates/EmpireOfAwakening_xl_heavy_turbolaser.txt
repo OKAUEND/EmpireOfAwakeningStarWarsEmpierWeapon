@@ -95,7 +95,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Double_Turret_Model3_entity"
 	
-	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_01"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_02"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_heavy_turbo_laser_2" }
@@ -167,7 +167,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Double_Turret_Model3_entity"
 	
-	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_02"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_03"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_heavy_turbo_laser_3" }
@@ -239,7 +239,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Double_Turret_Model3_entity"
 	
-	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_03"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_04"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_heavy_turbo_laser_4" }
@@ -311,7 +311,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Double_Turret_Model3_entity"
 	
-	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_04"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_05"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_heavy_turbo_laser_5" }
@@ -383,7 +383,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Double_Turret_Model3_entity"
 	
-	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_04"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_06"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_heavy_turbo_laser_6" }
@@ -455,7 +455,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Double_Turret_Model3_entity"
 	
-	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_04"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_07"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_heavy_turbo_laser_7" }
@@ -527,7 +527,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Double_Turret_Model3_entity"
 	
-	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_04"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_08"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_heavy_turbo_laser_8" }
