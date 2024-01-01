@@ -40,7 +40,7 @@ weapon_component_template = {
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
-	armor_penetration = 1.25
+	armor_penetration = 0.40
 	
 	power = @EoA_titan_1_weapon_power_tier5
 	
@@ -108,7 +108,7 @@ weapon_component_template = {
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
-	armor_penetration = 1.25
+	armor_penetration = 0.40
 	
 	power = @EoA_titan_1_weapon_power_tier6
 	
@@ -176,7 +176,7 @@ weapon_component_template = {
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
-	armor_penetration = 1.25
+	armor_penetration = 0.40
 	
 	power = @EoA_titan_1_weapon_power_tier7
 	
@@ -244,7 +244,7 @@ weapon_component_template = {
 	shield_damage = 2.50
 	armor_damage = 2.00
 	shield_penetration = 1.00
-	armor_penetration = 1.25
+	armor_penetration = 0.40
 	
 	power = @EoA_titan_1_weapon_power_tier8
 	
