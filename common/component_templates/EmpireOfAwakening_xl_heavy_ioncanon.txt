@@ -34,7 +34,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_ion_canon_1" }
 
 	damage = { min = 35.0 max = 97.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
@@ -105,7 +105,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_ion_canon_2" }
 
 	damage = { min = 80.0 max = 180.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
@@ -176,7 +176,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_ion_canon_3" }
 
 	damage = { min = 100.0 max = 280.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
@@ -247,7 +247,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_ion_canon_4" }
 
 	damage = { min = 340.0 max = 900.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
@@ -318,7 +318,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_ion_canon_5" }
 
 	damage = { min = 400.0 max = 1200.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
@@ -389,7 +389,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_ion_canon_6" }
 
 	damage = { min = 500.0 max = 1500.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
@@ -460,7 +460,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_ion_canon_7" }
 
 	damage = { min = 600.0 max = 1700.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
@@ -531,7 +531,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_ion_canon_8" }
 
 	damage = { min = 700.0 max = 1800.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 

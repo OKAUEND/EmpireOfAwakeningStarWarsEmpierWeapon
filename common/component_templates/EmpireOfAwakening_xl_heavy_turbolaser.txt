@@ -37,7 +37,7 @@ weapon_component_template = {
 	}
 
 	damage = { min = 40.0 max = 97.9 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	range = 100.0
@@ -101,7 +101,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_turbo_laser_2" }
 
 	damage = { min = 80.0 max = 195.6 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
@@ -173,7 +173,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_turbo_laser_3" }
 
 	damage = { min = 120.0 max = 295.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
@@ -245,7 +245,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_turbo_laser_4" }
 
 	damage = { min = 370.0 max = 1010.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
@@ -317,7 +317,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_turbo_laser_5" }
 
 	damage = { min = 420.0 max = 1400.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
@@ -389,7 +389,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_turbo_laser_6" }
 
 	damage = { min = 550.0 max = 1655.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
@@ -461,7 +461,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_turbo_laser_7" }
 
 	damage = { min = 650.0 max = 1870.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 
@@ -533,7 +533,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_heavy_turbo_laser_8" }
 
 	damage = { min = 750.0 max = 2000.0 }
-	windup = { min = 2.0 max = 20.0 }
+	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
 	size_restriction = { 

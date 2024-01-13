@@ -27,7 +27,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_turbo_laser_pd_1" }
 
 	damage = { min = 2.0 max = 4.0 }
-	windup = { min = 0.0 max = 0.0 }
+	windup = { min = 0.0 max = 5.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_ANTIAIR_COOLDOWN
 
 	size_restriction = { 
@@ -105,7 +105,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_turbo_laser_pd_2" }
 
 	damage = { min = 3.0 max = 6.0 }
-	windup = { min = 0.0 max = 0.0 }
+	windup = { min = 0.0 max = 5.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_ANTIAIR_COOLDOWN
 
 	size_restriction = { 
@@ -184,7 +184,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_turbo_laser_pd_3" }
 
 	damage = { min = 4.0 max = 8.0 }
-	windup = { min = 0.0 max = 0.0 }
+	windup = { min = 0.0 max = 5.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_ANTIAIR_COOLDOWN
 
 	size_restriction = { 
@@ -263,7 +263,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_turbo_laser_pd_4" }
 
 	damage = { min = 6.0 max = 11.0 }
-	windup = { min = 0.0 max = 0.0 }
+	windup = { min = 0.0 max = 5.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_ANTIAIR_COOLDOWN
 
 	size_restriction = { 
@@ -341,7 +341,7 @@ weapon_component_template = {
 	prerequisites = { "tech_eoa_turbo_laser_pd_5" }
 
 	damage = { min = 8.0 max = 14.0 }
-	windup = { min = 0.0 max = 0.0 }
+	windup = { min = 0.0 max = 5.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_ANTIAIR_COOLDOWN
 
 	size_restriction = { 
