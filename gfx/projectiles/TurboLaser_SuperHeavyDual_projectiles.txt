@@ -18,7 +18,7 @@ projectile_gfx_ballistic = {
 	
 	#ballistic specific
 	entity = "EoA_Titan_Super_Heavy_TL_entity"
-	speed = 300.0			#preferred speed of the projectile
+	speed = 800.0			#preferred speed of the projectile
 	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
 }
 
@@ -39,7 +39,7 @@ projectile_gfx_ballistic = {
 	
 	#ballistic specific
 	entity = "EoA_Twin_Super_Heavy_TL_entity"
-	speed = 300.0			#preferred speed of the projectile
+	speed = 800.0			#preferred speed of the projectile
 	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
 }
 
