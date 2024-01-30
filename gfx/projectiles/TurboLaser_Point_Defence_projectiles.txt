@@ -14,6 +14,6 @@ projectile_gfx_ballistic = {
 	
 	#ballistic specific
 	entity = "PD_TL_entity"
-	speed = 900.0			#preferred speed of the projectile
+	speed = 800.0			#preferred speed of the projectile
 	max_duration = 1.0	#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
 }
