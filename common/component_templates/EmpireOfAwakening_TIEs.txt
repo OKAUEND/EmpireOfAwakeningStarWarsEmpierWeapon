@@ -96,15 +96,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -169,15 +171,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -242,15 +246,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -319,15 +325,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -398,15 +406,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -471,15 +481,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -544,15 +556,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -621,15 +635,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -694,15 +710,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -772,15 +790,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -845,15 +865,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -918,15 +940,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -991,15 +1015,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -1071,15 +1097,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -1144,15 +1172,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -1217,15 +1247,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -1290,15 +1322,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -1363,15 +1397,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -1443,15 +1479,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -1516,15 +1554,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -1589,15 +1629,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -1662,15 +1704,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -1735,15 +1779,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -1808,15 +1854,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -1889,15 +1937,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -1962,15 +2012,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -2035,15 +2087,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -2108,15 +2162,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -2181,15 +2237,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -2254,15 +2312,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
@@ -2327,15 +2387,17 @@ strike_craft_component_template = {
 	
 
 	ai_weight = {
-		weight = 0
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
-		}
+		weight = 1
 		modifier = {
 			factor = 0.0
 			if = {
 				is_origin_empire_of_awaking = no
+			}
+		}
+		modifier = {
+			factor = 100
+			if = {
+				is_origin_empire_of_awaking = yes
 			}
 		}
 	}
