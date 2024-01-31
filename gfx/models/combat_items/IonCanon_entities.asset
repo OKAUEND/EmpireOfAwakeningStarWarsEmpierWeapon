@@ -211,7 +211,7 @@ entity = {
 # PROJECTILE
 entity = {
 	name = "Heavy_Dual_IonCanon_entity"
-	pdxmesh = "turbolaser_ion_mesh"
+	# pdxmesh = "turbolaser_ion_mesh"
 	
 	default_state = "idle"
 	state = { name = "idle" }

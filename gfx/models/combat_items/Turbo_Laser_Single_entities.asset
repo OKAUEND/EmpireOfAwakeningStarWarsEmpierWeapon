@@ -39,7 +39,7 @@ entity = {
 		event = { time = 0.0 particle = "turbolaser_medium_stop_hit_effect" }
 	}
 	
-	scale = 0.7
+	scale = 1.0
 }
 
 # IMPACT EFFECT
