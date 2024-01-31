@@ -1,0 +1,15 @@
+objectTypes = {
+	pdxmesh = {
+		name = "EoA_SD_photon_torpedo_mesh"
+		file = "gfx/models/combat_items/arthropoid_01_missile_medium.mesh"
+		scale = 1
+		
+		animation = { id = "launch"					type = "EoA_SD_photon_torpedo_launch_animation" }		
+		animation = { id = "launch2"					type = "EoA_SD_photon_torpedo_launch2_animation" }		
+		animation = { id = "idle"					type = "arthropoid_01_missile_medium_idle_animation" }			
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+}
