@@ -1,0 +1,60 @@
+component_set = {
+	key = "ION_CANON_ACOT_DELTA"
+	icon = "GFX_ship_part_EOA_ion_canon_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ION_CANON_ACOT_ALPHA"
+	icon = "GFX_ship_part_EOA_ion_canon_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ION_CANON_ACOT_LAMDA"
+	icon = "GFX_ship_part_EOA_ion_canon_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ION_CANON_ACOT_SIGMA"
+	icon = "GFX_ship_part_EOA_ion_canon_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ION_CANON_ACOT_OMEGA"
+	icon = "GFX_ship_part_EOA_ion_canon_05"
+	icon_frame = 1
+}
+
+#-------------------------------------------------------
+component_set = {
+	key = "HEAVY_ION_CANON_ACOT_DELTA"
+	icon = "GFX_ship_part_EOA_heavy_ion_canon_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "HEAVY_ION_CANON_ACOT_ALPHA"
+	icon = "GFX_ship_part_EOA_heavy_ion_canon_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "HEAVY_ION_CANON_ACOT_LAMDA"
+	icon = "GFX_ship_part_EOA_heavy_ion_canon_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "HEAVY_ION_CANON_ACOT_SIGMA"
+	icon = "GFX_ship_part_EOA_heavy_ion_canon_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "HEAVY_ION_CANON_ACOT_OMEGA"
+	icon = "GFX_ship_part_EOA_heavy_ion_canon_05"
+	icon_frame = 1
+}

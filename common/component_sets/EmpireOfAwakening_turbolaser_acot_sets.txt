@@ -1,29 +1,29 @@
 component_set = {
-	key = "TURBO_LASER_DELTA"
+	key = "TURBO_LASER_ACOT_DELTA"
 	icon = "GFX_ship_part_EOA_turbolaser_01"
 	icon_frame = 1
 }
 
 component_set = {
-	key = "TURBO_LASER_ALPHA"
+	key = "TURBO_LASER_ACOT_ALPHA"
 	icon = "GFX_ship_part_EOA_turbolaser_02"
 	icon_frame = 1
 }
 
 component_set = {
-	key = "TURBO_LASER_BETA"
+	key = "TURBO_LASER_ACOT_BETA"
 	icon = "GFX_ship_part_EOA_turbolaser_03"
 	icon_frame = 1
 }
 
 component_set = {
-	key = "TURBO_LASER_SIGMA"
+	key = "TURBO_LASER_ACOT_SIGMA"
 	icon = "GFX_ship_part_EOA_turbolaser_04"
 	icon_frame = 1
 }
 
 component_set = {
-	key = "TURBO_LASER_OMEGA"
+	key = "TURBO_LASER_ACOT_OMEGA"
 	icon = "GFX_ship_part_EOA_turbolaser_04"
 	icon_frame = 1
 }

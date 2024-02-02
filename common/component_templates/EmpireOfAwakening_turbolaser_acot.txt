@@ -81,7 +81,7 @@ weapon_component_template = {
 		}
 	}
 
-	component_set = "TURBO_LASER_DELTA"
+	component_set = "TURBO_LASER_ACOT_DELTA"
 	projectile_gfx = "EOA_SINGLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_point_defense }
@@ -153,7 +153,7 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TURBO_LASER_DELTA"
+	component_set = "TURBO_LASER_ACOT_DELTA"
 	projectile_gfx = "EOA_SINGLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_anti_armor }
@@ -227,7 +227,7 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TURBO_LASER_DELTA"
+	component_set = "TURBO_LASER_ACOT_DELTA"
 	projectile_gfx = "EOA_SINGLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
@@ -304,7 +304,7 @@ weapon_component_template = {
 	}
 	
 
-	component_set = "TURBO_LASER_ALPHA"
+	component_set = "TURBO_LASER_ACOT_ALPHA"
 	projectile_gfx = "EOA_SINGLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_point_defense }
@@ -376,7 +376,7 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TURBO_LASER_ALPHA"
+	component_set = "TURBO_LASER_ACOT_ALPHA"
 	projectile_gfx = "EOA_SINGLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_anti_armor }
@@ -450,7 +450,7 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TURBO_LASER_ALPHA"
+	component_set = "TURBO_LASER_ACOT_ALPHA"
 	projectile_gfx = "EOA_SINGLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
@@ -528,7 +528,7 @@ weapon_component_template = {
 	}
 	
 
-	component_set = "TURBO_LASER_BETA"
+	component_set = "TURBO_LASER_ACOT_BETA"
 	projectile_gfx = "EOA_SINGLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_point_defense }
@@ -600,7 +600,7 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TURBO_LASER_BETA"
+	component_set = "TURBO_LASER_ACOT_BETA"
 	projectile_gfx = "EOA_SINGLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_anti_armor }
@@ -674,7 +674,7 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TURBO_LASER_BETA"
+	component_set = "TURBO_LASER_ACOT_BETA"
 	projectile_gfx = "EOA_SINGLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
@@ -751,7 +751,7 @@ weapon_component_template = {
 	}
 	
 
-	component_set = "TURBO_LASER_SIGMA"
+	component_set = "TURBO_LASER_ACOT_SIGMA"
 	projectile_gfx = "EOA_SINGLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_point_defense }
@@ -823,7 +823,7 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TURBO_LASER_SIGMA"
+	component_set = "TURBO_LASER_ACOT_SIGMA"
 	projectile_gfx = "EOA_SINGLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_anti_armor }
@@ -897,7 +897,7 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TURBO_LASER_SIGMA"
+	component_set = "TURBO_LASER_ACOT_SIGMA"
 	projectile_gfx = "QUAD_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }
@@ -974,7 +974,7 @@ weapon_component_template = {
 	}
 	
 
-	component_set = "TURBO_LASER_OMEGA"
+	component_set = "TURBO_LASER_ACOT_OMEGA"
 	projectile_gfx = "EOA_SINGLE_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_point_defense }
@@ -1046,7 +1046,7 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TURBO_LASER_OMEGA"
+	component_set = "TURBO_LASER_ACOT_OMEGA"
 	projectile_gfx = "QUAD_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_anti_armor }
@@ -1120,7 +1120,7 @@ weapon_component_template = {
 		}
 	}
 	
-	component_set = "TURBO_LASER_OMEGA"
+	component_set = "TURBO_LASER_ACOT_OMEGA"
 	projectile_gfx = "QUAD_TURBOLASER"
 	tags = { weapon_type_turbolaser }
 	ai_tags = { weapon_role_long_range }

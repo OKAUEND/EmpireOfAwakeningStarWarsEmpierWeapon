@@ -1,0 +1,194 @@
+component_set = {
+	key = "EOA_TIE_FIGHTER_ACOT_DELTA"
+	icon = "GFX_ship_part_EOA_TIE_fighter_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_TIE_FIGHTER_ACOT_ALPHA"
+	icon = "GFX_ship_part_EOA_TIE_fighter_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_TIE_FIGHTER_ACOT_LAMDA"
+	icon = "GFX_ship_part_EOA_TIE_fighter_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_TIE_FIGHTER_ACOT_SIGMA"
+	icon = "GFX_ship_part_EOA_TIE_fighter_4"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_TIE_FIGHTER_ACOT_OMEGA"
+	icon = "GFX_ship_part_EOA_TIE_fighter_5"
+	icon_frame = 1
+}
+#-------------------------------------------------------
+component_set = {
+	key = "EOA_TIE_FLEETDEFENCE_ACOT_DELTA"
+	icon = "GFX_ship_part_EOA_TIE_PD_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_TIE_FLEETDEFENCE_ACOT_ALPHA"
+	icon = "GFX_ship_part_EOA_TIE_PD_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_TIE_FLEETDEFENCE_ACOT_LAMDA"
+	icon = "GFX_ship_part_EOA_TIE_PD_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_TIE_FLEETDEFENCE_ACOT_SIGMA"
+	icon = "GFX_ship_part_EOA_TIE_PD_4"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_TIE_FLEETDEFENCE_ACOT_OMEGA"
+	icon = "GFX_ship_part_EOA_TIE_PD_5"
+	icon_frame = 1
+}
+
+#-------------------------------------------------------
+component_set = {
+	key = "EOA_TIE_INTERCEPTOR_ADV_ACOT_DELTA"
+	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_1"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_INTERCEPTOR_ADV_ACOT_ALPHA"
+	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_2"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_INTERCEPTOR_ADV_ACOT_LAMDA"
+	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_3"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_INTERCEPTOR_ADV_ACOT_SIGMA"
+	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_2"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_INTERCEPTOR_ADV_ACOT_OMEGA"
+	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_3"
+	icon_frame = 1
+}
+#-------------------------------------------------------
+component_set = {
+	key = "EOA_TIE_HUNTER_ACOT_DELTA"
+	icon = "GFX_ship_part_EOA_TIE_hunter_1"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_HUNTER_ACOT_ALPHA"
+	icon = "GFX_ship_part_EOA_TIE_hunter_2"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_HUNTER_ACOT_LAMDA"
+	icon = "GFX_ship_part_EOA_TIE_hunter_1"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_HUNTER_ACOT_SIGMA"
+	icon = "GFX_ship_part_EOA_TIE_hunter_2"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_HUNTER_ACOT_OMEGA"
+	icon = "GFX_ship_part_EOA_TIE_hunter_1"
+	icon_frame = 1
+}
+#-------------------------------------------------------
+component_set = {
+	key = "EOA_TIE_AVENGER_ACOT_DELTA"
+	icon = "GFX_ship_part_EOA_TIE_Avenger_3"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_AVENGER_ACOT_ALPHA"
+	icon = "GFX_ship_part_EOA_TIE_Avenger_4"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_AVENGER_ACOT_LAMDA"
+	icon = "GFX_ship_part_EOA_TIE_Avenger_5"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_AVENGER_ACOT_SIGMA"
+	icon = "GFX_ship_part_EOA_TIE_Avenger_4"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_AVENGER_ACOT_OMEGA"
+	icon = "GFX_ship_part_EOA_TIE_Avenger_5"
+	icon_frame = 1
+}
+#-------------------------------------------------------
+component_set = {
+	key = "EOA_TIE_MANGLER_ACOT_DELTA"
+	icon = "GFX_ship_part_EOA_TIE_Mangler"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_MANGLER_ACOT_ALPHA"
+	icon = "GFX_ship_part_EOA_TIE_Mangler"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_MANGLER_ACOT_LAMDA"
+	icon = "GFX_ship_part_EOA_TIE_Mangler"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_MANGLER_ACOT_SIGMA"
+	icon = "GFX_ship_part_EOA_TIE_Mangler"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_MANGLER_ACOT_OMEGA"
+	icon = "GFX_ship_part_EOA_TIE_Mangler"
+	icon_frame = 1
+}
+#-------------------------------------------------------
+component_set = {
+	key = "EOA_TIE_BOMBER_ACOT_DELTA"
+	icon = "GFX_ship_part_EOA_TIE_bomber_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_TIE_BOMBER_ACOT_ALPHA"
+	icon = "GFX_ship_part_EOA_TIE_bomber_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_TIE_BOMBER_ACOT_LAMDA"
+	icon = "GFX_ship_part_EOA_TIE_bomber_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EOA_TIE_BOMBER_ACOT_SIGMA"
+	icon = "GFX_ship_part_EOA_TIE_bomber_4"
+	icon_frame = 1
+}
+component_set = {
+	key = "EOA_TIE_BOMBER_ACOT_OMEGA"
+	icon = "GFX_ship_part_EOA_TIE_bomber_5"
+	icon_frame = 1
+}
+

@@ -1,0 +1,61 @@
+component_set = {
+	key = "HEAVY_TURBO_LASER_ACOT_DELTA"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "HEAVY_TURBO_LASER_ACOT_ALPHA"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "HEAVY_TURBO_LASER_ACOT_LAMDA"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "HEAVY_TURBO_LASER_ACOT_SIGMA"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "HEAVY_TURBO_LASER_ACOT_OMEGA"
+	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_05"
+	icon_frame = 1
+}
+
+#--------------------------------------------
+component_set = {
+	key = "OCTUPLE_TURBO_LASER_ACOT_DELTA"
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OCTUPLE_TURBO_LASER_ACOT_ALPHA"
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OCTUPLE_TURBO_LASER_ACOT_LAMDA"
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OCTUPLE_TURBO_LASER_ACOT_SIGMA"
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OCTUPLE_TURBO_LASER_ACOT_OMEGA"
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_05"
+	icon_frame = 1
+}
+

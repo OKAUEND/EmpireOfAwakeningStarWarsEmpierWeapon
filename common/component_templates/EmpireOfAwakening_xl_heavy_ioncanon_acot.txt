@@ -1,0 +1,373 @@
+# ############################################
+#  Heavy Turbo Laser
+# ############################################
+#  - Tier 1
+#   - 重イオンカノン I(XL)
+#  - Tier 2
+#   - 重イオンカノン II(XL)
+#  - Tier 3
+#   - 重イオンカノン III(XL)
+#  - Tier 4
+#   - 重イオンカノン IV(XL)
+#  - Tier 5
+#   - 重イオンカノン V(XL)
+#  - Tier 6
+#   - 重イオンカノン VI(XL)
+#  - Tier 7
+#   - 重イオンカノン VII(XL)
+#  - Tier 8
+#   - 重イオンカノン VIII(XL)
+#############################################
+#  - Tier 1
+#   - 重イオンカノン I(XL)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_HEAVY_ION_CANON_ACOT_DELTA"
+	size = extra_large
+	type = instant
+	# entity = "FR_Double_Turret_Model2_entity"
+	
+	icon = "GFX_ship_part_EOA_heavy_ion_canon_01"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_heavy_ion_canon_1" }
+
+	damage = { min = 35.0 max = 97.0 }
+	windup = { min = 5.0 max = 45.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 100.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	shield_damage = 6.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_extra_large_1_weapon_power_tier1
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_extra_large_1_weapon_cost_alloys_tier1
+			exotic_gases = @EoA_extra_large_1_weapon_cost_gas_tier1
+		}
+		upkeep = {
+			energy = @EoA_extra_large_1_weapon_upkeep_energy_tier1
+			alloys = @EoA_extra_large_1_weapon_upkeep_alloys_tier1
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "HEAVY_ION_CANON_ACOT_DELTA"
+	projectile_gfx = "EOA_HEAVY_DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_HEAVY_ION_CANON_ACOT_ALPHA"
+}
+#############################################
+#  - Tier 2
+#   - 重イオンカノン II(XL)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_HEAVY_ION_CANON_ACOT_ALPHA"
+	size = extra_large
+	type = instant
+	# entity = "FR_Double_Turret_Model2_entity"
+	
+	icon = "GFX_ship_part_EOA_heavy_ion_canon_02"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_heavy_ion_canon_2" }
+
+	damage = { min = 80.0 max = 180.0 }
+	windup = { min = 5.0 max = 45.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 100.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	shield_damage = 6.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_extra_large_1_weapon_power_tier2
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_extra_large_1_weapon_cost_alloys_tier2
+			exotic_gases = @EoA_extra_large_1_weapon_cost_gas_tier2
+		}
+		upkeep = {
+			energy = @EoA_extra_large_1_weapon_upkeep_energy_tier2
+			alloys = @EoA_extra_large_1_weapon_upkeep_alloys_tier2
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "HEAVY_ION_CANON_ACOT_ALPHA"
+	projectile_gfx = "EOA_HEAVY_DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_HEAVY_ION_CANON_ACOT_LAMDA"
+}
+#############################################
+#  - Tier 3
+#   - 重イオンカノン III(XL)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_HEAVY_ION_CANON_ACOT_LAMDA"
+	size = extra_large
+	type = instant
+	# entity = "FR_Double_Turret_Model2_entity"
+	
+	icon = "GFX_ship_part_EOA_heavy_ion_canon_03"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_heavy_ion_canon_3" }
+
+	damage = { min = 100.0 max = 280.0 }
+	windup = { min = 5.0 max = 45.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 100.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	shield_damage = 6.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_extra_large_1_weapon_power_tier3
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_extra_large_1_weapon_cost_alloys_tier3
+			exotic_gases = @EoA_extra_large_1_weapon_cost_gas_tier3
+		}
+		upkeep = {
+			energy = @EoA_extra_large_1_weapon_upkeep_energy_tier3
+			alloys = @EoA_extra_large_1_weapon_upkeep_alloys_tier3
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "HEAVY_ION_CANON_ACOT_LAMDA"
+	projectile_gfx = "EOA_HEAVY_DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_HEAVY_ION_CANON_ACOT_SIGMA"
+}
+#############################################
+#  - Tier 4
+#   - 重イオンカノン IV(XL)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_HEAVY_ION_CANON_ACOT_SIGMA"
+	size = extra_large
+	type = instant
+	# entity = "FR_Double_Turret_Model2_entity"
+	
+	icon = "GFX_ship_part_EOA_heavy_ion_canon_04"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_heavy_ion_canon_4" }
+
+	damage = { min = 340.0 max = 900.0 }
+	windup = { min = 5.0 max = 45.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 100.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	shield_damage = 6.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_extra_large_1_weapon_power_tier4
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_extra_large_1_weapon_cost_alloys_tier4
+			eoa_tibanna_gas = @EoA_extra_large_1_weapon_cost_gas_tier4
+		}
+		upkeep = {
+			energy = @EoA_extra_large_1_weapon_upkeep_energy_tier4
+			alloys = @EoA_extra_large_1_weapon_upkeep_alloys_tier4
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "HEAVY_ION_CANON_ACOT_SIGMA"
+	projectile_gfx = "EOA_HEAVY_DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_HEAVY_ION_CANON_ACOT_OMEGA"
+}
+#############################################
+#  - Tier 5
+#   - 重イオンカノン V(XL)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_HEAVY_ION_CANON_ACOT_OMEGA"
+	size = extra_large
+	type = instant
+	# entity = "FR_Double_Turret_Model2_entity"
+	
+	icon = "GFX_ship_part_EOA_heavy_ion_canon_05"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_heavy_ion_canon_5" }
+
+	damage = { min = 400.0 max = 1200.0 }
+	windup = { min = 5.0 max = 45.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
+
+	size_restriction = { 
+		imperial1_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 100.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	shield_damage = 6.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_extra_large_1_weapon_power_tier5
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_extra_large_1_weapon_cost_alloys_tier5
+			eoa_tibanna_gas = @EoA_extra_large_1_weapon_cost_gas_tier5
+		}
+		upkeep = {
+			energy = @EoA_extra_large_1_weapon_upkeep_energy_tier5
+			alloys = @EoA_extra_large_1_weapon_upkeep_alloys_tier5
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "HEAVY_ION_CANON_ACOT_OMEGA"
+	projectile_gfx = "EOA_HEAVY_DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_long_range }
+}
