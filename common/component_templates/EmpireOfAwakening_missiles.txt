@@ -432,22 +432,29 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_proton_torpedo_1" }
 
-	damage = { min = 175.0 max = 270.0 }
-	windup = { min = 1.0 max = 15.0 }
-	total_fire_time = 200
+	size_damage_factor = 1.0
+	damage = { min = 200 max = 325 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
 
-	range = 95.0
-	accuracy = 1.00
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
 
-	shield_damage = 0.50
-	armor_damage = 2.0
-	armor_penetration = 0.25
-	hull_damage = 1.15
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
+	missile_retarget_range = 100
 
-	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
-	missile_evasion = 0.25
-	missile_health = 10
-	missile_retarget_range = 50
+	firing_arc = 358.0
+	min_range = 40.0
 
 	power = @EoA_medium_weapon_power_tier2
 
@@ -480,7 +487,7 @@ weapon_component_template = {
 	}
 
 	component_set = "EOA_SW_TORPEDO_MISSILE_1"
-	projectile_gfx = "EoA_photon_torpedo_projectile"
+	projectile_gfx = "EoA_SD_photon_torpedo_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "EOA_SW_TORPEDO_MISSILE_2"
@@ -501,22 +508,29 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_proton_torpedo_2" }
 
-	damage = { min = 220.0 max = 360.0 }
-	windup = { min = 1.0 max = 15.0 }
-	total_fire_time = 200
+	damage = { min = 300 max = 450 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
 
-	range = 95.0
-	accuracy = 1.00
+	size_damage_factor = 1.0
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
 
-	shield_damage = 0.50
-	armor_damage = 1.0
-	armor_penetration = 0.25
-	hull_damage = 1.0
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
+	missile_retarget_range = 100
 
-	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
-	missile_evasion = 0.25
-	missile_health = 12
-	missile_retarget_range = 50
+	firing_arc = 358.0
+	min_range = 40.0
 
 	power = @EoA_medium_weapon_power_tier3
 
@@ -549,7 +563,7 @@ weapon_component_template = {
 	}
 
 	component_set = "EOA_SW_TORPEDO_MISSILE_2"
-	projectile_gfx = "EoA_photon_torpedo_projectile"
+	projectile_gfx = "EoA_SD_photon_torpedo_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "EOA_SW_TORPEDO_MISSILE_3"
@@ -570,22 +584,29 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_proton_torpedo_3" }
 
-	damage = { min = 280.0 max = 460.0 }
-	windup = { min = 1.0 max = 15.0 }
-	total_fire_time = 200
+	damage = { min = 400 max = 550 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
 
-	range = 95.0
-	accuracy = 1.00
+	size_damage_factor = 1.0
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
 
-	shield_damage = 0.50
-	armor_damage = 1.0
-	armor_penetration = 0.25
-	hull_damage = 1.0
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
+	missile_retarget_range = 100
 
-	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
-	missile_evasion = 0.25
-	missile_health = 14
-	missile_retarget_range = 50
+	firing_arc = 358.0
+	min_range = 40.0
 
 	power = @EoA_medium_weapon_power_tier4
 
@@ -618,7 +639,7 @@ weapon_component_template = {
 	}
 
 	component_set = "EOA_SW_TORPEDO_MISSILE_3"
-	projectile_gfx = "EoA_photon_torpedo_projectile"
+	projectile_gfx = "EoA_SD_photon_torpedo_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "EOA_SW_TORPEDO_MISSILE_4"
@@ -639,22 +660,29 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_proton_torpedo_4" }
 
-	damage = { min = 350.0 max = 575.0 }
-	windup = { min = 2 max = 20 }
-	total_fire_time = 160
+	damage = { min = 550 max = 700 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
 
-	range = 95.0
-	accuracy = 1.00
+	size_damage_factor = 1.0
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
 
-	shield_damage = 0.50
-	armor_damage = 1.0
-	armor_penetration = 0.25
-	hull_damage = 1.0
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
+	missile_retarget_range = 100
 
-	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
-	missile_evasion = 0.25
-	missile_health = 14
-	missile_retarget_range = 50
+	firing_arc = 358.0
+	min_range = 40.0
 
 	power = @EoA_medium_weapon_power_tier5
 
@@ -687,7 +715,7 @@ weapon_component_template = {
 	}
 
 	component_set = "EOA_SW_TORPEDO_MISSILE_4"
-	projectile_gfx = "EoA_photon_torpedo_projectile"
+	projectile_gfx = "EoA_SD_photon_torpedo_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "EOA_SW_TORPEDO_MISSILE_5"
@@ -708,22 +736,29 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_proton_torpedo_5" }
 
-	damage = { min = 435.0 max = 725.0 }
-	windup = { min = 2 max = 20 }
-	total_fire_time = 160
+	damage = { min = 600 max = 750 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
 
-	range = 95.0
-	accuracy = 1.00
+	size_damage_factor = 1.0
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
 
-	shield_damage = 0.50
-	armor_damage = 1.0
-	armor_penetration = 0.25
-	hull_damage = 1.0
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
+	missile_retarget_range = 100
 
-	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
-	missile_evasion = 0.25
-	missile_health = 14
-	missile_retarget_range = 50
+	firing_arc = 358.0
+	min_range = 40.0
 
 	power = @EoA_medium_weapon_power_tier6
 
@@ -756,7 +791,7 @@ weapon_component_template = {
 	}
 
 	component_set = "EOA_SW_TORPEDO_MISSILE_5"
-	projectile_gfx = "EoA_photon_torpedo_projectile"
+	projectile_gfx = "EoA_SD_photon_torpedo_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor }
 }
@@ -791,23 +826,28 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_concussion_missile_1" }
 
-	damage = { min = 60.0 max = 75.0 }
-	windup = { min = 1.0 max = 15.0 }
-	total_fire_time = 55
+	damage = { min = 300 max = 450 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
 
-	range = 95.0
-	accuracy = 1.00
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
 
-	shield_damage = 0.50
-	armor_damage = 1.15
-	armor_penetration = 0.35
-	hull_damage = 1.0
-
-	missile_speed = 20 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
-	missile_evasion = 0.25
-	missile_health = 15
-	missile_armor = 2
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
 	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 40.0
 
 	power = @EoA_medium_weapon_power_tier3
 
@@ -860,23 +900,28 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_concussion_missile_2" }
 
-	damage = { min = 70.0 max = 95.0 }
-	windup = { min = 1.0 max = 15.0 }
-	total_fire_time = 55
+	damage = { min = 400 max = 550 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
 
-	range = 95.0
-	accuracy = 1.00
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
 
-	shield_damage = 0.50
-	armor_damage = 1.15
-	armor_penetration = 0.35
-	hull_damage = 1.0
-
-	missile_speed = 20 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
-	missile_evasion = 0.25
-	missile_health = 17
-	missile_armor = 2
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
 	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 40.0
 
 	power = @EoA_medium_weapon_power_tier4
 
@@ -929,23 +974,28 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_concussion_missile_3" }
 
-	damage = { min = 90.0 max = 120.0 }
+	damage = { min = 550 max = 700 }
 	windup = { min = 1 max = 15 }
-	total_fire_time = 55
+	total_fire_time = 120
 
-	range = 95.0
-	accuracy = 1.00
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
 
-	shield_damage = 0.50
-	armor_damage = 1.15
-	armor_penetration = 0.35
-	hull_damage = 1.0
-
-	missile_speed = 20 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
-	missile_evasion = 0.25
-	missile_health = 19
-	missile_armor = 2
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
 	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 40.0
 
 	power = @EoA_medium_weapon_power_tier5
 
@@ -998,22 +1048,28 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_concussion_missile_4" }
 
-	damage = { min = 120.0 max = 140.0 }
-	windup = { min = 2 max = 20 }
-	total_fire_time = 42
+	damage = { min = 600 max = 750 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
 
-	range = 95.0
-	accuracy = 1.00
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
 
-	shield_damage = 0.50
-	armor_damage = 1.0
-	armor_penetration = 0.25
-	hull_damage = 1.0
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
+	missile_retarget_range = 100
 
-	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
-	missile_evasion = 0.25
-	missile_health = 14
-	missile_retarget_range = 50
+	firing_arc = 358.0
+	min_range = 40.0
 
 	power = @EoA_medium_weapon_power_tier6
 
@@ -1061,6 +1117,12 @@ weapon_component_template = {
 #
 #  - Tier 6
 #   - 重震盪ミサイル III
+#
+#  - Tier 7
+#   - 重震盪ミサイル IV
+#
+#  - Tier 8
+#   - 重震盪ミサイル V
 ###################################################
 ###################################################
 #  - Tier 4
@@ -1077,25 +1139,47 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_heavy_concussion_missile_1" }
 
-	damage = { min = 160.0 max = 250.0 }
-	windup = { min = 1.0 max = 15.0 }
-	total_fire_time = 75
+	power = @EoA_large_weapon_power_tier4
+	damage = { min = 700 max = 900 }
+	windup = { min = 1 max = 30 }
+	total_fire_time = 200
 
-	range = 95.0
-	accuracy = 1.00
-
-	shield_damage = 0.50
-	armor_damage = 1.5
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 1
 	armor_penetration = 0.25
-	hull_damage = 1.0
 
-	missile_speed = 20 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
-	missile_evasion = 0.25
-	missile_health = 17
-	missile_armor = 2
+	range = 210
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 15
+	missile_evasion = 0.8
+	missile_shield = 0
+	missile_armor = 20
+	missile_health = 50
 	missile_retarget_range = 100
 
-	power = @EoA_large_weapon_power_tier4
+	firing_arc = 358.0
+	min_range = 60.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+			volatile_motes = @l_t4_rare
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+		}
+	}
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
 
 	resources = {
 		category = ship_components
@@ -1125,7 +1209,7 @@ weapon_component_template = {
 	}
 
 	component_set = "EOA_HEAVY_CONCUSSION_MISSILE_1"
-	projectile_gfx = "HEAVY_CONCUSSION_MISSILE"
+	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "EOA_HEAVY_CONCUSSION_MISSILE_2"
@@ -1133,7 +1217,7 @@ weapon_component_template = {
 
 ###################################################
 #  - Tier 5
-#   - 重震盪ミサイル III
+#   - 重震盪ミサイル II
 ###################################################
 weapon_component_template = {
 	key = "EOA_HEAVY_CONCUSSION_MISSILE_2"
@@ -1146,23 +1230,33 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_heavy_concussion_missile_2" }
 
-	damage = { min = 210.0 max = 300.0 }
-	windup = { min = 1.0 max = 15.0 }
-	total_fire_time = 75
+	damage = { min = 900 max = 1300 }
+	windup = { min = 1 max = 30 }
+	total_fire_time = 200
 
-	range = 95.0
-	accuracy = 1.00
-
-	shield_damage = 0.50
-	armor_damage = 1.5
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 1
 	armor_penetration = 0.25
-	hull_damage = 1.0
 
-	missile_speed = 20 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
-	missile_evasion = 0.25
-	missile_health = 19
-	missile_armor = 3
+	range = 210
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 15
+	missile_evasion = 0.8
+	missile_shield = 0
+	missile_armor = 20
+	missile_health = 50
 	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 60.0
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
 
 	power = @EoA_large_weapon_power_tier5
 
@@ -1194,7 +1288,7 @@ weapon_component_template = {
 	}
 
 	component_set = "EOA_HEAVY_CONCUSSION_MISSILE_2"
-	projectile_gfx = "HEAVY_CONCUSSION_MISSILE"
+	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "EOA_HEAVY_CONCUSSION_MISSILE_3"
@@ -1202,7 +1296,7 @@ weapon_component_template = {
 
 ###################################################
 #  - Tier 6
-#   - 重震盪ミサイル IV
+#   - 重震盪ミサイル III
 ###################################################
 weapon_component_template = {
 	key = "EOA_HEAVY_CONCUSSION_MISSILE_3"
@@ -1215,23 +1309,33 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_heavy_concussion_missile_3" }
 
-	damage = { min = 280.0 max = 400.0 }
-	windup = { min = 1.0 max = 15.0 }
-	total_fire_time = 75
+	damage = { min = 1100 max = 1700 }
+	windup = { min = 1 max = 30 }
+	total_fire_time = 200
 
-	range = 95.0
-	accuracy = 1.00
-
-	shield_damage = 0.50
-	armor_damage = 1.5
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 1
 	armor_penetration = 0.25
-	hull_damage = 1.0
 
-	missile_speed = 25 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
-	missile_evasion = 0.25
-	missile_health = 14
-	missile_armor = 5
-	missile_retarget_range = 50
+	range = 210
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 15
+	missile_evasion = 0.8
+	missile_shield = 0
+	missile_armor = 20
+	missile_health = 50
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 60.0
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
 
 	power = @EoA_large_weapon_power_tier6
 
@@ -1263,7 +1367,166 @@ weapon_component_template = {
 	}
 
 	component_set = "EOA_HEAVY_CONCUSSION_MISSILE_3"
-	projectile_gfx = "HEAVY_CONCUSSION_MISSILE"
+	projectile_gfx = "KTW_MISSILE_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_HEAVY_CONCUSSION_MISSILE_4"
+}
+
+###################################################
+#  - Tier 7
+#   - 重震盪ミサイル IV
+###################################################
+weapon_component_template = {
+	key = "EOA_HEAVY_CONCUSSION_MISSILE_4"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_heavy_concussion_missile_04"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_heavy_concussion_missile_4" }
+
+	damage = { min = 1400 max = 2200 }
+	windup = { min = 1 max = 30 }
+	total_fire_time = 200
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 1
+	armor_penetration = 0.25
+
+	range = 210
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 15
+	missile_evasion = 0.8
+	missile_shield = 0
+	missile_armor = 20
+	missile_health = 50
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 60.0
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	power = @EoA_large_weapon_power_tier6
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_large_weapon_cost_alloys_tier6
+			volatile_motes = @EoA_large_weapon_cost_gas_tier6
+		}
+		upkeep = {
+			energy = @EoA_large_weapon_upkeep_energy_tier6
+			alloys = @EoA_large_weapon_upkeep_alloys_tier6
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_HEAVY_CONCUSSION_MISSILE_4"
+	projectile_gfx = "KTW_MISSILE_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "EOA_HEAVY_CONCUSSION_MISSILE_5"
+}
+
+
+###################################################
+#  - Tier 8
+#   - 重震盪ミサイル V
+###################################################
+weapon_component_template = {
+	key = "EOA_HEAVY_CONCUSSION_MISSILE_5"
+	size = torpedo
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_EOA_heavy_concussion_missile_05"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_eoa_heavy_concussion_missile_5" }
+
+	damage = { min = 1800 max = 2800 }
+	windup = { min = 1 max = 30 }
+	total_fire_time = 200
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 1
+	armor_penetration = 0.25
+
+	range = 210
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 15
+	missile_evasion = 0.8
+	missile_shield = 0
+	missile_armor = 20
+	missile_health = 50
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 60.0
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	power = @EoA_large_weapon_power_tier6
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_large_weapon_cost_alloys_tier6
+			volatile_motes = @EoA_large_weapon_cost_gas_tier6
+		}
+		upkeep = {
+			energy = @EoA_large_weapon_upkeep_energy_tier6
+			alloys = @EoA_large_weapon_upkeep_alloys_tier6
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+
+	component_set = "EOA_HEAVY_CONCUSSION_MISSILE_5"
+	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor }
 }
