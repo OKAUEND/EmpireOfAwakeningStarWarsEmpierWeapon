@@ -271,7 +271,7 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @EoA_extra_large_1_weapon_cost_alloys_tier4
-			exotic_gases = @EoA_extra_large_1_weapon_cost_gas_tier4
+			eoa_tibanna_gas = @EoA_extra_large_1_weapon_cost_gas_tier4
 		}
 		upkeep = {
 			energy = @EoA_extra_large_1_weapon_upkeep_energy_tier4
