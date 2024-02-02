@@ -138,7 +138,7 @@ strike_craft_component_template = {
 	armor = 5
 	shield = 2
 
-	count = @eoa_strikecraft_count
+	count = @eoa_defender_count
 	regeneration_per_day = @eoa_strikecraft_regen
 	launch_time = @eoa_strikecraft_launch_time
 
@@ -448,7 +448,7 @@ strike_craft_component_template = {
 	armor = 6
 	shield = 2
 
-	count = @eoa_strikecraft_count
+	count = @eoa_defender_count
 	regeneration_per_day = @eoa_strikecraft_regen
 	launch_time = @eoa_strikecraft_launch_time
 
@@ -832,7 +832,7 @@ strike_craft_component_template = {
 	armor = 12
 	shield = 6
 
-	count = @eoa_strikecraft_count
+	count = @eoa_defender_count
 	regeneration_per_day = @eoa_strikecraft_regen
 	launch_time = @eoa_strikecraft_launch_time
 
@@ -1139,7 +1139,7 @@ strike_craft_component_template = {
 	armor = 15
 	shield = 50
 
-	count = @eoa_strikecraft_count
+	count = @eoa_defender_count
 	regeneration_per_day = @eoa_strikecraft_regen
 	launch_time = @eoa_strikecraft_launch_time
 
@@ -1521,7 +1521,7 @@ strike_craft_component_template = {
 	armor = 20
 	shield = 80
 
-	count = @eoa_strikecraft_count
+	count = @eoa_defender_count
 	regeneration_per_day = @eoa_strikecraft_regen
 	launch_time = @eoa_strikecraft_launch_time
 
@@ -1979,7 +1979,7 @@ strike_craft_component_template = {
 	armor = 30
 	shield = 120
 
-	count = @eoa_strikecraft_count
+	count = @eoa_defender_count
 	regeneration_per_day = @eoa_strikecraft_regen
 	launch_time = @eoa_strikecraft_launch_time
 
