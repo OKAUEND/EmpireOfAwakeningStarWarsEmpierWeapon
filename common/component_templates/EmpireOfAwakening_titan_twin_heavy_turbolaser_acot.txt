@@ -1,0 +1,350 @@
+# ############################################
+#  Twin Heavy Turbo Laser
+# ############################################
+#  - Tier 5
+#   - 重ターボレーザー I(T)
+#  - Tier 6
+#   - 重ターボレーザー II(T)
+#  - Tier 7
+#   - 重ターボレーザー III(T)
+#  - Tier 8
+#   - 重ターボレーザー IV(T)
+#############################################
+#  - Tier 5
+#   - ターボレーザー III(SML)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_DELTA"
+	size = titanic
+	type = instant
+	# entity = "Annihilator_Bismarck_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_01"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_1" }
+	size_restriction = { 
+		early_stardreadnought
+	}
+
+	damage = { min = 1500.0 max = 4000.0 }
+	windup = { min = 5.0 max = 60.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
+
+	range = 185.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	hull_damage = 1.15
+	shield_damage = 2.50
+	armor_damage = 2.00
+	shield_penetration = 1.00
+	armor_penetration = 0.50
+	
+	power = @EoA_titan_2_weapon_power_tier5
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_titan_1_weapon_cost_alloys_tier5
+			eoa_tibanna_gas = @EoA_titan_1_weapon_cost_gas_tier5
+		}
+		upkeep = {
+			energy = @EoA_titan_1_weapon_upkeep_energy_tier5
+			alloys = @EoA_titan_1_weapon_upkeep_alloys_tier5
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_DELTA"
+	projectile_gfx = "EoA_TWIN_HEAVY_DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_ALPHA"
+}
+#############################################
+#  - Tier 6
+#   - ターボレーザー V(SML)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_ALPHA"
+	size = titanic
+	type = instant
+	# entity = "Annihilator_Bismarck_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_02"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_2" }
+	size_restriction = { 
+		early_stardreadnought
+	}
+
+	damage = { min = 2000.0 max = 5000.0 }
+	windup = { min = 5.0 max = 60.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
+
+	range = 185.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	hull_damage = 1.15
+	shield_damage = 2.50
+	armor_damage = 2.00
+	shield_penetration = 1.00
+	armor_penetration = 0.50
+	
+	power = @EoA_titan_2_weapon_power_tier6
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_titan_1_weapon_cost_alloys_tier2
+			eoa_tibanna_gas = @EoA_titan_1_weapon_cost_gas_tier2
+		}
+		upkeep = {
+			energy = @EoA_titan_1_weapon_upkeep_energy_tier2
+			alloys = @EoA_titan_1_weapon_upkeep_alloys_tier2
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_ALPHA"
+	projectile_gfx = "EoA_TWIN_HEAVY_DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_LAMDA"
+}
+#############################################
+#  - Tier 7
+#   - ターボレーザー VI(SML)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_LAMDA"
+	size = titanic
+	type = instant
+	# entity = "Annihilator_Bismarck_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_03"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_3" }
+	size_restriction = { 
+		early_stardreadnought
+	}
+
+	damage = { min = 2500.0 max = 5500.0 }
+	windup = { min = 5.0 max = 60.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
+
+	range = 185.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	hull_damage = 1.15
+	shield_damage = 2.50
+	armor_damage = 2.00
+	shield_penetration = 1.00
+	armor_penetration = 0.50
+	
+	power = @EoA_titan_2_weapon_power_tier7
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_titan_1_weapon_cost_alloys_tier3
+			eoa_tibanna_gas = @EoA_titan_1_weapon_cost_gas_tier3
+		}
+		upkeep = {
+			energy = @EoA_titan_1_weapon_upkeep_energy_tier3
+			alloys = @EoA_titan_1_weapon_upkeep_alloys_tier3
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_LAMDA"
+	projectile_gfx = "EoA_TWIN_HEAVY_DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_SIGMA"
+}
+#############################################
+#  - Tier 8
+#   - ターボレーザー VII(SML)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_SIGMA"
+	size = titanic
+	type = instant
+	# entity = "Annihilator_Bismarck_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_04"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_4" }
+	size_restriction = { 
+		early_stardreadnought
+	}
+
+	damage = { min = 3000.0 max = 6700.0 }
+	windup = { min = 5.0 max = 60.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
+
+	range = 185.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	hull_damage = 1.15
+	shield_damage = 2.50
+	armor_damage = 2.00
+	shield_penetration = 1.00
+	armor_penetration = 0.50
+	
+	power = @EoA_titan_2_weapon_power_tier8
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_titan_1_weapon_cost_alloys_tier4
+			eoa_tibanna_gas = @EoA_titan_1_weapon_cost_gas_tier4
+		}
+		upkeep = {
+			energy = @EoA_titan_1_weapon_upkeep_energy_tier4
+			alloys = @EoA_titan_1_weapon_upkeep_alloys_tier4
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_SIGMA"
+	projectile_gfx = "EoA_TWIN_HEAVY_DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_OMEGA"
+}
+#############################################
+#  - Tier 7
+#   - ターボレーザー VI(SML)
+#############################################
+weapon_component_template = {
+	
+	key = "EOA_TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_OMEGA"
+	size = titanic
+	type = instant
+	# entity = "Annihilator_Bismarck_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_03"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_3" }
+	size_restriction = { 
+		early_stardreadnought
+	}
+
+	damage = { min = 2500.0 max = 5500.0 }
+	windup = { min = 5.0 max = 60.0 }
+	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
+
+	range = 185.0
+	accuracy = 0.90
+	tracking = 0.02
+	
+	hull_damage = 1.15
+	shield_damage = 2.50
+	armor_damage = 2.00
+	shield_penetration = 1.00
+	armor_penetration = 0.50
+	
+	power = @EoA_titan_2_weapon_power_tier7
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_titan_1_weapon_cost_alloys_tier3
+			eoa_tibanna_gas = @EoA_titan_1_weapon_cost_gas_tier3
+		}
+		upkeep = {
+			energy = @EoA_titan_1_weapon_upkeep_energy_tier3
+			alloys = @EoA_titan_1_weapon_upkeep_alloys_tier3
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "TITAN_TWIN_HEAVY_TURBO_LASER_ACOT_OMEGA"
+	projectile_gfx = "EoA_TWIN_HEAVY_DUAL_TURBOLASER"
+	tags = { weapon_type_turbolaser }
+	ai_tags = { weapon_role_long_range }
+}
