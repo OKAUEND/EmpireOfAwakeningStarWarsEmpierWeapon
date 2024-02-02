@@ -112,7 +112,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 125.0
+	range = 150.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -184,7 +184,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 125.0
+	range = 150.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -256,7 +256,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 125.0
+	range = 150.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -328,7 +328,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 125.0
+	range = 150.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -400,7 +400,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 125.0
+	range = 150.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -472,7 +472,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 125.0
+	range = 150.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -544,7 +544,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 125.0
+	range = 150.0
 	accuracy = 0.90
 	tracking = 0.02
 	
