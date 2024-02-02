@@ -1,0 +1,1020 @@
+# ############################################
+#  Ion Canon
+###################################################
+#  - Tier 4
+#   - イオンカノン IV(SML)
+#  - Tier 5
+#   - イオンカノン V(SML)
+#  - Tier 6
+#   - イオンカノン VI(SML)
+#  - Tier 7
+#   - イオンカノン VII(SML)
+#  - Tier 8
+#   - イオンカノン VII(SML)
+#############################################
+#  - Tier 4
+#   - イオンカノン IV(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_SMALL_ION_CANON_ACOT_DELTA"
+	size = small
+	type = instant
+	
+	icon = "GFX_ship_part_EOA_ion_canon_04"
+	icon_frame = 1
+	
+	prerequisites = { "tech_eoa_ion_canon_4" }
+
+	damage = { min = 13.0 max = 35.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 40.0
+	accuracy = 0.90
+	tracking = 0.60
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_small_weapon_power_tier4
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_small_weapon_cost_alloys_tier4
+			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier4
+		}		
+		upkeep = {
+			energy = @EoA_small_weapon_upkeep_energy_tier4
+			alloys = @EoA_small_weapon_upkeep_alloys_tier4
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "ION_CANON_ACOT_DELTA"
+	projectile_gfx = "SINGLE_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "EOA_SMALL_ION_CANON_ACOT_ALPHA"	
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "EOA_MEDIUM_ION_CANON_ACOT_DELTA"
+	size = medium
+	# entity = "FR_NK7_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_ion_canon_04"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_4" }
+
+	damage = { min = 33.0 max = 88.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 65.0
+	accuracy = 0.90
+	tracking = 0.30
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_medium_weapon_power_tier4
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_medium_weapon_cost_alloys_tier4
+			eoa_tibanna_gas = @EoA_medium_weapon_cost_gas_tier4
+		}		
+		upkeep = {
+			energy = @EoA_medium_weapon_upkeep_energy_tier4
+			alloys = @EoA_medium_weapon_upkeep_alloys_tier4
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "ION_CANON_ACOT_DELTA"
+	projectile_gfx = "DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "EOA_MEDIUM_ION_CANON_ACOT_ALPHA"
+}
+
+weapon_component_template = {
+	
+	key = "EOA_LARGE_ION_CANON_ACOT_DELTA"
+	size = large
+	type = instant
+	
+	icon = "GFX_ship_part_EOA_ion_canon_04"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_4" }
+
+	damage = { min = 78.0 max = 210.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+	
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_large_weapon_power_tier4
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_large_weapon_cost_alloys_tier4
+			eoa_tibanna_gas = @EoA_large_weapon_cost_gas_tier4
+		}		
+		upkeep = {
+			energy = @EoA_large_weapon_upkeep_energy_tier4
+			alloys = @EoA_large_weapon_upkeep_alloys_tier4
+		}
+	}
+	
+	component_set = "ION_CANON_ACOT_DELTA"
+	projectile_gfx = "DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "EOA_LARGE_ION_CANON_ACOT_ALPHA"
+}
+#############################################
+#  - Tier 5
+#   - イオンカノン V(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_SMALL_ION_CANON_ACOT_ALPHA"
+	size = small
+	type = instant
+	
+	icon = "GFX_ship_part_EOA_ion_canon_05"
+	icon_frame = 1
+	
+	prerequisites = { "tech_eoa_ion_canon_5" }
+
+	damage = { min = 17.0 max = 46.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 40.0
+	accuracy = 0.90
+	tracking = 0.60
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_small_weapon_power_tier5
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_small_weapon_cost_alloys_tier5
+			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier5
+		}
+		upkeep = {
+			energy = @EoA_small_weapon_upkeep_energy_tier5
+			alloys = @EoA_small_weapon_upkeep_alloys_tier5
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "ION_CANON_ACOT_ALPHA"
+	projectile_gfx = "SINGLE_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "EOA_SMALL_ION_CANON_ACOT_LAMDA"	
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "EOA_MEDIUM_ION_CANON_ACOT_ALPHA"
+	size = medium
+	# entity = "FR_NK7_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_ion_canon_05"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_5" }
+
+	damage = { min = 43.0 max = 115.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 65.0
+	accuracy = 0.90
+	tracking = 0.30
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_medium_weapon_power_tier5
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_medium_weapon_cost_alloys_tier5
+			eoa_tibanna_gas = @EoA_medium_weapon_cost_gas_tier5
+		}
+		upkeep = {
+			energy = @EoA_medium_weapon_upkeep_energy_tier5
+			alloys = @EoA_medium_weapon_upkeep_alloys_tier5
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "ION_CANON_ACOT_ALPHA"
+	projectile_gfx = "DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "EOA_MEDIUM_ION_CANON_ACOT_LAMDA"
+}
+
+weapon_component_template = {
+	
+	key = "EOA_LARGE_ION_CANON_ACOT_ALPHA"
+	size = large
+	type = instant
+	
+	icon = "GFX_ship_part_EOA_ion_canon_05"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_5" }
+
+	damage = { min = 102.0 max = 276.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+	
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_large_weapon_power_tier5
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_large_weapon_cost_alloys_tier5
+			eoa_tibanna_gas = @EoA_large_weapon_cost_gas_tier5
+		}
+		upkeep = {
+			energy = @EoA_large_weapon_upkeep_energy_tier5
+			alloys = @EoA_large_weapon_upkeep_alloys_tier5
+		}
+	}
+	
+	component_set = "ION_CANON_ACOT_ALPHA"
+	projectile_gfx = "DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "EOA_LARGE_ION_CANON_ACOT_LAMDA"
+}
+#############################################
+#  - Tier 6
+#   - イオンカノン VI(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_SMALL_ION_CANON_ACOT_LAMDA"
+	size = small
+	type = instant
+	
+	icon = "GFX_ship_part_EOA_ion_canon_06"
+	icon_frame = 1
+	
+	prerequisites = { "tech_eoa_ion_canon_6" }
+
+	damage = { min = 21.0 max = 58.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 40.0
+	accuracy = 0.90
+	tracking = 0.60
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_small_weapon_power_tier6
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_small_weapon_cost_alloys_tier6
+			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier6
+		}
+		upkeep = {
+			energy = @EoA_small_weapon_upkeep_energy_tier6
+			alloys = @EoA_small_weapon_upkeep_alloys_tier6
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "ION_CANON_ACOT_LAMDA"
+	projectile_gfx = "SINGLE_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "EOA_SMALL_ION_CANON_ACOT_SIGMA"	
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "EOA_MEDIUM_ION_CANON_ACOT_LAMDA"
+	size = medium
+	# entity = "FR_NK7_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_ion_canon_06"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_6" }
+
+	damage = { min = 53.0 max = 134.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 65.0
+	accuracy = 0.90
+	tracking = 0.30
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_medium_weapon_power_tier6
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_medium_weapon_cost_alloys_tier6
+			eoa_tibanna_gas = @EoA_medium_weapon_cost_gas_tier6
+		}
+		upkeep = {
+			energy = @EoA_medium_weapon_upkeep_energy_tier6
+			alloys = @EoA_medium_weapon_upkeep_alloys_tier6
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "ION_CANON_ACOT_LAMDA"
+	projectile_gfx = "DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "EOA_MEDIUM_ION_CANON_ACOT_SIGMA"
+}
+
+weapon_component_template = {
+	
+	key = "EOA_LARGE_ION_CANON_ACOT_LAMDA"
+	size = large
+	type = instant
+	
+	icon = "GFX_ship_part_EOA_ion_canon_06"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_6" }
+
+	damage = { min = 132.0 max = 310.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+	
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_large_weapon_power_tier6
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_large_weapon_cost_alloys_tier6
+			eoa_tibanna_gas = @EoA_large_weapon_cost_gas_tier6
+		}
+		upkeep = {
+			energy = @EoA_large_weapon_upkeep_energy_tier6
+			alloys = @EoA_large_weapon_upkeep_alloys_tier6
+		}
+	}
+	
+	component_set = "ION_CANON_ACOT_LAMDA"
+	projectile_gfx = "DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "EOA_LARGE_ION_CANON_ACOT_SIGMA"
+}
+#############################################
+#  - Tier 7
+#   - イオンカノン VII(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_SMALL_ION_CANON_ACOT_SIGMA"
+	size = small
+	type = instant
+	
+	icon = "GFX_ship_part_EOA_ion_canon_07"
+	icon_frame = 1
+	
+	prerequisites = { "tech_eoa_ion_canon_7" }
+
+	damage = { min = 25.0 max = 72.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 40.0
+	accuracy = 0.90
+	tracking = 0.60
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_small_weapon_power_tier7
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_small_weapon_cost_alloys_tier7
+			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier7
+		}
+		upkeep = {
+			energy = @EoA_small_weapon_upkeep_energy_tier7
+			alloys = @EoA_small_weapon_upkeep_alloys_tier7
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "ION_CANON_ACOT_SIGMA"
+	projectile_gfx = "SINGLE_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "EOA_SMALL_ION_CANON_ACOT_OMEGA"	
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "EOA_MEDIUM_ION_CANON_ACOT_SIGMA"
+	size = medium
+	# entity = "FR_NK7_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_ion_canon_07"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_7" }
+
+	damage = { min = 65.0 max = 206.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 65.0
+	accuracy = 0.90
+	tracking = 0.30
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_medium_weapon_power_tier7
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_medium_weapon_cost_alloys_tier7
+			eoa_tibanna_gas = @EoA_medium_weapon_cost_gas_tier7
+		}
+		upkeep = {
+			energy = @EoA_medium_weapon_upkeep_energy_tier7
+			alloys = @EoA_medium_weapon_upkeep_alloys_tier7
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "ION_CANON_ACOT_SIGMA"
+	projectile_gfx = "DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "EOA_MEDIUM_ION_CANON_ACOT_OMEGA"
+}
+
+weapon_component_template = {
+	
+	key = "EOA_LARGE_ION_CANON_ACOT_SIGMA"
+	size = large
+	type = instant
+	
+	icon = "GFX_ship_part_EOA_ion_canon_07"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_7" }
+
+	damage = { min = 256.0 max = 488.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+	
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_large_weapon_power_tier7
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_large_weapon_cost_alloys_tier7
+			eoa_tibanna_gas = @EoA_large_weapon_cost_gas_tier7
+		}
+		upkeep = {
+			energy = @EoA_large_weapon_upkeep_energy_tier7
+			alloys = @EoA_large_weapon_upkeep_alloys_tier7
+		}
+	}
+	
+	component_set = "ION_CANON_ACOT_SIGMA"
+	projectile_gfx = "DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "EOA_LARGE_ION_CANON_ACOT_OMEGA"
+}
+#############################################
+#  - Tier 8
+#   - イオンカノン VIII(SML)
+#############################################
+weapon_component_template = {
+	key = "EOA_SMALL_ION_CANON_ACOT_OMEGA"
+	size = small
+	type = instant
+	
+	icon = "GFX_ship_part_EOA_ion_canon_08"
+	icon_frame = 1
+	
+	prerequisites = { "tech_eoa_ion_canon_8" }
+
+	damage = { min = 48.0 max = 88.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 40.0
+	accuracy = 0.90
+	tracking = 0.60
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_small_weapon_power_tier8
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_small_weapon_cost_alloys_tier8
+			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier8
+		}
+		upkeep = {
+			energy = @EoA_small_weapon_upkeep_energy_tier8
+			alloys = @EoA_small_weapon_upkeep_alloys_tier8
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+
+	component_set = "ION_CANON_ACOT_OMEGA"
+	projectile_gfx = "SINGLE_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "EOA_MEDIUM_ION_CANON_ACOT_OMEGA"
+	size = medium
+	# entity = "FR_NK7_Turret_entity"
+	
+	icon = "GFX_ship_part_EOA_ion_canon_08"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_8" }
+
+	damage = { min = 106.0 max = 242.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		imperial1_stardestroyer
+		dominator_stardestroyer
+		pocket_stardestroyer
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+
+	range = 65.0
+	accuracy = 0.90
+	tracking = 0.30
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_medium_weapon_power_tier8
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_medium_weapon_cost_alloys_tier8
+			eoa_tibanna_gas = @EoA_medium_weapon_cost_gas_tier8
+		}
+		upkeep = {
+			energy = @EoA_medium_weapon_upkeep_energy_tier8
+			alloys = @EoA_medium_weapon_upkeep_alloys_tier8
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = eoa_tibanna_gas }
+		}
+		modifier = {
+			factor = 0.0
+			if = {
+				is_origin_empire_of_awaking = no
+			}
+		}
+	}
+	
+	component_set = "ION_CANON_ACOT_OMEGA"
+	projectile_gfx = "DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+}
+
+weapon_component_template = {
+	
+	key = "EOA_LARGE_ION_CANON_ACOT_OMEGA"
+	size = large
+	type = instant
+	
+	icon = "GFX_ship_part_EOA_ion_canon_08"
+	icon_frame = 1
+
+	prerequisites = { "tech_eoa_ion_canon_8" }
+
+	damage = { min = 256.0 max = 488.0 }
+	windup = { min = 2.0 max = 35.0 }
+	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
+
+	size_restriction = { 
+		eoa_imperial_military_station_model1
+		eoa_imperial_military_station_model2
+		eoa_imperial_military_station_model3
+		allegiance_stardreadnought
+		titan_stardreadnought
+		early_stardreadnought
+		executor_superstardestroyer
+	}
+	
+	range = 85.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	shield_damage = 5.0
+	armor_damage = -1.00
+	hull_damage = -1.00
+	
+	power = @EoA_large_weapon_power_tier8
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @EoA_large_weapon_cost_alloys_tier8
+			eoa_tibanna_gas = @EoA_large_weapon_cost_gas_tier8
+		}
+		upkeep = {
+			energy = @EoA_large_weapon_upkeep_energy_tier8
+			alloys = @EoA_large_weapon_upkeep_alloys_tier8
+		}
+	}
+	
+	component_set = "ION_CANON_ACOT_OMEGA"
+	projectile_gfx = "DUAL_IONCANON"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+}
