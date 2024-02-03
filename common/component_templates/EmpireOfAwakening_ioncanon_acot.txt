@@ -25,7 +25,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_ion_canon_4" }
 
-	damage = { min = 13.0 max = 35.0 }
+	damage = { min = 22 max = 60 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
@@ -99,7 +99,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_4" }
 
-	damage = { min = 33.0 max = 88.0 }
+	damage = { min = 55 max = 150 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
@@ -116,7 +116,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 65.0
+	range = 85.0
 	accuracy = 0.90
 	tracking = 0.30
 	
@@ -171,7 +171,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_4" }
 
-	damage = { min = 78.0 max = 210.0 }
+	damage = { min = 133 max = 359 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
@@ -185,7 +185,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 	
-	range = 85.0
+	range = 100.0
 	accuracy = 0.90
 	tracking = 0.05
 	
@@ -227,7 +227,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_ion_canon_5" }
 
-	damage = { min = 17.0 max = 46.0 }
+	damage = { min = 29 max = 78 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
@@ -301,7 +301,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_5" }
 
-	damage = { min = 43.0 max = 115.0 }
+	damage = { min = 63 max = 155 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
@@ -318,7 +318,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 65.0
+	range = 85.0
 	accuracy = 0.90
 	tracking = 0.30
 	
@@ -373,7 +373,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_5" }
 
-	damage = { min = 102.0 max = 276.0 }
+	damage = { min = 164 max = 394 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
@@ -387,7 +387,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 	
-	range = 85.0
+	range = 100.0
 	accuracy = 0.90
 	tracking = 0.05
 	
@@ -429,7 +429,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_ion_canon_6" }
 
-	damage = { min = 21.0 max = 58.0 }
+	damage = { min = 40 max = 109 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
@@ -503,7 +503,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_6" }
 
-	damage = { min = 53.0 max = 134.0 }
+	damage = { min = 82 max = 202 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
@@ -520,7 +520,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 65.0
+	range = 85.0
 	accuracy = 0.90
 	tracking = 0.30
 	
@@ -575,7 +575,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_6" }
 
-	damage = { min = 132.0 max = 310.0 }
+	damage = { min = 213 max = 512 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
@@ -589,7 +589,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 	
-	range = 85.0
+	range = 100.0
 	accuracy = 0.90
 	tracking = 0.05
 	
@@ -631,7 +631,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_ion_canon_7" }
 
-	damage = { min = 25.0 max = 72.0 }
+	damage = { min = 60 max = 163 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
@@ -705,7 +705,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_7" }
 
-	damage = { min = 65.0 max = 206.0 }
+	damage = { min = 151 max = 408 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
@@ -722,7 +722,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 65.0
+	range = 85.0
 	accuracy = 0.90
 	tracking = 0.30
 	
@@ -777,7 +777,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_7" }
 
-	damage = { min = 256.0 max = 488.0 }
+	damage = { min = 362 max = 980 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
@@ -791,7 +791,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 	
-	range = 85.0
+	range = 100.0
 	accuracy = 0.90
 	tracking = 0.05
 	
@@ -833,7 +833,7 @@ weapon_component_template = {
 	
 	prerequisites = { "tech_eoa_ion_canon_8" }
 
-	damage = { min = 48.0 max = 88.0 }
+	damage = { min = 362 max = 980 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_SMALL_COOLDOWN 
 
@@ -906,7 +906,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_8" }
 
-	damage = { min = 106.0 max = 242.0 }
+	damage = { min = 905 max = 2449 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_MEDIUM_COOLDOWN
 
@@ -923,7 +923,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	range = 65.0
+	range = 85.0
 	accuracy = 0.90
 	tracking = 0.30
 	
@@ -977,7 +977,7 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_ion_canon_8" }
 
-	damage = { min = 256.0 max = 488.0 }
+	damage = { min = 2172 max = 5877 }
 	windup = { min = 2.0 max = 35.0 }
 	total_fire_time = @EOA_WEAPON_IONCANON_LARGE_COOLDOWN
 
@@ -991,7 +991,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 	
-	range = 85.0
+	range = 100.0
 	accuracy = 0.90
 	tracking = 0.05
 	
