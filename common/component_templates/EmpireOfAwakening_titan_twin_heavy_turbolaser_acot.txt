@@ -28,7 +28,7 @@ weapon_component_template = {
 		early_stardreadnought
 	}
 
-	damage = { min = 1500.0 max = 4000.0 }
+	damage = { min = 3000.0 max = 7250.0 }
 	windup = { min = 5.0 max = 60.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
 
@@ -96,7 +96,7 @@ weapon_component_template = {
 		early_stardreadnought
 	}
 
-	damage = { min = 2000.0 max = 5000.0 }
+	damage = { min = 4850.0 max = 8500.0 }
 	windup = { min = 5.0 max = 60.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
 
@@ -164,7 +164,7 @@ weapon_component_template = {
 		early_stardreadnought
 	}
 
-	damage = { min = 2500.0 max = 5500.0 }
+	damage = { min = 5000.0 max = 9400.0 }
 	windup = { min = 5.0 max = 60.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
 
@@ -232,7 +232,7 @@ weapon_component_template = {
 		early_stardreadnought
 	}
 
-	damage = { min = 3000.0 max = 6700.0 }
+	damage = { min = 7000.0 max = 22000.0 }
 	windup = { min = 5.0 max = 60.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
 
@@ -300,7 +300,7 @@ weapon_component_template = {
 		early_stardreadnought
 	}
 
-	damage = { min = 2500.0 max = 5500.0 }
+	damage = { min = 9000.0 max = 32500.0 }
 	windup = { min = 5.0 max = 60.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
 

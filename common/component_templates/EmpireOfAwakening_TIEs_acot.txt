@@ -41,7 +41,7 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 6 max = 12 }
+	damage = { min = 8 max = 22 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @EoA_tie_weapon_power_tier4
@@ -116,7 +116,7 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 6 max = 12 }
+	damage = { min = 10 max = 24 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @EoA_tie_weapon_power_tier4
@@ -191,7 +191,7 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 10 max = 20 }
+	damage = { min = 59 max = 117 }
 	cooldown = @EOA_WEAPON_BOMBER_COOLDOWN
 
 	power = @EoA_tie_bomber_weapon_power_tier1
@@ -351,7 +351,7 @@ strike_craft_component_template = {
 	ship_behavior = "fighters_pd_behavior"
 	point_defence_targets = { "missile" "strike_craft" }
 
-	damage = { min = 18 max = 28 }
+	damage = { min = 20 max = 30 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @EoA_tie_weapon_power_tier8
@@ -424,7 +424,7 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 40 max = 50 }
+	damage = { min = 45 max = 55 }
 	cooldown = 2.0
 
 	power = @EoA_heavy_tie_weapon_power_tier8
@@ -499,7 +499,7 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 
-	damage = { min = 22 max = 32 }
+	damage = { min = 24 max = 34 }
 	cooldown = @EOA_WEAPON_FIGHTER_COOLDOWN
 
 	power = @EoA_heavy_tie_weapon_power_tier8

@@ -28,7 +28,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	damage = { min = 500.0 max = 1000.0 }
+	damage = { min = 1000.0 max = 2000.0 }
 	windup = { min = 5.0 max = 50.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_TWIN_HEAVY_COOLDOWN
 
@@ -96,7 +96,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	damage = { min = 550.0 max = 1075.0 }
+	damage = { min = 1100.0 max = 2200.0 }
 	windup = { min = 5.0 max = 50.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_TWIN_HEAVY_COOLDOWN
 
@@ -164,7 +164,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	damage = { min = 600.0 max = 1119.0 }
+	damage = { min = 1200.0 max = 2400.0 }
 	windup = { min = 5.0 max = 50.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_TWIN_HEAVY_COOLDOWN
 
@@ -232,7 +232,7 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	damage = { min = 800.0 max = 1350.0 }
+	damage = { min = 1600.0 max = 2700.0 }
 	windup = { min = 5.0 max = 50.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_TWIN_HEAVY_COOLDOWN
 
