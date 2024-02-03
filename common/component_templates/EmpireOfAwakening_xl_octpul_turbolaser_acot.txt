@@ -22,7 +22,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Octuple_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_01"
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Delta"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_octuple_turbo_laser_1" }
@@ -94,7 +94,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Octuple_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_02"
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Alpha"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_octuple_turbo_laser_2" }
@@ -166,7 +166,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Octuple_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_03"
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Lamda"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_octuple_turbo_laser_3" }
@@ -238,7 +238,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Octuple_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_04"
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Sigma"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_octuple_turbo_laser_4" }
@@ -310,7 +310,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "FR_Octuple_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_05"
+	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Omega"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_octuple_turbo_laser_5" }

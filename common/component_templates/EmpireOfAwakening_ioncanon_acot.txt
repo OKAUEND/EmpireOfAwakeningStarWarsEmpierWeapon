@@ -20,7 +20,7 @@ weapon_component_template = {
 	size = small
 	type = instant
 	
-	icon = "GFX_ship_part_EOA_ion_canon_04"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Delta"
 	icon_frame = 1
 	
 	prerequisites = { "tech_eoa_ion_canon_4" }
@@ -94,7 +94,7 @@ weapon_component_template = {
 	size = medium
 	# entity = "FR_NK7_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_ion_canon_04"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Delta"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_ion_canon_4" }
@@ -166,7 +166,7 @@ weapon_component_template = {
 	size = large
 	type = instant
 	
-	icon = "GFX_ship_part_EOA_ion_canon_04"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Delta"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_ion_canon_4" }
@@ -222,7 +222,7 @@ weapon_component_template = {
 	size = small
 	type = instant
 	
-	icon = "GFX_ship_part_EOA_ion_canon_05"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Alpha"
 	icon_frame = 1
 	
 	prerequisites = { "tech_eoa_ion_canon_5" }
@@ -296,7 +296,7 @@ weapon_component_template = {
 	size = medium
 	# entity = "FR_NK7_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_ion_canon_05"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Alpha"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_ion_canon_5" }
@@ -368,7 +368,7 @@ weapon_component_template = {
 	size = large
 	type = instant
 	
-	icon = "GFX_ship_part_EOA_ion_canon_05"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Alpha"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_ion_canon_5" }
@@ -424,7 +424,7 @@ weapon_component_template = {
 	size = small
 	type = instant
 	
-	icon = "GFX_ship_part_EOA_ion_canon_06"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Lamda"
 	icon_frame = 1
 	
 	prerequisites = { "tech_eoa_ion_canon_6" }
@@ -498,7 +498,7 @@ weapon_component_template = {
 	size = medium
 	# entity = "FR_NK7_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_ion_canon_06"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Lamda"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_ion_canon_6" }
@@ -570,7 +570,7 @@ weapon_component_template = {
 	size = large
 	type = instant
 	
-	icon = "GFX_ship_part_EOA_ion_canon_06"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Lamda"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_ion_canon_6" }
@@ -626,7 +626,7 @@ weapon_component_template = {
 	size = small
 	type = instant
 	
-	icon = "GFX_ship_part_EOA_ion_canon_07"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Sigma"
 	icon_frame = 1
 	
 	prerequisites = { "tech_eoa_ion_canon_7" }
@@ -700,7 +700,7 @@ weapon_component_template = {
 	size = medium
 	# entity = "FR_NK7_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_ion_canon_07"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Sigma"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_ion_canon_7" }
@@ -772,7 +772,7 @@ weapon_component_template = {
 	size = large
 	type = instant
 	
-	icon = "GFX_ship_part_EOA_ion_canon_07"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Sigma"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_ion_canon_7" }
@@ -828,7 +828,7 @@ weapon_component_template = {
 	size = small
 	type = instant
 	
-	icon = "GFX_ship_part_EOA_ion_canon_08"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Omega"
 	icon_frame = 1
 	
 	prerequisites = { "tech_eoa_ion_canon_8" }
@@ -901,7 +901,7 @@ weapon_component_template = {
 	size = medium
 	# entity = "FR_NK7_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_ion_canon_08"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Omega"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_ion_canon_8" }
@@ -972,7 +972,7 @@ weapon_component_template = {
 	size = large
 	type = instant
 	
-	icon = "GFX_ship_part_EOA_ion_canon_08"
+	icon = "GFX_ship_part_EOA_ion_canon_ACoT_Omega"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_ion_canon_8" }

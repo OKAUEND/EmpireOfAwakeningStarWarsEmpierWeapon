@@ -20,7 +20,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "Annihilator_Bismarck_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_01"
+	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Delta"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_1" }
@@ -88,7 +88,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "Annihilator_Bismarck_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_02"
+	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Alpha"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_2" }
@@ -156,7 +156,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "Annihilator_Bismarck_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_03"
+	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Lamda"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_3" }
@@ -224,7 +224,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "Annihilator_Bismarck_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_04"
+	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Sigma"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_4" }
@@ -292,7 +292,7 @@ weapon_component_template = {
 	type = instant
 	# entity = "Annihilator_Bismarck_Turret_entity"
 	
-	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_03"
+	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Omega"
 	icon_frame = 1
 
 	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_3" }

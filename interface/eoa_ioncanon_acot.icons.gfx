@@ -1,0 +1,55 @@
+spriteTypes = {
+	# イオンカノン
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_canon_acot_delta.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_canon_alpha.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_canon_lamda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_canon_sigma.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_ion_canon_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Ion_canon_omega.dds"
+	}
+
+	# 重イオンカノン
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_ion_canon_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_Ion_Canon_acot_delta.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_ion_canon_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_Ion_Canon_acot_alpha.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_ion_canon_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_Ion_Canon_acot_lamda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_ion_canon_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_Ion_Canon_acot_sigma.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_heavy_ion_canon_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_Ion_Canon_acot_omega.dds"
+	}
+
+}
+

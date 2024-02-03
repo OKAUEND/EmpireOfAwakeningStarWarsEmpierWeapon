@@ -1,0 +1,134 @@
+spriteTypes = {
+	# ターボレーザー
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_acot_delta.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_acot_alpha.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_acot_lamda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_acot_sigma.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_turbolaser_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_TurboLaser_acot_omega.dds"
+	}
+
+	# 重ターボレーザー
+	spriteType = {
+		name = "GFX_ship_part_EOA_xl_heavy_turbolaser_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_TurboLaser_acot_delta.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_xl_heavy_turbolaser_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_TurboLaser_acot_alpha.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_xl_heavy_turbolaser_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_TurboLaser_acot_lamda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_xl_heavy_turbolaser_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_TurboLaser_acot_sigma.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_xl_heavy_turbolaser_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Heavy_TurboLaser_acot_omega.dds"
+	}
+
+
+	# オクトプル・ターボレーザー
+	spriteType = {
+		name = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Octuple_TurboLaser_acot_delta.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Octuple_TurboLaser_acot_alpha.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Octuple_TurboLaser_acot_lamda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Octuple_TurboLaser_acot_sigma.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_XL_Octuple_TurboLaser_acot_omega.dds"
+	}
+
+	# アナイヒレイター・重ターボレーザー
+	spriteType = {
+		name = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Titan_Twin_Heavy_TurboLaser_acot_delta.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Titan_Twin_Heavy_TurboLaser_acot_alpha.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Titan_Twin_Heavy_TurboLaser_acot_lamda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Titan_Twin_Heavy_TurboLaser_acot_sigma.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Titan_Twin_Heavy_TurboLaser_acot_sigma.dds"
+	}
+
+	# タイタン・重ターボレーザー
+	spriteType = {
+		name = "GFX_ship_part_EOA_titan_heavy_turbolaser_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Titan_Heavy_TurboLaser_acot_delta.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_titan_heavy_turbolaser_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Titan_Heavy_TurboLaser_acot_alpha.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_titan_heavy_turbolaser_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Titan_Heavy_TurboLaser_acot_lamda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_titan_heavy_turbolaser_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Titan_Heavy_TurboLaser_acot_sigma.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_EOA_titan_heavy_turbolaser_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/EOA_Ship_Titan_Heavy_TurboLaser_acot_sigma.dds"
+	}
+
+}
+

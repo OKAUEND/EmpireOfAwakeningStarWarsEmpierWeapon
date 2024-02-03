@@ -1,0 +1,151 @@
+spriteTypes = {
+	# TIE Fighter
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_fighter_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_delta.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_fighter_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_alpha.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_fighter_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_lamda.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_fighter_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_sigma.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_fighter_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_omega.dds"
+	}
+
+	# TIE Fighter PD
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_PD_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_delta.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_PD_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_alpha.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_PD_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_lamda.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_PD_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_sigma.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_PD_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_omega.dds"
+	}
+	# TIE Bomber
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_bomber_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_bomber_acot_delta.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_bomber_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_alpha.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_bomber_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_lamda.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_bomber_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_sigma.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_bomber_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_fighter_acot_omega.dds"
+	}
+	# TIE Advance / Avenger
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Advance_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_advance_acot_delta.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Avenger_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_avenger_acot_alpha.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Avenger_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_avenger_acot_lamda.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Avenger_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_avenger_acot_sigma.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Avenger_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_avenger_acot_omega.dds"
+	}
+	# TIE Hunter Adv
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_hunter_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_hunter_1_Adv.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_hunter_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_hunter_acot_alpha.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_hunter_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_hunter_acot_lamda.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_hunter_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_hunter_acot_sigma.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_hunter_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_hunter_acot_omega.dds"
+	}
+	# TIE Interceptor Adv
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_interceptor_Adv_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_interceptor_acot_delta.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_interceptor_Adv_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_interceptor_acot_alpha.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_interceptor_Adv_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_interceptor_acot_lamda.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_interceptor_Adv_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_interceptor_acot_sigma.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_interceptor_Adv_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_interceptor_acot_omega.dds"
+	}
+	# TIE Mangler
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Mangler_ACoT_Delta"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_TIE_Mangler.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Mangler_ACoT_Alpha"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_Mangler_acot_alpha.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Mangler_ACoT_Lamda"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_Mangler_acot_lamda.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Mangler_ACoT_Sigma"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_Mangler_acot_sigma.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_EOA_TIE_Mangler_ACoT_Omega"
+		texturefile = "gfx/interface/icons/ship_parts/eoa_ship_part_tie_Mangler_acot_omega.dds"
+	}
+}
+

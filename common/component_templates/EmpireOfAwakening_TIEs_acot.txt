@@ -36,7 +36,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_ACOT_DELTA"
 	size = LARGE
 	entity = "EoA_TIE_Advance_entity"
-	icon = "GFX_ship_part_EOA_TIE_fighter_4"
+	icon = "GFX_ship_part_EOA_TIE_Advance_ACoT_Delta"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -111,7 +111,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_INTERCEPTOR_ACOT_DELTA"
 	size = LARGE
 	entity = "EoA_TIE_Interceptor_entity"
-	icon = "GFX_ship_part_EOA_TIE_fighter_4"
+	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_ACoT_Delta"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -186,7 +186,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_BOMBER_ACOT_DELTA"
 	size = LARGE
 	entity = "EoA_TIE_Bomber_entity"
-	icon = "GFX_ship_part_EOA_TIE_bomber_1"
+	icon = "GFX_ship_part_EOA_TIE_bomber_ACoT_Delta"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -269,7 +269,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_ACOT_ALPHA"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_TIE_fighter_8"
+	icon = "GFX_ship_part_EOA_TIE_fighter_ACoT_Alpha"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -344,7 +344,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FLEETDEFENCE_ACOT_ALPHA"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_TIE_PD_6"
+	icon = "GFX_ship_part_EOA_TIE_PD_ACoT_Alpha"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -419,7 +419,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_MANGLER_ACOT_ALPHA"
 	size = LARGE
 	entity = "EoA_TIE_Mangler_entity"
-	icon = "GFX_ship_part_EOA_TIE_Mangler"
+	icon = "GFX_ship_part_EOA_TIE_Mangler_ACoT_Alpha"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -494,7 +494,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_HUNTER_ACOT_ALPHA"
 	size = LARGE
 	entity = "EoA_TIE_Hunter_entity"
-	icon = "GFX_ship_part_EOA_TIE_hunter_2"
+	icon = "GFX_ship_part_EOA_TIE_hunter_ACoT_Alpha"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -569,7 +569,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_AVENGER_ACOT_ALPHA"
 	size = LARGE
 	entity = "EoA_TIE_Avenger_entity"
-	icon = "GFX_ship_part_EOA_TIE_Avenger_5"
+	icon = "GFX_ship_part_EOA_TIE_Avenger_ACoT_Alpha"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -644,7 +644,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_INTERCEPTOR_ADV_ACOT_ALPHA"
 	size = LARGE
 	entity = "EoA_TIE_Interceptor_entity"
-	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_3"
+	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_ACoT_Alpha"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -719,7 +719,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_BOMBER_ACOT_ALPHA"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_TIE_bomber_5"
+	icon = "GFX_ship_part_EOA_TIE_fighter_ACoT_Alpha"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -802,7 +802,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_ACOT_LAMDA"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_TIE_fighter_8"
+	icon = "GFX_ship_part_EOA_TIE_fighter_ACoT_Lamda"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -877,7 +877,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FLEETDEFENCE_ACOT_LAMDA"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_TIE_PD_6"
+	icon = "GFX_ship_part_EOA_TIE_PD_ACoT_Lamda"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -952,7 +952,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_MANGLER_ACOT_LAMDA"
 	size = LARGE
 	entity = "EoA_TIE_Mangler_entity"
-	icon = "GFX_ship_part_EOA_TIE_Mangler"
+	icon = "GFX_ship_part_EOA_TIE_Mangler_ACoT_Lamda"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1027,7 +1027,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_HUNTER_ACOT_LAMDA"
 	size = LARGE
 	entity = "EoA_TIE_Hunter_entity"
-	icon = "GFX_ship_part_EOA_TIE_hunter_2"
+	icon = "GFX_ship_part_EOA_TIE_hunter_ACoT_Lamda"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1102,7 +1102,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_AVENGER_ACOT_LAMDA"
 	size = LARGE
 	entity = "EoA_TIE_Avenger_entity"
-	icon = "GFX_ship_part_EOA_TIE_Avenger_5"
+	icon = "GFX_ship_part_EOA_TIE_Avenger_ACoT_Lamda"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1177,7 +1177,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_INTERCEPTOR_ADV_ACOT_LAMDA"
 	size = LARGE
 	entity = "EoA_TIE_Interceptor_entity"
-	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_3"
+	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_ACoT_Lamda"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1252,7 +1252,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_BOMBER_ACOT_LAMDA"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_TIE_bomber_5"
+	icon = "GFX_ship_part_EOA_TIE_bomber_ACoT_Lamda"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1335,7 +1335,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_ACOT_SIGMA"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_TIE_fighter_8"
+	icon = "GFX_ship_part_EOA_TIE_fighter_ACoT_Sigma"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1410,7 +1410,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FLEETDEFENCE_ACOT_SIGMA"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_TIE_PD_6"
+	icon = "GFX_ship_part_EOA_TIE_PD_ACoT_Sigma"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1485,7 +1485,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_MANGLER_ACOT_SIGMA"
 	size = LARGE
 	entity = "EoA_TIE_Mangler_entity"
-	icon = "GFX_ship_part_EOA_TIE_Mangler"
+	icon = "GFX_ship_part_EOA_TIE_Mangler_ACoT_Sigma"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1560,7 +1560,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_HUNTER_ACOT_SIGMA"
 	size = LARGE
 	entity = "EoA_TIE_Hunter_entity"
-	icon = "GFX_ship_part_EOA_TIE_hunter_2"
+	icon = "GFX_ship_part_EOA_TIE_hunter_ACoT_Sigma"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1635,7 +1635,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_AVENGER_ACOT_SIGMA"
 	size = LARGE
 	entity = "EoA_TIE_Avenger_entity"
-	icon = "GFX_ship_part_EOA_TIE_Avenger_5"
+	icon = "GFX_ship_part_EOA_TIE_Avenger_ACoT_Sigma"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1710,7 +1710,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_INTERCEPTOR_ADV_ACOT_SIGMA"
 	size = LARGE
 	entity = "EoA_TIE_Interceptor_entity"
-	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_3"
+	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_ACoT_Sigma"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1785,7 +1785,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_BOMBER_ACOT_SIGMA"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_TIE_bomber_5"
+	icon = "GFX_ship_part_EOA_TIE_bomber_ACoT_Sigma"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1869,7 +1869,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FIGHTER_ACOT_OMEGA"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_TIE_fighter_8"
+	icon = "GFX_ship_part_EOA_TIE_fighter_ACoT_Omega"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -1944,7 +1944,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_FLEETDEFENCE_ACOT_OMEGA"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_TIE_PD_6"
+	icon = "GFX_ship_part_EOA_TIE_PD_ACoT_Omega"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -2019,7 +2019,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_MANGLER_ACOT_OMEGA"
 	size = LARGE
 	entity = "EoA_TIE_Mangler_entity"
-	icon = "GFX_ship_part_EOA_TIE_Mangler"
+	icon = "GFX_ship_part_EOA_TIE_Mangler_ACoT_Omega"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -2094,7 +2094,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_HUNTER_ACOT_OMEGA"
 	size = LARGE
 	entity = "EoA_TIE_Hunter_entity"
-	icon = "GFX_ship_part_EOA_TIE_hunter_2"
+	icon = "GFX_ship_part_EOA_TIE_hunter_ACoT_Omega"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -2169,7 +2169,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_AVENGER_ACOT_OMEGA"
 	size = LARGE
 	entity = "EoA_TIE_Avenger_entity"
-	icon = "GFX_ship_part_EOA_TIE_Avenger_5"
+	icon = "GFX_ship_part_EOA_TIE_Avenger_ACoT_Omega"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -2244,7 +2244,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_INTERCEPTOR_ADV_ACOT_OMEGA"
 	size = LARGE
 	entity = "EoA_TIE_Interceptor_entity"
-	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_3"
+	icon = "GFX_ship_part_EOA_TIE_interceptor_Adv_ACoT_Omega"
 	icon_frame = 1
 
 	weapon_type = point_defence
@@ -2319,7 +2319,7 @@ strike_craft_component_template = {
 	key = "EOA_TIE_BOMBER_ACOT_OMEGA"
 	size = LARGE
 	entity = "EoA_TIE_Defender_entity"
-	icon = "GFX_ship_part_EOA_TIE_bomber_5"
+	icon = "GFX_ship_part_EOA_TIE_bomber_ACoT_Omega"
 	icon_frame = 1
 
 	weapon_type = point_defence
