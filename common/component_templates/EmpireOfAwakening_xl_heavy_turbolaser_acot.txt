@@ -31,7 +31,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_ACoT_Delta"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_heavy_turbo_laser_1" }
+	prerequisites = { "tech_eoa_heavy_turbo_laser_acot_delta" }
 	size_restriction = { 
 		imperial1_stardestroyer
 	}
@@ -98,7 +98,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_ACoT_Alpha"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_heavy_turbo_laser_2" }
+	prerequisites = { "tech_eoa_heavy_turbo_laser_acot_alpha" }
 
 	damage = { min = 1000.0 max = 2100.0 }
 	windup = { min = 5.0 max = 45.0 }
@@ -170,7 +170,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_ACoT_Lamda"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_heavy_turbo_laser_3" }
+	prerequisites = { "tech_eoa_heavy_turbo_laser_acot_lamda" }
 
 	damage = { min = 1600.0 max = 3000.0 }
 	windup = { min = 5.0 max = 45.0 }
@@ -242,7 +242,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_ACoT_Sigma"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_heavy_turbo_laser_4" }
+	prerequisites = { "tech_eoa_heavy_turbo_laser_acot_sigma" }
 
 	damage = { min = 2200.0 max = 4600.0 }
 	windup = { min = 5.0 max = 45.0 }
@@ -314,7 +314,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_xl_heavy_turbolaser_ACoT_Omega"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_heavy_turbo_laser_5" }
+	prerequisites = { "tech_eoa_heavy_turbo_laser_acot_omega" }
 
 	damage = { min = 3000.0 max = 5200.0 }
 	windup = { min = 5.0 max = 45.0 }

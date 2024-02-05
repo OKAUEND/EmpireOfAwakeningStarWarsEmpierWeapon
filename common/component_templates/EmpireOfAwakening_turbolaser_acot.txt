@@ -24,7 +24,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_01"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_delta" }
 
 	damage = { min = 8.0 max = 18.0 }
 	windup = { min = 1.0 max = 5.0 }
@@ -98,7 +98,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_delta" }
 
 	damage = { min = 30.0 max = 80.0 }
 	windup = { min = 1.0 max = 35.0 }
@@ -170,7 +170,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_01"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_delta" }
 
 	damage = { min = 110.0 max = 415.0 }
 	windup = { min = 1.0 max = 35.0 }
@@ -246,7 +246,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_02"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_alpha" }
 
 	damage = { min = 11 max = 22 }
 	windup = { min = 1.0 max = 35.0 }
@@ -321,7 +321,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_02"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_alpha" }
 
 	damage = { min = 40.0 max = 100.0 }
 	windup = { min = 1.0 max = 35.0 }
@@ -393,7 +393,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_02"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_alpha" }
 
 	damage = { min = 130.0 max = 465.0 }
 	windup = { min = 1.0 max = 35.0 }
@@ -469,7 +469,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_03"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_lamda" }
 
 	damage = { min = 16 max = 31 }
 	windup = { min = 1.0 max = 35.0 }
@@ -545,7 +545,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_03"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_lamda" }
 
 	damage = { min = 60.0 max = 120.0 }
 	windup = { min = 1.0 max = 35.0 }
@@ -617,7 +617,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_03"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_lamda" }
 
 	damage = { min = 190.5 max = 585.0 }
 	windup = { min = 1.0 max = 35.0 }
@@ -693,7 +693,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_04"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_sigma" }
 
 	damage = { min = 25 max = 50.0 }
 	windup = { min = 1.0 max = 35.0 }
@@ -768,7 +768,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_04"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_sigma" }
 
 	damage = { min = 100 max = 260 }
 	windup = { min = 1.0 max = 35.0 }
@@ -840,7 +840,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_04"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_sigma" }
 
 	damage = { min = 350.0 max = 1100.0 }
 	windup = { min = 1.0 max = 35.0 }
@@ -916,7 +916,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_05"
 	icon_frame = 1
 	
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_omega" }
 
 	damage = { min = 40 max = 68.0 }
 	windup = { min = 1.0 max = 35.0 }
@@ -991,7 +991,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_05"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_omega" }
 
 	damage = { min = 520.0 max = 1800.0 }
 	windup = { min = 1.0 max = 35.0 }
@@ -1063,7 +1063,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_turbolaser_05"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_turbo_lasers_acot" }
+	prerequisites = { "tech_eoa_turbo_lasers_acot_omega" }
 
 	damage = { min = 500 max = 1500.0 }
 	windup = { min = 1.0 max = 35.0 }

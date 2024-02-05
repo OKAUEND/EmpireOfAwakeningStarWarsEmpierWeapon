@@ -23,7 +23,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Delta"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_1" }
+	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_acot_delta" }
 	size_restriction = { 
 		early_stardreadnought
 	}
@@ -91,7 +91,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Alpha"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_2" }
+	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_acot_alpha" }
 	size_restriction = { 
 		early_stardreadnought
 	}
@@ -159,7 +159,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Lamda"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_3" }
+	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_acot_lamda" }
 	size_restriction = { 
 		early_stardreadnought
 	}
@@ -227,7 +227,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Sigma"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_4" }
+	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_acot_sigma" }
 	size_restriction = { 
 		early_stardreadnought
 	}
@@ -295,7 +295,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_titan_anni_twin_heavy_turbolaser_ACoT_Omega"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_3" }
+	prerequisites = { "tech_eoa_twin_superheavy_turbo_laser_type1_acot_omega" }
 	size_restriction = { 
 		early_stardreadnought
 	}

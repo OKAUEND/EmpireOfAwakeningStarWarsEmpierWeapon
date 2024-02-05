@@ -25,7 +25,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Delta"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_octuple_turbo_laser_1" }
+	prerequisites = { "tech_eoa_octuple_turbo_laser_acot_delta" }
 
 	damage = { min = 550.0 max = 1700.0 }
 	windup = { min = 5.0 max = 40.0 }
@@ -97,7 +97,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Alpha"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_octuple_turbo_laser_2" }
+	prerequisites = { "tech_eoa_octuple_turbo_laser_acot_alpha" }
 
 	damage = { min = 900.0 max = 2000.0 }
 	windup = { min = 5.0 max = 40.0 }
@@ -169,7 +169,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Lamda"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_octuple_turbo_laser_3" }
+	prerequisites = { "tech_eoa_octuple_turbo_laser_acot_lamda" }
 
 	damage = { min = 1500.0 max = 2800.0 }
 	windup = { min = 5.0 max = 40.0 }
@@ -241,7 +241,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Sigma"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_octuple_turbo_laser_4" }
+	prerequisites = { "tech_eoa_octuple_turbo_laser_acot_sigma" }
 
 	damage = { min = 2000.0 max = 4300.0 }
 	windup = { min = 5.0 max = 40.0 }
@@ -313,7 +313,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_EOA_xl_octuple_turbolaser_ACoT_Omega"
 	icon_frame = 1
 
-	prerequisites = { "tech_eoa_octuple_turbo_laser_5" }
+	prerequisites = { "tech_eoa_octuple_turbo_laser_acot_omega" }
 
 	damage = { min = 2700.0 max = 4650.0 }
 	windup = { min = 5.0 max = 40.0 }
