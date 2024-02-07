@@ -1,0 +1,432 @@
+############################################################
+###               Weapons Product Cost                   ###
+############################################################
+# 合金
+# S-サイズ
+@EoA_ACoT_small_weapon_cost_alloys_Delta = 26
+@EoA_ACoT_small_weapon_cost_alloys_Alpha = 26
+@EoA_ACoT_small_weapon_cost_alloys_Lamda = 52
+@EoA_ACoT_small_weapon_cost_alloys_Sigma = 104
+@EoA_ACoT_small_weapon_cost_alloys_Omega = 26
+
+# M-サイズ
+@EoA_ACoT_medium_weapon_cost_alloys_Delta = 48.00
+@EoA_ACoT_medium_weapon_cost_alloys_Alpha = 48.00
+@EoA_ACoT_medium_weapon_cost_alloys_Lamda = 56.00
+@EoA_ACoT_medium_weapon_cost_alloys_Sigma = 112.00
+@EoA_ACoT_medium_weapon_cost_alloys_Omega = 48.00
+
+# L-サイズ
+@EoA_ACoT_large_weapon_cost_alloys_Delta = 96.00
+@EoA_ACoT_large_weapon_cost_alloys_Alpha = 96.00
+@EoA_ACoT_large_weapon_cost_alloys_Lamda = 192.00
+@EoA_ACoT_large_weapon_cost_alloys_Sigma = 384.00
+@EoA_ACoT_large_weapon_cost_alloys_Omega = 96.00
+
+# XL-重ターボレーザー/重イオン砲
+@EoA_ACoT_extra_large_1_weapon_cost_alloys_Delta = 186.00
+@EoA_ACoT_extra_large_1_weapon_cost_alloys_Alpha = 186.00
+@EoA_ACoT_extra_large_1_weapon_cost_alloys_Lamda = 374.00
+@EoA_ACoT_extra_large_1_weapon_cost_alloys_Sigma = 748.00
+@EoA_ACoT_extra_large_1_weapon_cost_alloys_Omega = 374.00
+
+# XL-オクトプルターボレーザー
+@EoA_ACoT_extra_large_2_weapon_cost_alloys_Delta = 190.00
+@EoA_ACoT_extra_large_2_weapon_cost_alloys_Alpha = 190.00
+@EoA_ACoT_extra_large_2_weapon_cost_alloys_Lamda = 380.00
+@EoA_ACoT_extra_large_2_weapon_cost_alloys_Sigma = 760.00
+@EoA_ACoT_extra_large_2_weapon_cost_alloys_Omega = 760.00
+
+# T-超重ターボレーザーI型
+@EoA_ACoT_titan_1_weapon_cost_alloys_Delta = 352.00
+@EoA_ACoT_titan_1_weapon_cost_alloys_Alpha = 352.00
+@EoA_ACoT_titan_1_weapon_cost_alloys_Lamda = 714.00
+@EoA_ACoT_titan_1_weapon_cost_alloys_Sigma = 1428.00
+@EoA_ACoT_titan_1_weapon_cost_alloys_Omega = 352.00
+
+# T-超重ターボレーザーII型
+@EoA_ACoT_titan_2_weapon_cost_alloys_Delta = 352.00
+@EoA_ACoT_titan_2_weapon_cost_alloys_Alpha = 352.00
+@EoA_ACoT_titan_2_weapon_cost_alloys_Lamda = 714.00
+@EoA_ACoT_titan_2_weapon_cost_alloys_Sigma = 1428.00
+@EoA_ACoT_titan_2_weapon_cost_alloys_Omega = 352.00
+
+# 戦闘機 - TIE / TIE PD / TIE Adv
+@EoA_ACoT_tie_weapon_cost_alloys_Delta = 48.00
+@EoA_ACoT_tie_weapon_cost_alloys_Alpha = 48.00
+@EoA_ACoT_tie_weapon_cost_alloys_Lamda = 56.00
+@EoA_ACoT_tie_weapon_cost_alloys_Sigma = 112.00
+@EoA_ACoT_tie_weapon_cost_alloys_Omega = 48.00
+
+# 戦闘機 - Heavy TIE 
+@EoA_ACoT_heavy_tie_weapon_cost_alloys_Delta = 96.00
+@EoA_ACoT_heavy_tie_weapon_cost_alloys_Alpha = 96.00
+@EoA_ACoT_heavy_tie_weapon_cost_alloys_Lamda = 192.00
+@EoA_ACoT_heavy_tie_weapon_cost_alloys_Sigma = 384.00
+@EoA_ACoT_heavy_tie_weapon_cost_alloys_Omega = 96.00
+
+# 爆撃機 - TIE
+@EoA_ACoT_tie_bomber_weapon_cost_alloys_Delta = 48.00
+@EoA_ACoT_tie_bomber_weapon_cost_alloys_Alpha = 48.00
+@EoA_ACoT_tie_bomber_weapon_cost_alloys_Lamda = 56.00
+@EoA_ACoT_tie_bomber_weapon_cost_alloys_Sigma = 112.00
+@EoA_ACoT_tie_bomber_weapon_cost_alloys_Omega = 48.00
+############################################################
+# エキゾチックガス/ティバナガス
+# S-サイズ
+@EoA_ACoT_small_weapon_cost_gas_Delta = 8.00
+@EoA_ACoT_small_weapon_cost_gas_Alpha = 16.00
+@EoA_ACoT_small_weapon_cost_gas_Lamda = 16.00
+@EoA_ACoT_small_weapon_cost_gas_Sigma = 32.00
+@EoA_ACoT_small_weapon_cost_gas_Omega = 32.00
+
+# M-サイズ
+@EoA_ACoT_medium_weapon_cost_gas_Delta = 14.00
+@EoA_ACoT_medium_weapon_cost_gas_Alpha = 28.00
+@EoA_ACoT_medium_weapon_cost_gas_Lamda = 28.00
+@EoA_ACoT_medium_weapon_cost_gas_Sigma = 56.00
+@EoA_ACoT_medium_weapon_cost_gas_Omega = 56.00
+
+# L-サイズ
+@EoA_ACoT_large_weapon_cost_gas_Delta = 20.00
+@EoA_ACoT_large_weapon_cost_gas_Alpha = 40.00
+@EoA_ACoT_large_weapon_cost_gas_Lamda = 40.00
+@EoA_ACoT_large_weapon_cost_gas_Sigma = 80.00
+@EoA_ACoT_large_weapon_cost_gas_Omega = 80.00
+
+# XL-重ターボレーザー/重イオン砲
+@EoA_ACoT_extra_large_1_weapon_cost_gas_Delta = 28.00
+@EoA_ACoT_extra_large_1_weapon_cost_gas_Alpha = 56.00
+@EoA_ACoT_extra_large_1_weapon_cost_gas_Lamda = 56.00
+@EoA_ACoT_extra_large_1_weapon_cost_gas_Sigma = 112.00
+@EoA_ACoT_extra_large_1_weapon_cost_gas_Omega = 112.00
+
+# XL-オクトプルターボレーザー
+@EoA_ACoT_extra_large_2_weapon_cost_gas_Delta = 30.00
+@EoA_ACoT_extra_large_2_weapon_cost_gas_Alpha = 60.00
+@EoA_ACoT_extra_large_2_weapon_cost_gas_Lamda = 60.00
+@EoA_ACoT_extra_large_2_weapon_cost_gas_Sigma = 120.00
+@EoA_ACoT_extra_large_2_weapon_cost_gas_Omega = 120.00
+
+# T-超重ターボレーザーI型
+@EoA_ACoT_titan_1_weapon_cost_gas_Delta = 50.00
+@EoA_ACoT_titan_1_weapon_cost_gas_Alpha = 100.00
+@EoA_ACoT_titan_1_weapon_cost_gas_Lamda = 100.00
+@EoA_ACoT_titan_1_weapon_cost_gas_Sigma = 200.00
+@EoA_ACoT_titan_1_weapon_cost_gas_Omega = 200.00
+
+# T-超重ターボレーザーII型
+@EoA_ACoT_titan_2_weapon_cost_gas_Delta = 55.00
+@EoA_ACoT_titan_2_weapon_cost_gas_Alpha = 110.00
+@EoA_ACoT_titan_2_weapon_cost_gas_Lamda = 110.00
+@EoA_ACoT_titan_2_weapon_cost_gas_Sigma = 220.00
+@EoA_ACoT_titan_2_weapon_cost_gas_Omega = 220.00
+
+# 戦闘機 - TIE / TIE PD / TIE Adv
+@EoA_ACoT_tie_weapon_cost_gas_Delta = 14.00
+@EoA_ACoT_tie_weapon_cost_gas_Alpha = 28.00
+@EoA_ACoT_tie_weapon_cost_gas_Lamda = 28.00
+@EoA_ACoT_tie_weapon_cost_gas_Sigma = 56.00
+@EoA_ACoT_tie_weapon_cost_gas_Omega = 56.00
+
+# 戦闘機 - Heavy TIE 
+@EoA_ACoT_heavy_tie_weapon_cost_gas_Delta = 20.00
+@EoA_ACoT_heavy_tie_weapon_cost_gas_Alpha = 40.00
+@EoA_ACoT_heavy_tie_weapon_cost_gas_Lamda = 40.00
+@EoA_ACoT_heavy_tie_weapon_cost_gas_Sigma = 80.00
+@EoA_ACoT_heavy_tie_weapon_cost_gas_Omega = 80.00
+
+# 爆撃機 - TIE
+@EoA_ACoT_tie_bomber_weapon_cost_gas_Delta = 14.00
+@EoA_ACoT_tie_bomber_weapon_cost_gas_Alpha = 28.00
+@EoA_ACoT_tie_bomber_weapon_cost_gas_Lamda = 28.00
+@EoA_ACoT_tie_bomber_weapon_cost_gas_Sigma = 56.00
+@EoA_ACoT_tie_bomber_weapon_cost_gas_Omega = 56.00
+
+############################################################
+# ダークマター
+# S-サイズ
+@EoA_ACoT_small_weapon_cost_dm_Delta = 6.00
+@EoA_ACoT_small_weapon_cost_dm_Alpha = 12.00
+@EoA_ACoT_small_weapon_cost_dm_Lamda = 12.00
+@EoA_ACoT_small_weapon_cost_dm_Sigma = 24.00
+@EoA_ACoT_small_weapon_cost_dm_Omega = 24.00
+
+# M-サイズ
+@EoA_ACoT_medium_weapon_cost_dm_Delta = 12.00
+@EoA_ACoT_medium_weapon_cost_dm_Alpha = 24.00
+@EoA_ACoT_medium_weapon_cost_dm_Lamda = 24.00
+@EoA_ACoT_medium_weapon_cost_dm_Sigma = 48.00
+@EoA_ACoT_medium_weapon_cost_dm_Omega = 48.00
+
+# L-サイズ
+@EoA_ACoT_large_weapon_cost_dm_Delta = 18.00
+@EoA_ACoT_large_weapon_cost_dm_Alpha = 36.00
+@EoA_ACoT_large_weapon_cost_dm_Lamda = 36.00
+@EoA_ACoT_large_weapon_cost_dm_Sigma = 72.00
+@EoA_ACoT_large_weapon_cost_dm_Omega = 72.00
+
+# XL-重ターボレーザー/重イオン砲
+@EoA_ACoT_extra_large_1_weapon_cost_dm_Delta = 24.00
+@EoA_ACoT_extra_large_1_weapon_cost_dm_Alpha = 48.00
+@EoA_ACoT_extra_large_1_weapon_cost_dm_Lamda = 48.00
+@EoA_ACoT_extra_large_1_weapon_cost_dm_Sigma = 96.00
+@EoA_ACoT_extra_large_1_weapon_cost_dm_Omega = 96.00
+
+# XL-オクトプルターボレーザー
+@EoA_ACoT_extra_large_2_weapon_cost_dm_Delta = 24.00
+@EoA_ACoT_extra_large_2_weapon_cost_dm_Alpha = 48.00
+@EoA_ACoT_extra_large_2_weapon_cost_dm_Lamda = 48.00
+@EoA_ACoT_extra_large_2_weapon_cost_dm_Sigma = 96.00
+@EoA_ACoT_extra_large_2_weapon_cost_dm_Omega = 96.00
+
+# T-超重ターボレーザーI型
+@EoA_ACoT_titan_1_weapon_cost_dm_Delta = 48.00
+@EoA_ACoT_titan_1_weapon_cost_dm_Alpha = 96.00
+@EoA_ACoT_titan_1_weapon_cost_dm_Lamda = 96.00
+@EoA_ACoT_titan_1_weapon_cost_dm_Sigma = 192.00
+@EoA_ACoT_titan_1_weapon_cost_dm_Omega = 192.00
+
+# T-超重ターボレーザーII型
+@EoA_ACoT_titan_2_weapon_cost_dm_Delta = 48.00
+@EoA_ACoT_titan_2_weapon_cost_dm_Alpha = 96.00
+@EoA_ACoT_titan_2_weapon_cost_dm_Lamda = 96.00
+@EoA_ACoT_titan_2_weapon_cost_dm_Sigma = 192.00
+@EoA_ACoT_titan_2_weapon_cost_dm_Omega = 192.00
+
+# 戦闘機 - TIE / TIE PD / TIE Adv
+@EoA_ACoT_tie_weapon_cost_dm_Delta = 12.00
+@EoA_ACoT_tie_weapon_cost_dm_Alpha = 24.00
+@EoA_ACoT_tie_weapon_cost_dm_Lamda = 24.00
+@EoA_ACoT_tie_weapon_cost_dm_Sigma = 48.00
+@EoA_ACoT_tie_weapon_cost_dm_Omega = 48.00
+
+# 戦闘機 - Heavy TIE 
+@EoA_ACoT_heavy_tie_weapon_cost_dm_Delta = 18.00
+@EoA_ACoT_heavy_tie_weapon_cost_dm_Alpha = 36.00
+@EoA_ACoT_heavy_tie_weapon_cost_dm_Lamda = 36.00
+@EoA_ACoT_heavy_tie_weapon_cost_dm_Sigma = 72.00
+@EoA_ACoT_heavy_tie_weapon_cost_dm_Omega = 72.00
+
+# 爆撃機 - TIE
+@EoA_ACoT_tie_bomber_weapon_cost_dm_Delta = 12.00
+@EoA_ACoT_tie_bomber_weapon_cost_dm_Alpha = 24.00
+@EoA_ACoT_tie_bomber_weapon_cost_dm_Lamda = 24.00
+@EoA_ACoT_tie_bomber_weapon_cost_dm_Sigma = 48.00
+@EoA_ACoT_tie_bomber_weapon_cost_dm_Omega = 48.00
+############################################################
+# ダークエネルギー/ステラライト
+# S-サイズ
+@EoA_ACoT_small_weapon_cost_de_se_Delta = 3.00
+@EoA_ACoT_small_weapon_cost_de_se_Alpha = 12.00
+@EoA_ACoT_small_weapon_cost_de_se_Lamda = 12.00
+@EoA_ACoT_small_weapon_cost_de_se_Sigma = 24.00
+@EoA_ACoT_small_weapon_cost_de_se_Omega = 24.00
+
+# M-サイズ
+@EoA_ACoT_medium_weapon_cost_de_se_Delta = 6.00
+@EoA_ACoT_medium_weapon_cost_de_se_Alpha = 24.00
+@EoA_ACoT_medium_weapon_cost_de_se_Lamda = 24.00
+@EoA_ACoT_medium_weapon_cost_de_se_Sigma = 48.00
+@EoA_ACoT_medium_weapon_cost_de_se_Omega = 48.00
+
+# L-サイズ
+@EoA_ACoT_large_weapon_cost_de_se_Delta = 9.00
+@EoA_ACoT_large_weapon_cost_de_se_Alpha = 36.00
+@EoA_ACoT_large_weapon_cost_de_se_Lamda = 36.00
+@EoA_ACoT_large_weapon_cost_de_se_Sigma = 72.00
+@EoA_ACoT_large_weapon_cost_de_se_Omega = 72.00
+
+# XL-重ターボレーザー/重イオン砲
+@EoA_ACoT_extra_large_1_weapon_cost_de_se_Delta = 12.00
+@EoA_ACoT_extra_large_1_weapon_cost_de_se_Alpha = 48.00
+@EoA_ACoT_extra_large_1_weapon_cost_de_se_Lamda = 48.00
+@EoA_ACoT_extra_large_1_weapon_cost_de_se_Sigma = 96.00
+@EoA_ACoT_extra_large_1_weapon_cost_de_se_Omega = 96.00
+
+# XL-オクトプルターボレーザー
+@EoA_ACoT_extra_large_2_weapon_cost_de_se_Delta = 12.00
+@EoA_ACoT_extra_large_2_weapon_cost_de_se_Alpha = 48.00
+@EoA_ACoT_extra_large_2_weapon_cost_de_se_Lamda = 48.00
+@EoA_ACoT_extra_large_2_weapon_cost_de_se_Sigma = 96.00
+@EoA_ACoT_extra_large_2_weapon_cost_de_se_Omega = 96.00
+
+# T-超重ターボレーザーI型
+@EoA_ACoT_titan_1_weapon_cost_de_se_Delta = 24.00
+@EoA_ACoT_titan_1_weapon_cost_de_se_Alpha = 96.00
+@EoA_ACoT_titan_1_weapon_cost_de_se_Lamda = 96.00
+@EoA_ACoT_titan_1_weapon_cost_de_se_Sigma = 192.00
+@EoA_ACoT_titan_1_weapon_cost_de_se_Omega = 192.00
+
+# T-超重ターボレーザーII型
+@EoA_ACoT_titan_2_weapon_cost_de_se_Delta = 24.00
+@EoA_ACoT_titan_2_weapon_cost_de_se_Alpha = 96.00
+@EoA_ACoT_titan_2_weapon_cost_de_se_Lamda = 96.00
+@EoA_ACoT_titan_2_weapon_cost_de_se_Sigma = 192.00
+@EoA_ACoT_titan_2_weapon_cost_de_se_Omega = 192.00
+
+# 戦闘機 - TIE / TIE PD / TIE Adv
+@EoA_ACoT_tie_weapon_cost_de_se_Delta = 6.00
+@EoA_ACoT_tie_weapon_cost_de_se_Alpha = 24.00
+@EoA_ACoT_tie_weapon_cost_de_se_Lamda = 24.00
+@EoA_ACoT_tie_weapon_cost_de_se_Sigma = 48.00
+@EoA_ACoT_tie_weapon_cost_de_se_Omega = 48.00
+
+# 戦闘機 - Heavy TIE 
+@EoA_ACoT_heavy_tie_weapon_cost_de_se_Delta = 9.00
+@EoA_ACoT_heavy_tie_weapon_cost_de_se_Alpha = 36.00
+@EoA_ACoT_heavy_tie_weapon_cost_de_se_Lamda = 36.00
+@EoA_ACoT_heavy_tie_weapon_cost_de_se_Sigma = 72.00
+@EoA_ACoT_heavy_tie_weapon_cost_de_se_Omega = 72.00
+
+# 爆撃機 - TIE
+@EoA_ACoT_tie_bomber_weapon_cost_de_se_Delta = 6.00
+@EoA_ACoT_tie_bomber_weapon_cost_de_se_Alpha = 24.00
+@EoA_ACoT_tie_bomber_weapon_cost_de_se_Lamda = 24.00
+@EoA_ACoT_tie_bomber_weapon_cost_de_se_Sigma = 48.00
+@EoA_ACoT_tie_bomber_weapon_cost_de_se_Omega = 48.00
+############################################################
+###               Weapons UnKeep Cost                    ###
+############################################################
+# エネルギー
+# S-サイズ
+@EoA_ACoT_small_weapon_upkeep_energy_Delta = 0.22
+@EoA_ACoT_small_weapon_upkeep_energy_Alpha = 0.22
+@EoA_ACoT_small_weapon_upkeep_energy_Lamda = 0.44
+@EoA_ACoT_small_weapon_upkeep_energy_Sigma = 0
+@EoA_ACoT_small_weapon_upkeep_energy_Omega = 0
+
+# M-サイズ
+@EoA_ACoT_medium_weapon_upkeep_energy_Delta = 0.44
+@EoA_ACoT_medium_weapon_upkeep_energy_Alpha = 0.44
+@EoA_ACoT_medium_weapon_upkeep_energy_Lamda = 0.88
+@EoA_ACoT_medium_weapon_upkeep_energy_Sigma = 0.00
+@EoA_ACoT_medium_weapon_upkeep_energy_Omega = 0.00
+
+# L-サイズ
+@EoA_ACoT_large_weapon_upkeep_energy_Delta = 0.88
+@EoA_ACoT_large_weapon_upkeep_energy_Alpha = 0.88
+@EoA_ACoT_large_weapon_upkeep_energy_Lamda = 1.76
+@EoA_ACoT_large_weapon_upkeep_energy_Sigma = 0.00
+@EoA_ACoT_large_weapon_upkeep_energy_Omega = 0.00
+
+# XL-重ターボレーザー/重イオン砲
+@EoA_ACoT_extra_large_1_weapon_upkeep_energy_Delta = 1.76
+@EoA_ACoT_extra_large_1_weapon_upkeep_energy_Alpha = 1.76
+@EoA_ACoT_extra_large_1_weapon_upkeep_energy_Lamda = 3.52
+@EoA_ACoT_extra_large_1_weapon_upkeep_energy_Sigma = 0.00
+@EoA_ACoT_extra_large_1_weapon_upkeep_energy_Omega = 0.00
+
+# XL-オクトプルターボレーザー
+@EoA_ACoT_extra_large_2_weapon_upkeep_energy_Delta = 1.80
+@EoA_ACoT_extra_large_2_weapon_upkeep_energy_Alpha = 1.80
+@EoA_ACoT_extra_large_2_weapon_upkeep_energy_Lamda = 3.60
+@EoA_ACoT_extra_large_2_weapon_upkeep_energy_Sigma = 0.00
+@EoA_ACoT_extra_large_2_weapon_upkeep_energy_Omega = 0.00
+
+# T-超重ターボレーザーI型
+@EoA_ACoT_titan_1_weapon_upkeep_energy_Delta = 3.60
+@EoA_ACoT_titan_1_weapon_upkeep_energy_Alpha = 3.60
+@EoA_ACoT_titan_1_weapon_upkeep_energy_Lamda = 7.20
+@EoA_ACoT_titan_1_weapon_upkeep_energy_Sigma = 0.00
+@EoA_ACoT_titan_1_weapon_upkeep_energy_Omega = 0.00
+
+# T-超重ターボレーザーII型
+@EoA_ACoT_titan_2_weapon_upkeep_energy_Delta = 3.50
+@EoA_ACoT_titan_2_weapon_upkeep_energy_Alpha = 3.50
+@EoA_ACoT_titan_2_weapon_upkeep_energy_Lamda = 7.00
+@EoA_ACoT_titan_2_weapon_upkeep_energy_Sigma = 0.00
+@EoA_ACoT_titan_2_weapon_upkeep_energy_Omega = 0.00
+
+# 戦闘機 - TIE / TIE PD / TIE Adv
+@EoA_ACoT_tie_weapon_upkeep_energy_Delta = 0.44
+@EoA_ACoT_tie_weapon_upkeep_energy_Alpha = 0.44
+@EoA_ACoT_tie_weapon_upkeep_energy_Lamda = 0.88
+@EoA_ACoT_tie_weapon_upkeep_energy_Sigma = 0.00
+@EoA_ACoT_tie_weapon_upkeep_energy_Omega = 0.00
+
+# 戦闘機 - Heavy TIE 
+@EoA_ACoT_heavy_tie_weapon_upkeep_energy_Delta = 0.88
+@EoA_ACoT_heavy_tie_weapon_upkeep_energy_Alpha = 0.88
+@EoA_ACoT_heavy_tie_weapon_upkeep_energy_Lamda = 1.76
+@EoA_ACoT_heavy_tie_weapon_upkeep_energy_Sigma = 0.00
+@EoA_ACoT_heavy_tie_weapon_upkeep_energy_Omega = 0.00
+
+# 爆撃機 - TIE
+@EoA_ACoT_tie_bomber_weapon_upkeep_energy_Delta = 0.44
+@EoA_ACoT_tie_bomber_weapon_upkeep_energy_Alpha = 0.44
+@EoA_ACoT_tie_bomber_weapon_upkeep_energy_Lamda = 0.88
+@EoA_ACoT_tie_bomber_weapon_upkeep_energy_Sigma = 0.00
+@EoA_ACoT_tie_bomber_weapon_upkeep_energy_Omega = 0.00
+############################################################
+# 合金
+# S-サイズ
+@EoA_ACoT_small_weapon_upkeep_alloys_Delta = 0.022
+@EoA_ACoT_small_weapon_upkeep_alloys_Alpha = 0.022
+@EoA_ACoT_small_weapon_upkeep_alloys_Lamda = 0.044
+@EoA_ACoT_small_weapon_upkeep_alloys_Sigma = 0.00
+@EoA_ACoT_small_weapon_upkeep_alloys_Omega = 0.00
+
+# M-サイズ
+@EoA_ACoT_medium_weapon_upkeep_alloys_Delta = 0.044
+@EoA_ACoT_medium_weapon_upkeep_alloys_Alpha = 0.044
+@EoA_ACoT_medium_weapon_upkeep_alloys_Lamda = 0.088
+@EoA_ACoT_medium_weapon_upkeep_alloys_Sigma = 0.00
+@EoA_ACoT_medium_weapon_upkeep_alloys_Omega = 0.00
+
+# L-サイズ
+@EoA_ACoT_large_weapon_upkeep_alloys_Delta = 0.088
+@EoA_ACoT_large_weapon_upkeep_alloys_Alpha = 0.088
+@EoA_ACoT_large_weapon_upkeep_alloys_Lamda = 0.176
+@EoA_ACoT_large_weapon_upkeep_alloys_Sigma = 0.00
+@EoA_ACoT_large_weapon_upkeep_alloys_Omega = 0.00
+
+# XL-重ターボレーザー/重イオン砲
+@EoA_ACoT_extra_large_1_weapon_upkeep_alloys_Delta = 0.176
+@EoA_ACoT_extra_large_1_weapon_upkeep_alloys_Alpha = 0.176
+@EoA_ACoT_extra_large_1_weapon_upkeep_alloys_Lamda = 0.352
+@EoA_ACoT_extra_large_1_weapon_upkeep_alloys_Sigma = 0.00
+@EoA_ACoT_extra_large_1_weapon_upkeep_alloys_Omega = 0.00
+
+# XL-オクトプルターボレーザー
+@EoA_ACoT_extra_large_2_weapon_upkeep_alloys_Delta = 0.180
+@EoA_ACoT_extra_large_2_weapon_upkeep_alloys_Alpha = 0.180
+@EoA_ACoT_extra_large_2_weapon_upkeep_alloys_Lamda = 0.360
+@EoA_ACoT_extra_large_2_weapon_upkeep_alloys_Sigma = 0.00
+@EoA_ACoT_extra_large_2_weapon_upkeep_alloys_Omega = 0.00
+# T-超重ターボレーザーI型
+@EoA_ACoT_titan_1_weapon_upkeep_alloys_Delta = 0.360
+@EoA_ACoT_titan_1_weapon_upkeep_alloys_Alpha = 0.360
+@EoA_ACoT_titan_1_weapon_upkeep_alloys_Lamda = 0.720
+@EoA_ACoT_titan_1_weapon_upkeep_alloys_Sigma = 0.00
+@EoA_ACoT_titan_1_weapon_upkeep_alloys_Omega = 0.00
+
+# T-超重ターボレーザーII型
+@EoA_ACoT_titan_2_weapon_upkeep_alloys_Delta = 0.370
+@EoA_ACoT_titan_2_weapon_upkeep_alloys_Alpha = 0.370
+@EoA_ACoT_titan_2_weapon_upkeep_alloys_Lamda = 0.740
+@EoA_ACoT_titan_2_weapon_upkeep_alloys_Sigma = 0.00
+@EoA_ACoT_titan_2_weapon_upkeep_alloys_Omega = 0.00
+
+# 戦闘機 - TIE / TIE PD / TIE Adv
+@EoA_ACoT_tie_weapon_upkeep_alloys_Delta = 0.044
+@EoA_ACoT_tie_weapon_upkeep_alloys_Alpha = 0.044
+@EoA_ACoT_tie_weapon_upkeep_alloys_Lamda = 0.088
+@EoA_ACoT_tie_weapon_upkeep_alloys_Sigma = 0.00
+@EoA_ACoT_tie_weapon_upkeep_alloys_Omega = 0.00
+
+# 戦闘機 - Heavy TIE 
+@EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Delta = 0.088
+@EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Alpha = 0.088
+@EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Lamda = 0.176
+@EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Sigma = 0.00
+@EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Omega = 0.00
+
+# 爆撃機 - TIE
+@EoA_ACoT_tie_bomber_weapon_upkeep_alloys_Delta = 0.044
+@EoA_ACoT_tie_bomber_weapon_upkeep_alloys_Alpha = 0.044
+@EoA_ACoT_tie_bomber_weapon_upkeep_alloys_Lamda = 0.088
+@EoA_ACoT_tie_bomber_weapon_upkeep_alloys_Sigma = 0.00
+@EoA_ACoT_tie_bomber_weapon_upkeep_alloys_Omega = 0.00
+
+############################################################

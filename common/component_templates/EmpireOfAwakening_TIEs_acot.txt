@@ -57,29 +57,31 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	health = 17
-	armor = 8
-	shield = 4
+	health = 32
+	armor = 17
+	shield = 52
 
-	speed = @eoa_strikecraft_speed_4
+	speed = @eoa_strikecraft_speed_7
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_2
+	armor_damage = @eoa_fighter_armor_damage_2
+	shield_damage = @eoa_fighter_shield_damage_2
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier4
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier4
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Delta
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Delta
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Delta
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Delta
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier4
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier4
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Delta
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Delta
 		}
 	}
 	
@@ -132,29 +134,31 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_fighter_tracking
 
-	health = 17
-	armor = 8
-	shield = 4
+	health = 30
+	armor = 14
+	shield = 50
 
-	speed = @eoa_strikecraft_speed_4
+	speed = @eoa_strikecraft_speed_6
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_fighter_evasion
 
-	hull_damage = @eoa_fighter_hull_damage
-	armor_damage = @eoa_fighter_armor_damage
-	shield_damage = @eoa_fighter_shield_damage
+	hull_damage = @eoa_fighter_hull_damage_2
+	armor_damage = @eoa_fighter_armor_damage_2
+	shield_damage = @eoa_fighter_shield_damage_2
 	shield_penetration = @eoa_fighter_shield_penetration
 
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier4
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier4
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Delta
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Delta
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Delta
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Delta
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier4
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier4
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Delta
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Delta
 		}
 	}
 	
@@ -207,11 +211,11 @@ strike_craft_component_template = {
 	accuracy = @eoa_strikecraft_accuracy
 	tracking = @eoa_bomber_tracking
 
-	health = 7.5
-	armor = 4
-	shield = 2
+	health = 16.0
+	armor = 9
+	shield = 6
 
-	speed = @eoa_bomber_speed_1
+	speed = @eoa_bomber_speed_5
 	rotation_speed = @eoa_fighter_rotation_speed 
 	acceleration = @eoa_fighter_acceleration
 	evasion = @eoa_tie_bomber_evasion
@@ -224,12 +228,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_bomber_weapon_cost_alloys_tier1
-			exotic_gases = @EoA_tie_bomber_weapon_cost_gas_tier1
+			alloys = @EoA_ACoT_tie_bomber_weapon_cost_alloys_Delta
+			eoa_tibanna_gas = @EoA_ACoT_tie_bomber_weapon_cost_gas_Delta
+			sr_dark_matter = @EoA_ACoT_tie_bomber_weapon_cost_dm_Delta
+			acot_sr_dark_energy = @EoA_ACoT_tie_bomber_weapon_cost_de_se_Delta
 		}
 		upkeep = {
-			energy = @EoA_tie_bomber_weapon_upkeep_energy_tier1
-			alloys = @EoA_tie_bomber_weapon_upkeep_alloys_tier1
+			energy = @EoA_ACoT_tie_bomber_weapon_upkeep_energy_Delta
+			alloys = @EoA_ACoT_tie_bomber_weapon_upkeep_alloys_Delta
 		}
 	}
 	
@@ -307,12 +313,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Alpha
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Alpha
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Alpha
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Alpha
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Alpha
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Alpha
 		}
 	}
 	
@@ -382,12 +390,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Alpha
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Alpha
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Alpha
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Alpha
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Alpha
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Alpha
 		}
 	}
 	
@@ -457,12 +467,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_heavy_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_heavy_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_heavy_tie_weapon_cost_alloys_Alpha
+			eoa_tibanna_gas = @EoA_ACoT_heavy_tie_weapon_cost_gas_Alpha
+			sr_dark_matter = @EoA_ACoT_heavy_tie_weapon_cost_dm_Alpha
+			acot_sr_dark_energy = @EoA_ACoT_heavy_tie_weapon_cost_de_se_Alpha
 		}
 		upkeep = {
-			energy = @EoA_heavy_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_heavy_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_heavy_tie_weapon_upkeep_energy_Alpha
+			alloys = @EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Alpha
 		}
 	}
 	
@@ -532,12 +544,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_heavy_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_heavy_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_heavy_tie_weapon_cost_alloys_Alpha
+			eoa_tibanna_gas = @EoA_ACoT_heavy_tie_weapon_cost_gas_Alpha
+			sr_dark_matter = @EoA_ACoT_heavy_tie_weapon_cost_dm_Alpha
+			acot_sr_dark_energy = @EoA_ACoT_heavy_tie_weapon_cost_de_se_Alpha
 		}
 		upkeep = {
-			energy = @EoA_heavy_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_heavy_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_heavy_tie_weapon_upkeep_energy_Alpha
+			alloys = @EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Alpha
 		}
 	}
 	
@@ -607,12 +621,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_heavy_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_heavy_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_heavy_tie_weapon_cost_alloys_Alpha
+			eoa_tibanna_gas = @EoA_ACoT_heavy_tie_weapon_cost_gas_Alpha
+			sr_dark_matter = @EoA_ACoT_heavy_tie_weapon_cost_dm_Alpha
+			acot_sr_dark_energy = @EoA_ACoT_heavy_tie_weapon_cost_de_se_Alpha
 		}
 		upkeep = {
-			energy = @EoA_heavy_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_heavy_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_heavy_tie_weapon_upkeep_energy_Alpha
+			alloys = @EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Alpha
 		}
 	}
 	
@@ -682,12 +698,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Alpha
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Alpha
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Alpha
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Alpha
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Alpha
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Alpha
 		}
 	}
 	
@@ -757,12 +775,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_bomber_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_bomber_weapon_cost_gas_tier8
+			alloys = @EoA_ACoT_tie_bomber_weapon_cost_alloys_Alpha
+			eoa_tibanna_gas = @EoA_ACoT_tie_bomber_weapon_cost_gas_Alpha
+			sr_dark_matter = @EoA_ACoT_tie_bomber_weapon_cost_dm_Alpha
+			acot_sr_dark_energy = @EoA_ACoT_tie_bomber_weapon_cost_de_se_Alpha
 		}
 		upkeep = {
-			energy = @EoA_tie_bomber_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_bomber_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_bomber_weapon_upkeep_energy_Alpha
+			alloys = @EoA_ACoT_tie_bomber_weapon_upkeep_alloys_Alpha
 		}
 	}
 	
@@ -840,12 +860,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Lamda
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Lamda
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Lamda
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Lamda
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Lamda
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Lamda
 		}
 	}
 	
@@ -915,12 +937,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Lamda
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Lamda
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Lamda
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Lamda
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Lamda
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Lamda
 		}
 	}
 	
@@ -990,12 +1014,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_heavy_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_heavy_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_heavy_tie_weapon_cost_alloys_Lamda
+			eoa_tibanna_gas = @EoA_ACoT_heavy_tie_weapon_cost_gas_Lamda
+			sr_dark_matter = @EoA_ACoT_heavy_tie_weapon_cost_dm_Lamda
+			acot_sr_dark_energy = @EoA_ACoT_heavy_tie_weapon_cost_de_se_Lamda
 		}
 		upkeep = {
-			energy = @EoA_heavy_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_heavy_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_heavy_tie_weapon_upkeep_energy_Lamda
+			alloys = @EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Lamda
 		}
 	}
 	
@@ -1065,12 +1091,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_heavy_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_heavy_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_heavy_tie_weapon_cost_alloys_Lamda
+			eoa_tibanna_gas = @EoA_ACoT_heavy_tie_weapon_cost_gas_Lamda
+			sr_dark_matter = @EoA_ACoT_heavy_tie_weapon_cost_dm_Lamda
+			acot_sr_dark_energy = @EoA_ACoT_heavy_tie_weapon_cost_de_se_Lamda
 		}
 		upkeep = {
-			energy = @EoA_heavy_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_heavy_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_heavy_tie_weapon_upkeep_energy_Lamda
+			alloys = @EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Lamda
 		}
 	}
 	
@@ -1140,12 +1168,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_heavy_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_heavy_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_heavy_tie_weapon_cost_alloys_Lamda
+			eoa_tibanna_gas = @EoA_ACoT_heavy_tie_weapon_cost_gas_Lamda
+			sr_dark_matter = @EoA_ACoT_heavy_tie_weapon_cost_dm_Lamda
+			acot_sr_dark_energy = @EoA_ACoT_heavy_tie_weapon_cost_de_se_Lamda
 		}
 		upkeep = {
-			energy = @EoA_heavy_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_heavy_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_heavy_tie_weapon_upkeep_energy_Lamda
+			alloys = @EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Lamda
 		}
 	}
 	
@@ -1215,12 +1245,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Lamda
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Lamda
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Lamda
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Lamda
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Lamda
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Lamda
 		}
 	}
 	
@@ -1290,12 +1322,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_bomber_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_bomber_weapon_cost_gas_tier8
+			alloys = @EoA_ACoT_tie_bomber_weapon_cost_alloys_Lamda
+			eoa_tibanna_gas = @EoA_ACoT_tie_bomber_weapon_cost_gas_Lamda
+			sr_dark_matter = @EoA_ACoT_tie_bomber_weapon_cost_dm_Lamda
+			acot_sr_dark_energy = @EoA_ACoT_tie_bomber_weapon_cost_de_se_Lamda
 		}
 		upkeep = {
-			energy = @EoA_tie_bomber_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_bomber_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_bomber_weapon_upkeep_energy_Lamda
+			alloys = @EoA_ACoT_tie_bomber_weapon_upkeep_alloys_Lamda
 		}
 	}
 	
@@ -1373,12 +1407,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Sigma
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Sigma
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Sigma
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Sigma
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Sigma
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Sigma
 		}
 	}
 	
@@ -1448,12 +1484,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Sigma
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Sigma
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Sigma
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Sigma
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Sigma
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Sigma
 		}
 	}
 	
@@ -1523,12 +1561,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_heavy_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_heavy_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_heavy_tie_weapon_cost_alloys_Sigma
+			eoa_tibanna_gas = @EoA_ACoT_heavy_tie_weapon_cost_gas_Sigma
+			sr_dark_matter = @EoA_ACoT_heavy_tie_weapon_cost_dm_Sigma
+			acot_sr_dark_energy = @EoA_ACoT_heavy_tie_weapon_cost_de_se_Sigma
 		}
 		upkeep = {
-			energy = @EoA_heavy_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_heavy_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_heavy_tie_weapon_upkeep_energy_Sigma
+			alloys = @EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Sigma
 		}
 	}
 	
@@ -1598,12 +1638,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_heavy_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_heavy_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_heavy_tie_weapon_cost_alloys_Sigma
+			eoa_tibanna_gas = @EoA_ACoT_heavy_tie_weapon_cost_gas_Sigma
+			sr_dark_matter = @EoA_ACoT_heavy_tie_weapon_cost_dm_Sigma
+			acot_sr_dark_energy = @EoA_ACoT_heavy_tie_weapon_cost_de_se_Sigma
 		}
 		upkeep = {
-			energy = @EoA_heavy_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_heavy_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_heavy_tie_weapon_upkeep_energy_Sigma
+			alloys = @EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Sigma
 		}
 	}
 	
@@ -1673,12 +1715,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_heavy_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_heavy_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_heavy_tie_weapon_cost_alloys_Sigma
+			eoa_tibanna_gas = @EoA_ACoT_heavy_tie_weapon_cost_gas_Sigma
+			sr_dark_matter = @EoA_ACoT_heavy_tie_weapon_cost_dm_Sigma
+			acot_sr_dark_energy = @EoA_ACoT_heavy_tie_weapon_cost_de_se_Sigma
 		}
 		upkeep = {
-			energy = @EoA_heavy_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_heavy_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_heavy_tie_weapon_upkeep_energy_Sigma
+			alloys = @EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Sigma
 		}
 	}
 	
@@ -1748,12 +1792,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Sigma
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Sigma
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Sigma
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Sigma
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Sigma
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Sigma
 		}
 	}
 	
@@ -1823,12 +1869,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_bomber_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_bomber_weapon_cost_gas_tier8
+			alloys = @EoA_ACoT_tie_bomber_weapon_cost_alloys_Sigma
+			eoa_tibanna_gas = @EoA_ACoT_tie_bomber_weapon_cost_gas_Sigma
+			sr_dark_matter = @EoA_ACoT_tie_bomber_weapon_cost_dm_Sigma
+			acot_sr_dark_energy = @EoA_ACoT_tie_bomber_weapon_cost_de_se_Sigma
 		}
 		upkeep = {
-			energy = @EoA_tie_bomber_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_bomber_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_bomber_weapon_upkeep_energy_Sigma
+			alloys = @EoA_ACoT_tie_bomber_weapon_upkeep_alloys_Sigma
 		}
 	}
 	
@@ -1907,12 +1955,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Omega
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Omega
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Omega
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Omega
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Omega
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Omega
 		}
 	}
 	
@@ -1982,12 +2032,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Omega
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Omega
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Omega
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Omega
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Omega
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Omega
 		}
 	}
 	
@@ -2057,12 +2109,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_heavy_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_heavy_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_heavy_tie_weapon_cost_alloys_Omega
+			eoa_tibanna_gas = @EoA_ACoT_heavy_tie_weapon_cost_gas_Omega
+			sr_dark_matter = @EoA_ACoT_heavy_tie_weapon_cost_dm_Omega
+			acot_sr_dark_energy = @EoA_ACoT_heavy_tie_weapon_cost_de_se_Omega
 		}
 		upkeep = {
-			energy = @EoA_heavy_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_heavy_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_heavy_tie_weapon_upkeep_energy_Omega
+			alloys = @EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Omega
 		}
 	}
 	
@@ -2132,12 +2186,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_heavy_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_heavy_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_heavy_tie_weapon_cost_alloys_Omega
+			eoa_tibanna_gas = @EoA_ACoT_heavy_tie_weapon_cost_gas_Omega
+			sr_dark_matter = @EoA_ACoT_heavy_tie_weapon_cost_dm_Omega
+			acot_sr_dark_energy = @EoA_ACoT_heavy_tie_weapon_cost_de_se_Omega
 		}
 		upkeep = {
-			energy = @EoA_heavy_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_heavy_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_heavy_tie_weapon_upkeep_energy_Omega
+			alloys = @EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Omega
 		}
 	}
 	
@@ -2207,12 +2263,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_heavy_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_heavy_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_heavy_tie_weapon_cost_alloys_Omega
+			eoa_tibanna_gas = @EoA_ACoT_heavy_tie_weapon_cost_gas_Omega
+			sr_dark_matter = @EoA_ACoT_heavy_tie_weapon_cost_dm_Omega
+			acot_sr_dark_energy = @EoA_ACoT_heavy_tie_weapon_cost_de_se_Omega
 		}
 		upkeep = {
-			energy = @EoA_heavy_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_heavy_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_heavy_tie_weapon_upkeep_energy_Omega
+			alloys = @EoA_ACoT_heavy_tie_weapon_upkeep_alloys_Omega
 		}
 	}
 	
@@ -2282,12 +2340,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_weapon_cost_gas_tier8 
+			alloys = @EoA_ACoT_tie_weapon_cost_alloys_Omega
+			eoa_tibanna_gas = @EoA_ACoT_tie_weapon_cost_gas_Omega
+			sr_dark_matter = @EoA_ACoT_tie_weapon_cost_dm_Omega
+			acot_sr_dark_energy = @EoA_ACoT_tie_weapon_cost_de_se_Omega
 		}
 		upkeep = {
-			energy = @EoA_tie_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_weapon_upkeep_energy_Omega
+			alloys = @EoA_ACoT_tie_weapon_upkeep_alloys_Omega
 		}
 	}
 	
@@ -2357,12 +2417,14 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_tie_bomber_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_tie_bomber_weapon_cost_gas_tier8
+			alloys = @EoA_ACoT_tie_bomber_weapon_cost_alloys_Omega
+			eoa_tibanna_gas = @EoA_ACoT_tie_bomber_weapon_cost_gas_Omega
+			sr_dark_matter = @EoA_ACoT_tie_bomber__weapon_cost_dm_Omega
+			acot_sr_dark_energy = @EoA_ACoT_tie_bomber_weapon_cost_de_se_Omega
 		}
 		upkeep = {
-			energy = @EoA_tie_bomber_weapon_upkeep_energy_tier8
-			alloys = @EoA_tie_bomber_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_tie_bomber_weapon_upkeep_energy_Omega
+			alloys = @EoA_ACoT_tie_bomber_weapon_upkeep_alloys_Omega
 		}
 	}
 	

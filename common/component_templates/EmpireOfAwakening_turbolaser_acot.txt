@@ -57,12 +57,14 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_small_weapon_cost_alloys_tier1
-			exotic_gases = @EoA_small_weapon_cost_gas_tier1
-		}		
+			alloys = @EoA_ACoT_small_weapon_cost_alloys_Delta
+			eoa_tibanna_gas = @EoA_ACoT_small_weapon_cost_gas_Delta
+			sr_dark_matter = @EoA_ACoT_small_weapon_cost_dm_Delta
+			acot_sr_dark_energy = @EoA_ACoT_small_weapon_cost_de_se_Delta
+		}
 		upkeep = {
-			energy = @EoA_small_weapon_upkeep_energy_tier1
-			alloys = @EoA_small_weapon_upkeep_alloys_tier1
+			energy = @EoA_ACoT_small_weapon_upkeep_energy_Delta
+			alloys = @EoA_ACoT_small_weapon_upkeep_alloys_Delta
 		}
 	}
 	
@@ -129,12 +131,14 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_medium_weapon_cost_alloys_tier1
-			exotic_gases = @EoA_medium_weapon_cost_gas_tier1
-		}		
+			alloys = @EoA_ACoT_medium_weapon_cost_alloys_Delta
+			eoa_tibanna_gas = @EoA_ACoT_medium_weapon_cost_gas_Delta
+			sr_dark_matter = @EoA_ACoT_medium_weapon_cost_dm_Delta
+			acot_sr_dark_energy = @EoA_ACoT_medium_weapon_cost_de_se_Delta
+		}
 		upkeep = {
-			energy = @EoA_medium_weapon_upkeep_energy_tier1
-			alloys = @EoA_medium_weapon_upkeep_alloys_tier1
+			energy = @EoA_ACoT_medium_weapon_upkeep_energy_Delta
+			alloys = @EoA_ACoT_medium_weapon_upkeep_alloys_Delta
 		}
 	}
 	
@@ -203,12 +207,14 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_large_weapon_cost_alloys_tier1
-			exotic_gases = @EoA_large_weapon_cost_gas_tier1
-		}		
+			alloys = @EoA_ACoT_large_weapon_cost_alloys_Delta
+			eoa_tibanna_gas = @EoA_ACoT_large_weapon_cost_gas_Delta
+			sr_dark_matter = @EoA_ACoT_large_weapon_cost_dm_Delta
+			acot_sr_dark_energy = @EoA_ACoT_large_weapon_cost_de_se_Delta
+		}
 		upkeep = {
-			energy = @EoA_large_weapon_upkeep_energy_tier1
-			alloys = @EoA_large_weapon_upkeep_alloys_tier1
+			energy = @EoA_ACoT_large_weapon_upkeep_energy_Delta
+			alloys = @EoA_ACoT_large_weapon_upkeep_alloys_Delta
 		}
 	}
 	
@@ -279,12 +285,14 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_small_weapon_cost_alloys_tier1
-			exotic_gases = @EoA_small_weapon_cost_gas_tier2
-		}		
+			alloys = @EoA_ACoT_small_weapon_cost_alloys_Alpha
+			eoa_tibanna_gas = @EoA_ACoT_small_weapon_cost_gas_Alpha
+			sr_dark_matter = @EoA_ACoT_small_weapon_cost_dm_Alpha
+			acot_sr_dark_energy = @EoA_ACoT_small_weapon_cost_de_se_Alpha
+		}
 		upkeep = {
-			energy = @EoA_small_weapon_upkeep_energy_tier2
-			alloys = @EoA_small_weapon_upkeep_alloys_tier2
+			energy = @EoA_ACoT_small_weapon_upkeep_energy_Alpha
+			alloys = @EoA_ACoT_small_weapon_upkeep_alloys_Alpha
 		}
 	}
 	
@@ -352,12 +360,14 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_medium_weapon_cost_alloys_tier2
-			exotic_gases = @EoA_medium_weapon_cost_gas_tier2
-		}		
+			alloys = @EoA_ACoT_medium_weapon_cost_alloys_Alpha
+			eoa_tibanna_gas = @EoA_ACoT_medium_weapon_cost_gas_Alpha
+			sr_dark_matter = @EoA_ACoT_medium_weapon_cost_dm_Alpha
+			acot_sr_dark_energy = @EoA_ACoT_medium_weapon_cost_de_se_Alpha
+		}
 		upkeep = {
-			energy = @EoA_medium_weapon_upkeep_energy_tier2
-			alloys = @EoA_medium_weapon_upkeep_alloys_tier2
+			energy = @EoA_ACoT_medium_weapon_upkeep_energy_Alpha
+			alloys = @EoA_ACoT_medium_weapon_upkeep_alloys_Alpha
 		}
 	}
 	
@@ -426,15 +436,16 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_large_weapon_cost_alloys_tier2
-			exotic_gases = @EoA_large_weapon_cost_gas_tier2
-		}		
+			alloys = @EoA_ACoT_large_weapon_cost_alloys_Alpha
+			eoa_tibanna_gas = @EoA_ACoT_large_weapon_cost_gas_Alpha
+			sr_dark_matter = @EoA_ACoT_large_weapon_cost_dm_Alpha
+			acot_sr_dark_energy = @EoA_ACoT_large_weapon_cost_de_se_Alpha
+		}
 		upkeep = {
-			energy = @EoA_large_weapon_upkeep_energy_tier2
-			alloys = @EoA_large_weapon_upkeep_alloys_tier2
+			energy = @EoA_ACoT_large_weapon_upkeep_energy_Alpha
+			alloys = @EoA_ACoT_large_weapon_upkeep_alloys_Alpha
 		}
 	}
-	
 
 	ai_weight = {
 		weight = 0
@@ -502,13 +513,14 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_small_weapon_cost_alloys_tier3
-			exotic_gases = @EoA_small_weapon_cost_gas_tier3
-
-		}		
+			alloys = @EoA_ACoT_small_weapon_cost_alloys_Lamda
+			eoa_tibanna_gas = @EoA_ACoT_small_weapon_cost_gas_Lamda
+			sr_dark_matter = @EoA_ACoT_small_weapon_cost_dm_Lamda
+			acot_sr_dark_energy = @EoA_ACoT_small_weapon_cost_de_se_Lamda
+		}
 		upkeep = {
-			energy = @EoA_small_weapon_upkeep_energy_tier3
-			alloys = @EoA_small_weapon_upkeep_alloys_tier3
+			energy = @EoA_ACoT_small_weapon_upkeep_energy_Lamda
+			alloys = @EoA_ACoT_small_weapon_upkeep_alloys_Lamda
 		}
 	}
 	
@@ -576,12 +588,14 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_medium_weapon_cost_alloys_tier3
-			exotic_gases = @EoA_medium_weapon_cost_gas_tier3
-		}		
+			alloys = @EoA_ACoT_medium_weapon_cost_alloys_Lamda
+			eoa_tibanna_gas = @EoA_ACoT_medium_weapon_cost_gas_Lamda
+			sr_dark_matter = @EoA_ACoT_medium_weapon_cost_dm_Lamda
+			acot_sr_dark_energy = @EoA_ACoT_medium_weapon_cost_de_se_Lamda
+		}
 		upkeep = {
-			energy = @EoA_medium_weapon_upkeep_energy_tier3
-			alloys = @EoA_medium_weapon_upkeep_alloys_tier3
+			energy = @EoA_ACoT_medium_weapon_upkeep_energy_Lamda
+			alloys = @EoA_ACoT_medium_weapon_upkeep_alloys_Lamda
 		}
 	}
 	
@@ -650,12 +664,14 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_large_weapon_cost_alloys_tier3
-			exotic_gases = @EoA_large_weapon_cost_gas_tier3
-		}		
+			alloys = @EoA_ACoT_large_weapon_cost_alloys_Lamda
+			eoa_tibanna_gas = @EoA_ACoT_large_weapon_cost_gas_Lamda
+			sr_dark_matter = @EoA_ACoT_large_weapon_cost_dm_Lamda
+			acot_sr_dark_energy = @EoA_ACoT_large_weapon_cost_de_se_Lamda
+		}
 		upkeep = {
-			energy = @EoA_large_weapon_upkeep_energy_tier3
-			alloys = @EoA_large_weapon_upkeep_alloys_tier3
+			energy = @EoA_ACoT_large_weapon_upkeep_energy_Lamda
+			alloys = @EoA_ACoT_large_weapon_upkeep_alloys_Lamda
 		}
 	}
 	
@@ -726,12 +742,13 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_small_weapon_cost_alloys_tier4
-			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier4
-		}		
+			alloys = @EoA_ACoT_small_weapon_cost_alloys_Sigma
+			eoa_tibanna_gas = @EoA_ACoT_small_weapon_cost_gas_Sigma
+			acot_sr_stellarite = @EoA_ACoT_small_weapon_cost_dm_Sigma
+		}
 		upkeep = {
-			energy = @EoA_small_weapon_upkeep_energy_tier4
-			alloys = @EoA_small_weapon_upkeep_alloys_tier4
+			energy = @EoA_ACoT_small_weapon_upkeep_energy_Sigma
+			alloys = @EoA_ACoT_small_weapon_upkeep_alloys_Sigma
 		}
 	}
 	
@@ -799,12 +816,13 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_medium_weapon_cost_alloys_tier4
-			eoa_tibanna_gas = @EoA_medium_weapon_cost_gas_tier4
-		}		
+			alloys = @EoA_ACoT_medium_weapon_cost_alloys_Sigma
+			eoa_tibanna_gas = @EoA_ACoT_medium_weapon_cost_gas_Sigma
+			acot_sr_stellarite = @EoA_ACoT_medium_weapon_cost_dm_Sigma
+		}
 		upkeep = {
-			energy = @EoA_medium_weapon_upkeep_energy_tier4
-			alloys = @EoA_medium_weapon_upkeep_alloys_tier4
+			energy = @EoA_ACoT_medium_weapon_upkeep_energy_Sigma
+			alloys = @EoA_ACoT_medium_weapon_upkeep_alloys_Sigma
 		}
 	}
 	
@@ -873,12 +891,13 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_large_weapon_cost_alloys_tier4
-			eoa_tibanna_gas = @EoA_large_weapon_cost_gas_tier4
-		}		
+			alloys = @EoA_ACoT_large_weapon_cost_alloys_Sigma
+			eoa_tibanna_gas = @EoA_ACoT_large_weapon_cost_gas_Sigma
+			acot_sr_stellarite = @EoA_ACoT_large_weapon_cost_dm_Sigma
+		}
 		upkeep = {
-			energy = @EoA_large_weapon_upkeep_energy_tier4
-			alloys = @EoA_large_weapon_upkeep_alloys_tier4
+			energy = @EoA_ACoT_large_weapon_upkeep_energy_Sigma
+			alloys = @EoA_ACoT_large_weapon_upkeep_alloys_Sigma
 		}
 	}
 	
@@ -949,12 +968,13 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_small_weapon_cost_alloys_tier5
-			eoa_tibanna_gas = @EoA_small_weapon_cost_gas_tier5
+			alloys = @EoA_ACoT_small_weapon_cost_alloys_Omega
+			eoa_tibanna_gas = @EoA_ACoT_small_weapon_cost_gas_Omega
+			acot_sr_stellarite = @EoA_ACoT_small_weapon_cost_de_se_Omega
 		}
 		upkeep = {
-			energy = @EoA_small_weapon_upkeep_energy_tier5
-			alloys = @EoA_small_weapon_upkeep_alloys_tier5
+			energy = @EoA_ACoT_small_weapon_upkeep_energy_Omega
+			alloys = @EoA_ACoT_small_weapon_upkeep_alloys_Omega
 		}
 	}
 	
@@ -1022,12 +1042,13 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_medium_weapon_cost_alloys_tier5
-			eoa_tibanna_gas = @EoA_medium_weapon_cost_gas_tier5
+			alloys = @EoA_ACoT_medium_weapon_cost_alloys_Omega
+			eoa_tibanna_gas = @EoA_ACoT_medium_weapon_cost_gas_Omega
+			acot_sr_stellarite = @EoA_ACoT_medium_weapon_cost_de_se_Omega
 		}
 		upkeep = {
-			energy = @EoA_medium_weapon_upkeep_energy_tier5
-			alloys = @EoA_medium_weapon_upkeep_alloys_tier5
+			energy = @EoA_ACoT_medium_weapon_upkeep_energy_Omega
+			alloys = @EoA_ACoT_medium_weapon_upkeep_alloys_Omega
 		}
 	}
 	
@@ -1096,12 +1117,13 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_large_weapon_cost_alloys_tier5
-			eoa_tibanna_gas = @EoA_large_weapon_cost_gas_tier5
+			alloys = @EoA_ACoT_large_weapon_cost_alloys_Omega
+			eoa_tibanna_gas = @EoA_ACoT_large_weapon_cost_gas_Omega
+			acot_sr_stellarite = @EoA_ACoT_large_weapon_cost_de_se_Omega
 		}
 		upkeep = {
-			energy = @EoA_large_weapon_upkeep_energy_tier5
-			alloys = @EoA_large_weapon_upkeep_alloys_tier5
+			energy = @EoA_ACoT_large_weapon_upkeep_energy_Omega
+			alloys = @EoA_ACoT_large_weapon_upkeep_alloys_Omega
 		}
 	}
 	

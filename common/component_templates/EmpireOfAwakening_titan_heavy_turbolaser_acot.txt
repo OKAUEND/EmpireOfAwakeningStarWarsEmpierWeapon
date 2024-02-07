@@ -47,12 +47,14 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_titan_2_weapon_cost_alloys_tier5
-			eoa_tibanna_gas = @EoA_titan_2_weapon_cost_gas_tier5
+			alloys = @EoA_ACoT_titan_2_weapon_cost_alloys_Delta
+			eoa_tibanna_gas = @EoA_ACoT_titan_2_weapon_cost_gas_Delta
+			sr_dark_matter = @EoA_ACoT_titan_2_weapon_cost_dm_Delta
+			acot_sr_dark_energy = @EoA_ACoT_titan_2_weapon_cost_de_se_Delta
 		}
 		upkeep = {
-			energy = @EoA_titan_2_weapon_upkeep_energy_tier5
-			alloys = @EoA_titan_2_weapon_upkeep_alloys_tier5
+			energy = @EoA_ACoT_titan_2_weapon_upkeep_energy_Delta
+			alloys = @EoA_ACoT_titan_2_weapon_upkeep_alloys_Delta
 		}
 	}
 	
@@ -115,12 +117,14 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_titan_2_weapon_cost_alloys_tier6
-			eoa_tibanna_gas = @EoA_titan_2_weapon_cost_gas_tier6
+			alloys = @EoA_ACoT_titan_2_weapon_cost_alloys_Alpha
+			eoa_tibanna_gas = @EoA_ACoT_titan_2_weapon_cost_gas_Alpha
+			sr_dark_matter = @EoA_ACoT_titan_2_weapon_cost_dm_Alpha
+			acot_sr_dark_energy = @EoA_ACoT_titan_2_weapon_cost_de_se_Alpha
 		}
 		upkeep = {
-			energy = @EoA_titan_2_weapon_upkeep_energy_tier6
-			alloys = @EoA_titan_2_weapon_upkeep_alloys_tier6
+			energy = @EoA_ACoT_titan_2_weapon_upkeep_energy_Alpha
+			alloys = @EoA_ACoT_titan_2_weapon_upkeep_alloys_Alpha
 		}
 	}
 	
@@ -183,12 +187,14 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_titan_2_weapon_cost_alloys_tier7
-			eoa_tibanna_gas = @EoA_titan_2_weapon_cost_gas_tier7
+			alloys = @EoA_ACoT_titan_2_weapon_cost_alloys_Lamda
+			eoa_tibanna_gas = @EoA_ACoT_titan_2_weapon_cost_gas_Lamda
+			sr_dark_matter = @EoA_ACoT_titan_2_weapon_cost_dm_Lamda
+			acot_sr_dark_energy = @EoA_ACoT_titan_2_weapon_cost_de_se_Lamda
 		}
 		upkeep = {
-			energy = @EoA_titan_2_weapon_upkeep_energy_tier7
-			alloys = @EoA_titan_2_weapon_upkeep_alloys_tier7
+			energy = @EoA_ACoT_titan_2_weapon_upkeep_energy_Lamda
+			alloys = @EoA_ACoT_titan_2_weapon_upkeep_alloys_Lamda
 		}
 	}
 	
@@ -251,12 +257,13 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_titan_2_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_titan_2_weapon_cost_gas_tier8
+			alloys = @EoA_ACoT_titan_2_weapon_cost_alloys_Sigma
+			eoa_tibanna_gas = @EoA_ACoT_titan_2_weapon_cost_gas_Sigma
+			acot_sr_stellarite = @EoA_ACoT_titan_2_weapon_cost_dm_Sigma
 		}
 		upkeep = {
-			energy = @EoA_titan_2_weapon_upkeep_energy_tier8
-			alloys = @EoA_titan_2_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_titan_2_weapon_upkeep_energy_Sigma
+			alloys = @EoA_ACoT_titan_2_weapon_upkeep_alloys_Sigma
 		}
 	}
 	
@@ -319,12 +326,13 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @EoA_titan_2_weapon_cost_alloys_tier8
-			eoa_tibanna_gas = @EoA_titan_2_weapon_cost_gas_tier8
+			alloys = @EoA_ACoT_titan_2_weapon_cost_alloys_Omega
+			eoa_tibanna_gas = @EoA_ACoT_titan_2_weapon_cost_gas_Omega
+			acot_sr_stellarite = @EoA_ACoT_titan_2_weapon_cost_de_se_Omega
 		}
 		upkeep = {
-			energy = @EoA_titan_2_weapon_upkeep_energy_tier8
-			alloys = @EoA_titan_2_weapon_upkeep_alloys_tier8
+			energy = @EoA_ACoT_titan_2_weapon_upkeep_energy_Omega
+			alloys = @EoA_ACoT_titan_2_weapon_upkeep_alloys_Omega
 		}
 	}
 	

@@ -1,0 +1,73 @@
+############################################################
+###               Weapons Detail                         ###
+############################################################
+# 消費電力
+# S-サイズ
+@EoA_ACoT_small_weapon_power_Delta = -7
+@EoA_ACoT_small_weapon_power_Alpha = -9
+@EoA_ACoT_small_weapon_power_Lamda = -12
+@EoA_ACoT_small_weapon_power_Sigma = -15
+@EoA_ACoT_small_weapon_power_Omega = -19
+
+# M-サイズ
+@EoA_ACoT_medium_weapon_power_Delta = -15
+@EoA_ACoT_medium_weapon_power_Alpha = -19
+@EoA_ACoT_medium_weapon_power_Lamda = -24
+@EoA_ACoT_medium_weapon_power_Sigma = -32
+@EoA_ACoT_medium_weapon_power_Omega = -42
+
+# L-サイズ
+@EoA_ACoT_large_weapon_power_Delta = -35
+@EoA_ACoT_large_weapon_power_Alpha = -45
+@EoA_ACoT_large_weapon_power_Lamda = -58
+@EoA_ACoT_large_weapon_power_Sigma = -70
+@EoA_ACoT_large_weapon_power_Omega = -94
+
+# XL-重ターボレーザー/重イオン砲
+@EoA_ACoT_extra_large_1_weapon_power_Delta = -40
+@EoA_ACoT_extra_large_1_weapon_power_Alpha = -55
+@EoA_ACoT_extra_large_1_weapon_power_Lamda = -80
+@EoA_ACoT_extra_large_1_weapon_power_Sigma = -160
+@EoA_ACoT_extra_large_1_weapon_power_Omega = -240
+
+# XL-オクトプルターボレーザー
+@EoA_ACoT_extra_large_2_weapon_power_Delta = 0
+@EoA_ACoT_extra_large_2_weapon_power_Alpha = 0
+@EoA_ACoT_extra_large_2_weapon_power_Lamda = 0
+@EoA_ACoT_extra_large_2_weapon_power_Sigma = -170
+@EoA_ACoT_extra_large_2_weapon_power_Omega = -250
+
+# T-超重ターボレーザーI型
+@EoA_ACoT_titan_1_weapon_power_Delta = 1
+@EoA_ACoT_titan_1_weapon_power_Alpha = 1
+@EoA_ACoT_titan_1_weapon_power_Lamda = 1
+@EoA_ACoT_titan_1_weapon_power_Sigma = 1
+@EoA_ACoT_titan_1_weapon_power_Omega = -500
+
+# T-超重ターボレーザーII型
+@EoA_ACoT_titan_2_weapon_power_Delta = 1
+@EoA_ACoT_titan_2_weapon_power_Alpha = 1
+@EoA_ACoT_titan_2_weapon_power_Lamda = 1
+@EoA_ACoT_titan_2_weapon_power_Sigma = 1
+@EoA_ACoT_titan_2_weapon_power_Omega = -450
+
+# 戦闘機 - TIE / TIE PD / TIE Adv
+@EoA_ACoT_tie_weapon_power_Delta = -20
+@EoA_ACoT_tie_weapon_power_Alpha = -34
+@EoA_ACoT_tie_weapon_power_Lamda = -45
+@EoA_ACoT_tie_weapon_power_Sigma = -52
+@EoA_ACoT_tie_weapon_power_Omega = -59
+
+# 戦闘機 - Heavy TIE 
+@EoA_ACoT_heavy_tie_weapon_power_Delta = -20
+@EoA_ACoT_heavy_tie_weapon_power_Alpha = -34
+@EoA_ACoT_heavy_tie_weapon_power_Lamda = -45
+@EoA_ACoT_heavy_tie_weapon_power_Sigma = -57
+@EoA_ACoT_heavy_tie_weapon_power_Omega = -64
+
+# 爆撃機 - TIE
+@EoA_ACoT_tie_bomber_weapon_power_Delta = -20
+@EoA_ACoT_tie_bomber_weapon_power_Alpha = -34
+@EoA_ACoT_tie_bomber_weapon_power_Lamda = -45
+@EoA_ACoT_tie_bomber_weapon_power_Sigma = -52
+@EoA_ACoT_tie_bomber_weapon_power_Omega = -59
