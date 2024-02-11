@@ -1,0 +1,9 @@
+objectTypes = {
+	####光子魚雷弾体
+
+	pdxparticle = {
+		name = "EoA_photon_torpedo_idle"
+		type = "EoA_photon_torpedo_idle_file"
+		scale = 2.0
+	}
+}

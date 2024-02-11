@@ -12,6 +12,31 @@ animation = {
 }
 
 
+# entity = {
+# 	name = "EoA_SD_photon_torpedo_entity"
+# 	pdxmesh = "EoA_SD_photon_torpedo_mesh"
+	
+# 	default_state = "launch"
+# 	state = { name = "launch" animation = "launch" looping = no next_state = "launch2"
+# 		event = { time = 0 node = exhaust particle = "small_missile_idle_particle" keep_particle = yes }
+# 		event = { time = 0 node = exhaust particle = "missile_idle_flame_particle" keep_particle = yes }
+# 	}
+# 	state = { name = "launch2" animation = "launch2" looping = no next_state = "idle"
+# 		event = { time = 0 node = exhaust particle = "EoA_SD_photon_torpedo_idle" keep_particle = yes trigger_once = yes }
+# 		event = { time = 0 sound = { soundeffect = CPATGB_photon_torpedo_launch } }
+# 		event = { trigger_once = yes sound = { soundeffect = "distance_EoA_SD_photon_torpedo_launch" } }
+# 	}
+# 	state = { name = "idle" animation = "idle" looping = yes
+# 		event = { time = 0 node = exhaust particle = "EoA_SD_photon_torpedo_idle" keep_particle = yes trigger_once = yes }
+# 	}
+
+# 	state = { name = "stop" animation = "idle" looping = no
+# 		event = { time = 0 sound = { soundeffect = EoA_SD_photon_torpedo_hit } }
+# 		event = { trigger_once = yes sound = { soundeffect = "distance_EoA_SD_photon_torpedo_hit" } }
+# 	}
+# 	scale = 2
+# }
+
 entity = {
 	name = "EoA_SD_photon_torpedo_entity"
 	pdxmesh = "EoA_SD_photon_torpedo_mesh"
@@ -22,12 +47,12 @@ entity = {
 		event = { time = 0 node = exhaust particle = "missile_idle_flame_particle" keep_particle = yes }
 	}
 	state = { name = "launch2" animation = "launch2" looping = no next_state = "idle"
-		event = { time = 0 node = exhaust particle = "EoA_SD_photon_torpedo_idle" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = exhaust particle = "EoA_photon_torpedo_idle" keep_particle = yes trigger_once = yes }
 		event = { time = 0 sound = { soundeffect = EoA_SD_photon_torpedo_launch } }
 		event = { trigger_once = yes sound = { soundeffect = "distance_EoA_SD_photon_torpedo_launch" } }
 	}
 	state = { name = "idle" animation = "idle" looping = yes
-		event = { time = 0 node = exhaust particle = "EoA_SD_photon_torpedo_idle" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = exhaust particle = "EoA_photon_torpedo_idle" keep_particle = yes trigger_once = yes }
 	}
 
 	state = { name = "stop" animation = "idle" looping = no

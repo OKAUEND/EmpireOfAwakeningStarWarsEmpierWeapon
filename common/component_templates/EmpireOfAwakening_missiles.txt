@@ -21,7 +21,7 @@ weapon_component_template = {
 	key = "ION_MISSILE_1"
 	size = torpedo
 	
-	entity = "invisible_turret_entity"
+
 	icon = "GFX_ship_part_EOA_ion_missile_01"
 	icon_frame = 1
 	type = missile
@@ -89,7 +89,7 @@ weapon_component_template = {
 	key = "ION_MISSILE_2"
 	size = torpedo
 	
-	entity = "invisible_turret_entity"
+
 	icon = "GFX_ship_part_EOA_ion_missile_02"
 	icon_frame = 1
 	type = missile
@@ -157,7 +157,7 @@ weapon_component_template = {
 	key = "ION_MISSILE_3"
 	size = torpedo
 	
-	entity = "invisible_turret_entity"
+
 	icon = "GFX_ship_part_EOA_ion_missile_03"
 	icon_frame = 1
 	type = missile
@@ -225,7 +225,7 @@ weapon_component_template = {
 	key = "ION_MISSILE_4"
 	size = torpedo
 	
-	entity = "invisible_turret_entity"
+
 	icon = "GFX_ship_part_EOA_ion_missile_04"
 	icon_frame = 1
 	type = missile
@@ -316,7 +316,7 @@ weapon_component_template = {
 	key = "ION_MISSILE_5"
 	size = torpedo
 	
-	entity = "invisible_turret_entity"
+
 	icon = "GFX_ship_part_EOA_ion_missile_05"
 	icon_frame = 1
 	type = missile
@@ -424,11 +424,12 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "EOA_SW_TORPEDO_MISSILE_1"
 	size = torpedo
-	entity = "invisible_turret_entity"
+	type = instant
+
 	
 	icon = "GFX_ship_part_EOA_torpedo_missile_01"
 	icon_frame = 1
-	type = missile
+
 	
 	prerequisites = { "tech_eoa_proton_torpedo_1" }
 
@@ -487,7 +488,7 @@ weapon_component_template = {
 	}
 
 	component_set = "EOA_SW_TORPEDO_MISSILE_1"
-	projectile_gfx = "EoA_SD_photon_torpedo_projectile"
+	projectile_gfx = "EoA_SD_PHOTON_TORPEDO"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "EOA_SW_TORPEDO_MISSILE_2"
@@ -499,12 +500,11 @@ weapon_component_template = {
 ###################################################
 weapon_component_template = {
 	key = "EOA_SW_TORPEDO_MISSILE_2"
-	size = torpedo
-	entity = "invisible_turret_entity"
 	
 	icon = "GFX_ship_part_EOA_torpedo_missile_02"
 	icon_frame = 1
-	type = missile
+	size = torpedo
+	type = instant
 	
 	prerequisites = { "tech_eoa_proton_torpedo_2" }
 
@@ -563,7 +563,7 @@ weapon_component_template = {
 	}
 
 	component_set = "EOA_SW_TORPEDO_MISSILE_2"
-	projectile_gfx = "EoA_SD_photon_torpedo_projectile"
+	projectile_gfx = "EoA_SD_PHOTON_TORPEDO"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "EOA_SW_TORPEDO_MISSILE_3"
@@ -575,12 +575,11 @@ weapon_component_template = {
 ###################################################
 weapon_component_template = {
 	key = "EOA_SW_TORPEDO_MISSILE_3"
-	size = torpedo
-	entity = "invisible_turret_entity"
 	
 	icon = "GFX_ship_part_EOA_torpedo_missile_03"
 	icon_frame = 1
-	type = missile
+	size = torpedo
+	type = instant
 	
 	prerequisites = { "tech_eoa_proton_torpedo_3" }
 
@@ -639,7 +638,7 @@ weapon_component_template = {
 	}
 
 	component_set = "EOA_SW_TORPEDO_MISSILE_3"
-	projectile_gfx = "EoA_SD_photon_torpedo_projectile"
+	projectile_gfx = "EoA_SD_PHOTON_TORPEDO"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "EOA_SW_TORPEDO_MISSILE_4"
@@ -651,12 +650,11 @@ weapon_component_template = {
 ###################################################
 weapon_component_template = {
 	key = "EOA_SW_TORPEDO_MISSILE_4"
-	size = torpedo
-	entity = "invisible_turret_entity"
-	
+
 	icon = "GFX_ship_part_EOA_torpedo_missile_04"
 	icon_frame = 1
-	type = missile
+	size = torpedo
+	type = instant
 	
 	prerequisites = { "tech_eoa_proton_torpedo_4" }
 
@@ -715,7 +713,7 @@ weapon_component_template = {
 	}
 
 	component_set = "EOA_SW_TORPEDO_MISSILE_4"
-	projectile_gfx = "EoA_SD_photon_torpedo_projectile"
+	projectile_gfx = "EoA_SD_PHOTON_TORPEDO"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "EOA_SW_TORPEDO_MISSILE_5"
@@ -727,12 +725,11 @@ weapon_component_template = {
 ###################################################
 weapon_component_template = {
 	key = "EOA_SW_TORPEDO_MISSILE_5"
-	size = torpedo
-	entity = "invisible_turret_entity"
 	
 	icon = "GFX_ship_part_EOA_torpedo_missile_05"
 	icon_frame = 1
-	type = missile
+	size = torpedo
+	type = instant
 	
 	prerequisites = { "tech_eoa_proton_torpedo_5" }
 
@@ -791,7 +788,7 @@ weapon_component_template = {
 	}
 
 	component_set = "EOA_SW_TORPEDO_MISSILE_5"
-	projectile_gfx = "EoA_SD_photon_torpedo_projectile"
+	projectile_gfx = "EoA_SD_PHOTON_TORPEDO"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_armor }
 }
@@ -817,12 +814,11 @@ weapon_component_template = {
 ###################################################
 weapon_component_template = {
 	key = "EOA_CONCUSSION_MISSILE_1"
-	size = torpedo
-	entity = "invisible_turret_entity"
+	type = missile
 	
 	icon = "GFX_ship_part_EOA_concussion_missile_01"
 	icon_frame = 1
-	type = missile
+
 	
 	prerequisites = { "tech_eoa_concussion_missile_1" }
 
@@ -891,12 +887,12 @@ weapon_component_template = {
 ###################################################
 weapon_component_template = {
 	key = "EOA_CONCUSSION_MISSILE_2"
-	size = torpedo
-	entity = "invisible_turret_entity"
+	type = missile
+
 	
 	icon = "GFX_ship_part_EOA_concussion_missile_02"
 	icon_frame = 1
-	type = missile
+
 	
 	prerequisites = { "tech_eoa_concussion_missile_2" }
 
@@ -965,12 +961,11 @@ weapon_component_template = {
 ###################################################
 weapon_component_template = {
 	key = "EOA_CONCUSSION_MISSILE_3"
-	size = torpedo
-	entity = "invisible_turret_entity"
+	type = missile
+
 	
 	icon = "GFX_ship_part_EOA_concussion_missile_03"
 	icon_frame = 1
-	type = missile
 	
 	prerequisites = { "tech_eoa_concussion_missile_3" }
 
@@ -1039,12 +1034,11 @@ weapon_component_template = {
 ###################################################
 weapon_component_template = {
 	key = "EOA_CONCUSSION_MISSILE_4"
-	size = torpedo
-	entity = "invisible_turret_entity"
+	type = missile
+
 	
 	icon = "GFX_ship_part_EOA_concussion_missile_04"
 	icon_frame = 1
-	type = missile
 	
 	prerequisites = { "tech_eoa_concussion_missile_4" }
 
@@ -1131,7 +1125,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "EOA_HEAVY_CONCUSSION_MISSILE_1"
 	size = torpedo
-	entity = "invisible_turret_entity"
+
 	
 	icon = "GFX_ship_part_EOA_heavy_concussion_missile_01"
 	icon_frame = 1
@@ -1222,7 +1216,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "EOA_HEAVY_CONCUSSION_MISSILE_2"
 	size = torpedo
-	entity = "invisible_turret_entity"
+
 	
 	icon = "GFX_ship_part_EOA_heavy_concussion_missile_02"
 	icon_frame = 1
@@ -1301,7 +1295,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "EOA_HEAVY_CONCUSSION_MISSILE_3"
 	size = torpedo
-	entity = "invisible_turret_entity"
+
 	
 	icon = "GFX_ship_part_EOA_heavy_concussion_missile_03"
 	icon_frame = 1
@@ -1380,7 +1374,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "EOA_HEAVY_CONCUSSION_MISSILE_4"
 	size = torpedo
-	entity = "invisible_turret_entity"
+
 	
 	icon = "GFX_ship_part_EOA_heavy_concussion_missile_04"
 	icon_frame = 1
@@ -1460,7 +1454,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "EOA_HEAVY_CONCUSSION_MISSILE_5"
 	size = torpedo
-	entity = "invisible_turret_entity"
+
 	
 	icon = "GFX_ship_part_EOA_heavy_concussion_missile_05"
 	icon_frame = 1

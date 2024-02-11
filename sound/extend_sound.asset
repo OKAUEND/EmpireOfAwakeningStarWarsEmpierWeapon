@@ -1,3 +1,13 @@
+category = {
+	name = "Weapon"
+	soundeffects = {
+		EoA_SD_photon_torpedo_launch
+		distance_EoA_SD_photon_torpedo_launch
+		EoA_SD_photon_torpedo_hit
+		distance_EoA_SD_photon_torpedo_hit
+	}
+}
+
 soundeffect = {
 	name = EoA_SD_photon_torpedo_launch
 	falloff = "falloff_weapons_close"
