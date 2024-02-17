@@ -35,3 +35,12 @@ entity = {
     state = { name = "attack" looping = no next_state = "idle" }
 }
 
+entity = {
+	name = "FR_Double_Turret_Model5_Large_Scale_entity"
+	pdxmesh = "FR_Double_Turret_Model5_mesh"
+	scale = 1.75
+
+    state = { name = "idle" }
+    state = { name = "attack" looping = no next_state = "idle" }
+}
+

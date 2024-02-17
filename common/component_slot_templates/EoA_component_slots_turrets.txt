@@ -81,6 +81,25 @@ EoA_turret_TurboLaser_PD = {
 	}
 }
 
+#小型砲塔型
+EoA_turret_TurboLaser_Bellator_Large = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = "FR_Double_Turret_Model5_Large_Scale_entity"
+		weapon_type_energy = "FR_Double_Turret_Model5_Large_Scale_entity"
+	}
+}
+
+EoA_turret_TurboLaser_Bellator_Medium = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = "FR_Double_Turret_Model5_Large_Scale_entity"
+		weapon_type_energy = "FR_Double_Turret_Model5_Large_Scale_entity"
+	}
+}
+
 ##############################################
 #ターボレーザー/ボール
 EoA_turret_TurboLaser_QuadSingleBall = {
@@ -128,6 +147,15 @@ EoA_turret_TurboLaser_Octpul = {
 	component = weapon
 	entities = {
 		weapon_type_turbolaser = "FR_Octuple_Turret_entity"
+		weapon_type_energy = "FR_Double_Turret_Model2_entity"
+	}
+}
+
+EoA_turret_TurboLaser_Octpul_Large_Scale = {
+	size = extra_large
+	component = weapon
+	entities = {
+		weapon_type_turbolaser = "FR_Octuple_Turret_LargeScale_entity"
 		weapon_type_energy = "FR_Double_Turret_Model2_entity"
 	}
 }
