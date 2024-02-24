@@ -27,7 +27,8 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_octuple_turbo_laser_1" }
 
-	damage = { min = 350.0 max = 1000.0 }
+	# damage = { min = 350.0 max = 1000.0 }
+	damage = { min = 175.0 max = 500.0 }
 	windup = { min = 5.0 max = 40.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
 
@@ -99,7 +100,8 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_octuple_turbo_laser_2" }
 
-	damage = { min = 400.0 max = 1310.0 }
+	# damage = { min = 400.0 max = 1310.0 }
+	damage = { min = 200.0 max = 655.0 }
 	windup = { min = 5.0 max = 40.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
 
@@ -171,7 +173,8 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_octuple_turbo_laser_3" }
 
-	damage = { min = 500.0 max = 1670.0 }
+	# damage = { min = 500.0 max = 1670.0 }
+	damage = { min = 250.0 max = 835.0 }
 	windup = { min = 5.0 max = 40.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
 
@@ -243,7 +246,8 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_octuple_turbo_laser_4" }
 
-	damage = { min = 600.0 max = 1750.0 }
+	# damage = { min = 600.0 max = 1750.0 }
+	damage = { min = 300.0 max = 875.0 }
 	windup = { min = 5.0 max = 40.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
 
@@ -315,7 +319,8 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_octuple_turbo_laser_5" }
 
-	damage = { min = 600.0 max = 1750.0 }
+	# damage = { min = 600.0 max = 1750.0 }
+	damage = { min = 350.0 max = 925.0 }
 	windup = { min = 5.0 max = 40.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_OCTPLE_COOLDOWN
 

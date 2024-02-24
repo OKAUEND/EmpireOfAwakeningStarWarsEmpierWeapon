@@ -28,11 +28,12 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	damage = { min = 1700.0 max = 2800.0 }
+	#damage = { min = 1700.0 max = 2800.0 }
+	damage = { min = 850.0 max = 1400.0 }
 	windup = { min = 5.0 max = 50.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_TWIN_HEAVY_COOLDOWN
 
-	range = 165.0
+	range = 200.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -98,11 +99,12 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	damage = { min = 2000.0 max = 3600.0 }
+	#damage = { min = 2000.0 max = 3600.0 }
+	damage = { min = 1000.0 max = 1800.0 }
 	windup = { min = 5.0 max = 50.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_TWIN_HEAVY_COOLDOWN
 
-	range = 165.0
+	range = 200.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -168,11 +170,12 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	damage = { min = 2200.0 max = 4000.0 }
+	#damage = { min = 2200.0 max = 4000.0 }
+	damage = { min = 1100.0 max = 2000.0 }
 	windup = { min = 5.0 max = 50.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_TWIN_HEAVY_COOLDOWN
 
-	range = 165.0
+	range = 200.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -238,11 +241,12 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	damage = { min = 4000.0 max = 8200.0 }
+	#damage = { min = 4000.0 max = 8200.0 }
+	damage = { min = 2000.0 max = 4100.0 }
 	windup = { min = 5.0 max = 50.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_TWIN_HEAVY_COOLDOWN
 
-	range = 165.0
+	range = 200.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -307,11 +311,12 @@ weapon_component_template = {
 		executor_superstardestroyer
 	}
 
-	damage = { min = 6000.0 max = 12000.0 }
+	#damage = { min = 6000.0 max = 12000.0 }
+	damage = { min = 3000.0 max = 6000.0 }
 	windup = { min = 5.0 max = 50.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_TWIN_HEAVY_COOLDOWN
 
-	range = 165.0
+	range = 200.0
 	accuracy = 0.90
 	tracking = 0.02
 	

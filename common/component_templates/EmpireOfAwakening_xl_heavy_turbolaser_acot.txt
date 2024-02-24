@@ -36,7 +36,8 @@ weapon_component_template = {
 		imperial1_stardestroyer
 	}
 
-	damage = { min = 600.0 max = 1800.0 }
+	# damage = { min = 600.0 max = 1800.0 }
+	damage = { min = 300.0 max = 900.0 }
 	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
@@ -102,7 +103,8 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_heavy_turbo_laser_acot_alpha" }
 
-	damage = { min = 1000.0 max = 2100.0 }
+	# damage = { min = 1000.0 max = 2100.0 }
+	damage = { min = 500.0 max = 1050.0 }
 	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
@@ -177,7 +179,8 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_heavy_turbo_laser_acot_lamda" }
 
-	damage = { min = 1600.0 max = 3000.0 }
+	# damage = { min = 1600.0 max = 3000.0 }
+	damage = { min = 800.0 max = 1500.0 }
 	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
@@ -251,7 +254,8 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_heavy_turbo_laser_acot_sigma" }
 
-	damage = { min = 2200.0 max = 4600.0 }
+	# damage = { min = 2200.0 max = 4600.0 }
+	damage = { min = 1100.0 max = 2300.0 }
 	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 
@@ -324,7 +328,8 @@ weapon_component_template = {
 
 	prerequisites = { "tech_eoa_heavy_turbo_laser_acot_omega" }
 
-	damage = { min = 3000.0 max = 5200.0 }
+	# damage = { min = 3000.0 max = 5200.0 }
+	damage = { min = 1500.0 max = 2600.0 }
 	windup = { min = 5.0 max = 45.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_EXTRALARGE_HEAVY_COOLDOWN
 

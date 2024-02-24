@@ -32,7 +32,7 @@ weapon_component_template = {
 	windup = { min = 5.0 max = 60.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
 
-	range = 185.0
+	range = 210.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -100,7 +100,7 @@ weapon_component_template = {
 	windup = { min = 5.0 max = 60.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
 
-	range = 185.0
+	range = 210.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -168,7 +168,7 @@ weapon_component_template = {
 	windup = { min = 5.0 max = 60.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
 
-	range = 185.0
+	range = 210.0
 	accuracy = 0.90
 	tracking = 0.02
 	
@@ -236,7 +236,7 @@ weapon_component_template = {
 	windup = { min = 5.0 max = 60.0 }
 	total_fire_time = @EOA_WEAPON_TURBO_LASER_TITANIC_SUPER_HEAVY_COOLDOWN
 
-	range = 185.0
+	range = 210.0
 	accuracy = 0.90
 	tracking = 0.02
 	
