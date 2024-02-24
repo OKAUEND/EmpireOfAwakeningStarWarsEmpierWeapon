@@ -90,7 +90,7 @@ entity = {
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 7 looping = no
-		event = { time = 0 particle = "turbolaser_medium_muzzle_particle" keep_particle = yes sound = { soundeffect = Dual_TL_green } }
+		event = { time = 0 particle = "turbolaser_large_muzzle_particle" keep_particle = yes sound = { soundeffect = Octuple_TL_green } }
 		event = { trigger_once = yes sound = { soundeffect = "distance_Quad_TL_green" } }
 	}
 }
